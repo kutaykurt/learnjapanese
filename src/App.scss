@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+$main-white: #FCFCFC;
+$main-black: #5c5c5c;
+$main-blue: #2D92BD;
+$main-red: #FF6F78;
+$main-grey: #c6c6c6;
+$lines: #535353;
+$list-item-grey: #eefaff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: $main-black;
+    line-height: 30px;
+}
+
+.app-main {
+    animation: showup 0.4s ease-in-out;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+
+    * {
+        width: 1400px;
+    }
+}
+
+.prologue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 50px;
+
+    .learn-word {
+        animation: learn-pulse 2.2s ease-in-out;
+        color: #222222;
+    }
+    
+    .japanese-word {
+        animation: japanese-pulse 2.2s ease-in-out;
+        color: #2D92BD;
+        font-size: 56px;
+    }
+}
+
+
+@keyframes learn-pulse {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes japanese-pulse {
+    0% {
+        opacity: 0;
+    }
+    
+    25% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

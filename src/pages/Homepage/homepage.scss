@@ -1,0 +1,205 @@
+@import '../../App.scss';
+
+.Homepage {
+  font-size: 22px;
+  color: $main-black;
+
+  h2 {
+    font-size: 36px;
+    animation: language-description-title-effect 3s ease-in-out;
+  }
+}
+
+
+.line {
+  border: 1px $lines solid;
+  animation: movement 1s ease;
+  margin: 25px 0px;
+}
+
+.language-descriptions {
+  list-style-type: none;
+
+  li {
+    padding: 20px 0px 20px 0px;
+  }
+
+  .title {
+    font-weight: bold;
+    color: $main-blue;
+  }
+}
+
+.hiragana-description {
+  animation: hiragana-effect 1.2s ease-in-out;
+}
+
+.katakana-description {
+  animation: katakana-effect 1.6s ease-in-out;
+}
+
+.kanji-description {
+  animation: kanji-effect 2s ease-in-out;
+}
+
+.description-end {
+  animation: description-end-effect 2.7s ease-in-out;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+
+.language-selecting-container {
+  animation: selecting-container-effect 2.9s ease-in-out;
+
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px;
+
+    .link {
+      width: max-content;
+      margin: 0px 40px;
+    }
+
+    button {
+      width: 300px;
+      padding: 10px;
+      font-size: 22px;
+      background-color: $main-white;
+      border-radius: 5px;
+      color: $main-black;
+      box-shadow: 0px 0px 3px black;
+      transition: 0.2s;
+      border: none;
+    }
+    .hiragana:hover {
+      background-color: $main-blue;
+      color: $main-white;
+      font-weight: bold;
+      transform: scale(1.08);
+      cursor: pointer;
+      box-shadow: 0px 0px 1px black;
+    }
+  }
+}
+
+@keyframes language-description-title-effect {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes movement {
+  /* 0% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(10%);
+    }
+
+    90% {
+        transform: translateX(-4%);
+    }
+
+    95% {
+        transform: translateX(2%);
+    }
+
+    100% {
+        transform: translateX(0);
+    } */
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes hiragana-effect {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes katakana-effect {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes kanji-effect {
+  0% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes description-end-effect {
+  0% {
+    opacity: 0;
+  }
+
+  95% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes selecting-container-effect {
+    0% {
+      opacity: 0;
+    }
+  
+    95% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  

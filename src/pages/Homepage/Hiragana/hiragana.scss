@@ -1,0 +1,54 @@
+@import '../../../App.scss';
+
+.Hiragana {
+  font-size: 20px;
+  animation: hiragana-start-effect 0.2s ease-in-out;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+}
+
+.hiragana-reasons-list {
+  margin: 90px 0px;
+
+  li {
+    margin-bottom: 20px;
+  }
+
+  .list-title {
+    font-weight: bold;
+  }
+}
+
+.vocabulary-container {
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px black solid;
+  padding: 10px 0px;
+  background-color: $main-blue;
+  color: $main-white;
+}
+
+td {
+  border: 1px black solid;
+  padding: 5px 15px;
+}
+
+.list-items-container:nth-child(odd) {
+    background-color: $list-item-grey;
+}
+
+@keyframes hiragana-start-effect {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
