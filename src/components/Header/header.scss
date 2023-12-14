@@ -1,6 +1,7 @@
 @import '../../App.scss';
 
 .Header {
+
   .link {
     width: max-content;
     text-decoration: none;
@@ -66,6 +67,7 @@
 
   // Media Queries für Responsive Design
   @media screen and (max-width: 768px) {
+
     .header-main {
       grid-template-columns: 1fr; /* Änderung auf eine Spalte für kleinere Bildschirme */
       

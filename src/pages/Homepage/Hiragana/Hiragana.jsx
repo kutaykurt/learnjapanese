@@ -67,7 +67,7 @@ const Hiragana = () => {
           </li>
           <li>
             <span className="list-title">
-              5. Language Structures and Grammar:{' '}
+              5. Language Structures and Grammar: 
             </span>
             Hiragana is closely linked to the structure of the Japanese
             language. Learning Hiragana provides a deeper understanding of
