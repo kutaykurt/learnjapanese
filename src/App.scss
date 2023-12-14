@@ -22,13 +22,8 @@ $list-item-grey: #eefaff;
 }
 
 .body {
-    display: flex;
-    justify-content: center;
-    margin-top: 120px;
-
-    * {
-        width: 1400px;
-    }
+    max-width: 1400px;
+    margin: 90px auto;
 }
 
 .prologue {

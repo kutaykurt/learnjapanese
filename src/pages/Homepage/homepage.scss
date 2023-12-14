@@ -6,7 +6,7 @@
 
   h2 {
     font-size: 36px;
-    animation: language-description-title-effect 3s ease-in-out;
+    animation: language-description-title-effect 2.8s ease-in-out;
   }
 }
 
@@ -43,7 +43,7 @@
 }
 
 .description-end {
-  animation: description-end-effect 2.7s ease-in-out;
+  animation: description-end-effect 2.5s ease-in-out;
   font-weight: bold;
   font-size: 25px;
   margin-bottom: 100px;
@@ -203,3 +203,19 @@
     }
   }
   
+
+// Media Queries
+
+@media screen and (max-width: 768px) {
+  .buttons-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buttons-container {
+    button {
+      margin: 15px 0px;
+    }
+  }
+}
