@@ -5,62 +5,88 @@
     width: max-content;
     text-decoration: none;
   }
-}
 
-.header-top-line {
-  background-color: $main-grey;
-  height: 6px;
-}
-
-.header-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  font-weight: light;
-  color: $main-black;
-  font-size: 18px;
-  padding: 20px 0px 20px 0px;
-  border-bottom: 1px $main-grey solid;
-
-  .column-one,
-  .column-two,
-  .column-three {
-    display: flex;
-    align-items: center;
-    min-width: max-content;
+  .header-top-line {
+    background-color: $main-grey;
+    height: 6px;
   }
 
-  .column-one {
-    padding: 10px 10px 10px 30px;
-    font-weight: bold;
-    font-size: 32px;
-    justify-content: left;
+  .header-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: light;
+    color: $main-black;
+    font-size: 18px;
+    padding: 20px 0px;
+    border-bottom: 1px $main-grey solid;
 
-    .learn-word {
-      color: $main-black;
-    }
-
-    .japanese-word {
-      color: $main-blue;
-    }
-  }
-
-  .column-two {
-    text-align: center;
-    padding: 10px;
-    justify-content: center;
-
-    .navigation {
+    .column-one,
+    .column-two,
+    .column-three {
       display: flex;
-      list-style-type: none;
+      align-items: center;
+      min-width: max-content;
+    }
 
-      li {
-        padding: 0px 25px;
+    .column-one {
+      padding: 10px 10px 10px 30px;
+      font-weight: bold;
+      font-size: 32px;
+      justify-content: left;
+
+      .learn-word {
+        color: $main-black;
+      }
+
+      .japanese-word {
+        color: $main-blue;
       }
     }
+
+    .column-two {
+      text-align: center;
+      padding: 10px;
+      justify-content: center;
+
+      .navigation {
+        display: flex;
+        list-style-type: none;
+
+        li {
+          padding: 0px 15px; /* Anpassung für kleinere Bildschirme */
+        }
+      }
+    }
+
+    .column-three {
+      justify-content: right;
+      padding: 10px 30px 10px 10px;
+    }
   }
 
-  .column-three {
-    justify-content: right;
-    padding: 10px 30px 10px 10px;
+  // Media Queries für Responsive Design
+  @media screen and (max-width: 768px) {
+    .header-main {
+      grid-template-columns: 1fr; /* Änderung auf eine Spalte für kleinere Bildschirme */
+      
+      .column-one,
+      .column-two,
+      .column-three {
+        padding: 10px; /* Reduzierung des Paddings für kleinere Bildschirme */
+        justify-content: center;
+      }
+
+      .column-one {
+        font-size: 24px; /* Verkleinerung der Schriftgröße */
+      }
+
+      .navigation {
+        flex-direction: column; /* Änderung der Navigation auf Spaltenlayout */
+
+        li {
+          padding: 10px 0; /* Anpassung des Abstands zwischen den Navigationselementen */
+        }
+      }
+    }
   }
 }

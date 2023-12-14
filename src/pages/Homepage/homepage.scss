@@ -58,7 +58,6 @@
     margin: 60px 0px;
 
     .link {
-      width: max-content;
       margin: 0px 40px;
     }
 
@@ -209,13 +208,9 @@
 @media screen and (max-width: 768px) {
   .buttons-container {
     flex-wrap: wrap;
-  }
-}
 
-@media screen and (max-width: 480px) {
-  .buttons-container {
     button {
-      margin: 15px 0px;
+      margin: 8px 0px;
     }
   }
 }
