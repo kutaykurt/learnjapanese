@@ -3,7 +3,10 @@ import './hiragana.scss';
 import { fetchJapaneseData } from '../../../fetch';
 
 const Hiragana = () => {
-  const [japaneseData, setJapaneseData] = useState({ alphabet: [], vocabulary: [] });
+  const [japaneseData, setJapaneseData] = useState({
+    alphabet: [],
+    vocabulary: [],
+  });
 
   useEffect(() => {
     async function getJapaneseData() {
@@ -33,7 +36,9 @@ const Hiragana = () => {
       <div className="hiragana-reasons-list">
         <ol>
           <li>
-            <span className="list-title">Foundation of Japanese Script: </span>
+            <span className="list-title">
+              1. Foundation of Japanese Script:{' '}
+            </span>
             Hiragana is one of the fundamental writing systems of the Japanese
             language. Comprised of 46 basic characters representing vowels,
             consonants, and syllables, it is indispensable for reading and
@@ -41,7 +46,7 @@ const Hiragana = () => {
           </li>
           <li>
             <span className="list-title">
-              Pronunciation and Sound Representation:{' '}
+              2. Pronunciation and Sound Representation:{' '}
             </span>
             Hiragana represents native Japanese pronunciation and is commonly
             used for grammatical endings, particles, and inflections. It allows
@@ -49,20 +54,20 @@ const Hiragana = () => {
             and listening comprehension.
           </li>
           <li>
-            <span className="list-title">Simplicity and Entry Point: </span>
+            <span className="list-title">3. Simplicity and Entry Point: </span>
             Compared to Katakana and especially Kanji, Hiragana characters are
             often simpler and quicker to learn. This eases the introduction to
             Japanese script and builds a strong foundation for further studies.
           </li>
           <li>
-            <span className="list-title">Everyday Usage: </span>Hiragana is
+            <span className="list-title">4. Everyday Usage: </span>Hiragana is
             extensively used in texts and written materials. While Katakana and
             Kanji also feature prominently, Hiragana characters form the core of
             many words and sentences, aiding comprehension.
           </li>
           <li>
             <span className="list-title">
-              Language Structures and Grammar:{' '}
+              5. Language Structures and Grammar:{' '}
             </span>
             Hiragana is closely linked to the structure of the Japanese
             language. Learning Hiragana provides a deeper understanding of
@@ -75,13 +80,16 @@ const Hiragana = () => {
         <h3>Alphabet</h3>
         <table className="my-table">
           <tbody>
-            <tr className=''>
+            <tr className="">
               <th>Hiragama</th>
               <th>German pronouncing</th>
               <th>German</th>
             </tr>
             {japaneseData.alphabet.map((item, index) => (
-              <tr key={index} className='list-items-container equal-column-width'>
+              <tr
+                key={index}
+                className="list-items-container equal-column-width"
+              >
                 <td>{item.character}</td>
                 <td>{item.pronunciation}</td>
                 <td>{item.translation}</td>
