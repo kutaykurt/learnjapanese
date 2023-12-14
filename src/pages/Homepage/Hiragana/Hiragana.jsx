@@ -75,13 +75,13 @@ const Hiragana = () => {
         <h3>Alphabet</h3>
         <table className="my-table">
           <tbody>
-            <tr>
+            <tr className=''>
               <th>Hiragama</th>
               <th>German pronouncing</th>
               <th>German</th>
             </tr>
             {japaneseData.alphabet.map((item, index) => (
-              <tr key={index} className='list-items-container'>
+              <tr key={index} className='list-items-container equal-column-width'>
                 <td>{item.character}</td>
                 <td>{item.pronunciation}</td>
                 <td>{item.translation}</td>
