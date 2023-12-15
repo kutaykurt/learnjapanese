@@ -1,7 +1,7 @@
 @import '../../App.scss';
 
 .Header {
-
+  
   .link {
     width: max-content;
     text-decoration: none;
@@ -25,12 +25,11 @@
     .column-two,
     .column-three {
       display: flex;
-      align-items: center;
       min-width: max-content;
     }
 
     .column-one {
-      padding: 10px 10px 10px 30px;
+      padding: 0px 0px 0px 30px;
       font-weight: bold;
       font-size: 32px;
       justify-content: left;
@@ -46,12 +45,12 @@
 
     .column-two {
       text-align: center;
-      padding: 10px;
       justify-content: center;
 
       .navigation {
         display: flex;
         list-style-type: none;
+        padding: 0;
 
         li {
           padding: 0px 15px; /* Anpassung für kleinere Bildschirme */
@@ -61,27 +60,31 @@
 
     .column-three {
       justify-content: right;
-      padding: 10px 30px 10px 10px;
+      padding: 0px 30px 0px 0px;
     }
   }
 
   // Media Queries für Responsive Design
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 480px) {
 
     .header-main {
-      grid-template-columns: 1fr; /* Änderung auf eine Spalte für kleinere Bildschirme */
-      
-      .column-one,
-      .column-two,
-      .column-three {
-        padding: 10px; /* Reduzierung des Paddings für kleinere Bildschirme */
-        justify-content: center;
-      }
+      display: flex;
+      flex-direction: column;
 
+      .jc-center {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        min-width: none;
+      }
+      
       .column-one {
         font-size: 24px; /* Verkleinerung der Schriftgröße */
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
       }
-
+      
       .navigation {
         flex-direction: column; /* Änderung der Navigation auf Spaltenlayout */
 

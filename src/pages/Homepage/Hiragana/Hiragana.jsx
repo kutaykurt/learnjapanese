@@ -30,14 +30,16 @@ const Hiragana = () => {
 
   return (
     <div className="Hiragana">
-      <h2>Hiragana</h2>
+      <div className='beginning-text'>
+        <h2>Hiragana</h2>
 
-      <p>
-        <span>Welcome</span> to the Hiragana script! We already told you that we
-        recommend you to learn Hiragana first...
-        <br />
-        But why should you learn it at first?
-      </p>
+        <p>
+          <span>Welcome</span> to the Hiragana script! We already told you that
+          we recommend you to learn Hiragana first...
+          <br />
+          But why should you learn it at first?
+        </p>
+      </div>
 
       <div className="hiragana-reasons-list">
         <ol>
@@ -111,8 +113,12 @@ const Hiragana = () => {
             </table>
           </Tab>
 
-          <Tab eventKey="VocabularyGerman" title="Vocabulary (German)" className='tab-names' >
-          <table className="my-table">
+          <Tab
+            eventKey="VocabularyGerman"
+            title="Vocabulary (German)"
+            className="tab-names"
+          >
+            <table className="my-table">
               <tbody>
                 <tr>
                   <th>Hiragama</th>
@@ -133,7 +139,7 @@ const Hiragana = () => {
             </table>
           </Tab>
           <Tab eventKey="VocabularyEnglish" title="Vocabulary (English)">
-          <table className="my-table">
+            <table className="my-table">
               <tbody>
                 <tr>
                   <th>Hiragama</th>

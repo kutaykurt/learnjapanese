@@ -27,7 +27,7 @@ const Homepage = () => {
           and grammer. It consists of 46 basic characters.
           <br />
           <Link to="hiragana" className="link">
-            <button className="hiragana">Hiragana</button>
+            <button className="hiragana">Learn</button>
           </Link>
         </li>
         <li className="katakana-description mid-padding">
@@ -37,7 +37,7 @@ const Homepage = () => {
           <br />
           <Link to="katakana" className="link">
             <button className="katakana" disabled>
-              Katakana
+            Learn
             </button>
           </Link>
         </li>
@@ -48,7 +48,7 @@ const Homepage = () => {
           <br />
           <Link to="kanji" className="link">
             <button className="kanji" disabled>
-              Kanji
+            Learn
             </button>
           </Link>
         </li>

@@ -39,8 +39,8 @@
   }
 
   button {
-    width: 150px;
-    padding: 5px 0px;
+    width: 120px;
+    padding: 3px 0px;
     font-size: 18px;
     background-color: $main-white;
     border-radius: 5px;
@@ -60,16 +60,16 @@
 }
 
 .hiragana-description {
-  animation: hiragana-effect 1s ease-in-out;
+  animation: hiragana-effect 0.7s ease-in-out;
 }
 
 .katakana-description {
-  animation: katakana-effect 1.2s ease-in-out;
+  animation: katakana-effect 0.7s ease-in-out;
   padding: 20px 0px;
 }
 
 .kanji-description {
-  animation: kanji-effect 1.4s ease-in-out;
+  animation: kanji-effect 0.7s ease-in-out;
 }
 
 @keyframes language-description-title-effect {
@@ -126,8 +126,12 @@
     opacity: 0;
   }
 
-  80% {
+  30% {
     opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
   }
 
   100% {
@@ -140,8 +144,12 @@
     opacity: 0;
   }
 
-  80% {
-    opacity: 0;
+  40% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
   }
 
   100% {
@@ -154,8 +162,12 @@
     opacity: 0;
   }
 
-  80% {
-    opacity: 0;
+  40% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
   }
 
   100% {
@@ -168,7 +180,7 @@
     opacity: 0;
   }
 
-  20% {
+  40% {
     opacity: 1;
   }
 
@@ -179,7 +191,7 @@
 
 // Media Queries
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .Homepage {
     font-size: 18px;
 

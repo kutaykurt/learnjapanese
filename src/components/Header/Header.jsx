@@ -8,19 +8,19 @@ const Header = () => {
       <div className="header-top-line" />
 
       <div className="header-main">
-        <Link to='/' className='link'>
-          <div className="column-one">
+        <div className="column-one">
+          <Link to="/" className="link">
             <span className="learn-word">Learn</span>
             <span className="japanese-word">Japanese</span>
-          </div>
-        </Link>
+          </Link>
+        </div>
 
         <div className="column-two">
           <ul className="navigation">
-            <li>Hiragana</li>
-            <li>Katakana</li>
-            <li>Kanji</li>
-            <li>My Vocabulary</li>
+            <Link to="/hiragana" className='link jc-center'><li>Hiragana</li></Link>
+            <Link to="/" className='link jc-center'><li>Katakana</li></Link>
+            <Link to="/" className='link jc-center'><li>Kanji</li></Link>
+            <Link to="/" className='link jc-center'><li>My Vocabulary</li></Link>
           </ul>
         </div>
         <div className="column-three">
