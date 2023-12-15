@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useLayoutEffect, useState } from 'react';
 import './hiragana.scss';
 import { fetchJapaneseData } from '../../../fetch';
-import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 // Bootstrap imports
 import Tab from 'react-bootstrap/Tab';
@@ -15,12 +15,13 @@ const Hiragana = () => {
 
   const [key, setKey] = useState('home');
   
-  const navigate = useNavigate();
+  const location = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location])
 
   useEffect(() => {
-    const scrollToTop = () => {
-      window.scrollTo(0, 0);
-    };
     
     async function getJapaneseData() {
       try {
@@ -31,7 +32,7 @@ const Hiragana = () => {
       }
     }
     getJapaneseData();
-  }, [navigate]);
+  }, []);
 
   console.log(japaneseData);
 
