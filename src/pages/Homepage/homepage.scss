@@ -1,11 +1,11 @@
 @import '../../App.scss';
 
 .Homepage {
-  font-size: 22px;
+  font-size: 18px;
   color: $main-black;
 
   h2 {
-    font-size: 36px;
+    font-size: 26px;
     animation: language-description-title-effect 2.8s ease-in-out;
   }
 }
@@ -28,43 +28,11 @@
     font-weight: bold;
     color: $main-blue;
   }
-}
-
-.hiragana-description {
-  animation: hiragana-effect 1.2s ease-in-out;
-}
-
-.katakana-description {
-  animation: katakana-effect 1.6s ease-in-out;
-}
-
-.kanji-description {
-  animation: kanji-effect 2s ease-in-out;
-}
-
-.description-end {
-  animation: description-end-effect 2.5s ease-in-out;
-  font-weight: bold;
-  font-size: 25px;
-  margin-bottom: 100px;
-}
-
-.language-selecting-container {
-  animation: selecting-container-effect 2.9s ease-in-out;
-
-  .buttons-container {
-    display: flex;
-    justify-content: center;
-    margin: 60px 0px;
-
-    .link {
-      margin: 0px 40px;
-    }
-
-    button {
-      width: 300px;
-      padding: 10px;
-      font-size: 22px;
+  
+  button {
+      width: 150px;
+      padding: 5px 0px;
+      font-size: 18px;
       background-color: $main-white;
       border-radius: 5px;
       color: $main-black;
@@ -80,6 +48,42 @@
       cursor: pointer;
       box-shadow: 0px 0px 1px black;
     }
+}
+
+.hiragana-description {
+  animation: hiragana-effect 1.2s ease-in-out;
+  
+  
+}
+
+.katakana-description {
+  animation: katakana-effect 1.6s ease-in-out;
+}
+
+.kanji-description {
+  animation: kanji-effect 2s ease-in-out;
+}
+
+.description-end {
+  animation: description-end-effect 2.5s ease-in-out;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 100px;
+}
+
+.language-selecting-container {
+  animation: selecting-container-effect 2.9s ease-in-out;
+
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px;
+
+    .link {
+      margin: 0px 40px;
+    }
+
+    
   }
 }
 

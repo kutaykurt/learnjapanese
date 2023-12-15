@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Homepage from './pages/Homepage/Homepage';
 import { Route, Routes } from 'react-router-dom';
 import Hiragana from './pages/Homepage/Hiragana/Hiragana';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [showText, setShowText] = useState(true);

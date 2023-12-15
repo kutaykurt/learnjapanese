@@ -2,11 +2,17 @@ import React, { useEffect, useState } from 'react';
 import './hiragana.scss';
 import { fetchJapaneseData } from '../../../fetch';
 
+// Bootstrap imports
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
+
 const Hiragana = () => {
   const [japaneseData, setJapaneseData] = useState({
     alphabet: [],
     vocabulary: [],
   });
+
+  const [key, setKey] = useState('home');
 
   useEffect(() => {
     async function getJapaneseData() {
@@ -67,7 +73,7 @@ const Hiragana = () => {
           </li>
           <li>
             <span className="list-title">
-              5. Language Structures and Grammar: 
+              5. Language Structures and Grammar:
             </span>
             Hiragana is closely linked to the structure of the Japanese
             language. Learning Hiragana provides a deeper understanding of
@@ -77,26 +83,77 @@ const Hiragana = () => {
       </div>
 
       <div className="vocabulary-container">
-        <h3>Alphabet</h3>
-        <table className="my-table">
-          <tbody>
-            <tr className="">
-              <th>Hiragama</th>
-              <th>German pronouncing</th>
-              <th>German</th>
-            </tr>
-            {japaneseData.alphabet.map((item, index) => (
-              <tr
-                key={index}
-                className="list-items-container equal-column-width"
-              >
-                <td>{item.character}</td>
-                <td>{item.pronunciation}</td>
-                <td>{item.translation}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <Tabs
+          id="uncontrolled-tab-example"
+          activeKey={key}
+          onSelect={(k) => setKey(k)}
+          className="mb-3"
+        >
+          <Tab eventKey="alphabet" title="Alphabet">
+            <table className="my-table">
+              <tbody>
+                <tr>
+                  <th>Hiragama</th>
+                  <th>Pronounciation</th>
+                  <th>German</th>
+                </tr>
+                {japaneseData.alphabet.map((item, index) => (
+                  <tr
+                    key={index}
+                    className="list-items-container equal-column-width"
+                  >
+                    <td>{item.character}</td>
+                    <td>{item.pronunciation}</td>
+                    <td>{item.translation}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </Tab>
+
+          <Tab eventKey="VocabularyGerman" title="Vocabulary (German)" className='tab-names' >
+          <table className="my-table">
+              <tbody>
+                <tr>
+                  <th>Hiragama</th>
+                  <th>Pronounciation</th>
+                  <th>German</th>
+                </tr>
+                {japaneseData.vocabulary.map((item, index) => (
+                  <tr
+                    key={index}
+                    className="list-items-container equal-column-width"
+                  >
+                    <td>{item.japanese}</td>
+                    <td>{item.pronunciation}</td>
+                    <td>{item.translation.german}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </Tab>
+          <Tab eventKey="VocabularyEnglish" title="Vocabulary (English)">
+          <table className="my-table">
+              <tbody>
+                <tr>
+                  <th>Hiragama</th>
+                  <th>Pronounciation</th>
+                  <th>German</th>
+                </tr>
+                {japaneseData.vocabulary.map((item, index) => (
+                  <tr
+                    key={index}
+                    className="list-items-container equal-column-width"
+                  >
+                    <td>{item.japanese}</td>
+                    <td>{item.pronunciation}</td>
+                    <td>{item.translation.english}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </Tab>
+        </Tabs>
       </div>
     </div>
   );
