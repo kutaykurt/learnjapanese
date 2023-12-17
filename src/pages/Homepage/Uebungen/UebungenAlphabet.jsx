@@ -37,13 +37,14 @@ const Uebungen = () => {
     const value = event.target.value;
     setUserAnswers({
       ...userAnswers,
-      [character]: value.toUpperCase(),
+      [character]: value,
     });
   };
 
   const checkAnswers = (character) => {
     const resultsArray = japaneseAlphabet.alphabet.map(item => {
-      const isCorrect = userAnswers[item.character] === germanTranslations[item.character]
+      const userAnswer = userAnswers[item.character];
+      const isCorrect = userAnswer.toUpperCase() === germanTranslations[item.character].toUpperCase();
       return {
         character: item.character,
         isCorrect,

@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useState } from 'react';
 import './hiragana.scss';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 // Bootstrap imports
 import Tab from 'react-bootstrap/Tab';
@@ -8,6 +8,7 @@ import Tabs from 'react-bootstrap/Tabs';
 import Alphabet from './Alphabet/Alphabet';
 import GermanVocabulary from './GermanVocabulary/GermanVocabulary';
 import EnglishVocabulary from './EnglishVocabulary/EnglishVocabulary';
+import Uebungen from '../Uebungen/UebungenAlphabet';
 
 const Hiragana = () => {
   const [key, setKey] = useState('home');
@@ -72,6 +73,13 @@ const Hiragana = () => {
             grammatical concepts and helps grasp the basics of Japanese syntax.
           </li>
         </ol>
+      </div>
+
+      <div>
+        <h3></h3>
+        Du möchtest Üben? Gehe zu {'>'} <Link to="/uebungen" className="link jc-center">
+          Übungen
+        </Link>
       </div>
 
       <div className="vocabulary-container">
