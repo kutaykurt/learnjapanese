@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { fetchJapaneseData } from '../../../../fetch';
 
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
-
 const ITEMS_PER_PAGE = 30; // Anzahl der Vokabeln pro Seite
 
 const Alphabet = () => {
@@ -16,7 +13,7 @@ const Alphabet = () => {
         const data = await fetchJapaneseData();
         setJapaneseData(data); // Ändern Sie 'books' in 'booksData' um
       } catch (error) {
-        console.error('Error fetching books:', error);
+        console.error('Error fetching data:', error);
       }
     }
     getJapaneseData();

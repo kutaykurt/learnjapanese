@@ -1,6 +1,5 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react';
+import React, { useLayoutEffect, useState } from 'react';
 import './hiragana.scss';
-import { fetchJapaneseData } from '../../../fetch';
 import { useLocation } from 'react-router-dom';
 
 // Bootstrap imports
@@ -11,10 +10,6 @@ import GermanVocabulary from './GermanVocabulary/GermanVocabulary';
 import EnglishVocabulary from './EnglishVocabulary/EnglishVocabulary';
 
 const Hiragana = () => {
-  const [japaneseData, setJapaneseData] = useState({
-    alphabet: [],
-    vocabulary: [],
-  });
   const [key, setKey] = useState('home');
 
   const location = useLocation();

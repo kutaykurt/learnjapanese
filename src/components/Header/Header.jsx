@@ -21,6 +21,7 @@ const Header = () => {
             <Link to="/" className='link jc-center'><li>Katakana</li></Link>
             <Link to="/" className='link jc-center'><li>Kanji</li></Link>
             <Link to="/" className='link jc-center'><li>My Vocabulary</li></Link>
+            <Link to="/uebungen" className='link jc-center'><li>Übungen</li></Link>
           </ul>
         </div>
         <div className="column-three">

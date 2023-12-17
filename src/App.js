@@ -5,6 +5,7 @@ import Homepage from './pages/Homepage/Homepage';
 import { Route, Routes } from 'react-router-dom';
 import Hiragana from './pages/Homepage/Hiragana/Hiragana';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Uebungen from './pages/Homepage/Uebungen/UebungenAlphabet';
 
 function App() {
   const [showText, setShowText] = useState(true);
@@ -32,6 +33,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Homepage />} />
               <Route path='/hiragana' element={<Hiragana />} />
+              <Route path='/uebungen' element={<Uebungen />} />
             </Routes>
           </div>
         </div>
