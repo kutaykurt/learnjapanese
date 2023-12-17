@@ -17,7 +17,9 @@ const Hiragana = () => {
   });
 
   const [key, setKey] = useState('home');
-  const [currentPage, setCurrentPage] = useState(1); // Aktuelle Seite
+  const [currentPageAlphabet, setCurrentPageAlphabet] = useState(1);
+  const [currentPageVocabularyGerman, setCurrentPageVocabularyGerman] = useState(1);
+  const [currentPageVocabularyEnglish, setCurrentPageVocabularyEnglish] = useState(1);
 
   const location = useLocation();
 
@@ -37,10 +39,12 @@ const Hiragana = () => {
     getJapaneseData();
   }, []);
 
-  const totalPages = Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE);
+  const totalPagesAlphabet = Math.ceil(japaneseData.alphabet.length / ITEMS_PER_PAGE);
+  const totalPagesVocabularyGerman = Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE);
+  const totalPagesVocabularyEnglish = Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE);
 
   const renderAlphabetForPage = () => {
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const startIndex = (currentPageAlphabet - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     return japaneseData.alphabet
       .slice(startIndex, endIndex)
@@ -53,8 +57,8 @@ const Hiragana = () => {
       ));
   };
 
-  const renderVocabularyForPage = () => {
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const renderGermanVocabularyForPage = () => {
+    const startIndex = (currentPageVocabularyGerman - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     return japaneseData.vocabulary
       .slice(startIndex, endIndex)
@@ -68,7 +72,7 @@ const Hiragana = () => {
   };
 
   const renderEnglishVocabularyForPage = () => {
-    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const startIndex = (currentPageVocabularyEnglish - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     return japaneseData.vocabulary
       .slice(startIndex, endIndex)
@@ -81,27 +85,97 @@ const Hiragana = () => {
       ));
   };
 
-  const nextPage = () => {
-    if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-
-  const prevPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
+  const handlePrevPageVocabularyGerman = () => {
+    if (currentPageVocabularyGerman > 1) {
+      setCurrentPageVocabularyGerman(currentPageVocabularyGerman - 1);
     }
   };
   
-  const paginationButtons = (
+  const handleNextPageVocabularyGerman = () => {
+    if (currentPageVocabularyGerman < totalPagesVocabularyGerman) {
+      setCurrentPageVocabularyGerman(currentPageVocabularyGerman + 1);
+    }
+  };
+  
+  const handlePrevPageVocabularyEnglish = () => {
+    if (currentPageVocabularyEnglish > 1) {
+      setCurrentPageVocabularyEnglish(currentPageVocabularyEnglish - 1);
+    }
+  };
+  
+  const handleNextPageVocabularyEnglish = () => {
+    if (currentPageVocabularyEnglish < totalPagesVocabularyEnglish) {
+      setCurrentPageVocabularyEnglish(currentPageVocabularyEnglish + 1);
+    }
+  };
+
+  const handlePrevPageAlphabet = () => {
+    if (currentPageAlphabet > 1) {
+      setCurrentPageAlphabet(currentPageAlphabet - 1);
+    }
+  };
+
+  const handleNextPageAlphabet = () => {
+    if (currentPageAlphabet < totalPagesAlphabet) {
+      setCurrentPageAlphabet(currentPageAlphabet + 1);
+    }
+  };
+
+  const paginationButtonAlphabet = (
     <div className="pagination">
-      <button onClick={prevPage} disabled={currentPage === 1}>
+      <button
+        onClick={handlePrevPageAlphabet}
+        disabled={currentPageAlphabet === 1}
+      >
         Previous
       </button>
       <span>
-        Page {currentPage} of {totalPages}
+        Page {currentPageAlphabet} of {totalPagesAlphabet}
       </span>
-      <button onClick={nextPage} disabled={currentPage === totalPages}>
+      <button
+        onClick={handleNextPageAlphabet}
+        disabled={currentPageAlphabet === totalPagesAlphabet}
+      >
+        Next
+      </button>
+    </div>
+  );
+  
+  const paginationButtonsVocabularyGerman = (
+    <div className="pagination">
+      <button
+        onClick={handlePrevPageVocabularyGerman}
+        disabled={currentPageVocabularyGerman === 1}
+      >
+        Previous
+      </button>
+      <span>
+        Page {currentPageVocabularyGerman} of {totalPagesVocabularyGerman}
+      </span>
+      <button
+        onClick={handleNextPageVocabularyGerman}
+        disabled={currentPageVocabularyGerman === totalPagesVocabularyGerman}
+      >
+        Next
+      </button>
+    </div>
+  );
+  
+  const paginationButtonsVocabularyEnglish = (
+    <div className="pagination">
+      <button
+        onClick={handlePrevPageVocabularyEnglish}
+        disabled={currentPageVocabularyEnglish === 1}
+      >
+        Previous
+      </button>
+      <span>
+        Page {currentPageVocabularyEnglish} of {totalPagesVocabularyEnglish}
+      </span>
+      <button
+        onClick={handleNextPageVocabularyEnglish}
+        disabled={currentPageVocabularyEnglish === totalPagesVocabularyEnglish}
+      >
         Next
       </button>
     </div>
@@ -181,7 +255,7 @@ const Hiragana = () => {
                 {renderAlphabetForPage()}
               </tbody>
             </table>
-            {paginationButtons}
+            {paginationButtonAlphabet}
           </Tab>
 
           <Tab
@@ -196,10 +270,10 @@ const Hiragana = () => {
                   <th>Pronounciation</th>
                   <th>German</th>
                 </tr>
-                {renderVocabularyForPage()}
+                {renderGermanVocabularyForPage()}
               </tbody>
             </table>
-            {paginationButtons}
+            {paginationButtonsVocabularyGerman}
           </Tab>
 
           <Tab eventKey="VocabularyEnglish" title="Vocabulary (English)">
@@ -213,7 +287,7 @@ const Hiragana = () => {
                 {renderEnglishVocabularyForPage()}
               </tbody>
             </table>
-            {paginationButtons}
+          {paginationButtonsVocabularyEnglish}
           </Tab>
         </Tabs>
       </div>
