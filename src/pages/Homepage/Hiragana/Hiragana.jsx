@@ -6,6 +6,9 @@ import { useLocation } from 'react-router-dom';
 // Bootstrap imports
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import { Pagination } from 'react-bootstrap';
+
+const ITEMS_PER_PAGE = 30; // Anzahl der Vokabeln pro Seite
 
 const Hiragana = () => {
   const [japaneseData, setJapaneseData] = useState({
@@ -14,15 +17,15 @@ const Hiragana = () => {
   });
 
   const [key, setKey] = useState('home');
-  
+  const [currentPage, setCurrentPage] = useState(1); // Aktuelle Seite
+
   const location = useLocation();
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
-  }, [location])
+  }, [location]);
 
   useEffect(() => {
-    
     async function getJapaneseData() {
       try {
         const data = await fetchJapaneseData();
@@ -34,11 +37,79 @@ const Hiragana = () => {
     getJapaneseData();
   }, []);
 
-  console.log(japaneseData);
+  const totalPages = Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE);
+
+  const renderAlphabetForPage = () => {
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    return japaneseData.alphabet
+      .slice(startIndex, endIndex)
+      .map((item, index) => (
+        <tr key={index} className="list-items-container equal-column-width">
+          <td>{item.character}</td>
+          <td>{item.pronunciation}</td>
+          <td>{item.translation}</td>
+        </tr>
+      ));
+  };
+
+  const renderVocabularyForPage = () => {
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    return japaneseData.vocabulary
+      .slice(startIndex, endIndex)
+      .map((item, index) => (
+        <tr key={index} className="list-items-container equal-column-width">
+          <td>{item.japanese}</td>
+          <td>{item.pronunciation}</td>
+          <td>{item.translation.german}</td>
+        </tr>
+      ));
+  };
+
+  const renderEnglishVocabularyForPage = () => {
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    const endIndex = startIndex + ITEMS_PER_PAGE;
+    return japaneseData.vocabulary
+      .slice(startIndex, endIndex)
+      .map((item, index) => (
+        <tr key={index} className="list-items-container equal-column-width">
+          <td>{item.japanese}</td>
+          <td>{item.pronunciation}</td>
+          <td>{item.translation.english}</td>
+        </tr>
+      ));
+  };
+
+  const nextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const prevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+  
+  const paginationButtons = (
+    <div className="pagination">
+      <button onClick={prevPage} disabled={currentPage === 1}>
+        Previous
+      </button>
+      <span>
+        Page {currentPage} of {totalPages}
+      </span>
+      <button onClick={nextPage} disabled={currentPage === totalPages}>
+        Next
+      </button>
+    </div>
+  );
 
   return (
     <div className="Hiragana">
-      <div className='beginning-text'>
+      <div className="beginning-text">
         <h2>Hiragana</h2>
 
         <p>
@@ -103,22 +174,14 @@ const Hiragana = () => {
             <table className="my-table">
               <tbody>
                 <tr>
-                  <th>Hiragama</th>
+                  <th>Hiragana</th>
                   <th>Pronounciation</th>
-                  <th>German</th>
+                  <th>Translation</th>
                 </tr>
-                {japaneseData.alphabet.map((item, index) => (
-                  <tr
-                    key={index}
-                    className="list-items-container equal-column-width"
-                  >
-                    <td>{item.character}</td>
-                    <td>{item.pronunciation}</td>
-                    <td>{item.translation}</td>
-                  </tr>
-                ))}
+                {renderAlphabetForPage()}
               </tbody>
             </table>
+            {paginationButtons}
           </Tab>
 
           <Tab
@@ -129,43 +192,28 @@ const Hiragana = () => {
             <table className="my-table">
               <tbody>
                 <tr>
-                  <th>Hiragama</th>
+                  <th>Hiragana</th>
                   <th>Pronounciation</th>
                   <th>German</th>
                 </tr>
-                {japaneseData.vocabulary.map((item, index) => (
-                  <tr
-                    key={index}
-                    className="list-items-container equal-column-width"
-                  >
-                    <td>{item.japanese}</td>
-                    <td>{item.pronunciation}</td>
-                    <td>{item.translation.german}</td>
-                  </tr>
-                ))}
+                {renderVocabularyForPage()}
               </tbody>
             </table>
+            {paginationButtons}
           </Tab>
+
           <Tab eventKey="VocabularyEnglish" title="Vocabulary (English)">
             <table className="my-table">
               <tbody>
                 <tr>
-                  <th>Hiragama</th>
+                  <th>Hiragana</th>
                   <th>Pronounciation</th>
-                  <th>German</th>
+                  <th>English</th>
                 </tr>
-                {japaneseData.vocabulary.map((item, index) => (
-                  <tr
-                    key={index}
-                    className="list-items-container equal-column-width"
-                  >
-                    <td>{item.japanese}</td>
-                    <td>{item.pronunciation}</td>
-                    <td>{item.translation.english}</td>
-                  </tr>
-                ))}
+                {renderEnglishVocabularyForPage()}
               </tbody>
             </table>
+            {paginationButtons}
           </Tab>
         </Tabs>
       </div>
