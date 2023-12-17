@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useLayoutEffect, useState } from 'react';
 import './App.scss';
 import Header from './components/Header/Header';
 import Homepage from './pages/Homepage/Homepage';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Hiragana from './pages/Homepage/Hiragana/Hiragana';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Uebungen from './pages/Homepage/Uebungen/UebungenAlphabet';
@@ -10,6 +10,12 @@ import AboutHiragana from './pages/Homepage/Hiragana/AboutHiragama';
 
 function App() {
   const [showText, setShowText] = useState(true);
+
+  const location = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
 
   useEffect(() => {
     const timer = setTimeout(() => {

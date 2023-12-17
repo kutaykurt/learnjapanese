@@ -28,12 +28,12 @@ const Hiragana = () => {
           <span>Welcome</span> to the Hiragana script! We already told you that
           we recommend you to learn Hiragana first...
           <br />
-          But why should you learn it at first? You can read more about <Link to="/abouthiragana">here</Link>
+          But why should you learn it at first? You can read more about it <Link to="/abouthiragana" className='link more-info'>here</Link>
         </p>
       </div>
       
       <div>
-        <span>You want to study? Go to {'>'} </span>
+        <span>Click here for {'>'} </span>
         <Link to="/uebungen" className="link jc-center">
           Exercises
         </Link>
