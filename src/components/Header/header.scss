@@ -6,6 +6,10 @@
     width: max-content;
     text-decoration: none;
 
+    &.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
   }
   
   .header-top-line {
@@ -74,14 +78,13 @@
   @media screen and (max-width: 480px) {
 
     .header-main {
+      background-color: $header-background;
+      max-width: 100%;
       display: flex;
       flex-direction: column;
 
       .jc-center {
-        display: flex;
-        justify-content: center;
         padding: 0;
-        min-width: none;
       }
       
       .column-one {
@@ -90,10 +93,16 @@
         text-align: center;
         padding-bottom: 10px;
       }
+
+      .column-three {
+        justify-content: left;
+        padding: 0;
+      }
       
       .navigation {
-        flex-direction: column; /* Änderung der Navigation auf Spaltenlayout */
-
+        display: flex;
+        flex-direction: column;
+        width: 100%;
         li {
           padding: 10px 0; /* Anpassung des Abstands zwischen den Navigationselementen */
         }

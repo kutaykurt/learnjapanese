@@ -73,7 +73,7 @@ const Uebungen = () => {
           </div>
         );
       })}
-      <button onClick={checkAnswers}>Ergebnisse anzeigen</button>
+      <button onClick={checkAnswers}>Show results</button>
       {/* <div>
         {results.map((result, index) => (
           <p key={index}>

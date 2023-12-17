@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './header.scss';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
+  const location = useLocation();
+
+  const getNavLinkClass = (path) => {
+    return location.pathname === path ? 'active' : '';
+  };
+
   return (
     <div className="Header">
       <div className="header-top-line" />
@@ -17,16 +23,35 @@ const Header = () => {
 
         <div className="column-two">
           <ul className="navigation">
-            <Link to="/hiragana" className='link jc-center'><li>Hiragana</li></Link>
-            <Link to="/" className='link jc-center'><li>Katakana</li></Link>
-            <Link to="/" className='link jc-center'><li>Kanji</li></Link>
-            <Link to="/" className='link jc-center'><li>My Vocabulary</li></Link>
-            <Link to="/uebungen" className='link jc-center'><li>Übungen</li></Link>
+            <Link
+              to="/hiragana"
+              className={`link jc-center ${getNavLinkClass('/hiragana')}`}
+            >
+              <li>Hiragana</li>
+            </Link>
+            <Link
+              to="/"
+              className={`link jc-center ${getNavLinkClass('/katakana')}`}
+            >
+              <li>Katakana</li>
+            </Link>
+            <Link to="/" className="link jc-center">
+              <li>Kanji</li>
+            </Link>
+            <Link to="/" className="link jc-center">
+              <li>My Vocabulary</li>
+            </Link>
+            <Link
+              to="/uebungen"
+              className={`link jc-center ${getNavLinkClass('/uebungen')}`}
+            >
+              <li>Exercises</li>
+            </Link>
           </ul>
         </div>
-        <div className="column-three">
+        {/* <div className="column-three">
           <span>Language</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );
