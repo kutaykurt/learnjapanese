@@ -9,7 +9,7 @@ const Alphabet = () => {
   const [japaneseData, setJapaneseData] = useState({ alphabet: [] });
   const [currentPageAlphabet, setCurrentPageAlphabet] = useState(1);
   const { id } = useParams();
-  const { addVocabulary } = useContext(VocabularyContext);
+  const { addVocabulary, isVocabularySelected, removeVocabulary } = useContext(VocabularyContext);
 
   useEffect(() => {
     async function getJapaneseData() {
@@ -28,8 +28,13 @@ const Alphabet = () => {
   );
 
   const handleSelectVocabulary = (item) => {
-    addVocabulary(item); // Füge das ausgewählte Vokabular zur Liste hinzu
-    console.log('Erfolgreich hinzugefügt:', item);
+    const isSelected = isVocabularySelected(item);
+
+    if (isSelected) {
+      removeVocabulary(item.id); // Wenn bereits ausgewählt, entferne die Vokabel
+    } else {
+      addVocabulary(item); // Füge das ausgewählte Vokabular zur Liste hinzu
+    }
   };
 
   const renderAlphabetForPage = () => {
@@ -38,14 +43,17 @@ const Alphabet = () => {
     return japaneseData.alphabet
       .slice(startIndex, endIndex)
       .map((item, index) => (
-          <tr key={index} className="list-items-container equal-column-width">
-            <td>{item.character}</td>
-            <td>{item.pronunciation}</td>
-            <td>{item.translation}</td>
-            <button onClick={() => handleSelectVocabulary(item)} className='add-button'>
-            Add to Vocabulary
+        <tr key={index} className="list-items-container equal-column-width">
+          <td>{item.character}</td>
+          <td>{item.pronunciation}</td>
+          <td>{item.translation}</td>
+          <button
+            onClick={() => handleSelectVocabulary(item)}
+            className={`add-button ${isVocabularySelected(item) ? 'selected' : ''}`}
+          >
+            {isVocabularySelected(item) ? 'Added' : 'Add to Vocabulary'}
           </button>
-          </tr>
+        </tr>
       ));
   };
 

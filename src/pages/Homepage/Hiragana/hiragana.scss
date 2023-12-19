@@ -72,6 +72,10 @@ td {
   color: white;
 }
 
+.add-button.selected {
+  background-color: lightgreen;
+}
+
 @keyframes hiragana-start-effect {
     0% {
         opacity: 0;
