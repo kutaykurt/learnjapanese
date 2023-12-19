@@ -12,6 +12,7 @@ import EnglishVocabulary from './EnglishVocabulary/EnglishVocabulary';
 
 const Hiragana = () => {
   const [key, setKey] = useState('Alphabet');
+  const [selectedVocabulary, setSelectedVocabulary] = useState(null)
 
   const location = useLocation();
 
@@ -47,7 +48,7 @@ const Hiragana = () => {
           className="mb-3"
         >
           <Tab eventKey="Alphabet" title="Alphabet">
-            <Alphabet />
+            <Alphabet selectedVocabulary={selectedVocabulary} setSelectedVocabulary={setSelectedVocabulary} />
           </Tab>
 
           <Tab

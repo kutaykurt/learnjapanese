@@ -38,7 +38,7 @@ const Header = () => {
             <Link to="/" className="link jc-center">
               <li>Kanji</li>
             </Link>
-            <Link to="/" className="link jc-center">
+            <Link to="/myvocabularies" className="link jc-center">
               <li>My Vocabulary</li>
             </Link>
             <Link

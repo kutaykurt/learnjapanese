@@ -7,6 +7,8 @@ import Hiragana from './pages/Homepage/Hiragana/Hiragana';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Uebungen from './pages/Homepage/Uebungen/UebungenAlphabet';
 import AboutHiragana from './pages/Homepage/Hiragana/AboutHiragama';
+import MyVocabulary from './pages/Homepage/MyVocabulary/MyVocabulary';
+import { VocabularyProvider } from './components/VocabularyProvider';
 
 function App() {
   const [showText, setShowText] = useState(true);
@@ -27,25 +29,28 @@ function App() {
 
   return (
     <div className="App">
-      {showText && (
-        <div className="prologue">
-          <span className="learn-word">Learn</span>
-          <span className="japanese-word">Japanese</span>
-        </div>
-      )}
-      {!showText && (
-        <div className="app-main">
-          <Header />
-          <div className="body">
-            <Routes>
-              <Route path='/' element={<Homepage />} />
-              <Route path='/hiragana' element={<Hiragana />} />
-              <Route path='/uebungen' element={<Uebungen />} />
-              <Route path='/abouthiragana' element={<AboutHiragana />} />
-            </Routes>
+      <VocabularyProvider>
+        {showText && (
+          <div className="prologue">
+            <span className="learn-word">Learn</span>
+            <span className="japanese-word">Japanese</span>
           </div>
-        </div>
-      )}
+        )}
+        {!showText && (
+          <div className="app-main">
+            <Header />
+            <div className="body">
+              <Routes>
+                <Route path="/" element={<Homepage />} />
+                <Route path="/hiragana" element={<Hiragana />} />
+                <Route path="/uebungen" element={<Uebungen />} />
+                <Route path="/abouthiragana" element={<AboutHiragana />} />
+                <Route path="/myvocabularies" element={<MyVocabulary />} />
+              </Routes>
+            </div>
+          </div>
+        )}
+      </VocabularyProvider>
     </div>
   );
 }

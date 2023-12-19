@@ -1,27 +1,35 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { fetchJapaneseData } from '../../../../fetch';
+import { Dropdown } from 'react-bootstrap';
+import { useParams } from 'react-router-dom';
+import { VocabularyContext } from '../../../../components/VocabularyProvider';
 
 const ITEMS_PER_PAGE = 30; // Anzahl der Vokabeln pro Seite
 
 const Alphabet = () => {
   const [japaneseData, setJapaneseData] = useState({ alphabet: [] });
   const [currentPageAlphabet, setCurrentPageAlphabet] = useState(1);
+  const { id } = useParams();
+  const { addVocabulary } = useContext(VocabularyContext);
 
   useEffect(() => {
     async function getJapaneseData() {
       try {
         const data = await fetchJapaneseData();
-        setJapaneseData(data); // Ändern Sie 'books' in 'booksData' um
+        setJapaneseData(data);
       } catch (error) {
         console.error('Error fetching data:', error);
       }
     }
     getJapaneseData();
-  }, []);
+  }, [id]);
 
-  const totalPagesAlphabet = Math.ceil(
-    japaneseData.alphabet.length / ITEMS_PER_PAGE
-  );
+  const totalPagesAlphabet = Math.ceil(japaneseData.alphabet.length / ITEMS_PER_PAGE);
+
+  const handleSelectVocabulary = (item) => {
+    addVocabulary(item); // Füge das ausgewählte Vokabular zur Liste hinzu
+    console.log('Erfolgreich hinzugefügt:', item);
+  };
 
   const renderAlphabetForPage = () => {
     const startIndex = (currentPageAlphabet - 1) * ITEMS_PER_PAGE;
@@ -29,11 +37,20 @@ const Alphabet = () => {
     return japaneseData.alphabet
       .slice(startIndex, endIndex)
       .map((item, index) => (
-        <tr key={index} className="list-items-container equal-column-width">
-          <td>{item.character}</td>
-          <td>{item.pronunciation}</td>
-          <td>{item.translation}</td>
-        </tr>
+        <Dropdown key={index}>
+          <Dropdown.Toggle variant="success" id="dropdown-basic">
+            <div className="table-row">
+              <span className="table-cell">{item.character}</span>
+              <span className="table-cell">{item.pronunciation}</span>
+              <span className="table-cell">{item.translation}</span>
+            </div>
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item onClick={() => handleSelectVocabulary(item)}>
+              Add to your Vocabulary
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       ));
   };
 
