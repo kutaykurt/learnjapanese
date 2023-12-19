@@ -48,7 +48,7 @@ table {
   justify-content: center;
 }
 
-th {
+th{
   border: 1px black solid;
   padding: 10px 15px;
   background-color: $main-blue;
@@ -63,6 +63,13 @@ td {
 
 .list-items-container:nth-child(odd) {
     background-color: $list-item-grey;
+}
+
+.add-button {
+  border: none;
+  font-size: 14px;
+  background-color: $main-blue;
+  color: white;
 }
 
 @keyframes hiragana-start-effect {

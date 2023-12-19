@@ -24,7 +24,9 @@ const Alphabet = () => {
     getJapaneseData();
   }, [id]);
 
-  const totalPagesAlphabet = Math.ceil(japaneseData.alphabet.length / ITEMS_PER_PAGE);
+  const totalPagesAlphabet = Math.ceil(
+    japaneseData.alphabet.length / ITEMS_PER_PAGE
+  );
 
   const handleSelectVocabulary = (item) => {
     addVocabulary(item); // Füge das ausgewählte Vokabular zur Liste hinzu
@@ -37,20 +39,14 @@ const Alphabet = () => {
     return japaneseData.alphabet
       .slice(startIndex, endIndex)
       .map((item, index) => (
-        <Dropdown key={index}>
-          <Dropdown.Toggle variant="success" id="dropdown-basic">
-            <div className="table-row">
-              <span className="table-cell">{item.character}</span>
-              <span className="table-cell">{item.pronunciation}</span>
-              <span className="table-cell">{item.translation}</span>
-            </div>
-          </Dropdown.Toggle>
-          <Dropdown.Menu>
-            <Dropdown.Item onClick={() => handleSelectVocabulary(item)}>
-              Add to your Vocabulary
-            </Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
+          <tr key={index} className="list-items-container equal-column-width">
+            <td>{item.character}</td>
+            <td>{item.pronunciation}</td>
+            <td>{item.translation}</td>
+            <button onClick={() => handleSelectVocabulary(item)} className='add-button'>
+            Add to Vocabulary
+          </button>
+          </tr>
       ));
   };
 
