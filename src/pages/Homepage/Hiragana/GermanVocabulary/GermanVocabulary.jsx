@@ -1,27 +1,43 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { fetchJapaneseData } from '../../../../fetch';
-const ITEMS_PER_PAGE = 30; // Anzahl der Vokabeln pro Seite
+import { useParams } from 'react-router-dom';
+import { VocabularyContext } from '../../../../components/VocabularyProvider';
+
+const ITEMS_PER_PAGE = 30;
 
 const GermanVocabulary = () => {
   const [japaneseData, setJapaneseData] = useState({ vocabulary: [] });
   const [currentPageVocabularyGerman, setCurrentPageVocabularyGerman] =
     useState(1);
-  
-    useEffect(() => {
-      async function getJapaneseData() {
-        try {
-          const data = await fetchJapaneseData();
-          setJapaneseData(data); // Ändern Sie 'books' in 'booksData' um
-        } catch (error) {
-          console.error('Error fetching books:', error);
-        }
+  const { id } = useParams();
+  const { addVocabulary, isVocabularySelected, removeVocabulary } =
+    useContext(VocabularyContext);
+
+  useEffect(() => {
+    async function getJapaneseData() {
+      try {
+        const data = await fetchJapaneseData();
+        setJapaneseData(data);
+      } catch (error) {
+        console.error('Error fetching books:', error);
       }
-      getJapaneseData();
-    }, []);
+    }
+    getJapaneseData();
+  }, [id]);
 
   const totalPagesVocabularyGerman = Math.ceil(
     japaneseData.vocabulary.length / ITEMS_PER_PAGE
   );
+
+  const handleSelectVocabulary = (item) => {
+    const isSelected = isVocabularySelected(item);
+
+    if (isSelected) {
+      removeVocabulary(item.id);
+    } else {
+      addVocabulary(item);
+    }
+  };
 
   const renderGermanVocabularyForPage = () => {
     const startIndex = (currentPageVocabularyGerman - 1) * ITEMS_PER_PAGE;
@@ -33,6 +49,12 @@ const GermanVocabulary = () => {
           <td>{item.japanese}</td>
           <td>{item.pronunciation}</td>
           <td>{item.translation.german}</td>
+          <button
+            onClick={() => handleSelectVocabulary(item)}
+            className={`add-button ${
+              isVocabularySelected(item) ? 'selected' : ''
+            }`}
+          >{isVocabularySelected(item) ? 'Added' : 'Add to Vocabulary'}</button>
         </tr>
       ));
   };
@@ -71,17 +93,17 @@ const GermanVocabulary = () => {
 
   return (
     <div>
-        <table className="my-table">
-          <tbody>
-            <tr>
-              <th>Hiragana</th>
-              <th>Pronounciation</th>
-              <th>German</th>
-            </tr>
-            {renderGermanVocabularyForPage()}
-          </tbody>
-        </table>
-        {paginationButtonsVocabularyGerman}
+      <table className="my-table">
+        <tbody>
+          <tr>
+            <th>Hiragana</th>
+            <th>Pronounciation</th>
+            <th>German</th>
+          </tr>
+          {renderGermanVocabularyForPage()}
+        </tbody>
+      </table>
+      {paginationButtonsVocabularyGerman}
     </div>
   );
 };

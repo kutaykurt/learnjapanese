@@ -12,7 +12,10 @@ export const VocabularyProvider = ({ children }) => {
       (vocab) =>
         vocab.character === newVocabulary.character &&
         vocab.pronunciation === newVocabulary.pronunciation &&
-        vocab.translation === newVocabulary.translation
+        vocab.translation === newVocabulary.translation &&
+        vocab.japanese === newVocabulary.japanese &&
+        vocab.translation.english === newVocabulary.translation.english &&
+        vocab.translation.german === newVocabulary.translation.german
     );
   
     if (!isVocabularyExists) {
@@ -21,9 +24,10 @@ export const VocabularyProvider = ({ children }) => {
       setVocabularyList([...vocabularyList, newVocabulary]);
     } else {
       console.log('Vocabulary already exists:', newVocabulary);
-      // Hier könntest du eine Benachrichtigung anzeigen oder einfach die Existenz der Vokabel loggen
       alert("Vocabulary already in your list!")
     }
+
+    console.log(newVocabulary.translation);
   };
 
   const removeVocabulary = (id) => {
@@ -36,7 +40,10 @@ export const VocabularyProvider = ({ children }) => {
       (vocab) =>
         vocab.character === item.character &&
         vocab.pronunciation === item.pronunciation &&
-        vocab.translation === item.translation
+        vocab.translation === item.translation &&
+        vocab.japanese === item.japanese &&
+        vocab.translation.english === item.translation.english &&
+        vocab.translation.german === item.translation.german
     );
   };
 

@@ -33,10 +33,10 @@ const Alphabet = () => {
 
     if (isSelected) {
       removeVocabulary(item.id);
-      console.log("removed");
+      console.log('removed');
     } else {
       addVocabulary(item);
-      console.log("Failed removing");
+      console.log('Failed removing');
     }
   };
 
