@@ -9,7 +9,8 @@ const Alphabet = () => {
   const [japaneseData, setJapaneseData] = useState({ alphabet: [] });
   const [currentPageAlphabet, setCurrentPageAlphabet] = useState(1);
   const { id } = useParams();
-  const { addVocabulary, isVocabularySelected, removeVocabulary } = useContext(VocabularyContext);
+  const { addVocabulary, isVocabularySelected, removeVocabulary } =
+    useContext(VocabularyContext);
 
   useEffect(() => {
     async function getJapaneseData() {
@@ -32,8 +33,10 @@ const Alphabet = () => {
 
     if (isSelected) {
       removeVocabulary(item.id);
+      console.log("removed");
     } else {
       addVocabulary(item);
+      console.log("Failed removing");
     }
   };
 
@@ -43,13 +46,15 @@ const Alphabet = () => {
     return japaneseData.alphabet
       .slice(startIndex, endIndex)
       .map((item, index) => (
-        <tr key={index} className="list-items-container equal-column-width">
-          <td>{item.character}</td>
-          <td>{item.pronunciation}</td>
-          <td>{item.translation}</td>
+        <tr key={index} className="list-items-container equal-column-width tr">
+          <td className="td">{item.character}</td>
+          <td className="td">{item.pronunciation}</td>
+          <td className="td">{item.translation}</td>
           <button
             onClick={() => handleSelectVocabulary(item)}
-            className={`add-button ${isVocabularySelected(item) ? 'selected' : ''}`}
+            className={`add-button ${
+              isVocabularySelected(item) ? 'selected' : ''
+            }`}
           >
             {isVocabularySelected(item) ? 'Added' : 'Add to Vocabulary'}
           </button>
@@ -93,10 +98,10 @@ const Alphabet = () => {
     <div>
       <table className="my-table">
         <tbody>
-          <tr>
-            <th>Hiragana</th>
-            <th>Pronounciation</th>
-            <th>Translation</th>
+          <tr className="tr">
+            <th className="th">Hiragana</th>
+            <th className="th">Pronounciation</th>
+            <th className="th">Translation</th>
           </tr>
           {renderAlphabetForPage()}
         </tbody>
