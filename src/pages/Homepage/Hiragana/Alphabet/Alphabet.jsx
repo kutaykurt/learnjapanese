@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { fetchJapaneseData } from '../../../../fetch';
-import { Dropdown } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import { VocabularyContext } from '../../../../components/VocabularyProvider';
 
