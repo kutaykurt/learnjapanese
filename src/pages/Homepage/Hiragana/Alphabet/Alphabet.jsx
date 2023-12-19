@@ -3,7 +3,7 @@ import { fetchJapaneseData } from '../../../../fetch';
 import { useParams } from 'react-router-dom';
 import { VocabularyContext } from '../../../../components/VocabularyProvider';
 
-const ITEMS_PER_PAGE = 30; // Anzahl der Vokabeln pro Seite
+const ITEMS_PER_PAGE = 30;
 
 const Alphabet = () => {
   const [japaneseData, setJapaneseData] = useState({ alphabet: [] });
@@ -31,9 +31,9 @@ const Alphabet = () => {
     const isSelected = isVocabularySelected(item);
 
     if (isSelected) {
-      removeVocabulary(item.id); // Wenn bereits ausgewählt, entferne die Vokabel
+      removeVocabulary(item.id);
     } else {
-      addVocabulary(item); // Füge das ausgewählte Vokabular zur Liste hinzu
+      addVocabulary(item);
     }
   };
 
