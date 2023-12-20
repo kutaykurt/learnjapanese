@@ -51,7 +51,6 @@ th {
   padding: 10px 15px;
   background-color: $main-blue;
   color: $main-white;
-  position: relative;
 }
 
 td {
@@ -68,11 +67,11 @@ td {
   border: none;
   font-size: 14px;
   color: $main-black;
-  position: absolute;
 }
 
 .add-button.selected {
   background-color: lightgreen;
+  font-weight: bold;
 }
 
 @keyframes hiragana-start-effect {

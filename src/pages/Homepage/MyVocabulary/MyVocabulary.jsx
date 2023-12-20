@@ -5,10 +5,8 @@ const MyVocabulary = () => {
   const { vocabularyList, removeVocabulary } = useContext(VocabularyContext);
 
   const handleRemoveVocabulary = (id) => {
-    console.log(id);
     removeVocabulary(id);
   };
-
 
   const renderAlphabetVocabulary = () => {
     const alphabetVocabularies = vocabularyList.filter(

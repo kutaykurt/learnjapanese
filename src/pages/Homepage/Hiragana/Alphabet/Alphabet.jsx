@@ -9,7 +9,7 @@ const Alphabet = () => {
   const [japaneseData, setJapaneseData] = useState({ alphabet: [] });
   const [currentPageAlphabet, setCurrentPageAlphabet] = useState(1);
   const { id } = useParams();
-  const { addVocabulary, isVocabularySelected, removeVocabulary } =
+  const { addVocabulary, isVocabularySelected } =
     useContext(VocabularyContext);
 
   useEffect(() => {
@@ -29,15 +29,7 @@ const Alphabet = () => {
   );
 
   const handleSelectVocabulary = (item) => {
-    const isSelected = isVocabularySelected(item);
-
-    if (isSelected) {
-      removeVocabulary(item.id);
-      console.log('removed');
-    } else {
       addVocabulary(item);
-      console.log('Failed removing');
-    }
   };
 
   const renderAlphabetForPage = () => {

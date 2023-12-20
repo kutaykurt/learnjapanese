@@ -17,17 +17,15 @@ export const VocabularyProvider = ({ children }) => {
         vocab.translation.english === newVocabulary.translation.english &&
         vocab.translation.german === newVocabulary.translation.german
     );
-  
+
     if (!isVocabularyExists) {
       // Wenn die Vokabel noch nicht vorhanden ist, füge sie hinzu
       newVocabulary.id = Date.now();
       setVocabularyList([...vocabularyList, newVocabulary]);
     } else {
       console.log('Vocabulary already exists:', newVocabulary);
-      alert("Vocabulary already in your list!")
+      alert('Vocabulary already in your list!');
     }
-
-    console.log(newVocabulary.translation);
   };
 
   const removeVocabulary = (id) => {
@@ -35,16 +33,34 @@ export const VocabularyProvider = ({ children }) => {
     setVocabularyList(updatedList);
   };
 
-  const isVocabularySelected = (item) => {
-    return vocabularyList.some(
-      (vocab) =>
-        vocab.character === item.character &&
-        vocab.pronunciation === item.pronunciation &&
-        vocab.translation === item.translation &&
-        vocab.japanese === item.japanese &&
-        vocab.translation.english === item.translation.english &&
-        vocab.translation.german === item.translation.german
-    );
+  const isVocabularySelected = (item, language, alphabet) => {
+    console.log("HELLOOO", item, language);
+
+    const isSelected = vocabularyList.some((vocab) => {
+      if (language === 'german') {
+        return (
+          vocab.japanese === item.japanese &&
+          vocab.pronunciation === item.pronunciation &&
+          vocab.translation.german === item.translation.german
+          );
+        }
+        if (language === 'english') {
+          return (
+            vocab.japanese === item.japanese &&
+            vocab.pronunciation === item.pronunciation &&
+            vocab.translation.english === item.translation.english
+            );
+          }
+          if (item) {
+            return (
+              vocab.character === item.character &&
+              vocab.pronunciation === item.pronunciation &&
+              vocab.translation === item.translation
+            );
+          }
+      return false;
+    });
+    return isSelected;
   };
 
   const toggleSelectedVocabulary = (item) => {
@@ -59,14 +75,16 @@ export const VocabularyProvider = ({ children }) => {
   };
 
   return (
-    <VocabularyContext.Provider value={{ 
-      vocabularyList, 
-      addVocabulary, 
-      removeVocabulary, 
-      isVocabularySelected,
-      toggleSelectedVocabulary,
-      selectedVocabularies // Neuer State für ausgewählte Vokabeln
-    }}>
+    <VocabularyContext.Provider
+      value={{
+        vocabularyList,
+        addVocabulary,
+        removeVocabulary,
+        isVocabularySelected,
+        toggleSelectedVocabulary,
+        selectedVocabularies, // Neuer State für ausgewählte Vokabeln
+      }}
+    >
       {children}
     </VocabularyContext.Provider>
   );

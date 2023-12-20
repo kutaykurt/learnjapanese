@@ -9,12 +9,9 @@ const EnglishVocabulary = () => {
   const [japaneseData, setJapaneseData] = useState({ vocabulary: [] });
   const [currentPageVocabularyEnglish, setCurrentPageVocabularyEnglish] =
     useState(1);
+
   const { id } = useParams();
-  const {
-    addVocabulary,
-    isVocabularySelected,
-    removeVocabulary,
-  } = useContext(VocabularyContext);
+  const { addVocabulary, isVocabularySelected } = useContext(VocabularyContext);
 
   useEffect(() => {
     async function getJapaneseData() {
@@ -22,7 +19,7 @@ const EnglishVocabulary = () => {
         const data = await fetchJapaneseData();
         setJapaneseData(data);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error('Error fetching books:', error);
       }
     }
     getJapaneseData();
@@ -32,37 +29,47 @@ const EnglishVocabulary = () => {
     japaneseData.vocabulary.length / ITEMS_PER_PAGE
   );
 
-  const handleSelectVocabulary = (item) => {
+  const handleSelectVocabulary = (item, english) => {
     const isSelected = isVocabularySelected(item);
 
-    if (isSelected) {
-      removeVocabulary(item.id);
-    } else {
-      addVocabulary(item);
-    }
+    console.log('isSelected before:', isSelected);
+
+    const vocabularyToAdd = {
+      japanese: item.japanese,
+      pronunciation: item.pronunciation,
+      translation: {
+        [english]: item.translation[english],
+      },
+    };
+    addVocabulary(vocabularyToAdd); // Keine 'english'-Parameterübertragung erforderlich
+
+    console.log('isSelected after:', isVocabularySelected(item));
   };
 
   const renderEnglishVocabularyForPage = () => {
-    const startIndex =
-      (currentPageVocabularyEnglish - 1) * ITEMS_PER_PAGE;
+    const startIndex = (currentPageVocabularyEnglish - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
-    return japaneseData.vocabulary
-      .slice(startIndex, endIndex)
-      .map((item, index) => (
-        <tr key={index} className="list-items-container equal-column-width">
-          <td>{item.japanese}</td>
-          <td>{item.pronunciation}</td>
-          <td>{item.translation.english}</td>
-          <button
-            onClick={() => handleSelectVocabulary(item)}
-            className={`add-button ${
-              isVocabularySelected(item) ? 'selected' : ''
-            }`}
-          >
-            {isVocabularySelected(item) ? 'Added' : 'Add to Vocabulary'}
-          </button>
-        </tr>
-      ));
+    const englishVocabularies = japaneseData.vocabulary
+      .filter((item) => item.translation.english) // Filtert Vokabeln mit deutscher Übersetzung
+      .slice(startIndex, endIndex);
+
+    return englishVocabularies.map((item, index) => (
+      <tr key={index} className="list-items-container equal-column-width">
+        <td>{item.japanese}</td>
+        <td>{item.pronunciation}</td>
+        <td>{item.translation.english}</td>
+        <button
+          onClick={() => handleSelectVocabulary(item, 'english')}
+          className={
+            isVocabularySelected(item, 'english')
+              ? 'add-button green'
+              : 'add-button'
+          }
+        >
+          {isVocabularySelected(item, 'english') ? 'Added' : 'Add to Vocabulary'}
+        </button>
+      </tr>
+    ));
   };
 
   const handlePrevPageVocabularyEnglish = () => {
@@ -90,9 +97,7 @@ const EnglishVocabulary = () => {
       </span>
       <button
         onClick={handleNextPageVocabularyEnglish}
-        disabled={
-          currentPageVocabularyEnglish === totalPagesVocabularyEnglish
-        }
+        disabled={currentPageVocabularyEnglish === totalPagesVocabularyEnglish}
       >
         Next
       </button>

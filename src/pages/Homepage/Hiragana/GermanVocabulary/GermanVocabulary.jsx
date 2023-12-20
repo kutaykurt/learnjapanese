@@ -9,9 +9,9 @@ const GermanVocabulary = () => {
   const [japaneseData, setJapaneseData] = useState({ vocabulary: [] });
   const [currentPageVocabularyGerman, setCurrentPageVocabularyGerman] =
     useState(1);
+
   const { id } = useParams();
-  const { addVocabulary, isVocabularySelected, removeVocabulary } =
-    useContext(VocabularyContext);
+  const { addVocabulary, isVocabularySelected } = useContext(VocabularyContext);
 
   useEffect(() => {
     async function getJapaneseData() {
@@ -29,34 +29,47 @@ const GermanVocabulary = () => {
     japaneseData.vocabulary.length / ITEMS_PER_PAGE
   );
 
-  const handleSelectVocabulary = (item) => {
+  const handleSelectVocabulary = (item, german) => {
     const isSelected = isVocabularySelected(item);
 
-    if (isSelected) {
-      removeVocabulary(item.id);
-    } else {
-      addVocabulary(item);
-    }
+    console.log('isSelected before:', isSelected);
+
+    const vocabularyToAdd = {
+      japanese: item.japanese,
+      pronunciation: item.pronunciation,
+      translation: {
+        [german]: item.translation[german],
+      },
+    };
+    addVocabulary(vocabularyToAdd); // Keine 'german'-Parameterübertragung erforderlich
+
+    console.log('isSelected after:', isVocabularySelected(item));
   };
 
   const renderGermanVocabularyForPage = () => {
     const startIndex = (currentPageVocabularyGerman - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
-    return japaneseData.vocabulary
-      .slice(startIndex, endIndex)
-      .map((item, index) => (
-        <tr key={index} className="list-items-container equal-column-width">
-          <td>{item.japanese}</td>
-          <td>{item.pronunciation}</td>
-          <td>{item.translation.german}</td>
-          <button
-            onClick={() => handleSelectVocabulary(item)}
-            className={`add-button ${
-              isVocabularySelected(item) ? 'selected' : ''
-            }`}
-          >{isVocabularySelected(item) ? 'Added' : 'Add to Vocabulary'}</button>
-        </tr>
-      ));
+    const germanVocabularies = japaneseData.vocabulary
+      .filter((item) => item.translation.german) // Filtert Vokabeln mit deutscher Übersetzung
+      .slice(startIndex, endIndex);
+
+    return germanVocabularies.map((item, index) => (
+      <tr key={index} className="list-items-container equal-column-width">
+        <td>{item.japanese}</td>
+        <td>{item.pronunciation}</td>
+        <td>{item.translation.german}</td>
+        <button
+          onClick={() => handleSelectVocabulary(item, 'german')}
+          className={
+            isVocabularySelected(item, 'german')
+              ? 'add-button green'
+              : 'add-button'
+          }
+        >
+          {isVocabularySelected(item, 'german') ? 'Added' : 'Add to Vocabulary'}
+        </button>
+      </tr>
+    ));
   };
 
   const handlePrevPageVocabularyGerman = () => {
