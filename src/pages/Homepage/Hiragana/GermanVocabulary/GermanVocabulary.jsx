@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import { fetchJapaneseData } from '../../../../fetch';
 import { useParams } from 'react-router-dom';
 import { VocabularyContext } from '../../../../components/VocabularyProvider';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 const ITEMS_PER_PAGE = 30;
 
@@ -9,9 +11,11 @@ const GermanVocabulary = () => {
   const [japaneseData, setJapaneseData] = useState({ vocabulary: [] });
   const [currentPageVocabularyGerman, setCurrentPageVocabularyGerman] =
     useState(1);
-
+  const [selectedItem, setSelectedItem] = useState(null);
+  const [modalShow, setModalShow] = useState(false);
   const { id } = useParams();
   const { addVocabulary, isVocabularySelected } = useContext(VocabularyContext);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     async function getJapaneseData() {
@@ -25,15 +29,19 @@ const GermanVocabulary = () => {
     getJapaneseData();
   }, [id]);
 
-  const totalPagesVocabularyGerman = Math.ceil(
-    japaneseData.vocabulary.length / ITEMS_PER_PAGE
-  );
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   const handleSelectVocabulary = (item, german) => {
-    const isSelected = isVocabularySelected(item);
-
-    console.log('isSelected before:', isSelected);
-
     const vocabularyToAdd = {
       japanese: item.japanese,
       pronunciation: item.pronunciation,
@@ -41,33 +49,48 @@ const GermanVocabulary = () => {
         [german]: item.translation[german],
       },
     };
-    addVocabulary(vocabularyToAdd); // Keine 'german'-Parameterübertragung erforderlich
+    addVocabulary(vocabularyToAdd);
+  };
 
-    console.log('isSelected after:', isVocabularySelected(item));
+  const handleRowClick = (item) => {
+    console.log('Selected item:', item); // Überprüfen Sie, ob das Element korrekt ausgewählt wurde
+    setSelectedItem(item);
+
+    if (windowWidth <= 480) {
+      setModalShow(true);
+    }
   };
 
   const renderGermanVocabularyForPage = () => {
     const startIndex = (currentPageVocabularyGerman - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const germanVocabularies = japaneseData.vocabulary
-      .filter((item) => item.translation.german) // Filtert Vokabeln mit deutscher Übersetzung
+      .filter((item) => item.translation.german)
       .slice(startIndex, endIndex);
 
     return germanVocabularies.map((item, index) => (
-      <tr key={index} className="list-items-container equal-column-width">
+      <tr
+        key={index}
+        className="list-items-container equal-column-width"
+        onClick={() => handleRowClick(item)}
+      >
         <td>{item.japanese}</td>
         <td>{item.pronunciation}</td>
         <td>{item.translation.german}</td>
-        <button
-          onClick={() => handleSelectVocabulary(item, 'german')}
-          className={
-            isVocabularySelected(item, 'german')
-              ? 'add-button green'
-              : 'add-button'
-          }
-        >
-          {isVocabularySelected(item, 'german') ? 'Added' : 'Add to Vocabulary'}
-        </button>
+        {windowWidth >= 480 && (
+          <button
+            onClick={() => handleSelectVocabulary(item, 'german')}
+            className={
+              isVocabularySelected(item, 'german')
+                ? 'add-button green'
+                : 'add-button'
+            }
+          >
+            {isVocabularySelected(item, 'german')
+              ? 'Added'
+              : 'Add to Vocabulary'}
+          </button>
+        )}
       </tr>
     ));
   };
@@ -79,9 +102,26 @@ const GermanVocabulary = () => {
   };
 
   const handleNextPageVocabularyGerman = () => {
+    const totalPagesVocabularyGerman = Math.ceil(
+      japaneseData.vocabulary.length / ITEMS_PER_PAGE
+    );
     if (currentPageVocabularyGerman < totalPagesVocabularyGerman) {
       setCurrentPageVocabularyGerman(currentPageVocabularyGerman + 1);
     }
+  };
+
+  const handleModalButtonClick = (item, german) => {
+    if (!isVocabularySelected(item)) {
+      const vocabularyToAdd = {
+        japanese: item.japanese,
+        pronunciation: item.pronunciation,
+        translation: {
+          [german]: item.translation[german],
+        },
+      };
+      addVocabulary(vocabularyToAdd);
+    }
+    setModalShow(false);
   };
 
   const paginationButtonsVocabularyGerman = (
@@ -93,11 +133,15 @@ const GermanVocabulary = () => {
         Previous
       </button>
       <span>
-        Page {currentPageVocabularyGerman} of {totalPagesVocabularyGerman}
+        Page {currentPageVocabularyGerman} of{' '}
+        {Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE)}
       </span>
       <button
         onClick={handleNextPageVocabularyGerman}
-        disabled={currentPageVocabularyGerman === totalPagesVocabularyGerman}
+        disabled={
+          currentPageVocabularyGerman ===
+          Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE)
+        }
       >
         Next
       </button>
@@ -117,6 +161,43 @@ const GermanVocabulary = () => {
         </tbody>
       </table>
       {paginationButtonsVocabularyGerman}
+
+      {selectedItem && windowWidth <= 480 && (
+        <Modal
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+          size="lg"
+          centered
+        >
+          <Modal.Header closeButton>
+            <Modal.Title>
+              {isVocabularySelected(selectedItem)
+                ? 'Added'
+                : 'Add to Vocabulary'}
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>
+              {isVocabularySelected(selectedItem)
+                ? 'This item is already added.'
+                : 'Do you want to add this item to your vocabulary?'}
+            </p>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={() => setModalShow(false)}>
+              Close
+            </Button>
+            <Button
+              variant="primary"
+              onClick={() => handleModalButtonClick(selectedItem, 'german')}
+            >
+              {isVocabularySelected(selectedItem, 'german')
+                ? 'Added'
+                : 'Add to Vocabulary'}
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      )}
     </div>
   );
 };

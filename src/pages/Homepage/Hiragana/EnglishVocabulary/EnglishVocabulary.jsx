@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from 'react';
 import { fetchJapaneseData } from '../../../../fetch';
 import { useParams } from 'react-router-dom';
 import { VocabularyContext } from '../../../../components/VocabularyProvider';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 const ITEMS_PER_PAGE = 30;
 
@@ -9,9 +11,12 @@ const EnglishVocabulary = () => {
   const [japaneseData, setJapaneseData] = useState({ vocabulary: [] });
   const [currentPageVocabularyEnglish, setCurrentPageVocabularyEnglish] =
     useState(1);
+  const [selectedItem, setSelectedItem] = useState(null);
+  const [modalShow, setModalShow] = useState(false);
 
   const { id } = useParams();
   const { addVocabulary, isVocabularySelected } = useContext(VocabularyContext);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     async function getJapaneseData() {
@@ -25,15 +30,23 @@ const EnglishVocabulary = () => {
     getJapaneseData();
   }, [id]);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const totalPagesVocabularyEnglish = Math.ceil(
     japaneseData.vocabulary.length / ITEMS_PER_PAGE
   );
 
   const handleSelectVocabulary = (item, english) => {
-    const isSelected = isVocabularySelected(item);
-
-    console.log('isSelected before:', isSelected);
-
     const vocabularyToAdd = {
       japanese: item.japanese,
       pronunciation: item.pronunciation,
@@ -41,9 +54,16 @@ const EnglishVocabulary = () => {
         [english]: item.translation[english],
       },
     };
-    addVocabulary(vocabularyToAdd); // Keine 'english'-Parameterübertragung erforderlich
+    addVocabulary(vocabularyToAdd);
+  };
 
-    console.log('isSelected after:', isVocabularySelected(item));
+  const handleRowClick = (item) => {
+    console.log('Selected item:', item); // Überprüfen Sie, ob das Element korrekt ausgewählt wurde
+    setSelectedItem(item);
+
+    if (windowWidth <= 480) {
+      setModalShow(true);
+    }
   };
 
   const renderEnglishVocabularyForPage = () => {
@@ -54,20 +74,28 @@ const EnglishVocabulary = () => {
       .slice(startIndex, endIndex);
 
     return englishVocabularies.map((item, index) => (
-      <tr key={index} className="list-items-container equal-column-width">
+      <tr
+        key={index}
+        className="list-items-container equal-column-width"
+        onClick={() => handleRowClick(item)}
+      >
         <td>{item.japanese}</td>
         <td>{item.pronunciation}</td>
         <td>{item.translation.english}</td>
-        <button
-          onClick={() => handleSelectVocabulary(item, 'english')}
-          className={
-            isVocabularySelected(item, 'english')
-              ? 'add-button green'
-              : 'add-button'
-          }
-        >
-          {isVocabularySelected(item, 'english') ? 'Added' : 'Add to Vocabulary'}
-        </button>
+        {windowWidth >= 480 && (
+          <button
+            onClick={() => handleSelectVocabulary(item, 'english')}
+            className={
+              isVocabularySelected(item, 'english')
+                ? 'add-button green'
+                : 'add-button'
+            }
+          >
+            {isVocabularySelected(item, 'english')
+              ? 'Added'
+              : 'Add to Vocabulary'}
+          </button>
+        )}
       </tr>
     ));
   };
@@ -82,6 +110,20 @@ const EnglishVocabulary = () => {
     if (currentPageVocabularyEnglish < totalPagesVocabularyEnglish) {
       setCurrentPageVocabularyEnglish(currentPageVocabularyEnglish + 1);
     }
+  };
+
+  const handleModalButtonClick = (item, english) => {
+    if (!isVocabularySelected(item)) {
+      const vocabularyToAdd = {
+        japanese: item.japanese,
+        pronunciation: item.pronunciation,
+        translation: {
+          [english]: item.translation[english],
+        },
+      };
+      addVocabulary(vocabularyToAdd);
+    }
+    setModalShow(false);
   };
 
   const paginationButtonsVocabularyEnglish = (
@@ -117,6 +159,43 @@ const EnglishVocabulary = () => {
         </tbody>
       </table>
       {paginationButtonsVocabularyEnglish}
+
+      {selectedItem && windowWidth <= 480 && (
+        <Modal
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+          size="lg"
+          centered
+        >
+          <Modal.Header closeButton>
+            <Modal.Title>
+              {isVocabularySelected(selectedItem)
+                ? 'Added'
+                : 'Add to Vocabulary'}
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <p>
+              {isVocabularySelected(selectedItem)
+                ? 'This item is already added.'
+                : 'Do you want to add this item to your vocabulary?'}
+            </p>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={() => setModalShow(false)}>
+              Close
+            </Button>
+            <Button
+              variant="primary"
+              onClick={() => handleModalButtonClick(selectedItem, 'english')}
+            >
+              {isVocabularySelected(selectedItem, 'english')
+                ? 'Added'
+                : 'Add to Vocabulary'}
+            </Button>
+          </Modal.Footer>
+        </Modal>
+      )}
     </div>
   );
 };
