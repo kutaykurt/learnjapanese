@@ -19,7 +19,7 @@ export const VocabularyProvider = ({ children }) => {
     if (!isVocabularyExists) {
       const updatedVocabularyList = [
         ...vocabularyList,
-        { ...newVocabulary, id: Date.now() },
+        { ...newVocabulary, id: newVocabularyId },
       ];
       setVocabularyList(updatedVocabularyList);
     } else {

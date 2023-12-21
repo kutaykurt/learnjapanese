@@ -54,6 +54,8 @@ const Alphabet = () => {
   const handleModalButtonClick = () => {
     if (!isVocabularySelected(selectedItem)) {
       addVocabulary(selectedItem);
+    } else {
+      alert('Already added!')
     }
     setModalShow(false);
   };
