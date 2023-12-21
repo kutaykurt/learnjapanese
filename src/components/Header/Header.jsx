@@ -23,30 +23,40 @@ const Header = () => {
 
         <div className="column-two">
           <ul className="navigation">
-            <Link
-              to="/hiragana"
-              className={`link jc-center ${getNavLinkClass('/hiragana')}`}
-            >
-              <li>Hiragana</li>
-            </Link>
-            <Link
-              to="/"
-              className={`link jc-center ${getNavLinkClass('/katakana')}`}
-            >
-              <li>Katakana</li>
-            </Link>
-            <Link to="/" className="link jc-center">
-              <li>Kanji</li>
-            </Link>
-            <Link to="/myvocabularies" className="link jc-center">
-              <li>My Vocabulary</li>
-            </Link>
-            <Link
-              to="/uebungen"
-              className={`link jc-center ${getNavLinkClass('/uebungen')}`}
-            >
-              <li>Exercises</li>
-            </Link>
+            <li>
+              <Link
+                to="/hiragana"
+                className={`link jc-center ${getNavLinkClass('/hiragana')}`}
+              >
+                Hiragana
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/"
+                className={`link jc-center ${getNavLinkClass('/katakana')}`}
+              >
+                Katakana
+              </Link>
+            </li>
+            <li>
+              <Link to="/" className={`link jc-center ${getNavLinkClass('/kanji')}`}>
+                Kanji
+              </Link>
+            </li>
+            <li>
+              <Link to="/myvocabularies" className={`link jc-center ${getNavLinkClass('/myvocabularies')}`}>
+                My Vocabulary
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/uebungen"
+                className={`link jc-center ${getNavLinkClass('/uebungen')}`}
+              >
+                Exercises
+              </Link>
+            </li>
           </ul>
         </div>
         {/* <div className="column-three">

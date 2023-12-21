@@ -6,20 +6,21 @@
   padding: 0px 40px;
 
   h2 {
-    font-size: 26px;
+    font-size: 22px;
     padding: 10px 0px;
     animation: language-description-title-effect 1.8s ease-in-out;
+    font-weight: bold;
   }
 
   .description-first {
     animation: description-first-effect 0.8s ease-in-out;
-    font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     margin: 16px 0px;
   }
 
   .note {
     margin: 10px 0px;
+    font-weight: bold;
   }
 }
 
@@ -196,13 +197,17 @@
     font-size: 18px;
 
     h2 {
-      font-size: 22px;
+      font-size: 20px;
       padding-top: 20px;
     }
 
     .line {
       margin: 20px 0px;
     }
+  }
+  
+  .description-first {
+    font-size: 18px;
   }
 
   .language-descriptions {

@@ -5,10 +5,13 @@
   .link {
     width: max-content;
     text-decoration: none;
+    color: $main-grey;
+    margin: 0px 15px;
 
     &.active {
       font-weight: bold;
-      text-decoration: underline;
+      text-decoration: underline 2px;
+      color: $main-black;
     }
   }
   
@@ -57,13 +60,9 @@
         list-style-type: none;
         padding: 0;
 
-        li {
-          padding: 0px 15px;
-
-          &:hover {
+        li:hover {
             text-decoration: underline $main-black;
             font-weight: bold;
-          }
         }
       }
     }
@@ -82,16 +81,21 @@
       max-width: 100%;
       display: flex;
       flex-direction: column;
-
-      .jc-center {
-        padding: 0;
-      }
+      font-weight: bold;
+      padding: 20px 0px 10px 0px;
       
       .column-one {
-        font-size: 24px; /* Verkleinerung der Schriftgröße */
+        font-size: 28px;
         width: 100%;
-        text-align: center;
-        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 10px 0px;
+      }
+
+      .column-two {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        min-width: 100%;
       }
 
       .column-three {
@@ -100,11 +104,10 @@
       }
       
       .navigation {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
         li {
-          padding: 10px 0; /* Anpassung des Abstands zwischen den Navigationselementen */
+          margin: 3px;
         }
       }
     }
