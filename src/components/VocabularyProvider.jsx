@@ -24,7 +24,7 @@ export const VocabularyProvider = ({ children }) => {
       setVocabularyList(updatedVocabularyList);
     } else {
       console.log('Vocabulary already exists:', newVocabulary);
-      alert('Vocabulary already in your list!');
+      alert('Already added!');
     }
   };
 
