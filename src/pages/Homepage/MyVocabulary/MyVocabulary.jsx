@@ -47,6 +47,45 @@ const MyVocabulary = () => {
     );
   };
 
+  const renderGermanVocabulary = () => {
+    const germanVocabularies = vocabularyList.filter(
+      (vocab) =>
+        vocab.japanese && vocab.pronunciation && vocab.translation.german
+    );
+
+    return (
+      <div>
+        <h2>German Vocabularies</h2>
+        {germanVocabularies.length > 0 ? (
+          <div>
+            <table className="my-table">
+              <tbody>
+                <tr>
+                  <th>Hiragana</th>
+                  <th>Pronounciation</th>
+                  <th>German</th>
+                </tr>
+                {germanVocabularies.map((vocab) => (
+                  <tr key={vocab.id}>
+                    <td>{vocab.japanese}</td>
+                    <td>{vocab.pronunciation}</td>
+                    <td>{vocab.translation.german}</td>
+                    <td>
+                      <button onClick={() => handleRemoveVocabulary(vocab.id)}>
+                        Remove
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : (
+          <p>No German Vocabularies selected yet.</p>
+        )}
+      </div>
+    );
+  };
   const renderEnglishVocabulary = () => {
     const englishVocabularies = vocabularyList.filter(
       (vocab) =>
@@ -87,51 +126,11 @@ const MyVocabulary = () => {
     );
   };
 
-  const renderGermanVocabulary = () => {
-    const germanVocabularies = vocabularyList.filter(
-      (vocab) =>
-        vocab.japanese && vocab.pronunciation && vocab.translation.german
-    );
-
-    return (
-      <div>
-        <h2>German Vocabularies</h2>
-        {germanVocabularies.length > 0 ? (
-          <div>
-            <table className="my-table">
-              <tbody>
-                <tr>
-                  <th>Hiragana</th>
-                  <th>Pronounciation</th>
-                  <th>German</th>
-                </tr>
-                {germanVocabularies.map((vocab) => (
-                  <tr key={vocab.id}>
-                    <td>{vocab.japanese}</td>
-                    <td>{vocab.pronunciation}</td>
-                    <td>{vocab.translation.german}</td>
-                    <td>
-                      <button onClick={() => handleRemoveVocabulary(vocab.id)}>
-                        Remove
-                      </button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        ) : (
-          <p>No German Vocabularies selected yet.</p>
-        )}
-      </div>
-    );
-  };
-
   return (
     <div>
       {renderAlphabetVocabulary()}
-      {renderEnglishVocabulary()}
       {renderGermanVocabulary()}
+      {renderEnglishVocabulary()}
     </div>
   );
 };
