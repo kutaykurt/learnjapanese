@@ -1,9 +1,9 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { fetchJapaneseData } from '../../../../fetch';
-import { useParams } from 'react-router-dom';
-import { VocabularyContext } from '../../../../components/VocabularyProvider';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import React, { useContext, useEffect, useState } from "react";
+import { fetchJapaneseData } from "../../../../fetch";
+import { useParams } from "react-router-dom";
+import { VocabularyContext } from "../../../../components/VocabularyProvider";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 const ITEMS_PER_PAGE = 30;
 
@@ -24,7 +24,7 @@ const EnglishVocabulary = () => {
         const data = await fetchJapaneseData();
         setJapaneseData(data);
       } catch (error) {
-        console.error('Error fetching books:', error);
+        console.error("Error fetching books:", error);
       }
     }
     getJapaneseData();
@@ -35,10 +35,10 @@ const EnglishVocabulary = () => {
       setWindowWidth(window.innerWidth);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -58,7 +58,7 @@ const EnglishVocabulary = () => {
   };
 
   const handleRowClick = (item) => {
-    console.log('Selected item:', item); // Überprüfen Sie, ob das Element korrekt ausgewählt wurde
+    console.log("Selected item:", item); // Überprüfen Sie, ob das Element korrekt ausgewählt wurde
     setSelectedItem(item);
 
     if (windowWidth <= 480) {
@@ -84,16 +84,16 @@ const EnglishVocabulary = () => {
         <td>{item.translation.english}</td>
         {windowWidth >= 480 && (
           <button
-            onClick={() => handleSelectVocabulary(item, 'english')}
-            className={
-              isVocabularySelected(item, 'english')
-                ? 'add-button green'
-                : 'add-button'
-            }
+            onClick={() => handleSelectVocabulary(item, "english")}
+            className={`add-button ${
+              isVocabularySelected(item, "english")
+                ? "selected"
+                : "add-button"
+            }`}
           >
-            {isVocabularySelected(item, 'english')
-              ? 'Added'
-              : 'Add to Vocabulary'}
+            {isVocabularySelected(item, "english")
+              ? "Added"
+              : "Add to Vocabulary"}
           </button>
         )}
       </tr>
@@ -170,15 +170,15 @@ const EnglishVocabulary = () => {
           <Modal.Header closeButton>
             <Modal.Title>
               {isVocabularySelected(selectedItem)
-                ? 'Added'
-                : 'Add to Vocabulary'}
+                ? "Added"
+                : "Add to Vocabulary"}
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>
               {isVocabularySelected(selectedItem)
-                ? 'This item is already added.'
-                : 'Do you want to add this item to your vocabulary?'}
+                ? "This item is already added."
+                : "Do you want to add this item to your vocabulary?"}
             </p>
           </Modal.Body>
           <Modal.Footer>
@@ -187,11 +187,11 @@ const EnglishVocabulary = () => {
             </Button>
             <Button
               variant="primary"
-              onClick={() => handleModalButtonClick(selectedItem, 'english')}
+              onClick={() => handleModalButtonClick(selectedItem, "english")}
             >
-              {isVocabularySelected(selectedItem, 'english')
-                ? 'Added'
-                : 'Add to Vocabulary'}
+              {isVocabularySelected(selectedItem, "english")
+                ? "Added"
+                : "Add to Vocabulary"}
             </Button>
           </Modal.Footer>
         </Modal>
