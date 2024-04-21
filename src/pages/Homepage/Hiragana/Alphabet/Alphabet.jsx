@@ -1,9 +1,9 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { fetchJapaneseData } from '../../../../fetch';
-import { useParams } from 'react-router-dom';
-import { VocabularyContext } from '../../../../components/VocabularyProvider';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import React, { useContext, useEffect, useState } from "react";
+import { fetchJapaneseData } from "../../../../fetch";
+import { useParams } from "react-router-dom";
+import { VocabularyContext } from "../../../../components/VocabularyProvider";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 const ITEMS_PER_PAGE = 30;
 
@@ -13,7 +13,12 @@ const Alphabet = () => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [modalShow, setModalShow] = useState(false);
   const { id } = useParams();
-  const { addVocabulary, isVocabularySelected } = useContext(VocabularyContext);
+  const {
+    addVocabulary,
+    isVocabularySelected,
+    removeVocabulary,
+    vocabularyList,
+  } = useContext(VocabularyContext);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth); // State für Bildschirmbreite
 
   useEffect(() => {
@@ -22,7 +27,7 @@ const Alphabet = () => {
         const data = await fetchJapaneseData();
         setJapaneseData(data);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.error("Error fetching data:", error);
       }
     }
     getJapaneseData();
@@ -33,10 +38,10 @@ const Alphabet = () => {
       setWindowWidth(window.innerWidth);
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -55,7 +60,19 @@ const Alphabet = () => {
     if (!isVocabularySelected(selectedItem)) {
       addVocabulary(selectedItem);
     } else {
-      alert('Already added!')
+      // Find the vocabulary with the same properties as selectedItem and get its id
+      const existingVocabulary = vocabularyList.find((vocab) => {
+        return (
+          vocab.character === selectedItem.character &&
+          vocab.japanese === selectedItem.japanese &&
+          vocab.pronunciation === selectedItem.pronunciation &&
+          vocab.translation === selectedItem.translation
+        );
+      });
+
+      if (existingVocabulary) {
+        removeVocabulary(existingVocabulary.id);
+      }
     }
     setModalShow(false);
   };
@@ -68,7 +85,9 @@ const Alphabet = () => {
       .map((item, index) => (
         <tr
           key={index}
-          className="list-items-container equal-column-width tr"
+          className={`list-items-container equal-column-width ${
+            isVocabularySelected(item) ? "selected" : ""
+          }`}
           onClick={() => handleRowClick(item)}
         >
           <td className="td">{item.character}</td>
@@ -78,10 +97,10 @@ const Alphabet = () => {
             <button
               onClick={() => handleSelectVocabulary(item)}
               className={`add-button ${
-                isVocabularySelected(item) ? 'selected' : ''
+                isVocabularySelected(item) ? "selected" : ""
               }`}
             >
-              {isVocabularySelected(item) ? 'X' : 'Add to Vocabulary'}
+              {isVocabularySelected(item) ? "X" : "Add to Vocabulary"}
             </button>
           )}
         </tr>
@@ -95,6 +114,9 @@ const Alphabet = () => {
   };
 
   const handleNextPageAlphabet = () => {
+    const totalPagesAlphabet = Math.ceil(
+      japaneseData.alphabet.length / ITEMS_PER_PAGE
+    );
     if (currentPageAlphabet < totalPagesAlphabet) {
       setCurrentPageAlphabet(currentPageAlphabet + 1);
     }
@@ -148,15 +170,15 @@ const Alphabet = () => {
           <Modal.Header closeButton>
             <Modal.Title>
               {isVocabularySelected(selectedItem)
-                ? 'Added'
-                : 'Add to Vocabulary'}
+                ? "Added"
+                : "Add to Vocabulary"}
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>
               {isVocabularySelected(selectedItem)
-                ? 'This item is already added.'
-                : 'Do you want to add this item to your vocabulary?'}
+                ? "This item is already added."
+                : "Do you want to add this item to your vocabulary?"}
             </p>
           </Modal.Body>
           <Modal.Footer>
@@ -165,8 +187,8 @@ const Alphabet = () => {
             </Button>
             <Button variant="primary" onClick={handleModalButtonClick}>
               {isVocabularySelected(selectedItem)
-                ? 'Added'
-                : 'Add to Vocabulary'}
+                ? "Added"
+                : "Add to Vocabulary"}
             </Button>
           </Modal.Footer>
         </Modal>

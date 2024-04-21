@@ -21,7 +21,7 @@ const Hiragana = () => {
   }, [location]);
 
   return (
-    <div className="Hiragana">
+    <div className="Main">
       <div className="beginning-text">
         <h2>Hiragana</h2>
 

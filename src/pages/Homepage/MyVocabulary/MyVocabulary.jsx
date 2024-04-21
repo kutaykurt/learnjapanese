@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import { VocabularyContext } from '../../../components/VocabularyProvider';
+import React, { useContext } from "react";
+import { VocabularyContext } from "../../../components/VocabularyProvider";
 
 const MyVocabulary = () => {
   const { vocabularyList, removeVocabulary } = useContext(VocabularyContext);
@@ -14,7 +14,7 @@ const MyVocabulary = () => {
     );
 
     return (
-      <div>
+      <div className="Main">
         <h2>Alphabet Vocabularies</h2>
         {alphabetVocabularies.length > 0 ? (
           <div>
@@ -26,7 +26,7 @@ const MyVocabulary = () => {
                   <th>Translation</th>
                 </tr>
                 {alphabetVocabularies.map((vocab) => (
-                  <tr key={vocab.id}>
+                  <tr key={vocab.id} className="list-items-container">
                     <td>{vocab.character}</td>
                     <td>{vocab.pronunciation}</td>
                     <td>{vocab.translation}</td>
@@ -54,7 +54,7 @@ const MyVocabulary = () => {
     );
 
     return (
-      <div>
+      <div className="Main">
         <h2>German Vocabularies</h2>
         {germanVocabularies.length > 0 ? (
           <div>
@@ -66,7 +66,7 @@ const MyVocabulary = () => {
                   <th>German</th>
                 </tr>
                 {germanVocabularies.map((vocab) => (
-                  <tr key={vocab.id}>
+                  <tr key={vocab.id} className="list-items-container">
                     <td>{vocab.japanese}</td>
                     <td>{vocab.pronunciation}</td>
                     <td>{vocab.translation.german}</td>
@@ -93,7 +93,7 @@ const MyVocabulary = () => {
     );
 
     return (
-      <div>
+      <div className="Main">
         <h2>English Vocabularies</h2>
         {englishVocabularies.length > 0 ? (
           <div>
@@ -105,15 +105,18 @@ const MyVocabulary = () => {
                   <th>English</th>
                 </tr>
                 {englishVocabularies.map((vocab) => (
-                  <tr key={vocab.id}>
+                  <tr key={vocab.id} className="list-items-container">
                     <td>{vocab.japanese}</td>
                     <td>{vocab.pronunciation}</td>
                     <td>{vocab.translation.english}</td>
-                    <td>
-                      <button onClick={() => handleRemoveVocabulary(vocab.id)}>
+                    <div>
+                      <button
+                        className="remove-button"
+                        onClick={() => handleRemoveVocabulary(vocab.id)}
+                      >
                         Remove
                       </button>
-                    </td>
+                    </div>
                   </tr>
                 ))}
               </tbody>

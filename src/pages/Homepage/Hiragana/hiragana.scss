@@ -47,7 +47,7 @@ table {
 }
 
 th {
-  border: 1px black solid;
+  border: 1px black solid !important;
   padding: 10px 15px;
   background-color: $main-blue;
   color: $main-white;
@@ -55,19 +55,27 @@ th {
 }
 
 td {
-  border: 1px black solid;
+  border: 1px black solid !important;
   padding: 5px 15px;
   width: 350px;
 }
-
 .list-items-container:nth-child(odd) {
-  background-color: $list-item-grey !important;
+  background-color: $list-item-blue !important;
+}
+
+.list-items-container.selected:nth-child(odd) {
+  background-color: rgb(167, 255, 167) !important;
+}
+
+.list-items-container.selected:nth-child(even) {
+  background-color: rgb(221, 255, 221) !important;
 }
 
 .add-button {
   border: 1px black solid;
   border-radius: 4px;
   padding: 3px;
+  margin: 0px 4px;
   font-size: 14px;
   color: $main-black;
   position: absolute;
@@ -90,22 +98,26 @@ td {
 }
 
 @media screen and (max-width: 480px) {
-  .Hiragana {
+  .Main {
     font-size: 15px;
     padding: 0px 15px;
   }
-  .vocabulary-container {
+
+  .remove-button {
+    font-size: 20px;
   }
 
   table {
-    max-width: 100%;
+    width: auto;
   }
 
-  .th {
+  th {
     padding: 3px 10px;
   }
-
-  .td {
+  
+  td {
     padding: 3px 10px;
+    max-width: 100px; /* Beispiel: Ändere die maximale Breite nach Bedarf */
+    word-wrap: break-word; /* Erlaube den Text, umzubrechen */
   }
 }

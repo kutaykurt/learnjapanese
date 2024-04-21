@@ -76,7 +76,9 @@ const EnglishVocabulary = () => {
     return englishVocabularies.map((item, index) => (
       <tr
         key={index}
-        className="list-items-container equal-column-width"
+        className={`list-items-container equal-column-width ${
+          isVocabularySelected(item, "english") ? "selected" : ""
+        }`}
         onClick={() => handleRowClick(item)}
       >
         <td>{item.japanese}</td>
@@ -86,14 +88,10 @@ const EnglishVocabulary = () => {
           <button
             onClick={() => handleSelectVocabulary(item, "english")}
             className={`add-button ${
-              isVocabularySelected(item, "english")
-                ? "selected"
-                : "add-button"
+              isVocabularySelected(item, "english") ? "selected" : "add-button"
             }`}
           >
-            {isVocabularySelected(item, "english")
-              ? "X"
-              : "Add to Vocabulary"}
+            {isVocabularySelected(item, "english") ? "X" : "Add to Vocabulary"}
           </button>
         )}
       </tr>

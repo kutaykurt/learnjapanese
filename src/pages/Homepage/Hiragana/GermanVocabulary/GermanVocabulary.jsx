@@ -41,10 +41,6 @@ const GermanVocabulary = () => {
     };
   }, []);
 
-  const handleRemoveVocabulary = (id) => {
-    removeVocabulary(id);
-  };
-
   const handleSelectVocabulary = (item, german) => {
     const vocabularyToAdd = {
       japanese: item.japanese,
@@ -75,7 +71,9 @@ const GermanVocabulary = () => {
     return germanVocabularies.map((item, index) => (
       <tr
         key={index}
-        className="list-items-container equal-column-width"
+        className={`list-items-container equal-column-width ${
+          isVocabularySelected(item, "german") ? "selected" : ""
+        }`}
         onClick={() => handleRowClick(item)}
       >
         <td>{item.japanese}</td>
@@ -112,6 +110,10 @@ const GermanVocabulary = () => {
     if (currentPageVocabularyGerman < totalPagesVocabularyGerman) {
       setCurrentPageVocabularyGerman(currentPageVocabularyGerman + 1);
     }
+  };
+
+  const handleRemoveVocabulary = (item) => {
+    removeVocabulary(item);
   };
 
   const handleModalButtonClick = (item, german) => {
