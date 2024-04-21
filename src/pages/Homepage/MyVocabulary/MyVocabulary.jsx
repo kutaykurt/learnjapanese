@@ -30,11 +30,9 @@ const MyVocabulary = () => {
                     <td>{vocab.character}</td>
                     <td>{vocab.pronunciation}</td>
                     <td>{vocab.translation}</td>
-                    <td>
-                      <button onClick={() => handleRemoveVocabulary(vocab.id)}>
-                        Remove
+                      <button className="remove-button" onClick={() => handleRemoveVocabulary(vocab.id)}>
+                        X
                       </button>
-                    </td>
                   </tr>
                 ))}
               </tbody>
@@ -70,11 +68,12 @@ const MyVocabulary = () => {
                     <td>{vocab.japanese}</td>
                     <td>{vocab.pronunciation}</td>
                     <td>{vocab.translation.german}</td>
-                    <td>
-                      <button onClick={() => handleRemoveVocabulary(vocab.id)}>
-                        Remove
-                      </button>
-                    </td>
+                    <button
+                      className="remove-button"
+                      onClick={() => handleRemoveVocabulary(vocab.id)}
+                    >
+                      X
+                    </button>
                   </tr>
                 ))}
               </tbody>
@@ -96,7 +95,6 @@ const MyVocabulary = () => {
       <div className="Main">
         <h2>English Vocabularies</h2>
         {englishVocabularies.length > 0 ? (
-          <div>
             <table className="my-table">
               <tbody>
                 <tr>
@@ -109,19 +107,16 @@ const MyVocabulary = () => {
                     <td>{vocab.japanese}</td>
                     <td>{vocab.pronunciation}</td>
                     <td>{vocab.translation.english}</td>
-                    <div>
                       <button
                         className="remove-button"
                         onClick={() => handleRemoveVocabulary(vocab.id)}
                       >
-                        Remove
+                        X
                       </button>
-                    </div>
                   </tr>
                 ))}
               </tbody>
             </table>
-          </div>
         ) : (
           <p>No English Vocabularies selected yet.</p>
         )}

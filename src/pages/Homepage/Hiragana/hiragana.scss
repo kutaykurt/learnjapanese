@@ -48,7 +48,7 @@ table {
 
 th {
   border: 1px black solid !important;
-  padding: 10px 15px;
+  padding: 7px 15px;
   background-color: $main-blue;
   color: $main-white;
   position: relative;
@@ -56,8 +56,8 @@ th {
 
 td {
   border: 1px black solid !important;
-  padding: 5px 15px;
-  width: 350px;
+  padding: 7px 15px;
+  width: 340px;
 }
 .list-items-container:nth-child(odd) {
   background-color: $list-item-blue !important;
@@ -78,11 +78,24 @@ td {
   margin: 0px 4px;
   font-size: 14px;
   color: $main-black;
-  position: absolute;
   background-color: $main-white;
 }
 
 .add-button.selected {
+  background-color: rgb(255, 115, 115);
+  font-weight: bold;
+  width: 40px;
+}
+
+.Main {
+  width: 100%;
+}
+
+.my-table {
+  width: 100%;
+}
+
+.remove-button {
   background-color: rgb(255, 115, 115);
   font-weight: bold;
   width: 40px;
@@ -99,25 +112,25 @@ td {
 
 @media screen and (max-width: 480px) {
   .Main {
-    font-size: 15px;
+    font-size: 12px;
     padding: 0px 15px;
   }
 
   .remove-button {
-    font-size: 20px;
+    margin-top: 5px;
   }
 
   table {
     width: auto;
   }
 
-  th {
-    padding: 3px 10px;
+  th, td {
+    padding: 1px 6px;
   }
   
   td {
-    padding: 3px 10px;
     max-width: 100px; /* Beispiel: Ändere die maximale Breite nach Bedarf */
     word-wrap: break-word; /* Erlaube den Text, umzubrechen */
   }
+
 }
