@@ -23,11 +23,12 @@ export const VocabularyProvider = ({ children }) => {
       ];
       setVocabularyList(updatedVocabularyList);
     } else {
-      console.log('Vocabulary already exists:', newVocabulary);
-      alert('Already added!');
+      console.log("Vocabulary already exists:", newVocabulary);
+      // Hier rufen Sie die removeVocabulary-Funktion auf, um die Vokabel zu entfernen
+      removeVocabulary(newVocabularyId);
     }
   };
-
+  
   const removeVocabulary = (id) => {
     const updatedList = vocabularyList.filter((vocab) => vocab.id !== id);
     setVocabularyList(updatedList);

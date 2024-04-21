@@ -92,7 +92,7 @@ const EnglishVocabulary = () => {
             }`}
           >
             {isVocabularySelected(item, "english")
-              ? "Added"
+              ? "X"
               : "Add to Vocabulary"}
           </button>
         )}

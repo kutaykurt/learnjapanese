@@ -65,15 +65,19 @@ td {
 }
 
 .add-button {
-  border: none;
+  border: 1px black solid;
+  border-radius: 4px;
+  padding: 3px;
   font-size: 14px;
   color: $main-black;
   position: absolute;
+  background-color: $main-white;
 }
 
 .add-button.selected {
-  background-color: lightgreen;
+  background-color: rgb(255, 115, 115);
   font-weight: bold;
+  width: 40px;
 }
 
 @keyframes hiragana-start-effect {

@@ -14,7 +14,7 @@ const GermanVocabulary = () => {
   const [selectedItem, setSelectedItem] = useState(null);
   const [modalShow, setModalShow] = useState(false);
   const { id } = useParams();
-  const { addVocabulary, isVocabularySelected } = useContext(VocabularyContext);
+  const { addVocabulary, isVocabularySelected, removeVocabulary } = useContext(VocabularyContext);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -40,6 +40,10 @@ const GermanVocabulary = () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
+  const handleRemoveVocabulary = (id) => {
+    removeVocabulary(id);
+  };
 
   const handleSelectVocabulary = (item, german) => {
     const vocabularyToAdd = {
@@ -78,25 +82,18 @@ const GermanVocabulary = () => {
         <td>{item.pronunciation}</td>
         <td>{item.translation.german}</td>
         {windowWidth >= 480 && (
-          <button
-            onClick={() => handleSelectVocabulary(item, "german")}
-            className={`add-button ${
-              isVocabularySelected(item, "german") ? "selected" : ""
-            }`}
-          >
-            {isVocabularySelected(item, "german")
-              ? "Added"
-              : "Add to Vocabulary"}
-          </button>
-
-          /* <button
-              onClick={() => handleSelectVocabulary(item)}
+          <div>
+            <button
+              onClick={() => handleSelectVocabulary(item, "german")}
               className={`add-button ${
-                isVocabularySelected(item) ? 'selected' : ''
+                isVocabularySelected(item, "german") ? "selected" : ""
               }`}
             >
-              {isVocabularySelected(item) ? 'Added' : 'Add to Vocabulary'}
-            </button> */
+              {isVocabularySelected(item, "german")
+                ? "X"
+                : "Add to Vocabulary"}
+            </button>
+          </div>
         )}
       </tr>
     ));

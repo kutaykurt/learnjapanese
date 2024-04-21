@@ -81,7 +81,7 @@ const Alphabet = () => {
                 isVocabularySelected(item) ? 'selected' : ''
               }`}
             >
-              {isVocabularySelected(item) ? 'Added' : 'Add to Vocabulary'}
+              {isVocabularySelected(item) ? 'X' : 'Add to Vocabulary'}
             </button>
           )}
         </tr>
