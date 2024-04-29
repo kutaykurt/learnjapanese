@@ -9,7 +9,7 @@ import Uebungen from './pages/Homepage/Uebungen/UebungenAlphabet';
 import AboutHiragana from './pages/Homepage/Hiragana/AboutHiragama';
 import MyVocabulary from './pages/Homepage/MyVocabulary/MyVocabulary';
 import { VocabularyProvider } from './components/VocabularyProvider';
-import Katakana from './pages/Homepage/Katakana/Katakana';
+import Katakana from './pages/Homepage/Katakana/Katakana.jsx'
 import Kanji from './pages/Homepage/Kanji/Kanji';
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
                 <Route path="/hiragana" element={<Hiragana />} />
                 <Route path="/katakana" element={<Katakana />} />
                 <Route path="/kanji" element={<Kanji />} />
-                <Route path="/uebungen" element={<Uebungen />} />
+                <Route path="/exercises" element={<Uebungen />} />
                 <Route path="/abouthiragana" element={<AboutHiragana />} />
                 <Route path="/myvocabularies" element={<MyVocabulary />} />
               </Routes>

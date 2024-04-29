@@ -22,13 +22,15 @@ export async function fetchJapaneseData() {
     const data = await response.json();
 
     return {
-      alphabet: data.alphabet,
+      hiraganaAlphabet: data.hiraganaAlphabet,
+      katakanaAlphabet: data.katakanaAlphabet,
       vocabulary: data.vocabulary,
     };
   } catch (error) {
     console.error('Error fetching japaneseData:', error);
     return {
-      alphabet: [],
+      hiraganaAlphabet: [],
+      katakanaAlphabet: [],
       vocabulary: [],
     };
   }

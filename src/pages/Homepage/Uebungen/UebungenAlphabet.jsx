@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
-import './uebungen.scss';
-import { fetchJapaneseData } from '../../../fetch';
+import React, { useEffect, useState } from "react";
+import "./uebungen.scss";
+import { fetchJapaneseData } from "../../../fetch";
 
 const Uebungen = () => {
-  const [japaneseAlphabet, setJapaneseAlphabet] = useState({ alphabet: [] });
+  const [japaneseAlphabet, setJapaneseAlphabet] = useState({
+    hiraganaAlphabet: [],
+  });
   const [userAnswers, setUserAnswers] = useState({});
   const [germanTranslations, setGermanTranslations] = useState({});
   const [results, setResults] = useState([]);
@@ -15,19 +17,19 @@ const Uebungen = () => {
         setJapaneseAlphabet(data);
 
         const translations = {};
-        data.alphabet.forEach(item => {
+        data.hiraganaAlphabet.forEach((item) => {
           translations[item.character] = item.translation;
-        })
+        });
 
         setGermanTranslations(translations);
-      
+
         const initialAnswers = {};
-        data.alphabet.forEach((item) => {
-          initialAnswers[item.character] = '';
+        data.hiraganaAlphabet.forEach((item) => {
+          initialAnswers[item.character] = "";
         });
         setUserAnswers(initialAnswers);
       } catch (error) {
-        console.error('Error fetching data');
+        console.error("Error fetching data");
       }
     }
     getJapaneseAlphabet();
@@ -41,46 +43,63 @@ const Uebungen = () => {
     });
   };
 
-  const checkAnswers = (character) => {
-    const resultsArray = japaneseAlphabet.alphabet.map(item => {
+  const checkAnswers = () => {
+    const resultsArray = japaneseAlphabet.hiraganaAlphabet.map((item) => {
       const userAnswer = userAnswers[item.character];
-      const isCorrect = userAnswer.toUpperCase() === germanTranslations[item.character].toUpperCase();
-      return {
-        character: item.character,
-        isCorrect,
+      const germanTranslation = germanTranslations[item.character];
+      if (userAnswer !== undefined && germanTranslation !== undefined) {
+        const isCorrect =
+          userAnswer.toUpperCase() === germanTranslation.toUpperCase();
+        console.log("Is correct:", isCorrect);
+        return {
+          character: item.character,
+          isCorrect,
+        };
+      } else {
+        return {
+          character: item.character,
+          isCorrect: false, // Consider it incorrect if either userAnswer or germanTranslation is undefined
+        };
       }
-    })
+    });
     setResults(resultsArray);
   };
 
   return (
-    <div>
-      {japaneseAlphabet.alphabet.map((item, index) => {
-        const isCorrect = results.find(result => result.character === item.character)?.isCorrect;
-        const color = isCorrect === true ? 'green' : isCorrect === false ? 'red' : '';
+    <div className="flex">
+      <div className="uebungen-container">
+        {japaneseAlphabet.hiraganaAlphabet.map((item, index) => {
+          const isCorrect = results.find(
+            (result) => result.character === item.character
+          )?.isCorrect;
+          const color =
+            isCorrect === true ? "green" : isCorrect === false ? "red" : "";
 
-        return (
-          <div key={index}>
-            {item.character}
-            <form>
-              <input
-                type="text"
-                value={userAnswers[item.character]}
-                onChange={(e) => handleInputChange(e, item.character)}
-                style={{ color }}
-              />
-            </form>
-          </div>
-        );
-      })}
-      <button onClick={checkAnswers}>Show results</button>
-      {/* <div>
-        {results.map((result, index) => (
-          <p key={index}>
-            {result.character}: {result.isCorrect ? 'Richtig' : 'Falsch'}
-          </p>
-        ))}
-      </div> */}
+          return (
+            <div key={index} className="uebungen-item">
+              <div className="alphabet">{item.character}</div>
+              <div className="form-result-container">
+                <form>
+                  <input
+                    type="text"
+                    value={userAnswers[item.character]}
+                    onChange={(e) => handleInputChange(e, item.character)}
+                    style={{ color }}
+                  />
+                </form>
+                {isCorrect !== undefined && (
+                  <p className="result" style={{ color }}>
+                    {isCorrect ? "Richtig" : "Falsch"}
+                  </p>
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+      <div>
+        <button onClick={checkAnswers}>Show results</button>
+      </div>
     </div>
   );
 };

@@ -7,17 +7,17 @@ import Modal from "react-bootstrap/Modal";
 
 const ITEMS_PER_PAGE = 30;
 
-const Alphabet = () => {
-  const [japaneseData, setJapaneseData] = useState({ alphabet: [] });
+const HiraganaAlphabet = () => {
+  const [japaneseData, setJapaneseData] = useState({ hiraganaAlphabet: [] });
   const [currentPageAlphabet, setCurrentPageAlphabet] = useState(1);
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedHiraganaItem, setSelectedHiraganaItem] = useState(null);
   const [modalShow, setModalShow] = useState(false);
   const { id } = useParams();
   const {
-    addVocabulary,
-    isVocabularySelected,
-    removeVocabulary,
-    vocabularyList,
+    addHiraganaVocabulary,
+    isHiraganaVocabularySelected,
+    removeHiraganaVocabulary,
+    hiraganaVocabularyList,
   } = useContext(VocabularyContext);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth); // State für Bildschirmbreite
 
@@ -46,32 +46,32 @@ const Alphabet = () => {
   }, []);
 
   const handleRowClick = (item) => {
-    setSelectedItem(item);
+    setSelectedHiraganaItem(item);
     if (windowWidth <= 480) {
       setModalShow(true);
     }
   };
 
   const handleSelectVocabulary = (item) => {
-    addVocabulary(item);
+    addHiraganaVocabulary(item);
   };
 
   const handleModalButtonClick = () => {
-    if (!isVocabularySelected(selectedItem)) {
-      addVocabulary(selectedItem);
+    if (!isHiraganaVocabularySelected(selectedHiraganaItem)) {
+      addHiraganaVocabulary(selectedHiraganaItem);
     } else {
-      // Find the vocabulary with the same properties as selectedItem and get its id
-      const existingVocabulary = vocabularyList.find((vocab) => {
+      // Find the vocabulary with the same properties as selectedHiraganaItem and get its id
+      const existingVocabulary = hiraganaVocabularyList.find((vocab) => {
         return (
-          vocab.character === selectedItem.character &&
-          vocab.japanese === selectedItem.japanese &&
-          vocab.pronunciation === selectedItem.pronunciation &&
-          vocab.translation === selectedItem.translation
+          vocab.character === selectedHiraganaItem.character &&
+          vocab.japanese === selectedHiraganaItem.japanese &&
+          vocab.pronunciation === selectedHiraganaItem.pronunciation &&
+          vocab.translation === selectedHiraganaItem.translation
         );
       });
 
       if (existingVocabulary) {
-        removeVocabulary(existingVocabulary.id);
+        removeHiraganaVocabulary(existingVocabulary.id);
       }
     }
     setModalShow(false);
@@ -80,13 +80,13 @@ const Alphabet = () => {
   const renderAlphabetForPage = () => {
     const startIndex = (currentPageAlphabet - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
-    return japaneseData.alphabet
+    return japaneseData.hiraganaAlphabet
       .slice(startIndex, endIndex)
       .map((item, index) => (
         <tr
           key={index}
           className={`list-items-container equal-column-width ${
-            isVocabularySelected(item) ? "selected" : ""
+            isHiraganaVocabularySelected(item) ? "selected" : ""
           }`}
           onClick={() => handleRowClick(item)}
         >
@@ -97,10 +97,10 @@ const Alphabet = () => {
             <button
               onClick={() => handleSelectVocabulary(item)}
               className={`add-button ${
-                isVocabularySelected(item) ? "selected" : ""
+                isHiraganaVocabularySelected(item) ? "selected" : ""
               }`}
             >
-              {isVocabularySelected(item) ? "X" : "Add to Vocabulary"}
+              {isHiraganaVocabularySelected(item) ? "X" : "Add to Vocabulary"}
             </button>
           )}
         </tr>
@@ -115,7 +115,7 @@ const Alphabet = () => {
 
   const handleNextPageAlphabet = () => {
     const totalPagesAlphabet = Math.ceil(
-      japaneseData.alphabet.length / ITEMS_PER_PAGE
+      japaneseData.hiraganaAlphabet.length / ITEMS_PER_PAGE
     );
     if (currentPageAlphabet < totalPagesAlphabet) {
       setCurrentPageAlphabet(currentPageAlphabet + 1);
@@ -123,7 +123,7 @@ const Alphabet = () => {
   };
 
   const totalPagesAlphabet = Math.ceil(
-    japaneseData.alphabet.length / ITEMS_PER_PAGE
+    japaneseData.hiraganaAlphabet.length / ITEMS_PER_PAGE
   );
 
   const paginationButtonAlphabet = (
@@ -160,7 +160,7 @@ const Alphabet = () => {
       </table>
 
       {/** Modal für Bildschirmbreite <= 480px */}
-      {selectedItem && windowWidth <= 480 && (
+      {selectedHiraganaItem && windowWidth <= 480 && (
         <Modal
           show={modalShow}
           onHide={() => setModalShow(false)}
@@ -169,14 +169,14 @@ const Alphabet = () => {
         >
           <Modal.Header closeButton>
             <Modal.Title>
-              {isVocabularySelected(selectedItem)
+              {isHiraganaVocabularySelected(selectedHiraganaItem)
                 ? "Added"
                 : "Add to Vocabulary"}
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>
-              {isVocabularySelected(selectedItem)
+              {isHiraganaVocabularySelected(selectedHiraganaItem)
                 ? "This item is already added."
                 : "Do you want to add this item to your vocabulary?"}
             </p>
@@ -186,7 +186,7 @@ const Alphabet = () => {
               Close
             </Button>
             <Button variant="primary" onClick={handleModalButtonClick}>
-              {isVocabularySelected(selectedItem)
+              {isHiraganaVocabularySelected(selectedHiraganaItem)
                 ? "Added"
                 : "Add to Vocabulary"}
             </Button>
@@ -199,4 +199,4 @@ const Alphabet = () => {
   );
 };
 
-export default Alphabet;
+export default HiraganaAlphabet;

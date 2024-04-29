@@ -1,1178 +1,4852 @@
 {
-  "alphabet": [
-    { "character": "あ", "pronunciation": "a", "translation": "A" },
-    { "character": "い", "pronunciation": "i", "translation": "I" },
-    { "character": "う", "pronunciation": "u", "translation": "U" },
-    { "character": "え", "pronunciation": "e", "translation": "E" },
-    { "character": "お", "pronunciation": "o", "translation": "O" },
-    { "character": "か", "pronunciation": "ka", "translation": "Ka" },
-    { "character": "き", "pronunciation": "ki", "translation": "Ki" },
-    { "character": "く", "pronunciation": "ku", "translation": "Ku" },
-    { "character": "け", "pronunciation": "ke", "translation": "Ke" },
-    { "character": "こ", "pronunciation": "ko", "translation": "Ko" },
-    { "character": "さ", "pronunciation": "sa", "translation": "Sa" },
-    { "character": "し", "pronunciation": "shi", "translation": "Shi" },
-    { "character": "す", "pronunciation": "su", "translation": "Su" },
-    { "character": "せ", "pronunciation": "se", "translation": "Se" },
-    { "character": "そ", "pronunciation": "so", "translation": "So" },
-    { "character": "た", "pronunciation": "ta", "translation": "Ta" },
-    { "character": "ち", "pronunciation": "chi", "translation": "Chi" },
-    { "character": "つ", "pronunciation": "tsu", "translation": "Tsu" },
-    { "character": "て", "pronunciation": "te", "translation": "Te" },
-    { "character": "と", "pronunciation": "to", "translation": "To" },
-    { "character": "な", "pronunciation": "na", "translation": "Na" },
-    { "character": "に", "pronunciation": "ni", "translation": "Ni" },
-    { "character": "ぬ", "pronunciation": "nu", "translation": "Nu" },
-    { "character": "ね", "pronunciation": "ne", "translation": "Ne" },
-    { "character": "の", "pronunciation": "no", "translation": "No" },
-    { "character": "は", "pronunciation": "ha", "translation": "Ha" },
-    { "character": "ひ", "pronunciation": "hi", "translation": "Hi" },
-    { "character": "ふ", "pronunciation": "fu", "translation": "Fu" },
-    { "character": "へ", "pronunciation": "he", "translation": "He" },
-    { "character": "ほ", "pronunciation": "ho", "translation": "Ho" },
-    { "character": "ま", "pronunciation": "ma", "translation": "Ma" },
-    { "character": "み", "pronunciation": "mi", "translation": "Mi" },
-    { "character": "む", "pronunciation": "mu", "translation": "Mu" },
-    { "character": "め", "pronunciation": "me", "translation": "Me" },
-    { "character": "も", "pronunciation": "mo", "translation": "Mo" },
-    { "character": "や", "pronunciation": "ya", "translation": "Ya" },
-    { "character": "ゆ", "pronunciation": "yu", "translation": "Yu" },
-    { "character": "よ", "pronunciation": "yo", "translation": "Yo" },
-    { "character": "ら", "pronunciation": "ra", "translation": "Ra" },
-    { "character": "り", "pronunciation": "ri", "translation": "Ri" },
-    { "character": "る", "pronunciation": "ru", "translation": "Ru" },
-    { "character": "れ", "pronunciation": "re", "translation": "Re" },
-    { "character": "ろ", "pronunciation": "ro", "translation": "Ro" },
-    { "character": "わ", "pronunciation": "wa", "translation": "Wa" },
-    { "character": "を", "pronunciation": "wo", "translation": "Wo" },
-    { "character": "ん", "pronunciation": "n", "translation": "N" }
+  "hiraganaAlphabet": [
+    {
+      "character": "あ",
+      "pronunciation": "a",
+      "translation": "A"
+    },
+    {
+      "character": "い",
+      "pronunciation": "i",
+      "translation": "I"
+    },
+    {
+      "character": "う",
+      "pronunciation": "u",
+      "translation": "U"
+    },
+    {
+      "character": "え",
+      "pronunciation": "e",
+      "translation": "E"
+    },
+    {
+      "character": "お",
+      "pronunciation": "o",
+      "translation": "O"
+    },
+    {
+      "character": "か",
+      "pronunciation": "ka",
+      "translation": "Ka"
+    },
+    {
+      "character": "き",
+      "pronunciation": "ki",
+      "translation": "Ki"
+    },
+    {
+      "character": "く",
+      "pronunciation": "ku",
+      "translation": "Ku"
+    },
+    {
+      "character": "け",
+      "pronunciation": "ke",
+      "translation": "Ke"
+    },
+    {
+      "character": "こ",
+      "pronunciation": "ko",
+      "translation": "Ko"
+    },
+    {
+      "character": "さ",
+      "pronunciation": "sa",
+      "translation": "Sa"
+    },
+    {
+      "character": "し",
+      "pronunciation": "shi",
+      "translation": "Shi"
+    },
+    {
+      "character": "す",
+      "pronunciation": "su",
+      "translation": "Su"
+    },
+    {
+      "character": "せ",
+      "pronunciation": "se",
+      "translation": "Se"
+    },
+    {
+      "character": "そ",
+      "pronunciation": "so",
+      "translation": "So"
+    },
+    {
+      "character": "た",
+      "pronunciation": "ta",
+      "translation": "Ta"
+    },
+    {
+      "character": "ち",
+      "pronunciation": "chi",
+      "translation": "Chi"
+    },
+    {
+      "character": "つ",
+      "pronunciation": "tsu",
+      "translation": "Tsu"
+    },
+    {
+      "character": "て",
+      "pronunciation": "te",
+      "translation": "Te"
+    },
+    {
+      "character": "と",
+      "pronunciation": "to",
+      "translation": "To"
+    },
+    {
+      "character": "な",
+      "pronunciation": "na",
+      "translation": "Na"
+    },
+    {
+      "character": "に",
+      "pronunciation": "ni",
+      "translation": "Ni"
+    },
+    {
+      "character": "ぬ",
+      "pronunciation": "nu",
+      "translation": "Nu"
+    },
+    {
+      "character": "ね",
+      "pronunciation": "ne",
+      "translation": "Ne"
+    },
+    {
+      "character": "の",
+      "pronunciation": "no",
+      "translation": "No"
+    },
+    {
+      "character": "は",
+      "pronunciation": "ha",
+      "translation": "Ha"
+    },
+    {
+      "character": "ひ",
+      "pronunciation": "hi",
+      "translation": "Hi"
+    },
+    {
+      "character": "ふ",
+      "pronunciation": "fu",
+      "translation": "Fu"
+    },
+    {
+      "character": "へ",
+      "pronunciation": "he",
+      "translation": "He"
+    },
+    {
+      "character": "ほ",
+      "pronunciation": "ho",
+      "translation": "Ho"
+    },
+    {
+      "character": "ま",
+      "pronunciation": "ma",
+      "translation": "Ma"
+    },
+    {
+      "character": "み",
+      "pronunciation": "mi",
+      "translation": "Mi"
+    },
+    {
+      "character": "む",
+      "pronunciation": "mu",
+      "translation": "Mu"
+    },
+    {
+      "character": "め",
+      "pronunciation": "me",
+      "translation": "Me"
+    },
+    {
+      "character": "も",
+      "pronunciation": "mo",
+      "translation": "Mo"
+    },
+    {
+      "character": "や",
+      "pronunciation": "ya",
+      "translation": "Ya"
+    },
+    {
+      "character": "ゆ",
+      "pronunciation": "yu",
+      "translation": "Yu"
+    },
+    {
+      "character": "よ",
+      "pronunciation": "yo",
+      "translation": "Yo"
+    },
+    {
+      "character": "ら",
+      "pronunciation": "ra",
+      "translation": "Ra"
+    },
+    {
+      "character": "り",
+      "pronunciation": "ri",
+      "translation": "Ri"
+    },
+    {
+      "character": "る",
+      "pronunciation": "ru",
+      "translation": "Ru"
+    },
+    {
+      "character": "れ",
+      "pronunciation": "re",
+      "translation": "Re"
+    },
+    {
+      "character": "ろ",
+      "pronunciation": "ro",
+      "translation": "Ro"
+    },
+    {
+      "character": "わ",
+      "pronunciation": "wa",
+      "translation": "Wa"
+    },
+    {
+      "character": "を",
+      "pronunciation": "wo",
+      "translation": "Wo"
+    },
+    {
+      "character": "ん",
+      "pronunciation": "n",
+      "translation": "N"
+    }
+  ],
+  "katakanaAlphabet": [
+    {
+      "character": "ア",
+      "pronunciation": "a",
+      "translation": "A"
+    },
+    {
+      "character": "イ",
+      "pronunciation": "i",
+      "translation": "I"
+    },
+    {
+      "character": "ウ",
+      "pronunciation": "u",
+      "translation": "U"
+    },
+    {
+      "character": "エ",
+      "pronunciation": "e",
+      "translation": "E"
+    },
+    {
+      "character": "オ",
+      "pronunciation": "o",
+      "translation": "O"
+    },
+    {
+      "character": "カ",
+      "pronunciation": "ka",
+      "translation": "Ka"
+    },
+    {
+      "character": "キ",
+      "pronunciation": "ki",
+      "translation": "Ki"
+    },
+    {
+      "character": "ク",
+      "pronunciation": "ku",
+      "translation": "Ku"
+    },
+    {
+      "character": "ケ",
+      "pronunciation": "ke",
+      "translation": "Ke"
+    },
+    {
+      "character": "コ",
+      "pronunciation": "ko",
+      "translation": "Ko"
+    },
+    {
+      "character": "サ",
+      "pronunciation": "sa",
+      "translation": "Sa"
+    },
+    {
+      "character": "シ",
+      "pronunciation": "shi",
+      "translation": "Shi"
+    },
+    {
+      "character": "ス",
+      "pronunciation": "su",
+      "translation": "Su"
+    },
+    {
+      "character": "セ",
+      "pronunciation": "se",
+      "translation": "Se"
+    },
+    {
+      "character": "ソ",
+      "pronunciation": "so",
+      "translation": "So"
+    },
+    {
+      "character": "タ",
+      "pronunciation": "ta",
+      "translation": "Ta"
+    },
+    {
+      "character": "チ",
+      "pronunciation": "chi",
+      "translation": "Chi"
+    },
+    {
+      "character": "ツ",
+      "pronunciation": "tsu",
+      "translation": "Tsu"
+    },
+    {
+      "character": "テ",
+      "pronunciation": "te",
+      "translation": "Te"
+    },
+    {
+      "character": "ト",
+      "pronunciation": "to",
+      "translation": "To"
+    },
+    {
+      "character": "ナ",
+      "pronunciation": "na",
+      "translation": "Na"
+    },
+    {
+      "character": "ニ",
+      "pronunciation": "ni",
+      "translation": "Ni"
+    },
+    {
+      "character": "ヌ",
+      "pronunciation": "nu",
+      "translation": "Nu"
+    },
+    {
+      "character": "ネ",
+      "pronunciation": "ne",
+      "translation": "Ne"
+    },
+    {
+      "character": "ノ",
+      "pronunciation": "no",
+      "translation": "No"
+    },
+    {
+      "character": "ハ",
+      "pronunciation": "ha",
+      "translation": "Ha"
+    },
+    {
+      "character": "ヒ",
+      "pronunciation": "hi",
+      "translation": "Hi"
+    },
+    {
+      "character": "フ",
+      "pronunciation": "fu",
+      "translation": "Fu"
+    },
+    {
+      "character": "ヘ",
+      "pronunciation": "he",
+      "translation": "He"
+    },
+    {
+      "character": "ホ",
+      "pronunciation": "ho",
+      "translation": "Ho"
+    },
+    {
+      "character": "マ",
+      "pronunciation": "ma",
+      "translation": "Ma"
+    },
+    {
+      "character": "ミ",
+      "pronunciation": "mi",
+      "translation": "Mi"
+    },
+    {
+      "character": "ム",
+      "pronunciation": "mu",
+      "translation": "Mu"
+    },
+    {
+      "character": "メ",
+      "pronunciation": "me",
+      "translation": "Me"
+    },
+    {
+      "character": "モ",
+      "pronunciation": "mo",
+      "translation": "Mo"
+    },
+    {
+      "character": "ヤ",
+      "pronunciation": "ya",
+      "translation": "Ya"
+    },
+    {
+      "character": "ユ",
+      "pronunciation": "yu",
+      "translation": "Yu"
+    },
+    {
+      "character": "ヨ",
+      "pronunciation": "yo",
+      "translation": "Yo"
+    },
+    {
+      "character": "ラ",
+      "pronunciation": "ra",
+      "translation": "Ra"
+    },
+    {
+      "character": "リ",
+      "pronunciation": "ri",
+      "translation": "Ri"
+    },
+    {
+      "character": "ル",
+      "pronunciation": "ru",
+      "translation": "Ru"
+    },
+    {
+      "character": "レ",
+      "pronunciation": "re",
+      "translation": "Re"
+    },
+    {
+      "character": "ロ",
+      "pronunciation": "ro",
+      "translation": "Ro"
+    },
+    {
+      "character": "ワ",
+      "pronunciation": "wa",
+      "translation": "Wa"
+    },
+    {
+      "character": "ヲ",
+      "pronunciation": "wo",
+      "translation": "Wo"
+    },
+    {
+      "character": "ン",
+      "pronunciation": "n",
+      "translation": "N"
+    }
   ],
   "vocabulary": [
     {
-      "japanese": "ありがとう",
+      "japaneseHiragana": "ありがとう",
+      "japaneseKatakana": "アリガトウ",
       "pronunciation": "arigatou",
-      "translation": { "german": "Danke", "english": "Thank you" }
+      "translation": {
+        "german": "Danke",
+        "english": "Thank you"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "おはよう",
+      "japaneseHiragana": "おはよう",
+      "japaneseKatakana": "オハヨウ",
       "pronunciation": "ohayou",
-      "translation": { "german": "Guten Morgen", "english": "Good morning" }
+      "translation": {
+        "german": "Guten Morgen",
+        "english": "Good morning"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "こんにちは",
+      "japaneseHiragana": "こんにちは",
+      "japaneseKatakana": "コンニチワ",
       "pronunciation": "konnichiwa",
-      "translation": { "german": "Guten Tag", "english": "Good afternoon" }
+      "translation": {
+        "german": "Guten Tag",
+        "english": "Good afternoon"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "こんばんは",
+      "japaneseHiragana": "こんばんは",
+      "japaneseKatakana": "コンバンワ",
       "pronunciation": "konbanwa",
-      "translation": { "german": "Guten Abend", "english": "Good evening" }
+      "translation": {
+        "german": "Guten Abend",
+        "english": "Good evening"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "はい",
+      "japaneseHiragana": "はい",
+      "japaneseKatakana": "ハイ",
       "pronunciation": "hai",
-      "translation": { "german": "Ja", "english": "Yes" }
+      "translation": {
+        "german": "Ja",
+        "english": "Yes"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "いいえ",
+      "japaneseHiragana": "いいえ",
+      "japaneseKatakana": "イイエ",
       "pronunciation": "iie",
-      "translation": { "german": "Nein", "english": "No" }
+      "translation": {
+        "german": "Nein",
+        "english": "No"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "すみません",
+      "japaneseHiragana": "すみません",
+      "japaneseKatakana": "スミマセン",
       "pronunciation": "sumimasen",
-      "translation": { "german": "Entschuldigung", "english": "Excuse me" }
+      "translation": {
+        "german": "Entschuldigung",
+        "english": "Excuse me"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "ごめんなさい",
-      "pronunciation": "gomen nasai",
-      "translation": { "german": "Es tut mir leid", "english": "I'm sorry" }
+      "japaneseHiragana": "おはようございます",
+      "japaneseKatakana": "オハヨウゴザイマス",
+      "pronunciation": "ohayou gozaimasu",
+      "translation": {
+        "german": "Guten Morgen (höflich)",
+        "english": "Good morning (polite)"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "お願いします",
+      "japaneseHiragana": "こんばんは",
+      "japaneseKatakana": "コンバンワ",
+      "pronunciation": "konbanwa",
+      "translation": {
+        "german": "Guten Abend",
+        "english": "Good evening"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おやすみなさい",
+      "japaneseKatakana": "オヤスミナサイ",
+      "pronunciation": "oyasumi nasai",
+      "translation": {
+        "german": "Gute Nacht",
+        "english": "Good night"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "さようなら",
+      "japaneseKatakana": "サヨウナラ",
+      "pronunciation": "sayounara",
+      "translation": {
+        "german": "Auf Wiedersehen",
+        "english": "Goodbye"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "はい",
+      "japaneseKatakana": "ハイ",
+      "pronunciation": "hai",
+      "translation": {
+        "german": "Ja",
+        "english": "Yes"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "いいえ",
+      "japaneseKatakana": "イイエ",
+      "pronunciation": "iie",
+      "translation": {
+        "german": "Nein",
+        "english": "No"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "すみません",
+      "japaneseKatakana": "スミマセン",
+      "pronunciation": "sumimasen",
+      "translation": {
+        "german": "Entschuldigung",
+        "english": "Excuse me"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "わたし",
+      "japaneseKatakana": "ワタシ",
+      "pronunciation": "watashi",
+      "translation": {
+        "german": "Ich",
+        "english": "I"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "あなた",
+      "japaneseKatakana": "アナタ",
+      "pronunciation": "anata",
+      "translation": {
+        "german": "Du",
+        "english": "You"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "かわいい",
+      "japaneseKatakana": "カワイイ",
+      "pronunciation": "kawaii",
+      "translation": {
+        "german": "Niedlich",
+        "english": "Cute"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "うれしい",
+      "japaneseKatakana": "ウレシイ",
+      "pronunciation": "ureshii",
+      "translation": {
+        "german": "Glücklich",
+        "english": "Happy"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "かなしい",
+      "japaneseKatakana": "カナシイ",
+      "pronunciation": "kanashii",
+      "translation": {
+        "german": "Traurig",
+        "english": "Sad"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おねがいします",
+      "japaneseKatakana": "オネガイシマス",
       "pronunciation": "onegaishimasu",
-      "translation": { "german": "Bitte", "english": "Please" }
+      "translation": {
+        "german": "Bitte (höflich)",
+        "english": "Please (polite)"
+      },
+      "categories": [
+        "Alltag"
+      ]
     },
     {
-      "japanese": "はじめまして",
+      "japaneseHiragana": "どうぞ",
+      "japaneseKatakana": "ドウゾ",
+      "pronunciation": "douzo",
+      "translation": {
+        "german": "Bitte (Angebot)",
+        "english": "Here you go"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "ありがとう",
+      "japaneseKatakana": "アリガトウ",
+      "pronunciation": "arigatou",
+      "translation": {
+        "german": "Danke",
+        "english": "Thank you"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "ごめんなさい",
+      "japaneseKatakana": "ゴメンナサイ",
+      "pronunciation": "gomen nasai",
+      "translation": {
+        "german": "Entschuldigung (formell)",
+        "english": "I'm sorry (formal)"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "はじめまして",
+      "japaneseKatakana": "ハジメマシテ",
       "pronunciation": "hajimemashite",
       "translation": {
-        "german": "Schön Sie kennenzulernen",
+        "german": "Freut mich, Sie kennenzulernen",
         "english": "Nice to meet you"
-      }
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "さようなら",
+      "japaneseKatakana": "サヨウナラ",
+      "pronunciation": "sayounara",
+      "translation": {
+        "german": "Auf Wiedersehen",
+        "english": "Goodbye"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "いってきます",
+      "japaneseKatakana": "イッテキマス",
+      "pronunciation": "itte kimasu",
+      "translation": {
+        "german": "Bis später (wörtl.: Ich gehe und komme zurück)",
+        "english": "I'll go and come back"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "いってらっしゃい",
+      "japaneseKatakana": "イッテラッシャイ",
+      "pronunciation": "itterasshai",
+      "translation": {
+        "german": "Bis später (wörtl.: Geh und komm zurück)",
+        "english": "Go and come back"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "ただいま",
+      "japaneseKatakana": "タダイマ",
+      "pronunciation": "tadaima",
+      "translation": {
+        "german": "Ich bin zurück (wörtl.: Gerade jetzt)",
+        "english": "I'm back (literally: Just now)"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おかえりなさい",
+      "japaneseKatakana": "オカエリナサイ",
+      "pronunciation": "okaeri nasai",
+      "translation": {
+        "german": "Willkommen zurück (höflich)",
+        "english": "Welcome back (polite)"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "いただきます",
+      "japaneseKatakana": "イタダキマス",
+      "pronunciation": "itadakimasu",
+      "translation": {
+        "german": "Guten Appetit (wörtl.: Ich nehme demütig an)",
+        "english": "Bon appétit (literally: I humbly receive)"
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "ごちそうさまでした",
+      "japaneseKatakana": "ゴチソウサマデシタ",
+      "pronunciation": "gochisou sama deshita",
+      "translation": {
+        "german": "Danke für das Essen (wörtl.: Es war ein Festmahl)",
+        "english": "Thank you for the meal (literally: It was a feast)"
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おいしい",
+      "japaneseKatakana": "オイシイ",
+      "pronunciation": "oishii",
+      "translation": {
+        "german": "Lecker",
+        "english": "Delicious"
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
     },
     {
-      "japanese": "なまえ",
-      "pronunciation": "namae",
-      "translation": { "german": "Name", "english": "Name" }
-    },
-    {
-      "japanese": "がっこう",
-      "pronunciation": "gakkou",
-      "translation": { "german": "Schule", "english": "School" }
-    },
-    {
-      "japanese": "いえ",
-      "pronunciation": "ie",
-      "translation": { "german": "Haus", "english": "House/Home" }
-    },
-    {
-      "japanese": "でんわ",
-      "pronunciation": "denwa",
-      "translation": { "german": "Telefon", "english": "Telephone" }
-    },
-    {
-      "japanese": "ほん",
-      "pronunciation": "hon",
-      "translation": { "german": "Buch", "english": "Book" }
-    },
-    {
-      "japanese": "たべもの",
-      "pronunciation": "tabemono",
-      "translation": { "german": "Essen", "english": "Food" }
-    },
-    {
-      "japanese": "みず",
-      "pronunciation": "mizu",
-      "translation": { "german": "Wasser", "english": "Water" }
-    },
-    {
-      "japanese": "あかい",
-      "pronunciation": "akai",
-      "translation": { "german": "Rot", "english": "Red" }
-    },
-    {
-      "japanese": "あおい",
-      "pronunciation": "aoi",
-      "translation": { "german": "Blau", "english": "Blue" }
-    },
-    {
-      "japanese": "しろい",
-      "pronunciation": "shiroi",
-      "translation": { "german": "Weiß", "english": "White" }
-    },
-    {
-      "japanese": "くろい",
-      "pronunciation": "kuroi",
-      "translation": { "german": "Schwarz", "english": "Black" }
-    },
-    {
-      "japanese": "きいろい",
-      "pronunciation": "kiiroi",
-      "translation": { "german": "Gelb", "english": "Yellow" }
-    },
-    {
-      "japanese": "みどり",
-      "pronunciation": "midori",
-      "translation": { "german": "Grün", "english": "Green" }
-    },
-    {
-      "japanese": "くさ",
-      "pronunciation": "kusa",
-      "translation": { "german": "Gras", "english": "Grass" }
-    },
-    {
-      "japanese": "き",
-      "pronunciation": "ki",
-      "translation": { "german": "Baum", "english": "Tree" }
-    },
-    {
-      "japanese": "さくらんぼ",
-      "pronunciation": "sakuranbo",
-      "translation": { "german": "Kirsche", "english": "Cherry" }
-    },
-    {
-      "japanese": "くだもの",
-      "pronunciation": "kudamono",
-      "translation": { "german": "Frucht", "english": "Fruit" }
-    },
-    {
-      "japanese": "いぬ",
-      "pronunciation": "inu",
-      "translation": { "german": "Hund", "english": "Dog" }
-    },
-    {
-      "japanese": "ねこ",
-      "pronunciation": "neko",
-      "translation": { "german": "Katze", "english": "Cat" }
-    },
-    {
-      "japanese": "きつね",
-      "pronunciation": "kitsune",
-      "translation": { "german": "Fuchs", "english": "Fox" }
-    },
-    {
-      "japanese": "うさぎ",
-      "pronunciation": "usagi",
-      "translation": { "german": "Hase", "english": "Rabbit" }
-    },
-    {
-      "japanese": "くま",
-      "pronunciation": "kuma",
-      "translation": { "german": "Bär", "english": "Bear" }
-    },
-    {
-      "japanese": "さかな",
-      "pronunciation": "sakana",
-      "translation": { "german": "Fisch", "english": "Fish" }
-    },
-    {
-      "japanese": "とり",
-      "pronunciation": "tori",
-      "translation": { "german": "Vogel", "english": "Bird" }
-    },
-    {
-      "japanese": "ほし",
-      "pronunciation": "hoshi",
-      "translation": { "german": "Stern", "english": "Star" }
-    },
-    {
-      "japanese": "つき",
-      "pronunciation": "tsuki",
-      "translation": { "german": "Mond", "english": "Moon" }
-    },
-    {
-      "japanese": "はな",
-      "pronunciation": "hana",
-      "translation": { "german": "Blume", "english": "Flower" }
-    },
-    {
-      "japanese": "みち",
-      "pronunciation": "michi",
-      "translation": { "german": "Straße", "english": "Street" }
-    },
-    {
-      "japanese": "がくせい",
-      "pronunciation": "gakusei",
-      "translation": { "german": "Student", "english": "Student" }
-    },
-    {
-      "japanese": "せんせい",
-      "pronunciation": "sensei",
-      "translation": { "german": "Lehrer", "english": "Teacher" }
-    },
-    {
-      "japanese": "いしゃ",
-      "pronunciation": "isha",
-      "translation": { "german": "Arzt", "english": "Doctor" }
-    },
-    {
-      "japanese": "けんしゅ",
-      "pronunciation": "kenshu",
-      "translation": { "german": "Athlet", "english": "Athlete" }
-    },
-    {
-      "japanese": "かんこく",
-      "pronunciation": "kankoku",
-      "translation": { "german": "Korea", "english": "Korea" }
-    },
-    {
-      "japanese": "にほん",
-      "pronunciation": "nihon",
-      "translation": { "german": "Japan", "english": "Japan" }
-    },
-    {
-      "japanese": "ちゅうごく",
-      "pronunciation": "chuugoku",
-      "translation": { "german": "China", "english": "China" }
-    },
-    {
-      "japanese": "イギリス",
-      "pronunciation": "igirisu",
-      "translation": { "german": "Großbritannien", "english": "United Kingdom" }
-    },
-    {
-      "japanese": "アメリカ",
-      "pronunciation": "amerika",
-      "translation": { "german": "Amerika", "english": "America" }
-    },
-    {
-      "japanese": "ドイツ",
-      "pronunciation": "doitsu",
-      "translation": { "german": "Deutschland", "english": "Germany" }
-    },
-    {
-      "japanese": "ひと",
-      "pronunciation": "hito",
-      "translation": { "german": "Mensch", "english": "Person" }
-    },
-    {
-      "japanese": "こども",
-      "pronunciation": "kodomo",
-      "translation": { "german": "Kind", "english": "Child" }
-    },
-    {
-      "japanese": "おとな",
-      "pronunciation": "otona",
-      "translation": { "german": "Erwachsener", "english": "Adult" }
-    },
-    {
-      "japanese": "おじいさん",
-      "pronunciation": "ojiisan",
-      "translation": { "german": "Großvater", "english": "Grandfather" }
-    },
-    {
-      "japanese": "おばあさん",
-      "pronunciation": "obaasan",
-      "translation": { "german": "Großmutter", "english": "Grandmother" }
-    },
-    {
-      "japanese": "おとうと",
-      "pronunciation": "otouto",
-      "translation": { "german": "Bruder", "english": "Brother" }
-    },
-    {
-      "japanese": "いもうと",
-      "pronunciation": "imouto",
-      "translation": { "german": "Schwester", "english": "Sister" }
-    },
-    {
-      "japanese": "あに",
-      "pronunciation": "ani",
-      "translation": { "german": "Älterer Bruder", "english": "Elder brother" }
-    },
-    {
-      "japanese": "おねえさん",
-      "pronunciation": "oneesan",
-      "translation": { "german": "Ältere Schwester", "english": "Elder sister" }
-    },
-    {
-      "japanese": "いぬ",
-      "pronunciation": "inu",
-      "translation": { "german": "Hund", "english": "Dog" }
-    },
-    {
-      "japanese": "ねこ",
-      "pronunciation": "neko",
-      "translation": { "german": "Katze", "english": "Cat" }
-    },
-    {
-      "japanese": "きょうだい",
-      "pronunciation": "kyoudai",
-      "translation": { "german": "Geschwister", "english": "Siblings" }
-    },
-    {
-      "japanese": "かぞく",
-      "pronunciation": "kazoku",
-      "translation": { "german": "Familie", "english": "Family" }
-    },
-    {
-      "japanese": "さくら",
-      "pronunciation": "sakura",
-      "translation": { "german": "Kirschblüte", "english": "Cherry blossom" }
-    },
-    {
-      "japanese": "うま",
-      "pronunciation": "uma",
-      "translation": { "german": "Pferd", "english": "Horse" }
-    },
-    {
-      "japanese": "ゾウ",
-      "pronunciation": "zou",
-      "translation": { "german": "Elefant", "english": "Elephant" }
-    },
-    {
-      "japanese": "かめ",
-      "pronunciation": "kame",
-      "translation": { "german": "Schildkröte", "english": "Turtle" }
-    },
-    {
-      "japanese": "しょくどう",
-      "pronunciation": "shokudou",
-      "translation": { "german": "Kantine", "english": "Cafeteria" }
-    },
-    {
-      "japanese": "やま",
-      "pronunciation": "yama",
-      "translation": { "german": "Berg", "english": "Mountain" }
-    },
-    {
-      "japanese": "きっさてん",
-      "pronunciation": "kissaten",
-      "translation": { "german": "Café", "english": "Cafe" }
-    },
-    {
-      "japanese": "いく",
-      "pronunciation": "iku",
-      "translation": { "german": "Gehen", "english": "Go" }
-    },
-    {
-      "japanese": "くる",
-      "pronunciation": "kuru",
-      "translation": { "german": "Kommen", "english": "Come" }
-    },
-    {
-      "japanese": "みる",
-      "pronunciation": "miru",
-      "translation": { "german": "Sehen", "english": "See" }
-    },
-    {
-      "japanese": "きく",
-      "pronunciation": "kiku",
-      "translation": { "german": "Hören", "english": "Listen" }
-    },
-    {
-      "japanese": "はなす",
-      "pronunciation": "hanasu",
-      "translation": { "german": "Sprechen", "english": "Speak" }
-    },
-    {
-      "japanese": "おくる",
-      "pronunciation": "okuru",
-      "translation": { "german": "Senden", "english": "Send" }
-    },
-    {
-      "japanese": "かう",
-      "pronunciation": "kau",
-      "translation": { "german": "Kaufen", "english": "Buy" }
-    },
-    {
-      "japanese": "たべる",
+      "japaneseHiragana": "たべる",
+      "japaneseKatakana": "タベル",
       "pronunciation": "taberu",
-      "translation": { "german": "Essen", "english": "Eat" }
+      "translation": {
+        "german": "Essen",
+        "english": "To eat"
+      },
+      "categories": [
+        "Essen",
+        "Verben"
+      ]
     },
     {
-      "japanese": "のむ",
+      "japaneseHiragana": "のむ",
+      "japaneseKatakana": "ノム",
       "pronunciation": "nomu",
-      "translation": { "german": "Trinken", "english": "Drink" }
-    },
-    {
-      "japanese": "ねる",
-      "pronunciation": "neru",
-      "translation": { "german": "Schlafen", "english": "Sleep" }
-    },
-    {
-      "japanese": "あるく",
-      "pronunciation": "aruku",
-      "translation": { "german": "Gehen", "english": "Walk" }
-    },
-    {
-      "japanese": "まつ",
-      "pronunciation": "matsu",
-      "translation": { "german": "Warten", "english": "Wait" }
-    },
-    {
-      "japanese": "する",
-      "pronunciation": "suru",
-      "translation": { "german": "Machen", "english": "Do" }
-    },
-    {
-      "japanese": "ある",
-      "pronunciation": "aru",
-      "translation": { "german": "Es gibt", "english": "There is/are" }
-    },
-    {
-      "japanese": "いる",
-      "pronunciation": "iru",
       "translation": {
-        "german": "Sein (für Lebewesen)",
-        "english": "Be (for living things)"
-      }
+        "german": "Trinken",
+        "english": "To drink"
+      },
+      "categories": [
+        "Essen",
+        "Verben"
+      ]
     },
     {
-      "japanese": "みせる",
-      "pronunciation": "miseru",
-      "translation": { "german": "Zeigen", "english": "Show" }
-    },
-    {
-      "japanese": "かえる",
-      "pronunciation": "kaeru",
-      "translation": { "german": "Zurückkehren", "english": "Return" }
-    },
-    {
-      "japanese": "ひく",
-      "pronunciation": "hiku",
-      "translation": {
-        "german": "Spielen (ein Instrument)",
-        "english": "Play (an instrument)"
-      }
-    },
-    {
-      "japanese": "およぐ",
-      "pronunciation": "oyogu",
-      "translation": { "german": "Schwimmen", "english": "Swim" }
-    },
-    {
-      "japanese": "よむ",
-      "pronunciation": "yomu",
-      "translation": { "german": "Lesen", "english": "Read" }
-    },
-    {
-      "japanese": "かく",
-      "pronunciation": "kaku",
-      "translation": { "german": "Schreiben", "english": "Write" }
-    },
-    {
-      "japanese": "ふく",
-      "pronunciation": "fuku",
-      "translation": { "german": "Anziehen", "english": "Wear" }
-    },
-    {
-      "japanese": "とる",
-      "pronunciation": "toru",
-      "translation": { "german": "Nehmen", "english": "Take" }
-    },
-    {
-      "japanese": "はな",
-      "pronunciation": "hana",
-      "translation": { "german": "Blume", "english": "Flower" }
-    },
-    {
-      "japanese": "みず",
-      "pronunciation": "mizu",
-      "translation": { "german": "Wasser", "english": "Water" }
-    },
-    {
-      "japanese": "にく",
-      "pronunciation": "niku",
-      "translation": { "german": "Fleisch", "english": "Meat" }
-    },
-    {
-      "japanese": "くだもの",
-      "pronunciation": "kudamono",
-      "translation": { "german": "Obst", "english": "Fruit" }
-    },
-    {
-      "japanese": "やさい",
-      "pronunciation": "yasai",
-      "translation": { "german": "Gemüse", "english": "Vegetable" }
-    },
-    {
-      "japanese": "とけい",
-      "pronunciation": "tokei",
-      "translation": { "german": "Uhr", "english": "Clock" }
-    },
-    {
-      "japanese": "くつ",
-      "pronunciation": "kutsu",
-      "translation": { "german": "Schuhe", "english": "Shoes" }
-    },
-    {
-      "japanese": "ほんや",
-      "pronunciation": "honya",
-      "translation": { "german": "Buchhandlung", "english": "Bookstore" }
-    },
-    {
-      "japanese": "すし",
-      "pronunciation": "sushi",
-      "translation": { "german": "Sushi", "english": "Sushi" }
-    },
-    {
-      "japanese": "ねこ",
-      "pronunciation": "neko",
-      "translation": { "german": "Katze", "english": "Cat" }
-    },
-    {
-      "japanese": "いぬ",
-      "pronunciation": "inu",
-      "translation": { "german": "Hund", "english": "Dog" }
-    },
-    {
-      "japanese": "うみ",
-      "pronunciation": "umi",
-      "translation": { "german": "Meer", "english": "Sea" }
-    },
-    {
-      "japanese": "やま",
-      "pronunciation": "yama",
-      "translation": { "german": "Berg", "english": "Mountain" }
-    },
-    {
-      "japanese": "あめ",
-      "pronunciation": "ame",
-      "translation": { "german": "Regen", "english": "Rain" }
-    },
-    {
-      "japanese": "ひ",
-      "pronunciation": "hi",
-      "translation": { "german": "Sonne", "english": "Sun" }
-    },
-    {
-      "japanese": "かさ",
-      "pronunciation": "kasa",
-      "translation": { "german": "Regenschirm", "english": "Umbrella" }
-    },
-    {
-      "japanese": "あか",
-      "pronunciation": "aka",
-      "translation": { "german": "Rot", "english": "Red" }
-    },
-    {
-      "japanese": "あお",
-      "pronunciation": "ao",
-      "translation": { "german": "Blau", "english": "Blue" }
-    },
-    {
-      "japanese": "しろ",
-      "pronunciation": "shiro",
-      "translation": { "german": "Weiß", "english": "White" }
-    },
-    {
-      "japanese": "くろ",
-      "pronunciation": "kuro",
-      "translation": { "german": "Schwarz", "english": "Black" }
-    },
-    {
-      "japanese": "えんぴつ",
-      "pronunciation": "enpitsu",
-      "translation": { "german": "Bleistift", "english": "Pencil" }
-    },
-    {
-      "japanese": "しんぶん",
-      "pronunciation": "shinbun",
-      "translation": { "german": "Zeitung", "english": "Newspaper" }
-    },
-    {
-      "japanese": "テーブル",
-      "pronunciation": "teeburu",
-      "translation": { "german": "Tisch", "english": "Table" }
-    },
-    {
-      "japanese": "いす",
-      "pronunciation": "isu",
-      "translation": { "german": "Stuhl", "english": "Chair" }
-    },
-    {
-      "japanese": "ほん",
-      "pronunciation": "hon",
-      "translation": { "german": "Buch", "english": "Book" }
-    },
-    {
-      "japanese": "テレビ",
-      "pronunciation": "terebi",
-      "translation": { "german": "Fernseher", "english": "Television" }
-    },
-    {
-      "japanese": "てがみ",
-      "pronunciation": "tegami",
-      "translation": { "german": "Brief", "english": "Letter" }
-    },
-    {
-      "japanese": "アイスクリーム",
-      "pronunciation": "aisukuriimu",
-      "translation": { "german": "Eiscreme", "english": "Ice cream" }
-    },
-    {
-      "japanese": "くつした",
-      "pronunciation": "kutsushita",
-      "translation": { "german": "Socken", "english": "Socks" }
-    },
-    {
-      "japanese": "シャツ",
-      "pronunciation": "shatsu",
-      "translation": { "german": "Hemd/T-Shirt", "english": "Shirt/T-shirt" }
-    },
-    {
-      "japanese": "スカート",
-      "pronunciation": "sukaato",
-      "translation": { "german": "Rock", "english": "Skirt" }
-    },
-    {
-      "japanese": "ズボン",
-      "pronunciation": "zubon",
-      "translation": { "german": "Hose", "english": "Trousers" }
-    },
-    {
-      "japanese": "くつ",
-      "pronunciation": "kutsu",
-      "translation": { "german": "Schuhe", "english": "Shoes" }
-    },
-    {
-      "japanese": "ぼうし",
-      "pronunciation": "boushi",
-      "translation": { "german": "Hut", "english": "Hat" }
-    },
-    {
-      "japanese": "めがね",
-      "pronunciation": "megane",
-      "translation": { "german": "Brille", "english": "Glasses" }
-    },
-    {
-      "japanese": "くるま",
+      "japaneseHiragana": "くるま",
+      "japaneseKatakana": "クルマ",
       "pronunciation": "kuruma",
-      "translation": { "german": "Auto", "english": "Car" }
-    },
-    {
-      "japanese": "じてんしゃ",
-      "pronunciation": "jitensha",
-      "translation": { "german": "Fahrrad", "english": "Bicycle" }
-    },
-    {
-      "japanese": "いち",
-      "pronunciation": "ichi",
-      "translation": { "german": "Eins", "english": "One" }
-    },
-    {
-      "japanese": "に",
-      "pronunciation": "ni",
-      "translation": { "german": "Zwei", "english": "Two" }
-    },
-    {
-      "japanese": "さん",
-      "pronunciation": "san",
-      "translation": { "german": "Drei", "english": "Three" }
-    },
-    {
-      "japanese": "よん",
-      "pronunciation": "yon",
-      "translation": { "german": "Vier", "english": "Four" }
-    },
-    {
-      "japanese": "ご",
-      "pronunciation": "go",
-      "translation": { "german": "Fünf", "english": "Five" }
-    },
-    {
-      "japanese": "ろく",
-      "pronunciation": "roku",
-      "translation": { "german": "Sechs", "english": "Six" }
-    },
-    {
-      "japanese": "しち",
-      "pronunciation": "shichi",
-      "translation": { "german": "Sieben", "english": "Seven" }
-    },
-    {
-      "japanese": "はち",
-      "pronunciation": "hachi",
-      "translation": { "german": "Acht", "english": "Eight" }
-    },
-    {
-      "japanese": "きゅう",
-      "pronunciation": "kyuu",
-      "translation": { "german": "Neun", "english": "Nine" }
-    },
-    {
-      "japanese": "じゅう",
-      "pronunciation": "juu",
-      "translation": { "german": "Zehn", "english": "Ten" }
-    },
-    {
-      "japanese": "ひこうき",
-      "pronunciation": "hikouki",
-      "translation": { "german": "Flugzeug", "english": "Airplane" }
-    },
-    {
-      "japanese": "くうこう",
-      "pronunciation": "kuukou",
-      "translation": { "german": "Flughafen", "english": "Airport" }
-    },
-    {
-      "japanese": "りょうり",
-      "pronunciation": "ryouri",
-      "translation": { "german": "Kochen, Gericht", "english": "Cooking, Dish" }
-    },
-    {
-      "japanese": "はし",
-      "pronunciation": "hashi",
-      "translation": { "german": "Essstäbchen", "english": "Chopsticks" }
-    },
-    {
-      "japanese": "ふつう",
-      "pronunciation": "futsuu",
       "translation": {
-        "german": "Normal, Durchschnittlich",
-        "english": "Normal, Average"
-      }
+        "german": "Auto",
+        "english": "Car"
+      },
+      "categories": [
+        "Gegenstände",
+        "Verkehr"
+      ]
     },
     {
-      "japanese": "きょうしつ",
-      "pronunciation": "kyoushitsu",
-      "translation": { "german": "Klassenzimmer", "english": "Classroom" }
-    },
-    {
-      "japanese": "へや",
-      "pronunciation": "heya",
-      "translation": { "german": "Zimmer", "english": "Room" }
-    },
-    {
-      "japanese": "たたみ",
-      "pronunciation": "tatami",
-      "translation": { "german": "Tatami (Matten)", "english": "Tatami (mats)" }
-    },
-    {
-      "japanese": "れいぞうこ",
-      "pronunciation": "reizouko",
-      "translation": { "german": "Kühlschrank", "english": "Refrigerator" }
-    },
-    {
-      "japanese": "れんしゅう",
-      "pronunciation": "renshuu",
-      "translation": { "german": "Übung", "english": "Practice" }
-    },
-    {
-      "japanese": "しょくどう",
-      "pronunciation": "shokudou",
+      "japaneseHiragana": "ほん",
+      "japaneseKatakana": "ホン",
+      "pronunciation": "hon",
       "translation": {
-        "german": "Mensa, Speisesaal",
-        "english": "Cafeteria, Dining hall"
-      }
+        "german": "Buch",
+        "english": "Book"
+      },
+      "categories": [
+        "Gegenstände",
+        "Bildung"
+      ]
     },
     {
-      "japanese": "じゅぎょう",
-      "pronunciation": "jugyou",
+      "japaneseHiragana": "けいたいでんわ",
+      "japaneseKatakana": "ケイタイデンワ",
+      "pronunciation": "keitai denwa",
       "translation": {
-        "german": "Unterricht, Klasse",
-        "english": "Lesson, Class"
-      }
+        "german": "Handy",
+        "english": "Mobile phone"
+      },
+      "categories": [
+        "Gegenstände",
+        "Technologie"
+      ]
     },
     {
-      "japanese": "きっさてん",
-      "pronunciation": "kissaten",
-      "translation": { "german": "Café", "english": "Café" }
-    },
-    {
-      "japanese": "かいぎしつ",
-      "pronunciation": "kaigishitsu",
-      "translation": { "german": "Konferenzraum", "english": "Conference room" }
-    },
-    {
-      "japanese": "きょうかしょ",
-      "pronunciation": "kyoukasho",
-      "translation": { "german": "Lehrbuch", "english": "Textbook" }
-    },
-    {
-      "japanese": "がっこう",
-      "pronunciation": "gakkou",
-      "translation": { "german": "Schule", "english": "School" }
-    },
-    {
-      "japanese": "がっこういん",
-      "pronunciation": "gakkouin",
-      "translation": { "german": "Lehrer", "english": "Teacher" }
-    },
-    {
-      "japanese": "おんせん",
-      "pronunciation": "onsen",
+      "japaneseHiragana": "けいさつ",
+      "japaneseKatakana": "ケイサツ",
+      "pronunciation": "keisatsu",
       "translation": {
-        "german": "Heißquelle, Onsen",
-        "english": "Hot spring, Onsen"
-      }
+        "german": "Polizei",
+        "english": "Police"
+      },
+      "categories": [
+        "Gegenstände",
+        "Institutionen"
+      ]
     },
     {
-      "japanese": "かいしゃ",
+      "japaneseHiragana": "とけい",
+      "japaneseKatakana": "トケイ",
+      "pronunciation": "tokei",
+      "translation": {
+        "german": "Uhr",
+        "english": "Clock"
+      },
+      "categories": [
+        "Gegenstände",
+        "Zeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "つくえ",
+      "japaneseKatakana": "ツクエ",
+      "pronunciation": "tsukue",
+      "translation": {
+        "german": "Schreibtisch",
+        "english": "Desk"
+      },
+      "categories": [
+        "Gegenstände",
+        "Möbel"
+      ]
+    },
+    {
+      "japaneseHiragana": "いす",
+      "japaneseKatakana": "イス",
+      "pronunciation": "isu",
+      "translation": {
+        "german": "Stuhl",
+        "english": "Chair"
+      },
+      "categories": [
+        "Gegenstände",
+        "Möbel"
+      ]
+    },
+    {
+      "japaneseHiragana": "でんわ",
+      "japaneseKatakana": "デンワ",
+      "pronunciation": "denwa",
+      "translation": {
+        "german": "Telefon",
+        "english": "Telephone"
+      },
+      "categories": [
+        "Gegenstände",
+        "Technologie"
+      ]
+    },
+    {
+      "japaneseHiragana": "かばん",
+      "japaneseKatakana": "カバン",
+      "pronunciation": "kaban",
+      "translation": {
+        "german": "Tasche",
+        "english": "Bag"
+      },
+      "categories": [
+        "Gegenstände",
+        "Mode"
+      ]
+    },
+    {
+      "japaneseHiragana": "ぼうし",
+      "japaneseKatakana": "ボウシ",
+      "pronunciation": "boushi",
+      "translation": {
+        "german": "Hut",
+        "english": "Hat"
+      },
+      "categories": [
+        "Gegenstände",
+        "Mode"
+      ]
+    },
+    {
+      "japaneseHiragana": "くつ",
+      "japaneseKatakana": "クツ",
+      "pronunciation": "kutsu",
+      "translation": {
+        "german": "Schuhe",
+        "english": "Shoes"
+      },
+      "categories": [
+        "Gegenstände",
+        "Mode"
+      ]
+    },
+    {
+      "japaneseHiragana": "えいご",
+      "japaneseKatakana": "エイゴ",
+      "pronunciation": "eigo",
+      "translation": {
+        "german": "Englisch",
+        "english": "English language"
+      },
+      "categories": [
+        "Lernen",
+        "Sprachen"
+      ]
+    },
+    {
+      "japaneseHiragana": "にほんご",
+      "japaneseKatakana": "ニホンゴ",
+      "pronunciation": "nihongo",
+      "translation": {
+        "german": "Japanisch",
+        "english": "Japanese language"
+      },
+      "categories": [
+        "Lernen",
+        "Sprachen"
+      ]
+    },
+    {
+      "japaneseHiragana": "せんこう",
+      "japaneseKatakana": "センコウ",
+      "pronunciation": "senkou",
+      "translation": {
+        "german": "Studienfach",
+        "english": "Major (field of study)"
+      },
+      "categories": [
+        "Lernen",
+        "Bildung"
+      ]
+    },
+    {
+      "japaneseHiragana": "いしゃ",
+      "japaneseKatakana": "イシャ",
+      "pronunciation": "isha",
+      "translation": {
+        "german": "Arzt",
+        "english": "Doctor"
+      },
+      "categories": [
+        "Berufe",
+        "Gesundheit"
+      ]
+    },
+    {
+      "japaneseHiragana": "かいしゃいん",
+      "japaneseKatakana": "カイシャイン",
+      "pronunciation": "kaishain",
+      "translation": {
+        "german": "Büroangestellter",
+        "english": "Office worker"
+      },
+      "categories": [
+        "Berufe",
+        "Arbeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "ぎんこういん",
+      "japaneseKatakana": "ギンコウイン",
+      "pronunciation": "ginkouin",
+      "translation": {
+        "german": "Bankangestellter",
+        "english": "Bank clerk"
+      },
+      "categories": [
+        "Berufe",
+        "Finanzen"
+      ]
+    },
+    {
+      "japaneseHiragana": "けんきゅうしゃ",
+      "japaneseKatakana": "ケンキュウシャ",
+      "pronunciation": "kenkyuusha",
+      "translation": {
+        "german": "Forscher",
+        "english": "Researcher"
+      },
+      "categories": [
+        "Berufe",
+        "Wissenschaft"
+      ]
+    },
+    {
+      "japaneseHiragana": "えいが",
+      "japaneseKatakana": "エイガ",
+      "pronunciation": "eiga",
+      "translation": {
+        "german": "Film",
+        "english": "Movie"
+      },
+      "categories": [
+        "Unterhaltung",
+        "Film"
+      ]
+    },
+    {
+      "japaneseHiragana": "おんがく",
+      "japaneseKatakana": "オンガク",
+      "pronunciation": "ongaku",
+      "translation": {
+        "german": "Musik",
+        "english": "Music"
+      },
+      "categories": [
+        "Unterhaltung",
+        "Musik"
+      ]
+    },
+    {
+      "japaneseHiragana": "すいえい",
+      "japaneseKatakana": "スイエイ",
+      "pronunciation": "suiei",
+      "translation": {
+        "german": "Schwimmen",
+        "english": "Swimming"
+      },
+      "categories": [
+        "Sport",
+        "Aktivitäten"
+      ]
+    },
+    {
+      "japaneseHiragana": "やきゅう",
+      "japaneseKatakana": "ヤキュウ",
+      "pronunciation": "yakyuu",
+      "translation": {
+        "german": "Baseball",
+        "english": "Baseball"
+      },
+      "categories": [
+        "Sport",
+        "Sportarten"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふつかよい",
+      "japaneseKatakana": "フツカヨイ",
+      "pronunciation": "futsuka yoi",
+      "translation": {
+        "german": "Gute Besserung (wörtl.: Erhol dich in zwei Tagen)",
+        "english": "Get well soon (literally: Recover in two days)"
+      },
+      "categories": [
+        "Gesundheit",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "げんき",
+      "japaneseKatakana": "ゲンキ",
+      "pronunciation": "genki",
+      "translation": {
+        "german": "Gesundheit",
+        "english": "Health"
+      },
+      "categories": [
+        "Gesundheit",
+        "Zustand"
+      ]
+    },
+    {
+      "japaneseHiragana": "たいせつ",
+      "japaneseKatakana": "タイセツ",
+      "pronunciation": "taisetsu",
+      "translation": {
+        "german": "Wichtig",
+        "english": "Important"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おいしい",
+      "japaneseKatakana": "オイシイ",
+      "pronunciation": "oishii",
+      "translation": {
+        "german": "Lecker",
+        "english": "Delicious"
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "たべる",
+      "japaneseKatakana": "タベル",
+      "pronunciation": "taberu",
+      "translation": {
+        "german": "Essen",
+        "english": "To eat"
+      },
+      "categories": [
+        "Essen",
+        "Verben"
+      ]
+    },
+    {
+      "japaneseHiragana": "のむ",
+      "japaneseKatakana": "ノム",
+      "pronunciation": "nomu",
+      "translation": {
+        "german": "Trinken",
+        "english": "To drink"
+      },
+      "categories": [
+        "Essen",
+        "Verben"
+      ]
+    },
+    {
+      "japaneseHiragana": "いえ",
+      "japaneseKatakana": "イエ",
+      "pronunciation": "ie",
+      "translation": {
+        "german": "Haus",
+        "english": "House"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "アパート",
+      "japaneseKatakana": "アパート",
+      "pronunciation": "apaato",
+      "translation": {
+        "german": "Apartment",
+        "english": "Apartment"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "マンション",
+      "japaneseKatakana": "マンション",
+      "pronunciation": "manshon",
+      "translation": {
+        "german": "Eigentumswohnung",
+        "english": "Condominium"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "こうじょう",
+      "japaneseKatakana": "コウジョウ",
+      "pronunciation": "koujou",
+      "translation": {
+        "german": "Fabrik",
+        "english": "Factory"
+      },
+      "categories": [
+        "Arbeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "かいしゃ",
+      "japaneseKatakana": "カイシャ",
       "pronunciation": "kaisha",
       "translation": {
-        "german": "Firma, Unternehmen",
-        "english": "Company, Business"
-      }
+        "german": "Firma",
+        "english": "Company"
+      },
+      "categories": [
+        "Arbeit"
+      ]
     },
     {
-      "japanese": "でんき",
+      "japaneseHiragana": "かいぎしつ",
+      "japaneseKatakana": "カイギシツ",
+      "pronunciation": "kaigishitsu",
+      "translation": {
+        "german": "Konferenzraum",
+        "english": "Conference room"
+      },
+      "categories": [
+        "Arbeit",
+        "Räume"
+      ]
+    },
+    {
+      "japaneseHiragana": "きっさてん",
+      "japaneseKatakana": "キッサテン",
+      "pronunciation": "kissaten",
+      "translation": {
+        "german": "Café",
+        "english": "Café"
+      },
+      "categories": [
+        "Essen",
+        "Orte"
+      ]
+    },
+    {
+      "japaneseHiragana": "さくら",
+      "japaneseKatakana": "サクラ",
+      "pronunciation": "sakura",
+      "translation": {
+        "german": "Kirschblüte",
+        "english": "Cherry blossom"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "やま",
+      "japaneseKatakana": "ヤマ",
+      "pronunciation": "yama",
+      "translation": {
+        "german": "Berg",
+        "english": "Mountain"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "たいよう",
+      "japaneseKatakana": "タイヨウ",
+      "pronunciation": "taiyou",
+      "translation": {
+        "german": "Sonne",
+        "english": "Sun"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "かぜ",
+      "japaneseKatakana": "カゼ",
+      "pronunciation": "kaze",
+      "translation": {
+        "german": "Wind",
+        "english": "Wind"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "みず",
+      "japaneseKatakana": "ミズ",
+      "pronunciation": "mizu",
+      "translation": {
+        "german": "Wasser",
+        "english": "Water"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "かぜる",
+      "japaneseKatakana": "カゼル",
+      "pronunciation": "kazeru",
+      "translation": {
+        "german": "Regnen",
+        "english": "To rain"
+      },
+      "categories": [
+        "Natur",
+        "Verben"
+      ]
+    },
+    {
+      "japaneseHiragana": "くも",
+      "japaneseKatakana": "クモ",
+      "pronunciation": "kumo",
+      "translation": {
+        "german": "Wolke",
+        "english": "Cloud"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "かんしゃ",
+      "japaneseKatakana": "カンシャ",
+      "pronunciation": "kansha",
+      "translation": {
+        "german": "Dankbarkeit",
+        "english": "Gratitude"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "わかい",
+      "japaneseKatakana": "ワカイ",
+      "pronunciation": "wakai",
+      "translation": {
+        "german": "Jung",
+        "english": "Young"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "おとな",
+      "japaneseKatakana": "オトナ",
+      "pronunciation": "otona",
+      "translation": {
+        "german": "Erwachsener",
+        "english": "Adult"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "たかい",
+      "japaneseKatakana": "タカイ",
+      "pronunciation": "takai",
+      "translation": {
+        "german": "Hoch",
+        "english": "Tall"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひくい",
+      "japaneseKatakana": "ヒクイ",
+      "pronunciation": "hikui",
+      "translation": {
+        "german": "Niedrig",
+        "english": "Low"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "はやい",
+      "japaneseKatakana": "ハヤイ",
+      "pronunciation": "hayai",
+      "translation": {
+        "german": "Schnell",
+        "english": "Fast"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "おそい",
+      "japaneseKatakana": "オソイ",
+      "pronunciation": "osoi",
+      "translation": {
+        "german": "Langsam",
+        "english": "Slow"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "つめたい",
+      "japaneseKatakana": "ツメタイ",
+      "pronunciation": "tsumetai",
+      "translation": {
+        "german": "Kalt",
+        "english": "Cold"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "あつい",
+      "japaneseKatakana": "アツイ",
+      "pronunciation": "atsui",
+      "translation": {
+        "german": "Heiß",
+        "english": "Hot"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "あかるい",
+      "japaneseKatakana": "アカルイ",
+      "pronunciation": "akarui",
+      "translation": {
+        "german": "Hell",
+        "english": "Bright"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "くらい",
+      "japaneseKatakana": "クライ",
+      "pronunciation": "kurai",
+      "translation": {
+        "german": "Dunkel",
+        "english": "Dark"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "おおきい",
+      "japaneseKatakana": "オオキイ",
+      "pronunciation": "ookii",
+      "translation": {
+        "german": "Groß",
+        "english": "Big"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ちいさい",
+      "japaneseKatakana": "チイサイ",
+      "pronunciation": "chiisai",
+      "translation": {
+        "german": "Klein",
+        "english": "Small"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふるい",
+      "japaneseKatakana": "フルイ",
+      "pronunciation": "furui",
+      "translation": {
+        "german": "Alt",
+        "english": "Old"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "あたらしい",
+      "japaneseKatakana": "アタラシイ",
+      "pronunciation": "atarashii",
+      "translation": {
+        "german": "Neu",
+        "english": "New"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "しずか",
+      "japaneseKatakana": "シズカ",
+      "pronunciation": "shizuka",
+      "translation": {
+        "german": "Ruhig",
+        "english": "Quiet"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "にぎやか",
+      "japaneseKatakana": "ニギヤカ",
+      "pronunciation": "nigiyaka",
+      "translation": {
+        "german": "Lebhaft",
+        "english": "Lively"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ゆうめい",
+      "japaneseKatakana": "ユウメイ",
+      "pronunciation": "yuumei",
+      "translation": {
+        "german": "Berühmt",
+        "english": "Famous"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひま",
+      "japaneseKatakana": "ヒマ",
+      "pronunciation": "hima",
+      "translation": {
+        "german": "Freizeit",
+        "english": "Free time"
+      },
+      "categories": [
+        "Zeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "じかん",
+      "japaneseKatakana": "ジカン",
+      "pronunciation": "jikan",
+      "translation": {
+        "german": "Zeit",
+        "english": "Time"
+      },
+      "categories": [
+        "Zeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "きげん",
+      "japaneseKatakana": "キゲン",
+      "pronunciation": "kigen",
+      "translation": {
+        "german": "Laune",
+        "english": "Mood"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ゆめ",
+      "japaneseKatakana": "ユメ",
+      "pronunciation": "yume",
+      "translation": {
+        "german": "Traum",
+        "english": "Dream"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "しあわせ",
+      "japaneseKatakana": "シアワセ",
+      "pronunciation": "shiawase",
+      "translation": {
+        "german": "Glück",
+        "english": "Happiness"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かなしい",
+      "japaneseKatakana": "カナシイ",
+      "pronunciation": "kanashii",
+      "translation": {
+        "german": "Traurig",
+        "english": "Sad"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おそろしい",
+      "japaneseKatakana": "オソロシイ",
+      "pronunciation": "osoroshii",
+      "translation": {
+        "german": "Furchterregend",
+        "english": "Scary"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "うれしい",
+      "japaneseKatakana": "ウレシイ",
+      "pronunciation": "ureshii",
+      "translation": {
+        "german": "Glücklich",
+        "english": "Happy"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おなか",
+      "japaneseKatakana": "オナカ",
+      "pronunciation": "onaka",
+      "translation": {
+        "german": "Bauch",
+        "english": "Stomach"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひげ",
+      "japaneseKatakana": "ヒゲ",
+      "pronunciation": "hige",
+      "translation": {
+        "german": "Bart",
+        "english": "Beard"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "あたま",
+      "japaneseKatakana": "アタマ",
+      "pronunciation": "atama",
+      "translation": {
+        "german": "Kopf",
+        "english": "Head"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "は",
+      "japaneseKatakana": "ハ",
+      "pronunciation": "ha",
+      "translation": {
+        "german": "Zahn",
+        "english": "Tooth"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "め",
+      "japaneseKatakana": "メ",
+      "pronunciation": "me",
+      "translation": {
+        "german": "Auge",
+        "english": "Eye"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "て",
+      "japaneseKatakana": "テ",
+      "pronunciation": "te",
+      "translation": {
+        "german": "Hand",
+        "english": "Hand"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "あし",
+      "japaneseKatakana": "アシ",
+      "pronunciation": "ashi",
+      "translation": {
+        "german": "Fuß",
+        "english": "Foot"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "はな",
+      "japaneseKatakana": "ハナ",
+      "pronunciation": "hana",
+      "translation": {
+        "german": "Nase",
+        "english": "Nose"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひじ",
+      "japaneseKatakana": "ヒジ",
+      "pronunciation": "hiji",
+      "translation": {
+        "german": "Ellenbogen",
+        "english": "Elbow"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひざ",
+      "japaneseKatakana": "ヒザ",
+      "pronunciation": "hiza",
+      "translation": {
+        "german": "Knie",
+        "english": "Knee"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "くび",
+      "japaneseKatakana": "クビ",
+      "pronunciation": "kubi",
+      "translation": {
+        "german": "Hals",
+        "english": "Neck"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "ゆめ",
+      "japaneseKatakana": "ユメ",
+      "pronunciation": "yume",
+      "translation": {
+        "german": "Traum",
+        "english": "Dream"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "さくら",
+      "japaneseKatakana": "サクラ",
+      "pronunciation": "sakura",
+      "translation": {
+        "german": "Kirschblüte",
+        "english": "Cherry blossom"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "やま",
+      "japaneseKatakana": "ヤマ",
+      "pronunciation": "yama",
+      "translation": {
+        "german": "Berg",
+        "english": "Mountain"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "たいよう",
+      "japaneseKatakana": "タイヨウ",
+      "pronunciation": "taiyou",
+      "translation": {
+        "german": "Sonne",
+        "english": "Sun"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "かぜ",
+      "japaneseKatakana": "カゼ",
+      "pronunciation": "kaze",
+      "translation": {
+        "german": "Wind",
+        "english": "Wind"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "みず",
+      "japaneseKatakana": "ミズ",
+      "pronunciation": "mizu",
+      "translation": {
+        "german": "Wasser",
+        "english": "Water"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "かぜる",
+      "japaneseKatakana": "カゼル",
+      "pronunciation": "kazeru",
+      "translation": {
+        "german": "Regnen",
+        "english": "To rain"
+      },
+      "categories": [
+        "Natur",
+        "Verben"
+      ]
+    },
+    {
+      "japaneseHiragana": "くも",
+      "japaneseKatakana": "クモ",
+      "pronunciation": "kumo",
+      "translation": {
+        "german": "Wolke",
+        "english": "Cloud"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "かんしゃ",
+      "japaneseKatakana": "カンシャ",
+      "pronunciation": "kansha",
+      "translation": {
+        "german": "Dankbarkeit",
+        "english": "Gratitude"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "わかい",
+      "japaneseKatakana": "ワカイ",
+      "pronunciation": "wakai",
+      "translation": {
+        "german": "Jung",
+        "english": "Young"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "おとな",
+      "japaneseKatakana": "オトナ",
+      "pronunciation": "otona",
+      "translation": {
+        "german": "Erwachsener",
+        "english": "Adult"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "たかい",
+      "japaneseKatakana": "タカイ",
+      "pronunciation": "takai",
+      "translation": {
+        "german": "Hoch",
+        "english": "Tall"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひくい",
+      "japaneseKatakana": "ヒクイ",
+      "pronunciation": "hikui",
+      "translation": {
+        "german": "Niedrig",
+        "english": "Low"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "はやい",
+      "japaneseKatakana": "ハヤイ",
+      "pronunciation": "hayai",
+      "translation": {
+        "german": "Schnell",
+        "english": "Fast"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "おそい",
+      "japaneseKatakana": "オソイ",
+      "pronunciation": "osoi",
+      "translation": {
+        "german": "Langsam",
+        "english": "Slow"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "つめたい",
+      "japaneseKatakana": "ツメタイ",
+      "pronunciation": "tsumetai",
+      "translation": {
+        "german": "Kalt",
+        "english": "Cold"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "あつい",
+      "japaneseKatakana": "アツイ",
+      "pronunciation": "atsui",
+      "translation": {
+        "german": "Heiß",
+        "english": "Hot"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "あかるい",
+      "japaneseKatakana": "アカルイ",
+      "pronunciation": "akarui",
+      "translation": {
+        "german": "Hell",
+        "english": "Bright"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "くらい",
+      "japaneseKatakana": "クライ",
+      "pronunciation": "kurai",
+      "translation": {
+        "german": "Dunkel",
+        "english": "Dark"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "おおきい",
+      "japaneseKatakana": "オオキイ",
+      "pronunciation": "ookii",
+      "translation": {
+        "german": "Groß",
+        "english": "Big"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ちいさい",
+      "japaneseKatakana": "チイサイ",
+      "pronunciation": "chiisai",
+      "translation": {
+        "german": "Klein",
+        "english": "Small"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふるい",
+      "japaneseKatakana": "フルイ",
+      "pronunciation": "furui",
+      "translation": {
+        "german": "Alt",
+        "english": "Old"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "あたらしい",
+      "japaneseKatakana": "アタラシイ",
+      "pronunciation": "atarashii",
+      "translation": {
+        "german": "Neu",
+        "english": "New"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "しずか",
+      "japaneseKatakana": "シズカ",
+      "pronunciation": "shizuka",
+      "translation": {
+        "german": "Ruhig",
+        "english": "Quiet"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "にぎやか",
+      "japaneseKatakana": "ニギヤカ",
+      "pronunciation": "nigiyaka",
+      "translation": {
+        "german": "Lebhaft",
+        "english": "Lively"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ゆうめい",
+      "japaneseKatakana": "ユウメイ",
+      "pronunciation": "yuumei",
+      "translation": {
+        "german": "Berühmt",
+        "english": "Famous"
+      },
+      "categories": [
+        "Beschreibung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひま",
+      "japaneseKatakana": "ヒマ",
+      "pronunciation": "hima",
+      "translation": {
+        "german": "Freizeit",
+        "english": "Free time"
+      },
+      "categories": [
+        "Zeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "じかん",
+      "japaneseKatakana": "ジカン",
+      "pronunciation": "jikan",
+      "translation": {
+        "german": "Zeit",
+        "english": "Time"
+      },
+      "categories": [
+        "Zeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "きげん",
+      "japaneseKatakana": "キゲン",
+      "pronunciation": "kigen",
+      "translation": {
+        "german": "Laune",
+        "english": "Mood"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ゆめ",
+      "japaneseKatakana": "ユメ",
+      "pronunciation": "yume",
+      "translation": {
+        "german": "Traum",
+        "english": "Dream"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "しあわせ",
+      "japaneseKatakana": "シアワセ",
+      "pronunciation": "shiawase",
+      "translation": {
+        "german": "Glück",
+        "english": "Happiness"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かなしい",
+      "japaneseKatakana": "カナシイ",
+      "pronunciation": "kanashii",
+      "translation": {
+        "german": "Traurig",
+        "english": "Sad"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おそろしい",
+      "japaneseKatakana": "オソロシイ",
+      "pronunciation": "osoroshii",
+      "translation": {
+        "german": "Furchterregend",
+        "english": "Scary"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "うれしい",
+      "japaneseKatakana": "ウレシイ",
+      "pronunciation": "ureshii",
+      "translation": {
+        "german": "Glücklich",
+        "english": "Happy"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おなか",
+      "japaneseKatakana": "オナカ",
+      "pronunciation": "onaka",
+      "translation": {
+        "german": "Bauch",
+        "english": "Stomach"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひげ",
+      "japaneseKatakana": "ヒゲ",
+      "pronunciation": "hige",
+      "translation": {
+        "german": "Bart",
+        "english": "Beard"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "あたま",
+      "japaneseKatakana": "アタマ",
+      "pronunciation": "atama",
+      "translation": {
+        "german": "Kopf",
+        "english": "Head"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "は",
+      "japaneseKatakana": "ハ",
+      "pronunciation": "ha",
+      "translation": {
+        "german": "Zahn",
+        "english": "Tooth"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "め",
+      "japaneseKatakana": "メ",
+      "pronunciation": "me",
+      "translation": {
+        "german": "Auge",
+        "english": "Eye"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "て",
+      "japaneseKatakana": "テ",
+      "pronunciation": "te",
+      "translation": {
+        "german": "Hand",
+        "english": "Hand"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "あし",
+      "japaneseKatakana": "アシ",
+      "pronunciation": "ashi",
+      "translation": {
+        "german": "Fuß",
+        "english": "Foot"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "はな",
+      "japaneseKatakana": "ハナ",
+      "pronunciation": "hana",
+      "translation": {
+        "german": "Nase",
+        "english": "Nose"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひじ",
+      "japaneseKatakana": "ヒジ",
+      "pronunciation": "hiji",
+      "translation": {
+        "german": "Ellenbogen",
+        "english": "Elbow"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひざ",
+      "japaneseKatakana": "ヒザ",
+      "pronunciation": "hiza",
+      "translation": {
+        "german": "Knie",
+        "english": "Knee"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "くび",
+      "japaneseKatakana": "クビ",
+      "pronunciation": "kubi",
+      "translation": {
+        "german": "Hals",
+        "english": "Neck"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "ゆめ",
+      "japaneseKatakana": "ユメ",
+      "pronunciation": "yume",
+      "translation": {
+        "german": "Traum",
+        "english": "Dream"
+      },
+      "categories": [
+        "Emotionen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かんじ",
+      "japaneseKatakana": "カンジ",
+      "pronunciation": "kanji",
+      "translation": {
+        "german": "Schriftzeichen",
+        "english": "kanji character"
+      },
+      "categories": [
+        "Sprache"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひらがな",
+      "japaneseKatakana": "ヒラガナ",
+      "pronunciation": "hiragana",
+      "translation": {
+        "german": "Hiragana",
+        "english": "hiragana"
+      },
+      "categories": [
+        "Sprache"
+      ]
+    },
+    {
+      "japaneseHiragana": "カタカナ",
+      "japaneseKatakana": "カタカナ",
+      "pronunciation": "katakana",
+      "translation": {
+        "german": "Katakana",
+        "english": "katakana"
+      },
+      "categories": [
+        "Sprache"
+      ]
+    },
+    {
+      "japaneseHiragana": "こえ",
+      "japaneseKatakana": "コエ",
+      "pronunciation": "koe",
+      "translation": {
+        "german": "Stimme",
+        "english": "voice"
+      },
+      "categories": [
+        "Sprache",
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "なまえ",
+      "japaneseKatakana": "ナマエ",
+      "pronunciation": "namae",
+      "translation": {
+        "german": "Name",
+        "english": "name"
+      },
+      "categories": [
+        "Sprache"
+      ]
+    },
+    {
+      "japaneseHiragana": "くち",
+      "japaneseKatakana": "クチ",
+      "pronunciation": "kuchi",
+      "translation": {
+        "german": "Mund",
+        "english": "mouth"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "め",
+      "japaneseKatakana": "メ",
+      "pronunciation": "me",
+      "translation": {
+        "german": "Auge",
+        "english": "eye"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "みみ",
+      "japaneseKatakana": "ミミ",
+      "pronunciation": "mimi",
+      "translation": {
+        "german": "Ohr",
+        "english": "ear"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "て",
+      "japaneseKatakana": "テ",
+      "pronunciation": "te",
+      "translation": {
+        "german": "Hand",
+        "english": "hand"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "くるま",
+      "japaneseKatakana": "クルマ",
+      "pronunciation": "kuruma",
+      "translation": {
+        "german": "Auto",
+        "english": "car"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "でんき",
+      "japaneseKatakana": "デンキ",
       "pronunciation": "denki",
       "translation": {
-        "german": "Elektrizität, Licht",
-        "english": "Electricity, Light"
-      }
+        "german": "Elektrizität",
+        "english": "electricity"
+      },
+      "categories": [
+        "Natur"
+      ]
     },
     {
-      "japanese": "おかし",
-      "pronunciation": "okashi",
-      "translation": { "german": "Süßigkeiten", "english": "Sweets" }
-    },
-    {
-      "japanese": "てがみ",
-      "pronunciation": "tegami",
-      "translation": { "german": "Brief", "english": "Letter" }
-    },
-    {
-      "japanese": "こうえん",
-      "pronunciation": "kouen",
-      "translation": { "german": "Park", "english": "Park" }
-    },
-    {
-      "japanese": "ちかてつ",
-      "pronunciation": "chikatetsu",
-      "translation": { "german": "U-Bahn", "english": "Subway" }
-    },
-    {
-      "japanese": "たんじょうび",
-      "pronunciation": "tanjoubi",
-      "translation": { "german": "Geburtstag", "english": "Birthday" }
-    },
-    {
-      "japanese": "いえ",
-      "pronunciation": "ie",
-      "translation": { "german": "Haus", "english": "House" }
-    },
-    {
-      "japanese": "ひこうき",
-      "pronunciation": "hikouki",
-      "translation": { "german": "Flugzeug", "english": "Airplane" }
-    },
-    {
-      "japanese": "こども",
-      "pronunciation": "kodomo",
-      "translation": { "german": "Kind", "english": "Child" }
-    },
-    {
-      "japanese": "おとこのこ",
-      "pronunciation": "otokonoko",
-      "translation": { "german": "Junge", "english": "Boy" }
-    },
-    {
-      "japanese": "おんなのこ",
-      "pronunciation": "onnanoko",
-      "translation": { "german": "Mädchen", "english": "Girl" }
-    },
-    {
-      "japanese": "せんせい",
-      "pronunciation": "sensei",
-      "translation": { "german": "Lehrer", "english": "Teacher" }
-    },
-    {
-      "japanese": "いもうと",
-      "pronunciation": "imouto",
+      "japaneseHiragana": "でんしゃ",
+      "japaneseKatakana": "デンシャ",
+      "pronunciation": "densha",
       "translation": {
-        "german": "Jüngere Schwester",
-        "english": "Younger sister"
-      }
+        "german": "Zug",
+        "english": "train"
+      },
+      "categories": [
+        "Transportmittel"
+      ]
     },
     {
-      "japanese": "おとうと",
+      "japaneseHiragana": "ちかてつ",
+      "japaneseKatakana": "チカテツ",
+      "pronunciation": "chikatetsu",
+      "translation": {
+        "german": "U-Bahn",
+        "english": "subway"
+      },
+      "categories": [
+        "Transportmittel"
+      ]
+    },
+    {
+      "japaneseHiragana": "ばす",
+      "japaneseKatakana": "バス",
+      "pronunciation": "basu",
+      "translation": {
+        "german": "Bus",
+        "english": "bus"
+      },
+      "categories": [
+        "Transportmittel"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひこうき",
+      "japaneseKatakana": "ヒコウキ",
+      "pronunciation": "hikouki",
+      "translation": {
+        "german": "Flugzeug",
+        "english": "airplane"
+      },
+      "categories": [
+        "Transportmittel"
+      ]
+    },
+    {
+      "japaneseHiragana": "てがみ",
+      "japaneseKatakana": "テガミ",
+      "pronunciation": "tegami",
+      "translation": {
+        "german": "Brief",
+        "english": "letter"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "しんぶん",
+      "japaneseKatakana": "シンブン",
+      "pronunciation": "shinbun",
+      "translation": {
+        "german": "Zeitung",
+        "english": "newspaper"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "てちょう",
+      "japaneseKatakana": "テチョウ",
+      "pronunciation": "techou",
+      "translation": {
+        "german": "Kalender",
+        "english": "calendar"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "えんぴつ",
+      "japaneseKatakana": "エンピツ",
+      "pronunciation": "enpitsu",
+      "translation": {
+        "german": "Bleistift",
+        "english": "pencil"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "けしゴム",
+      "japaneseKatakana": "ケシゴム",
+      "pronunciation": "keshigomu",
+      "translation": {
+        "german": "Radiergummi",
+        "english": "eraser"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "くつ",
+      "japaneseKatakana": "クツ",
+      "pronunciation": "kutsu",
+      "translation": {
+        "german": "Schuhe",
+        "english": "shoes"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ズボン",
+      "japaneseKatakana": "ズボン",
+      "pronunciation": "zubon",
+      "translation": {
+        "german": "Hose",
+        "english": "pants"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "シャツ",
+      "japaneseKatakana": "シャツ",
+      "pronunciation": "shatsu",
+      "translation": {
+        "german": "Hemd",
+        "english": "shirt"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ワンピース",
+      "japaneseKatakana": "ワンピース",
+      "pronunciation": "wanpiisu",
+      "translation": {
+        "german": "Kleid",
+        "english": "dress"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "くつした",
+      "japaneseKatakana": "クツシタ",
+      "pronunciation": "kutsushita",
+      "translation": {
+        "german": "Socken",
+        "english": "socks"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "セーター",
+      "japaneseKatakana": "セーター",
+      "pronunciation": "seetaa",
+      "translation": {
+        "german": "Pullover",
+        "english": "sweater"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "コート",
+      "japaneseKatakana": "コート",
+      "pronunciation": "kooto",
+      "translation": {
+        "german": "Mantel",
+        "english": "coat"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ぼうし",
+      "japaneseKatakana": "ボウシ",
+      "pronunciation": "boushi",
+      "translation": {
+        "german": "Hut",
+        "english": "hat"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "てぶくろ",
+      "japaneseKatakana": "テブクロ",
+      "pronunciation": "tebukuro",
+      "translation": {
+        "german": "Handschuhe",
+        "english": "gloves"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふく",
+      "japaneseKatakana": "フク",
+      "pronunciation": "fuku",
+      "translation": {
+        "german": "Kleidung",
+        "english": "clothing"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ぼうし",
+      "japaneseKatakana": "ボウシ",
+      "pronunciation": "boushi",
+      "translation": {
+        "german": "Mütze",
+        "english": "cap"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "すいぎゅう",
+      "japaneseKatakana": "スイギュウ",
+      "pronunciation": "suigyuu",
+      "translation": {
+        "german": "Milch",
+        "english": "milk"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ごはん",
+      "japaneseKatakana": "ゴハン",
+      "pronunciation": "gohan",
+      "translation": {
+        "german": "Reis",
+        "english": "rice"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "くだもの",
+      "japaneseKatakana": "クダモノ",
+      "pronunciation": "kudamono",
+      "translation": {
+        "german": "Frucht",
+        "english": "fruit"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "にく",
+      "japaneseKatakana": "ニク",
+      "pronunciation": "niku",
+      "translation": {
+        "german": "Fleisch",
+        "english": "meat"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "さかな",
+      "japaneseKatakana": "サカナ",
+      "pronunciation": "sakana",
+      "translation": {
+        "german": "Fisch",
+        "english": "fish"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "とりにく",
+      "japaneseKatakana": "トリニク",
+      "pronunciation": "toriniku",
+      "translation": {
+        "german": "Hähnchen",
+        "english": "chicken"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "りんご",
+      "japaneseKatakana": "リンゴ",
+      "pronunciation": "ringo",
+      "translation": {
+        "german": "Apfel",
+        "english": "apple"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "いも",
+      "japaneseKatakana": "イモ",
+      "pronunciation": "imo",
+      "translation": {
+        "german": "Kartoffel",
+        "english": "potato"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ハンバーガー",
+      "japaneseKatakana": "ハンバーガー",
+      "pronunciation": "hanbaagaa",
+      "translation": {
+        "german": "Hamburger",
+        "english": "hamburger"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "パン",
+      "japaneseKatakana": "パン",
+      "pronunciation": "pan",
+      "translation": {
+        "german": "Brot",
+        "english": "bread"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ピザ",
+      "japaneseKatakana": "ピザ",
+      "pronunciation": "piza",
+      "translation": {
+        "german": "Pizza",
+        "english": "pizza"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "たまご",
+      "japaneseKatakana": "タマゴ",
+      "pronunciation": "tamago",
+      "translation": {
+        "german": "Ei",
+        "english": "egg"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おかし",
+      "japaneseKatakana": "オカシ",
+      "pronunciation": "okashi",
+      "translation": {
+        "german": "Süßigkeiten",
+        "english": "sweets"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "アイスクリーム",
+      "japaneseKatakana": "アイスクリーム",
+      "pronunciation": "aisukuriimu",
+      "translation": {
+        "german": "Eis",
+        "english": "ice cream"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "みず",
+      "japaneseKatakana": "ミズ",
+      "pronunciation": "mizu",
+      "translation": {
+        "german": "Wasser",
+        "english": "water"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おちゃ",
+      "japaneseKatakana": "オチャ",
+      "pronunciation": "ocha",
+      "translation": {
+        "german": "Tee",
+        "english": "tea"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "こうちゃ",
+      "japaneseKatakana": "コウチャ",
+      "pronunciation": "koucha",
+      "translation": {
+        "german": "Kaffee",
+        "english": "coffee"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "コーラ",
+      "japaneseKatakana": "コーラ",
+      "pronunciation": "koora",
+      "translation": {
+        "german": "Cola",
+        "english": "cola"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ジュース",
+      "japaneseKatakana": "ジュース",
+      "pronunciation": "juusu",
+      "translation": {
+        "german": "Saft",
+        "english": "juice"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おさけ",
+      "japaneseKatakana": "オサケ",
+      "pronunciation": "osake",
+      "translation": {
+        "german": "Alkohol",
+        "english": "alcohol"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かんじ",
+      "japaneseKatakana": "カンジ",
+      "pronunciation": "kanji",
+      "translation": {
+        "german": "Schriftzeichen",
+        "english": "kanji character"
+      },
+      "categories": [
+        "Sprache"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひらがな",
+      "japaneseKatakana": "ヒラガナ",
+      "pronunciation": "hiragana",
+      "translation": {
+        "german": "Hiragana",
+        "english": "hiragana"
+      },
+      "categories": [
+        "Sprache"
+      ]
+    },
+    {
+      "japaneseHiragana": "カタカナ",
+      "japaneseKatakana": "カタカナ",
+      "pronunciation": "katakana",
+      "translation": {
+        "german": "Katakana",
+        "english": "katakana"
+      },
+      "categories": [
+        "Sprache"
+      ]
+    },
+    {
+      "japaneseHiragana": "こえ",
+      "japaneseKatakana": "コエ",
+      "pronunciation": "koe",
+      "translation": {
+        "german": "Stimme",
+        "english": "voice"
+      },
+      "categories": [
+        "Sprache",
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "なまえ",
+      "japaneseKatakana": "ナマエ",
+      "pronunciation": "namae",
+      "translation": {
+        "german": "Name",
+        "english": "name"
+      },
+      "categories": [
+        "Sprache"
+      ]
+    },
+    {
+      "japaneseHiragana": "くち",
+      "japaneseKatakana": "クチ",
+      "pronunciation": "kuchi",
+      "translation": {
+        "german": "Mund",
+        "english": "mouth"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "め",
+      "japaneseKatakana": "メ",
+      "pronunciation": "me",
+      "translation": {
+        "german": "Auge",
+        "english": "eye"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "みみ",
+      "japaneseKatakana": "ミミ",
+      "pronunciation": "mimi",
+      "translation": {
+        "german": "Ohr",
+        "english": "ear"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "て",
+      "japaneseKatakana": "テ",
+      "pronunciation": "te",
+      "translation": {
+        "german": "Hand",
+        "english": "hand"
+      },
+      "categories": [
+        "Körper"
+      ]
+    },
+    {
+      "japaneseHiragana": "くるま",
+      "japaneseKatakana": "クルマ",
+      "pronunciation": "kuruma",
+      "translation": {
+        "german": "Auto",
+        "english": "car"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "でんき",
+      "japaneseKatakana": "デンキ",
+      "pronunciation": "denki",
+      "translation": {
+        "german": "Elektrizität",
+        "english": "electricity"
+      },
+      "categories": [
+        "Natur"
+      ]
+    },
+    {
+      "japaneseHiragana": "でんしゃ",
+      "japaneseKatakana": "デンシャ",
+      "pronunciation": "densha",
+      "translation": {
+        "german": "Zug",
+        "english": "train"
+      },
+      "categories": [
+        "Transportmittel"
+      ]
+    },
+    {
+      "japaneseHiragana": "ちかてつ",
+      "japaneseKatakana": "チカテツ",
+      "pronunciation": "chikatetsu",
+      "translation": {
+        "german": "U-Bahn",
+        "english": "subway"
+      },
+      "categories": [
+        "Transportmittel"
+      ]
+    },
+    {
+      "japaneseHiragana": "ばす",
+      "japaneseKatakana": "バス",
+      "pronunciation": "basu",
+      "translation": {
+        "german": "Bus",
+        "english": "bus"
+      },
+      "categories": [
+        "Transportmittel"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひこうき",
+      "japaneseKatakana": "ヒコウキ",
+      "pronunciation": "hikouki",
+      "translation": {
+        "german": "Flugzeug",
+        "english": "airplane"
+      },
+      "categories": [
+        "Transportmittel"
+      ]
+    },
+    {
+      "japaneseHiragana": "てがみ",
+      "japaneseKatakana": "テガミ",
+      "pronunciation": "tegami",
+      "translation": {
+        "german": "Brief",
+        "english": "letter"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "しんぶん",
+      "japaneseKatakana": "シンブン",
+      "pronunciation": "shinbun",
+      "translation": {
+        "german": "Zeitung",
+        "english": "newspaper"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "てちょう",
+      "japaneseKatakana": "テチョウ",
+      "pronunciation": "techou",
+      "translation": {
+        "german": "Kalender",
+        "english": "calendar"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "えんぴつ",
+      "japaneseKatakana": "エンピツ",
+      "pronunciation": "enpitsu",
+      "translation": {
+        "german": "Bleistift",
+        "english": "pencil"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "けしゴム",
+      "japaneseKatakana": "ケシゴム",
+      "pronunciation": "keshigomu",
+      "translation": {
+        "german": "Radiergummi",
+        "english": "eraser"
+      },
+      "categories": [
+        "Gegenstände"
+      ]
+    },
+    {
+      "japaneseHiragana": "くつ",
+      "japaneseKatakana": "クツ",
+      "pronunciation": "kutsu",
+      "translation": {
+        "german": "Schuhe",
+        "english": "shoes"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ズボン",
+      "japaneseKatakana": "ズボン",
+      "pronunciation": "zubon",
+      "translation": {
+        "german": "Hose",
+        "english": "pants"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "シャツ",
+      "japaneseKatakana": "シャツ",
+      "pronunciation": "shatsu",
+      "translation": {
+        "german": "Hemd",
+        "english": "shirt"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ワンピース",
+      "japaneseKatakana": "ワンピース",
+      "pronunciation": "wanpiisu",
+      "translation": {
+        "german": "Kleid",
+        "english": "dress"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "くつした",
+      "japaneseKatakana": "クツシタ",
+      "pronunciation": "kutsushita",
+      "translation": {
+        "german": "Socken",
+        "english": "socks"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "セーター",
+      "japaneseKatakana": "セーター",
+      "pronunciation": "seetaa",
+      "translation": {
+        "german": "Pullover",
+        "english": "sweater"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "コート",
+      "japaneseKatakana": "コート",
+      "pronunciation": "kooto",
+      "translation": {
+        "german": "Mantel",
+        "english": "coat"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ぼうし",
+      "japaneseKatakana": "ボウシ",
+      "pronunciation": "boushi",
+      "translation": {
+        "german": "Hut",
+        "english": "hat"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "てぶくろ",
+      "japaneseKatakana": "テブクロ",
+      "pronunciation": "tebukuro",
+      "translation": {
+        "german": "Handschuhe",
+        "english": "gloves"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふく",
+      "japaneseKatakana": "フク",
+      "pronunciation": "fuku",
+      "translation": {
+        "german": "Kleidung",
+        "english": "clothing"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "ぼうし",
+      "japaneseKatakana": "ボウシ",
+      "pronunciation": "boushi",
+      "translation": {
+        "german": "Mütze",
+        "english": "cap"
+      },
+      "categories": [
+        "Kleidung"
+      ]
+    },
+    {
+      "japaneseHiragana": "すいぎゅう",
+      "japaneseKatakana": "スイギュウ",
+      "pronunciation": "suigyuu",
+      "translation": {
+        "german": "Milch",
+        "english": "milk"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ごはん",
+      "japaneseKatakana": "ゴハン",
+      "pronunciation": "gohan",
+      "translation": {
+        "german": "Reis",
+        "english": "rice"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "くだもの",
+      "japaneseKatakana": "クダモノ",
+      "pronunciation": "kudamono",
+      "translation": {
+        "german": "Frucht",
+        "english": "fruit"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "にく",
+      "japaneseKatakana": "ニク",
+      "pronunciation": "niku",
+      "translation": {
+        "german": "Fleisch",
+        "english": "meat"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "さかな",
+      "japaneseKatakana": "サカナ",
+      "pronunciation": "sakana",
+      "translation": {
+        "german": "Fisch",
+        "english": "fish"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "とりにく",
+      "japaneseKatakana": "トリニク",
+      "pronunciation": "toriniku",
+      "translation": {
+        "german": "Hähnchen",
+        "english": "chicken"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "りんご",
+      "japaneseKatakana": "リンゴ",
+      "pronunciation": "ringo",
+      "translation": {
+        "german": "Apfel",
+        "english": "apple"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "いも",
+      "japaneseKatakana": "イモ",
+      "pronunciation": "imo",
+      "translation": {
+        "german": "Kartoffel",
+        "english": "potato"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ハンバーガー",
+      "japaneseKatakana": "ハンバーガー",
+      "pronunciation": "hanbaagaa",
+      "translation": {
+        "german": "Hamburger",
+        "english": "hamburger"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "パン",
+      "japaneseKatakana": "パン",
+      "pronunciation": "pan",
+      "translation": {
+        "german": "Brot",
+        "english": "bread"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ピザ",
+      "japaneseKatakana": "ピザ",
+      "pronunciation": "piza",
+      "translation": {
+        "german": "Pizza",
+        "english": "pizza"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "たまご",
+      "japaneseKatakana": "タマゴ",
+      "pronunciation": "tamago",
+      "translation": {
+        "german": "Ei",
+        "english": "egg"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おかし",
+      "japaneseKatakana": "オカシ",
+      "pronunciation": "okashi",
+      "translation": {
+        "german": "Süßigkeiten",
+        "english": "sweets"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "アイスクリーム",
+      "japaneseKatakana": "アイスクリーム",
+      "pronunciation": "aisukuriimu",
+      "translation": {
+        "german": "Eis",
+        "english": "ice cream"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "みず",
+      "japaneseKatakana": "ミズ",
+      "pronunciation": "mizu",
+      "translation": {
+        "german": "Wasser",
+        "english": "water"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おちゃ",
+      "japaneseKatakana": "オチャ",
+      "pronunciation": "ocha",
+      "translation": {
+        "german": "Tee",
+        "english": "tea"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "こうちゃ",
+      "japaneseKatakana": "コウチャ",
+      "pronunciation": "koucha",
+      "translation": {
+        "german": "Kaffee",
+        "english": "coffee"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "コーラ",
+      "japaneseKatakana": "コーラ",
+      "pronunciation": "koora",
+      "translation": {
+        "german": "Cola",
+        "english": "cola"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ジュース",
+      "japaneseKatakana": "ジュース",
+      "pronunciation": "juusu",
+      "translation": {
+        "german": "Saft",
+        "english": "juice"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おさけ",
+      "japaneseKatakana": "オサケ",
+      "pronunciation": "osake",
+      "translation": {
+        "german": "Alkohol",
+        "english": "alcohol"
+      },
+      "categories": [
+        "Essen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ともだち",
+      "japaneseKatakana": "トモダチ",
+      "pronunciation": "tomodachi",
+      "translation": {
+        "german": "Freund",
+        "english": "friend"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かぞく",
+      "japaneseKatakana": "カゾク",
+      "pronunciation": "kazoku",
+      "translation": {
+        "german": "Familie",
+        "english": "family"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かれし",
+      "japaneseKatakana": "カレシ",
+      "pronunciation": "kareshi",
+      "translation": {
+        "german": "Freund (männlich)",
+        "english": "boyfriend"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かのじょ",
+      "japaneseKatakana": "カノジョ",
+      "pronunciation": "kanojo",
+      "translation": {
+        "german": "Freundin (weiblich)",
+        "english": "girlfriend"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "りょうしん",
+      "japaneseKatakana": "リョウシン",
+      "pronunciation": "ryoushin",
+      "translation": {
+        "german": "Eltern",
+        "english": "parents"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "あに",
+      "japaneseKatakana": "アニ",
+      "pronunciation": "ani",
+      "translation": {
+        "german": "Bruder (älter)",
+        "english": "older brother"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "おとうと",
+      "japaneseKatakana": "オトウト",
       "pronunciation": "otouto",
       "translation": {
-        "german": "Jüngerer Bruder",
-        "english": "Younger brother"
-      }
+        "german": "Bruder (jünger)",
+        "english": "younger brother"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "あね",
+      "japaneseHiragana": "あね",
+      "japaneseKatakana": "アネ",
       "pronunciation": "ane",
-      "translation": { "german": "Ältere Schwester", "english": "Elder sister" }
-    },
-    {
-      "japanese": "おにいさん",
-      "pronunciation": "oniisan",
-      "translation": { "german": "Älterer Bruder", "english": "Elder brother" }
-    },
-    {
-      "japanese": "かみ",
-      "pronunciation": "kami",
-      "translation": { "german": "Haar", "english": "Hair" }
-    },
-    {
-      "japanese": "め",
-      "pronunciation": "me",
-      "translation": { "german": "Auge", "english": "Eye" }
-    },
-    {
-      "japanese": "くち",
-      "pronunciation": "kuchi",
-      "translation": { "german": "Mund", "english": "Mouth" }
-    },
-    {
-      "japanese": "はな",
-      "pronunciation": "hana",
-      "translation": { "german": "Nase", "english": "Nose" }
-    },
-    {
-      "japanese": "みみ",
-      "pronunciation": "mimi",
-      "translation": { "german": "Ohr", "english": "Ear" }
-    },
-    {
-      "japanese": "きょう",
-      "pronunciation": "kyou",
-      "translation": { "german": "Heute", "english": "Today" }
-    },
-    {
-      "japanese": "あした",
-      "pronunciation": "ashita",
-      "translation": { "german": "Morgen", "english": "Tomorrow" }
-    },
-    {
-      "japanese": "きのう",
-      "pronunciation": "kinou",
-      "translation": { "german": "Gestern", "english": "Yesterday" }
-    },
-    {
-      "japanese": "きょうしつ",
-      "pronunciation": "kyoushitsu",
-      "translation": { "german": "Klassenzimmer", "english": "Classroom" }
-    },
-    {
-      "japanese": "がっこう",
-      "pronunciation": "gakkou",
-      "translation": { "german": "Schule", "english": "School" }
-    },
-    {
-      "japanese": "おんせん",
-      "pronunciation": "onsen",
       "translation": {
-        "german": "Heißquelle, Onsen",
-        "english": "Hot spring, Onsen"
-      }
+        "german": "Schwester (älter)",
+        "english": "older sister"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "いえ",
-      "pronunciation": "ie",
-      "translation": { "german": "Haus", "english": "House" }
+      "japaneseHiragana": "いもうと",
+      "japaneseKatakana": "イモウト",
+      "pronunciation": "imouto",
+      "translation": {
+        "german": "Schwester (jünger)",
+        "english": "younger sister"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "すし",
-      "pronunciation": "sushi",
-      "translation": { "german": "Sushi", "english": "Sushi" }
+      "japaneseHiragana": "おじ",
+      "japaneseKatakana": "オジ",
+      "pronunciation": "oji",
+      "translation": {
+        "german": "Onkel",
+        "english": "uncle"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "れすとらん",
-      "pronunciation": "resutoran",
-      "translation": { "german": "Restaurant", "english": "Restaurant" }
+      "japaneseHiragana": "おば",
+      "japaneseKatakana": "オバ",
+      "pronunciation": "oba",
+      "translation": {
+        "german": "Tante",
+        "english": "aunt"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "くつ",
-      "pronunciation": "kutsu",
-      "translation": { "german": "Schuhe", "english": "Shoes" }
+      "japaneseHiragana": "いとこ",
+      "japaneseKatakana": "イトコ",
+      "pronunciation": "itoko",
+      "translation": {
+        "german": "Cousin/Cousine",
+        "english": "cousin/cousin"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "ひこうき",
-      "pronunciation": "hikouki",
-      "translation": { "german": "Flugzeug", "english": "Airplane" }
+      "japaneseHiragana": "おじいさん",
+      "japaneseKatakana": "オジイサン",
+      "pronunciation": "ojiisan",
+      "translation": {
+        "german": "Großvater (mütterlicherseits)",
+        "english": "grandfather (maternal)"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "ねこ",
-      "pronunciation": "neko",
-      "translation": { "german": "Katze", "english": "Cat" }
+      "japaneseHiragana": "おばあさん",
+      "japaneseKatakana": "オバアサン",
+      "pronunciation": "obaasan",
+      "translation": {
+        "german": "Großmutter (mütterlicherseits)",
+        "english": "grandmother (maternal)"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "いぬ",
-      "pronunciation": "inu",
-      "translation": { "german": "Hund", "english": "Dog" }
+      "japaneseHiragana": "おじいさん",
+      "japaneseKatakana": "オジイサン",
+      "pronunciation": "ojiisan",
+      "translation": {
+        "german": "Großvater (väterlicherseits)",
+        "english": "grandfather (paternal)"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "かさ",
-      "pronunciation": "kasa",
-      "translation": { "german": "Regenschirm", "english": "Umbrella" }
+      "japaneseHiragana": "おばあさん",
+      "japaneseKatakana": "オバアサン",
+      "pronunciation": "obaasan",
+      "translation": {
+        "german": "Großmutter (väterlicherseits)",
+        "english": "grandmother (paternal)"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "てがみ",
-      "pronunciation": "tegami",
-      "translation": { "german": "Brief", "english": "Letter" }
+      "japaneseHiragana": "むすめ",
+      "japaneseKatakana": "ムスメ",
+      "pronunciation": "musume",
+      "translation": {
+        "german": "Tochter",
+        "english": "daughter"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "ほん",
-      "pronunciation": "hon",
-      "translation": { "german": "Buch", "english": "Book" }
+      "japaneseHiragana": "むすこ",
+      "japaneseKatakana": "ムスコ",
+      "pronunciation": "musuko",
+      "translation": {
+        "german": "Sohn",
+        "english": "son"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "えんぴつ",
-      "pronunciation": "enpitsu",
-      "translation": { "german": "Bleistift", "english": "Pencil" }
+      "japaneseHiragana": "おとこ",
+      "japaneseKatakana": "オトコ",
+      "pronunciation": "otoko",
+      "translation": {
+        "german": "Mann",
+        "english": "man"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "てれび",
-      "pronunciation": "terebi",
-      "translation": { "german": "Fernseher", "english": "Television" }
+      "japaneseHiragana": "おんな",
+      "japaneseKatakana": "オンナ",
+      "pronunciation": "onna",
+      "translation": {
+        "german": "Frau",
+        "english": "woman"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "はは",
-      "pronunciation": "haha",
-      "translation": { "german": "Mutter", "english": "Mother" }
+      "japaneseHiragana": "こども",
+      "japaneseKatakana": "コドモ",
+      "pronunciation": "kodomo",
+      "translation": {
+        "german": "Kind",
+        "english": "child"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
     },
     {
-      "japanese": "ちち",
-      "pronunciation": "chichi",
-      "translation": { "german": "Vater", "english": "Father" }
+      "japaneseHiragana": "あたま",
+      "japaneseKatakana": "アタマ",
+      "pronunciation": "atama",
+      "translation": {
+        "german": "Kopf",
+        "english": "head"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "はな",
+      "japaneseHiragana": "はな",
+      "japaneseKatakana": "ハナ",
       "pronunciation": "hana",
-      "translation": { "german": "Blume", "english": "Flower" }
+      "translation": {
+        "german": "Nase",
+        "english": "nose"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "き",
-      "pronunciation": "ki",
-      "translation": { "german": "Baum", "english": "Tree" }
+      "japaneseHiragana": "くちびる",
+      "japaneseKatakana": "クチビル",
+      "pronunciation": "kuchibiru",
+      "translation": {
+        "german": "Lippen",
+        "english": "lips"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "うみ",
-      "pronunciation": "umi",
-      "translation": { "german": "Meer", "english": "Sea" }
+      "japaneseHiragana": "は",
+      "japaneseKatakana": "ハ",
+      "pronunciation": "ha",
+      "translation": {
+        "german": "Zahn",
+        "english": "tooth"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "とり",
-      "pronunciation": "tori",
-      "translation": { "german": "Vogel", "english": "Bird" }
+      "japaneseHiragana": "かお",
+      "japaneseKatakana": "カオ",
+      "pronunciation": "kao",
+      "translation": {
+        "german": "Gesicht",
+        "english": "face"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "くじら",
-      "pronunciation": "kujira",
-      "translation": { "german": "Wal", "english": "Whale" }
+      "japaneseHiragana": "あたま",
+      "japaneseKatakana": "アタマ",
+      "pronunciation": "atama",
+      "translation": {
+        "german": "Gehirn",
+        "english": "brain"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "こうてい",
-      "pronunciation": "koutei",
-      "translation": { "german": "Kaiser", "english": "Emperor" }
+      "japaneseHiragana": "かみ",
+      "japaneseKatakana": "カミ",
+      "pronunciation": "kami",
+      "translation": {
+        "german": "Haar",
+        "english": "hair"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "くすり",
-      "pronunciation": "kusuri",
-      "translation": { "german": "Medizin", "english": "Medicine" }
+      "japaneseHiragana": "みみ",
+      "japaneseKatakana": "ミミ",
+      "pronunciation": "mimi",
+      "translation": {
+        "german": "Ohr",
+        "english": "ear"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "ともだち",
-      "pronunciation": "tomodachi",
-      "translation": { "german": "Freund", "english": "Friend" }
+      "japaneseHiragana": "くび",
+      "japaneseKatakana": "クビ",
+      "pronunciation": "kubi",
+      "translation": {
+        "german": "Hals",
+        "english": "neck"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "はし",
-      "pronunciation": "hashi",
-      "translation": { "german": "Brücke", "english": "Bridge" }
+      "japaneseHiragana": "かた",
+      "japaneseKatakana": "カタ",
+      "pronunciation": "kata",
+      "translation": {
+        "german": "Schulter",
+        "english": "shoulder"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "いぬ",
-      "pronunciation": "inu",
-      "translation": { "german": "Hund", "english": "Dog" }
+      "japaneseHiragana": "うで",
+      "japaneseKatakana": "ウデ",
+      "pronunciation": "ude",
+      "translation": {
+        "german": "Arm",
+        "english": "arm"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "ねこ",
-      "pronunciation": "neko",
-      "translation": { "german": "Katze", "english": "Cat" }
+      "japaneseHiragana": "て",
+      "japaneseKatakana": "テ",
+      "pronunciation": "te",
+      "translation": {
+        "german": "Hand",
+        "english": "hand"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "かわ",
-      "pronunciation": "kawa",
-      "translation": { "german": "Fluss", "english": "River" }
+      "japaneseHiragana": "ゆび",
+      "japaneseKatakana": "ユビ",
+      "pronunciation": "yubi",
+      "translation": {
+        "german": "Finger",
+        "english": "finger"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "まち",
-      "pronunciation": "machi",
-      "translation": { "german": "Stadt", "english": "Town/City" }
+      "japaneseHiragana": "て",
+      "japaneseKatakana": "テ",
+      "pronunciation": "te",
+      "translation": {
+        "german": "Handfläche",
+        "english": "palm"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "かぜ",
-      "pronunciation": "kaze",
-      "translation": { "german": "Wind", "english": "Wind" }
+      "japaneseHiragana": "あし",
+      "japaneseKatakana": "アシ",
+      "pronunciation": "ashi",
+      "translation": {
+        "german": "Bein",
+        "english": "leg"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "くも",
-      "pronunciation": "kumo",
-      "translation": { "german": "Wolke", "english": "Cloud" }
+      "japaneseHiragana": "ひざ",
+      "japaneseKatakana": "ヒザ",
+      "pronunciation": "hiza",
+      "translation": {
+        "german": "Knie",
+        "english": "knee"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "はしる",
-      "pronunciation": "hashiru",
-      "translation": { "german": "Laufen", "english": "Run" }
+      "japaneseHiragana": "あし",
+      "japaneseKatakana": "アシ",
+      "pronunciation": "ashi",
+      "translation": {
+        "german": "Fuß",
+        "english": "foot"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "およぐ",
-      "pronunciation": "oyogu",
-      "translation": { "german": "Schwimmen", "english": "Swim" }
+      "japaneseHiragana": "つまさき",
+      "japaneseKatakana": "ツマサキ",
+      "pronunciation": "tsumasaki",
+      "translation": {
+        "german": "Zehenspitze",
+        "english": "toe"
+      },
+      "categories": [
+        "Körper"
+      ]
     },
     {
-      "japanese": "ねむる",
-      "pronunciation": "nemuru",
-      "translation": { "german": "Schlafen", "english": "Sleep" }
+      "japaneseHiragana": "みぎ",
+      "japaneseKatakana": "ミギ",
+      "pronunciation": "migi",
+      "translation": {
+        "german": "rechts",
+        "english": "right"
+      },
+      "categories": [
+        "Richtungen"
+      ]
     },
     {
-      "japanese": "たべる",
-      "pronunciation": "taberu",
-      "translation": { "german": "Essen", "english": "Eat" }
+      "japaneseHiragana": "ひだり",
+      "japaneseKatakana": "ヒダリ",
+      "pronunciation": "hidari",
+      "translation": {
+        "german": "links",
+        "english": "left"
+      },
+      "categories": [
+        "Richtungen"
+      ]
     },
     {
-      "japanese": "のむ",
-      "pronunciation": "nomu",
-      "translation": { "german": "Trinken", "english": "Drink" }
+      "japaneseHiragana": "まえ",
+      "japaneseKatakana": "マエ",
+      "pronunciation": "mae",
+      "translation": {
+        "german": "vorne",
+        "english": "front"
+      },
+      "categories": [
+        "Richtungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "うしろ",
+      "japaneseKatakana": "ウシロ",
+      "pronunciation": "ushiro",
+      "translation": {
+        "german": "hinten",
+        "english": "back"
+      },
+      "categories": [
+        "Richtungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "した",
+      "japaneseKatakana": "シタ",
+      "pronunciation": "shita",
+      "translation": {
+        "german": "unten",
+        "english": "bottom"
+      },
+      "categories": [
+        "Richtungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "うえ",
+      "japaneseKatakana": "ウエ",
+      "pronunciation": "ue",
+      "translation": {
+        "german": "oben",
+        "english": "top"
+      },
+      "categories": [
+        "Richtungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "なか",
+      "japaneseKatakana": "ナカ",
+      "pronunciation": "naka",
+      "translation": {
+        "german": "Mitte",
+        "english": "middle"
+      },
+      "categories": [
+        "Richtungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "まる",
+      "japaneseKatakana": "マル",
+      "pronunciation": "maru",
+      "translation": {
+        "german": "rund",
+        "english": "round"
+      },
+      "categories": [
+        "Formen"
+      ]
+    },
+    {
+      "japaneseHiragana": "しかく",
+      "japaneseKatakana": "シカク",
+      "pronunciation": "shikaku",
+      "translation": {
+        "german": "quadratisch",
+        "english": "square"
+      },
+      "categories": [
+        "Formen"
+      ]
+    },
+    {
+      "japaneseHiragana": "しかくけい",
+      "japaneseKatakana": "シカクケイ",
+      "pronunciation": "shikakukei",
+      "translation": {
+        "german": "Rechteck",
+        "english": "rectangle"
+      },
+      "categories": [
+        "Formen"
+      ]
+    },
+    {
+      "japaneseHiragana": "さんかく",
+      "japaneseKatakana": "サンカク",
+      "pronunciation": "sankaku",
+      "translation": {
+        "german": "dreieckig",
+        "english": "triangular"
+      },
+      "categories": [
+        "Formen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ひしょう",
+      "japaneseKatakana": "ヒショウ",
+      "pronunciation": "hishou",
+      "translation": {
+        "german": "Diamant",
+        "english": "diamond"
+      },
+      "categories": [
+        "Formen"
+      ]
+    },
+    {
+      "japaneseHiragana": "ほうせき",
+      "japaneseKatakana": "ホウセキ",
+      "pronunciation": "houseki",
+      "translation": {
+        "german": "Edelstein",
+        "english": "gemstone"
+      },
+      "categories": [
+        "Formen"
+      ]
+    },
+    {
+      "japaneseHiragana": "まんが",
+      "japaneseKatakana": "マンガ",
+      "pronunciation": "manga",
+      "translation": {
+        "german": "Manga",
+        "english": "manga"
+      },
+      "categories": [
+        "Unterhaltung"
+      ]
+    },
+    {
+      "japaneseHiragana": "アニメ",
+      "japaneseKatakana": "アニメ",
+      "pronunciation": "anime",
+      "translation": {
+        "german": "Anime",
+        "english": "anime"
+      },
+      "categories": [
+        "Unterhaltung"
+      ]
+    },
+    {
+      "japaneseHiragana": "えいが",
+      "japaneseKatakana": "エイガ",
+      "pronunciation": "eiga",
+      "translation": {
+        "german": "Film",
+        "english": "movie"
+      },
+      "categories": [
+        "Unterhaltung"
+      ]
+    },
+    {
+      "japaneseHiragana": "おんがく",
+      "japaneseKatakana": "オンガク",
+      "pronunciation": "ongaku",
+      "translation": {
+        "german": "Musik",
+        "english": "music"
+      },
+      "categories": [
+        "Unterhaltung"
+      ]
+    },
+    {
+      "japaneseHiragana": "たいが",
+      "japaneseKatakana": "タイガ",
+      "pronunciation": "taiga",
+      "translation": {
+        "german": "TV-Drama",
+        "english": "TV drama"
+      },
+      "categories": [
+        "Unterhaltung"
+      ]
+    },
+    {
+      "japaneseHiragana": "げーむ",
+      "japaneseKatakana": "ゲーむ",
+      "pronunciation": "geemu",
+      "translation": {
+        "german": "Spiel",
+        "english": "game"
+      },
+      "categories": [
+        "Unterhaltung"
+      ]
+    },
+    {
+      "japaneseHiragana": "あしたはにほんごのクラスがあります。",
+      "japaneseKatakana": "アシタハニホンゴノクラスガアリマス。",
+      "pronunciation": "ashita wa nihongo no kurasu ga arimasu.",
+      "translation": {
+        "german": "Morgen habe ich Japanischunterricht.",
+        "english": "Tomorrow I have Japanese class."
+      },
+      "categories": [
+        "Schule",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "わたしのけっこんびはじゅうにがつじゅういちにちです。",
+      "japaneseKatakana": "ワタシノケッコンビハジュウニガツジュウイチニチデス。",
+      "pronunciation": "watashi no kekkonbi wa juuni gatsu juuichi nichi desu.",
+      "translation": {
+        "german": "Mein Hochzeitstag ist der elfte November.",
+        "english": "My wedding anniversary is on November eleventh."
+      },
+      "categories": [
+        "Familie",
+        "Feiertage"
+      ]
+    },
+    {
+      "japaneseHiragana": "おべんとうをつくりました。",
+      "japaneseKatakana": "オベントウヲツクリマシタ。",
+      "pronunciation": "obentou o tsukurimashita.",
+      "translation": {
+        "german": "Ich habe ein Bento gemacht.",
+        "english": "I made a bento."
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "いちにちじゅうべんきょうしました。",
+      "japaneseKatakana": "イチニチジュウベンキョウシマシタ。",
+      "pronunciation": "ichi nichi juu benkyou shimashita.",
+      "translation": {
+        "german": "Ich habe den ganzen Tag gelernt.",
+        "english": "I studied all day."
+      },
+      "categories": [
+        "Schule",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おかえりなさい！",
+      "japaneseKatakana": "オカエリナサイ！",
+      "pronunciation": "okaerinasai!",
+      "translation": {
+        "german": "Willkommen zurück!",
+        "english": "Welcome back!"
+      },
+      "categories": [
+        "Alltag",
+        "Begrüßungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "いってきます。",
+      "japaneseKatakana": "イッテキマス。",
+      "pronunciation": "itte kimasu.",
+      "translation": {
+        "german": "Ich gehe jetzt.",
+        "english": "I'm leaving now."
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "がっこうからかえります。",
+      "japaneseKatakana": "ガッコウカラカエリマス。",
+      "pronunciation": "gakkou kara kaerimasu.",
+      "translation": {
+        "german": "Ich komme von der Schule zurück.",
+        "english": "I'm coming back from school."
+      },
+      "categories": [
+        "Schule",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "あなたのくつはあかいです。",
+      "japaneseKatakana": "アナタノクツハアカイデス。",
+      "pronunciation": "anata no kutsu wa akai desu.",
+      "translation": {
+        "german": "Deine Schuhe sind rot.",
+        "english": "Your shoes are red."
+      },
+      "categories": [
+        "Kleidung",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "かれのかぞくはいつもこうえんであそびます。",
+      "japaneseKatakana": "カレノカゾクハイツモコウエンデアソビマス。",
+      "pronunciation": "kare no kazoku wa itsumo kouen de asobimasu.",
+      "translation": {
+        "german": "Seine Familie spielt immer im Park.",
+        "english": "His family always plays in the park."
+      },
+      "categories": [
+        "Familie",
+        "Freizeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "くうこうでしんぶんをかいました。",
+      "japaneseKatakana": "クウコウデシンブンヲカイマシタ。",
+      "pronunciation": "kuukou de shinbun o kaimashita.",
+      "translation": {
+        "german": "Ich habe am Flughafen eine Zeitung gekauft.",
+        "english": "I bought a newspaper at the airport."
+      },
+      "categories": [
+        "Reisen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "たぶんあしたあめがふるでしょう。",
+      "japaneseKatakana": "タブンアシタアメガフルデショウ。",
+      "pronunciation": "tabun ashita ame ga furu deshou.",
+      "translation": {
+        "german": "Morgen wird es wahrscheinlich regnen.",
+        "english": "It will probably rain tomorrow."
+      },
+      "categories": [
+        "Wetter",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "まいあさあさごはんをたべます。",
+      "japaneseKatakana": "マイアサアサゴハンヲタベマス。",
+      "pronunciation": "mai asa asa gohan o tabemasu.",
+      "translation": {
+        "german": "Ich frühstücke jeden Morgen.",
+        "english": "I eat breakfast every morning."
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "たいふうのとき、いえがこわれました。",
+      "japaneseKatakana": "タイフウノトキ、イエガコワレマシタ。",
+      "pronunciation": "taifuu no toki, ie ga kowaremashita.",
+      "translation": {
+        "german": "Während des Taifuns wurde mein Haus zerstört.",
+        "english": "During the typhoon, my house got destroyed."
+      },
+      "categories": [
+        "Natur",
+        "Katastrophen"
+      ]
+    },
+    {
+      "japaneseHiragana": "りょうりをつくるのがすきです。",
+      "japaneseKatakana": "リョウリヲツクルノガスキデス。",
+      "pronunciation": "ryouri o tsukuru no ga suki desu.",
+      "translation": {
+        "german": "Ich koche gerne.",
+        "english": "I like cooking."
+      },
+      "categories": [
+        "Essen",
+        "Hobbys"
+      ]
+    },
+    {
+      "japaneseHiragana": "くるまがほしいです。",
+      "japaneseKatakana": "クルマガホシイデス。",
+      "pronunciation": "kuruma ga hoshii desu.",
+      "translation": {
+        "german": "Ich möchte ein Auto haben.",
+        "english": "I want to have a car."
+      },
+      "categories": [
+        "Wünsche",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "すしはおいしいです。",
+      "japaneseKatakana": "スシハオイシイデス。",
+      "pronunciation": "sushi wa oishii desu.",
+      "translation": {
+        "german": "Sushi ist lecker.",
+        "english": "Sushi is delicious."
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "さくらがさきました。",
+      "japaneseKatakana": "サクラガサキマシタ。",
+      "pronunciation": "sakura ga sakimashita.",
+      "translation": {
+        "german": "Die Kirschblüten sind jetzt erblüht.",
+        "english": "The cherry blossoms have bloomed now."
+      },
+      "categories": [
+        "Natur",
+        "Jahreszeiten"
+      ]
+    },
+    {
+      "japaneseHiragana": "けんしんはつらいです。",
+      "japaneseKatakana": "ケンシンハツライデス。",
+      "pronunciation": "kenshin wa tsurai desu.",
+      "translation": {
+        "german": "Liebeskummer ist schmerzhaft.",
+        "english": "Heartbreak is painful."
+      },
+      "categories": [
+        "Gefühle",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "いもうとががっこうにいきます。",
+      "japaneseKatakana": "イモウトガガッコウニイキマス。",
+      "pronunciation": "imouto ga gakkou ni ikimasu.",
+      "translation": {
+        "german": "Meine jüngere Schwester geht zur Schule.",
+        "english": "My younger sister goes to school."
+      },
+      "categories": [
+        "Familie",
+        "Schule"
+      ]
+    },
+    {
+      "japaneseHiragana": "おとこのひとがとてもつよいです。",
+      "japaneseKatakana": "オトコノヒトガトテモツヨイデス。",
+      "pronunciation": "otoko no hito ga totemo tsuyoi desu.",
+      "translation": {
+        "german": "Der Mann ist sehr stark.",
+        "english": "The man is very strong."
+      },
+      "categories": [
+        "Personen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "あしたはにほんごのクラスがあります。",
+      "japaneseKatakana": "アシタハニホンゴノクラスガアリマス。",
+      "pronunciation": "ashita wa nihongo no kurasu ga arimasu.",
+      "translation": {
+        "german": "Morgen habe ich Japanischunterricht.",
+        "english": "Tomorrow I have Japanese class."
+      },
+      "categories": [
+        "Schule",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "わたしのけっこんびはじゅうにがつじゅういちにちです。",
+      "japaneseKatakana": "ワタシノケッコンビハジュウニガツジュウイチニチデス。",
+      "pronunciation": "watashi no kekkonbi wa juuni gatsu juuichi nichi desu.",
+      "translation": {
+        "german": "Mein Hochzeitstag ist der elfte November.",
+        "english": "My wedding anniversary is on November eleventh."
+      },
+      "categories": [
+        "Familie",
+        "Feiertage"
+      ]
+    },
+    {
+      "japaneseHiragana": "おべんとうをつくりました。",
+      "japaneseKatakana": "オベントウヲツクリマシタ。",
+      "pronunciation": "obentou o tsukurimashita.",
+      "translation": {
+        "german": "Ich habe ein Bento gemacht.",
+        "english": "I made a bento."
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "いちにちじゅうべんきょうしました。",
+      "japaneseKatakana": "イチニチジュウベンキョウシマシタ。",
+      "pronunciation": "ichi nichi juu benkyou shimashita.",
+      "translation": {
+        "german": "Ich habe den ganzen Tag gelernt.",
+        "english": "I studied all day."
+      },
+      "categories": [
+        "Schule",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おかえりなさい！",
+      "japaneseKatakana": "オカエリナサイ！",
+      "pronunciation": "okaerinasai!",
+      "translation": {
+        "german": "Willkommen zurück!",
+        "english": "Welcome back!"
+      },
+      "categories": [
+        "Alltag",
+        "Begrüßungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "いってきます。",
+      "japaneseKatakana": "イッテキマス。",
+      "pronunciation": "itte kimasu.",
+      "translation": {
+        "german": "Ich gehe jetzt.",
+        "english": "I'm leaving now."
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "がっこうからかえります。",
+      "japaneseKatakana": "ガッコウカラカエリマス。",
+      "pronunciation": "gakkou kara kaerimasu.",
+      "translation": {
+        "german": "Ich komme von der Schule zurück.",
+        "english": "I'm coming back from school."
+      },
+      "categories": [
+        "Schule",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "あなたのくつはあかいです。",
+      "japaneseKatakana": "アナタノクツハアカイデス。",
+      "pronunciation": "anata no kutsu wa akai desu.",
+      "translation": {
+        "german": "Deine Schuhe sind rot.",
+        "english": "Your shoes are red."
+      },
+      "categories": [
+        "Kleidung",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "かれのかぞくはいつもこうえんであそびます。",
+      "japaneseKatakana": "カレノカゾクハイツモコウエンデアソビマス。",
+      "pronunciation": "kare no kazoku wa itsumo kouen de asobimasu.",
+      "translation": {
+        "german": "Seine Familie spielt immer im Park.",
+        "english": "His family always plays in the park."
+      },
+      "categories": [
+        "Familie",
+        "Freizeit"
+      ]
+    },
+    {
+      "japaneseHiragana": "くうこうでしんぶんをかいました。",
+      "japaneseKatakana": "クウコウデシンブンヲカイマシタ。",
+      "pronunciation": "kuukou de shinbun o kaimashita.",
+      "translation": {
+        "german": "Ich habe am Flughafen eine Zeitung gekauft.",
+        "english": "I bought a newspaper at the airport."
+      },
+      "categories": [
+        "Reisen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "たぶんあしたあめがふるでしょう。",
+      "japaneseKatakana": "タブンアシタアメガフルデショウ。",
+      "pronunciation": "tabun ashita ame ga furu deshou.",
+      "translation": {
+        "german": "Morgen wird es wahrscheinlich regnen.",
+        "english": "It will probably rain tomorrow."
+      },
+      "categories": [
+        "Wetter",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "まいあさあさごはんをたべます。",
+      "japaneseKatakana": "マイアサアサゴハンヲタベマス。",
+      "pronunciation": "mai asa asa gohan o tabemasu.",
+      "translation": {
+        "german": "Ich frühstücke jeden Morgen.",
+        "english": "I eat breakfast every morning."
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "たいふうのとき、いえがこわれました。",
+      "japaneseKatakana": "タイフウノトキ、イエガコワレマシタ。",
+      "pronunciation": "taifuu no toki, ie ga kowaremashita.",
+      "translation": {
+        "german": "Während des Taifuns wurde mein Haus zerstört.",
+        "english": "During the typhoon, my house got destroyed."
+      },
+      "categories": [
+        "Natur",
+        "Katastrophen"
+      ]
+    },
+    {
+      "japaneseHiragana": "りょうりをつくるのがすきです。",
+      "japaneseKatakana": "リョウリヲツクルノガスキデス。",
+      "pronunciation": "ryouri o tsukuru no ga suki desu.",
+      "translation": {
+        "german": "Ich koche gerne.",
+        "english": "I like cooking."
+      },
+      "categories": [
+        "Essen",
+        "Hobbys"
+      ]
+    },
+    {
+      "japaneseHiragana": "くるまがほしいです。",
+      "japaneseKatakana": "クルマガホシイデス。",
+      "pronunciation": "kuruma ga hoshii desu.",
+      "translation": {
+        "german": "Ich möchte ein Auto haben.",
+        "english": "I want to have a car."
+      },
+      "categories": [
+        "Wünsche",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "すしはおいしいです。",
+      "japaneseKatakana": "スシハオイシイデス。",
+      "pronunciation": "sushi wa oishii desu.",
+      "translation": {
+        "german": "Sushi ist lecker.",
+        "english": "Sushi is delicious."
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "さくらがさきました。",
+      "japaneseKatakana": "サクラガサキマシタ。",
+      "pronunciation": "sakura ga sakimashita.",
+      "translation": {
+        "german": "Die Kirschblüten sind jetzt erblüht.",
+        "english": "The cherry blossoms have bloomed now."
+      },
+      "categories": [
+        "Natur",
+        "Jahreszeiten"
+      ]
+    },
+    {
+      "japaneseHiragana": "けんしんはつらいです。",
+      "japaneseKatakana": "ケンシンハツライデス。",
+      "pronunciation": "kenshin wa tsurai desu.",
+      "translation": {
+        "german": "Liebeskummer ist schmerzhaft.",
+        "english": "Heartbreak is painful."
+      },
+      "categories": [
+        "Gefühle",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "いもうとががっこうにいきます。",
+      "japaneseKatakana": "イモウトガガッコウニイキマス。",
+      "pronunciation": "imouto ga gakkou ni ikimasu.",
+      "translation": {
+        "german": "Meine jüngere Schwester geht zur Schule.",
+        "english": "My younger sister goes to school."
+      },
+      "categories": [
+        "Familie",
+        "Schule"
+      ]
+    },
+    {
+      "japaneseHiragana": "おとこのひとがとてもつよいです。",
+      "japaneseKatakana": "オトコノヒトガトテモツヨイデス。",
+      "pronunciation": "otoko no hito ga totemo tsuyoi desu.",
+      "translation": {
+        "german": "Der Mann ist sehr stark.",
+        "english": "The man is very strong."
+      },
+      "categories": [
+        "Personen",
+        "Alltag"
+      ]
     }
   ]
 }

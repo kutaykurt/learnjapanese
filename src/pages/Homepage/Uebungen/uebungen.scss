@@ -1,2 +1,30 @@
 @import '../../../App.scss';
 
+
+
+
+.uebungen-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.uebungen-item {
+  display: flex;
+  align-items: center;
+  height: 40px; /* Set a fixed height for each item */
+}
+
+.alphabet {
+  margin-bottom: 5px; /* Add space between alphabet and form */
+}
+
+.form-result-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Horizontal mittig zentrieren */
+  margin-left: 10px; /* Add space between form input and result */
+}
+
+.result {
+  margin-left: 10px; /* Add space between form input and result */
+}

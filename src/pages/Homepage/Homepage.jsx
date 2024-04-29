@@ -26,7 +26,7 @@ const Homepage = () => {
           foundations in Japanese writing, used for phonetic spelling of words
           and grammer. It consists of 46 basic characters.
           <br />
-          <Link to="hiragana" className="link">
+          <Link to="/hiragana" className="link">
             <button className="hiragana">Learn</button>
           </Link>
         </li>
@@ -35,8 +35,8 @@ const Homepage = () => {
           foreign words, onomatopoeia, and names of plants or animals. Like
           Hiragana, it comprises 46 characters.
           <br />
-          <Link to="katakana" className="link">
-            <button className="katakana" disabled>
+          <Link to="/katakana" className="link">
+            <button className="katakana">
             Learn
             </button>
           </Link>
@@ -46,7 +46,7 @@ const Homepage = () => {
           adopted into the Japanese language. They represent words or ideas and
           encompass several thousand characters.
           <br />
-          <Link to="kanji" className="link">
+          <Link to="/kanji" className="link">
             <button className="kanji" disabled>
             Learn
             </button>

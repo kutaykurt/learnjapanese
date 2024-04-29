@@ -7,14 +7,16 @@ import Modal from "react-bootstrap/Modal";
 
 const ITEMS_PER_PAGE = 30;
 
-const GermanVocabulary = () => {
+const KatakanaEnglishVocabulary = () => {
   const [japaneseData, setJapaneseData] = useState({ vocabulary: [] });
-  const [currentPageVocabularyGerman, setCurrentPageVocabularyGerman] =
+  const [currentPageVocabularyEnglish, setCurrentPageVocabularyEnglish] =
     useState(1);
   const [selectedItem, setSelectedItem] = useState(null);
   const [modalShow, setModalShow] = useState(false);
+
   const { id } = useParams();
-  const { addVocabulary, isVocabularySelected, removeVocabulary } = useContext(VocabularyContext);
+  const { addKatakanaVocabulary, isKatakanaVocabularySelected } =
+    useContext(VocabularyContext);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -41,15 +43,19 @@ const GermanVocabulary = () => {
     };
   }, []);
 
-  const handleSelectVocabulary = (item, german) => {
+  const totalPagesVocabularyEnglish = Math.ceil(
+    japaneseData.vocabulary.length / ITEMS_PER_PAGE
+  );
+
+  const handleSelectVocabulary = (item, english) => {
     const vocabularyToAdd = {
-      japanese: item.japanese,
+      japaneseKatakana: item.japaneseKatakana,
       pronunciation: item.pronunciation,
       translation: {
-        [german]: item.translation[german],
+        [english]: item.translation[english],
       },
     };
-    addVocabulary(vocabularyToAdd);
+    addKatakanaVocabulary(vocabularyToAdd);
   };
 
   const handleRowClick = (item) => {
@@ -61,93 +67,80 @@ const GermanVocabulary = () => {
     }
   };
 
-  const renderGermanVocabularyForPage = () => {
-    const startIndex = (currentPageVocabularyGerman - 1) * ITEMS_PER_PAGE;
+  const renderEnglishVocabularyForPage = () => {
+    const startIndex = (currentPageVocabularyEnglish - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
-    const germanVocabularies = japaneseData.vocabulary
-      .filter((item) => item.translation.german)
+    const englishVocabularies = japaneseData.vocabulary
+      .filter((item) => item.translation.english) // Filtert Vokabeln mit englischer Übersetzung
       .slice(startIndex, endIndex);
 
-    return germanVocabularies.map((item, index) => (
+    return englishVocabularies.map((item, index) => (
       <tr
         key={index}
         className={`list-items-container equal-column-width ${
-          isVocabularySelected(item, "german") ? "selected" : ""
+          isKatakanaVocabularySelected(item, "english") ? "selected" : ""
         }`}
         onClick={() => handleRowClick(item)}
       >
-        <td>{item.japanese}</td>
+        <td>{item.japaneseKatakana}</td>
         <td>{item.pronunciation}</td>
-        <td>{item.translation.german}</td>
+        <td>{item.translation.english}</td>
         {windowWidth >= 480 && (
-          <div>
-            <button
-              onClick={() => handleSelectVocabulary(item, "german")}
-              className={`add-button ${
-                isVocabularySelected(item, "german") ? "selected" : ""
-              }`}
-            >
-              {isVocabularySelected(item, "german")
-                ? "X"
-                : "Add to Vocabulary"}
-            </button>
-          </div>
+          <button
+            onClick={() => handleSelectVocabulary(item, "english")}
+            className={`add-button ${
+              isKatakanaVocabularySelected(item, "english") ? "selected" : ""
+            }`}
+          >
+            {isKatakanaVocabularySelected(item, "english")
+              ? "X"
+              : "Add to Vocabulary"}
+          </button>
         )}
       </tr>
     ));
   };
 
-  const handlePrevPageVocabularyGerman = () => {
-    if (currentPageVocabularyGerman > 1) {
-      setCurrentPageVocabularyGerman(currentPageVocabularyGerman - 1);
+  const handlePrevPageVocabularyEnglish = () => {
+    if (currentPageVocabularyEnglish > 1) {
+      setCurrentPageVocabularyEnglish(currentPageVocabularyEnglish - 1);
     }
   };
 
-  const handleNextPageVocabularyGerman = () => {
-    const totalPagesVocabularyGerman = Math.ceil(
-      japaneseData.vocabulary.length / ITEMS_PER_PAGE
-    );
-    if (currentPageVocabularyGerman < totalPagesVocabularyGerman) {
-      setCurrentPageVocabularyGerman(currentPageVocabularyGerman + 1);
+  const handleNextPageVocabularyEnglish = () => {
+    if (currentPageVocabularyEnglish < totalPagesVocabularyEnglish) {
+      setCurrentPageVocabularyEnglish(currentPageVocabularyEnglish + 1);
     }
   };
 
-  const handleRemoveVocabulary = (item) => {
-    removeVocabulary(item);
-  };
-
-  const handleModalButtonClick = (item, german) => {
-    if (!isVocabularySelected(item)) {
+  const handleModalButtonClick = (item, english) => {
+    if (!isKatakanaVocabularySelected(item)) {
       const vocabularyToAdd = {
-        japanese: item.japanese,
+        japaneseKatakana: item.japaneseKatakana,
         pronunciation: item.pronunciation,
         translation: {
-          [german]: item.translation[german],
+          [english]: item.translation[english],
         },
       };
-      addVocabulary(vocabularyToAdd);
+      addKatakanaVocabulary(vocabularyToAdd);
     }
     setModalShow(false);
   };
 
-  const paginationButtonsVocabularyGerman = (
+  const paginationButtonsVocabularyEnglish = (
     <div className="pagination">
       <button
-        onClick={handlePrevPageVocabularyGerman}
-        disabled={currentPageVocabularyGerman === 1}
+        onClick={handlePrevPageVocabularyEnglish}
+        disabled={currentPageVocabularyEnglish === 1}
       >
         Previous
       </button>
       <span>
-        Page {currentPageVocabularyGerman} of{" "}
-        {Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE)}
+        Page {currentPageVocabularyEnglish} of {totalPagesVocabularyEnglish}
       </span>
       <button
-        onClick={handleNextPageVocabularyGerman}
-        disabled={
-          currentPageVocabularyGerman ===
-          Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE)
-        }
+        onClick={handleNextPageVocabularyEnglish}
+        disabled={currentPageVocabularyEnglish === totalPagesVocabularyEnglish}
       >
         Next
       </button>
@@ -159,14 +152,14 @@ const GermanVocabulary = () => {
       <table className="my-table">
         <tbody>
           <tr>
-            <th>Hiragana</th>
+            <th>Katakana</th>
             <th>Pronounciation</th>
-            <th>German</th>
+            <th>English</th>
           </tr>
-          {renderGermanVocabularyForPage()}
+          {renderEnglishVocabularyForPage()}
         </tbody>
       </table>
-      {paginationButtonsVocabularyGerman}
+      {paginationButtonsVocabularyEnglish}
 
       {selectedItem && windowWidth <= 480 && (
         <Modal
@@ -177,14 +170,14 @@ const GermanVocabulary = () => {
         >
           <Modal.Header closeButton>
             <Modal.Title>
-              {isVocabularySelected(selectedItem)
+              {isKatakanaVocabularySelected(selectedItem)
                 ? "Added"
                 : "Add to Vocabulary"}
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>
-              {isVocabularySelected(selectedItem)
+              {isKatakanaVocabularySelected(selectedItem)
                 ? "This item is already added."
                 : "Do you want to add this item to your vocabulary?"}
             </p>
@@ -195,9 +188,9 @@ const GermanVocabulary = () => {
             </Button>
             <Button
               variant="primary"
-              onClick={() => handleModalButtonClick(selectedItem, "german")}
+              onClick={() => handleModalButtonClick(selectedItem, "english")}
             >
-              {isVocabularySelected(selectedItem, "german")
+              {isKatakanaVocabularySelected(selectedItem, "english")
                 ? "Added"
                 : "Add to Vocabulary"}
             </Button>
@@ -208,4 +201,4 @@ const GermanVocabulary = () => {
   );
 };
 
-export default GermanVocabulary;
+export default KatakanaEnglishVocabulary;

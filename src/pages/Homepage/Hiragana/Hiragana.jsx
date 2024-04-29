@@ -6,9 +6,9 @@ import { Link, useLocation } from 'react-router-dom';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
-import Alphabet from './Alphabet/Alphabet';
-import GermanVocabulary from './GermanVocabulary/GermanVocabulary';
-import EnglishVocabulary from './EnglishVocabulary/EnglishVocabulary';
+import Alphabet from './Alphabet/HiraganaAlphabet';
+import HiraganaGermanVocabulary from './HiraganaGermanVocabulary/HiraganaGermanVocabulary';
+import HiraganaEnglishVocabulary from './HiraganaEnglishVocabulary/HiraganaEnglishVocabulary';
 
 const Hiragana = () => {
   const [key, setKey] = useState('Alphabet');
@@ -35,7 +35,7 @@ const Hiragana = () => {
       
       <div>
         <span>Click here for {'>'} </span>
-        <Link to="/uebungen" className="link jc-center">
+        <Link to="/exercises" className="link jc-center">
           Exercises
         </Link>
       </div>
@@ -56,11 +56,11 @@ const Hiragana = () => {
             title="Vocabulary (German)"
             className="tab-names"
           >
-            <GermanVocabulary />
+            <HiraganaGermanVocabulary />
           </Tab>
 
           <Tab eventKey="VocabularyEnglish" title="Vocabulary (English)">
-            <EnglishVocabulary />
+            <HiraganaEnglishVocabulary />
           </Tab>
         </Tabs>
       </div>

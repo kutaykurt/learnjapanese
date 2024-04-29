@@ -7,7 +7,7 @@ import Modal from "react-bootstrap/Modal";
 
 const ITEMS_PER_PAGE = 30;
 
-const EnglishVocabulary = () => {
+const HiraganaEnglishVocabulary = () => {
   const [japaneseData, setJapaneseData] = useState({ vocabulary: [] });
   const [currentPageVocabularyEnglish, setCurrentPageVocabularyEnglish] =
     useState(1);
@@ -15,7 +15,8 @@ const EnglishVocabulary = () => {
   const [modalShow, setModalShow] = useState(false);
 
   const { id } = useParams();
-  const { addVocabulary, isVocabularySelected } = useContext(VocabularyContext);
+  const { addHiraganaVocabulary, isHiraganaVocabularySelected } =
+    useContext(VocabularyContext);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -48,17 +49,17 @@ const EnglishVocabulary = () => {
 
   const handleSelectVocabulary = (item, english) => {
     const vocabularyToAdd = {
-      japanese: item.japanese,
+      japaneseHiragana: item.japaneseHiragana,
       pronunciation: item.pronunciation,
       translation: {
         [english]: item.translation[english],
       },
     };
-    addVocabulary(vocabularyToAdd);
+    addHiraganaVocabulary(vocabularyToAdd);
   };
 
   const handleRowClick = (item) => {
-    console.log("Selected item:", item); // Überprüfen Sie, ob das Element korrekt ausgewählt wurde
+    console.log("Selected item:", item);
     setSelectedItem(item);
 
     if (windowWidth <= 480) {
@@ -70,28 +71,30 @@ const EnglishVocabulary = () => {
     const startIndex = (currentPageVocabularyEnglish - 1) * ITEMS_PER_PAGE;
     const endIndex = startIndex + ITEMS_PER_PAGE;
     const englishVocabularies = japaneseData.vocabulary
-      .filter((item) => item.translation.english) // Filtert Vokabeln mit deutscher Übersetzung
+      .filter((item) => item.translation.english)
       .slice(startIndex, endIndex);
 
     return englishVocabularies.map((item, index) => (
       <tr
         key={index}
         className={`list-items-container equal-column-width ${
-          isVocabularySelected(item, "english") ? "selected" : ""
+          isHiraganaVocabularySelected(item, "english") ? "selected" : ""
         }`}
         onClick={() => handleRowClick(item)}
       >
-        <td>{item.japanese}</td>
+        <td>{item.japaneseHiragana}</td>
         <td>{item.pronunciation}</td>
         <td>{item.translation.english}</td>
         {windowWidth >= 480 && (
           <button
             onClick={() => handleSelectVocabulary(item, "english")}
             className={`add-button ${
-              isVocabularySelected(item, "english") ? "selected" : "add-button"
+              isHiraganaVocabularySelected(item, "english") ? "selected" : ""
             }`}
           >
-            {isVocabularySelected(item, "english") ? "X" : "Add to Vocabulary"}
+            {isHiraganaVocabularySelected(item, "english")
+              ? "X"
+              : "Add to Vocabulary"}
           </button>
         )}
       </tr>
@@ -111,15 +114,15 @@ const EnglishVocabulary = () => {
   };
 
   const handleModalButtonClick = (item, english) => {
-    if (!isVocabularySelected(item)) {
+    if (!isHiraganaVocabularySelected(item)) {
       const vocabularyToAdd = {
-        japanese: item.japanese,
+        japaneseHiragana: item.japaneseHiragana,
         pronunciation: item.pronunciation,
         translation: {
           [english]: item.translation[english],
         },
       };
-      addVocabulary(vocabularyToAdd);
+      addHiraganaVocabulary(vocabularyToAdd);
     }
     setModalShow(false);
   };
@@ -167,14 +170,14 @@ const EnglishVocabulary = () => {
         >
           <Modal.Header closeButton>
             <Modal.Title>
-              {isVocabularySelected(selectedItem)
+              {isHiraganaVocabularySelected(selectedItem)
                 ? "Added"
                 : "Add to Vocabulary"}
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <p>
-              {isVocabularySelected(selectedItem)
+              {isHiraganaVocabularySelected(selectedItem)
                 ? "This item is already added."
                 : "Do you want to add this item to your vocabulary?"}
             </p>
@@ -187,7 +190,7 @@ const EnglishVocabulary = () => {
               variant="primary"
               onClick={() => handleModalButtonClick(selectedItem, "english")}
             >
-              {isVocabularySelected(selectedItem, "english")
+              {isHiraganaVocabularySelected(selectedItem, "english")
                 ? "Added"
                 : "Add to Vocabulary"}
             </Button>
@@ -198,4 +201,4 @@ const EnglishVocabulary = () => {
   );
 };
 
-export default EnglishVocabulary;
+export default HiraganaEnglishVocabulary;

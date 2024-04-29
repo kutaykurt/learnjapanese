@@ -33,7 +33,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/"
+                to="/katakana"
                 className={`link jc-center ${getNavLinkClass('/katakana')}`}
               >
                 Katakana
@@ -51,8 +51,8 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/uebungen"
-                className={`link jc-center ${getNavLinkClass('/uebungen')}`}
+                to="/exercises"
+                className={`link jc-center ${getNavLinkClass('/exercises')}`}
               >
                 Exercises
               </Link>
