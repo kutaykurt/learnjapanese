@@ -136,62 +136,68 @@ const HiraganaGermanVocabulary = () => {
         Previous
       </button>
       <span>
-        Page {currentPageVocabularyGerman} of {totalPagesVocabularyGerman}
+        Page {currentPageVocabularyGerman} of{" "}
+        {Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE)}
       </span>
       <button
         onClick={handleNextPageVocabularyGerman}
-        disabled={currentPageVocabularyGerman === totalPagesVocabularyGerman}
+        disabled={
+          currentPageVocabularyGerman ===
+          Math.ceil(japaneseData.vocabulary.length / ITEMS_PER_PAGE)
+        }
       >
         Next
       </button>
     </div>
   );
 
-  return (
-    <div>
-      <table className="my-table">
-        <tbody>
-          <tr>
-            <th>Hiragana</th>
-            <th>Pronunciation</th>
-            <th>German</th>
-          </tr>
-          {renderGermanVocabularyForPage()}
-        </tbody>
-      </table>
-      {paginationButtonsVocabularyGerman}
+ return (
+   <div>
+     <table className="my-table">
+       <tbody>
+         <tr>
+           <th>Hiragana</th>
+           <th>Pronounciation</th>
+           <th>German</th>
+         </tr>
+         {renderGermanVocabularyForPage()}
+       </tbody>
+     </table>
+     {paginationButtonsVocabularyGerman}
 
-      <Modal
-        show={modalShow}
-        onHide={() => setModalShow(false)}
-        size="lg"
-        centered
-      >
-        <Modal.Header closeButton>
-          <Modal.Title>
-            <p>{selectedItem && selectedItem.japaneseHiragana}</p>
-          </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <p>{selectedItem && selectedItem.pronunciation}</p>
-          {selectedItem && selectedItem.translation.german}
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={() => setModalShow(false)}>
-            Close
-          </Button>
-          <Button
-            variant="primary"
-            onClick={() => handleModalButtonClick(selectedItem, "german")}
-          >
-            {isHiraganaVocabularySelected(selectedItem, "german")
-              ? "Remove"
-              : "Add to Vocabulary"}
-          </Button>
-        </Modal.Footer>
-      </Modal>
-    </div>
-  );
+     {selectedItem && windowWidth <= 480 && (
+       <Modal
+         show={modalShow}
+         onHide={() => setModalShow(false)}
+         size="lg"
+         centered
+       >
+         <Modal.Header closeButton>
+           <Modal.Title>
+             <p>{selectedItem && selectedItem.japaneseHiragana}</p>
+           </Modal.Title>
+         </Modal.Header>
+         <Modal.Body>
+           <p>{selectedItem && selectedItem.pronunciation}</p>
+           {selectedItem && selectedItem.translation.german}
+         </Modal.Body>
+         <Modal.Footer>
+           <Button variant="secondary" onClick={() => setModalShow(false)}>
+             Close
+           </Button>
+           <Button
+             variant="primary"
+             onClick={() => handleModalButtonClick(selectedItem, "german")}
+           >
+             {isHiraganaVocabularySelected(selectedItem, "german")
+               ? "Remove"
+               : "Add to Vocabulary"}
+           </Button>
+         </Modal.Footer>
+       </Modal>
+     )}
+   </div>
+ );
 };
 
 export default HiraganaGermanVocabulary;

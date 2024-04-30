@@ -46,7 +46,7 @@ const Header = () => {
             </li> */}
             <li>
               <Link to="/myvocabularies" className={`link jc-center ${getNavLinkClass('/myvocabularies')}`}>
-                My Vocabulary
+                My Vocabularies
               </Link>
             </li>
             <li>

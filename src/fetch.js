@@ -14,21 +14,6 @@
   } */
 
 export async function fetchJapaneseData() {
-  function filterDuplicates(vocabulary) {
-    return vocabulary.filter(
-      (item, index, array) =>
-        index ===
-        array.findIndex(
-          (element) =>
-            element.japaneseHiragana === item.japaneseHiragana &&
-            element.japaneseKatakana === item.japaneseKatakana &&
-            element.pronunciation === item.pronunciation &&
-            element.translation.german === item.translation.german &&
-            element.translation.english === item.translation.english
-        )
-    );
-  }
-
   try {
     const response = await fetch('japanesedata.json');
     if (!response.ok) {
@@ -52,4 +37,20 @@ export async function fetchJapaneseData() {
       vocabulary: [],
     };
   }
+}
+
+// Hilfsfunktion zum Filtern von Duplikaten im Vokabular
+function filterDuplicates(vocabulary) {
+  return vocabulary.filter(
+    (item, index, array) =>
+      index ===
+      array.findIndex(
+        (element) =>
+          element.japaneseHiragana === item.japaneseHiragana &&
+          element.japaneseKatakana === item.japaneseKatakana &&
+          element.pronunciation === item.pronunciation &&
+          element.translation.german === item.translation.german &&
+          element.translation.english === item.translation.english
+      )
+  );
 }
