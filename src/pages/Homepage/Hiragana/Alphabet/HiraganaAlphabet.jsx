@@ -167,19 +167,14 @@ const HiraganaAlphabet = () => {
           size="lg"
           centered
         >
-          <Modal.Header closeButton>
+          <Modal.Header>
             <Modal.Title>
-              {isHiraganaVocabularySelected(selectedHiraganaItem)
-                ? "Added"
-                : "Add to Vocabulary"}
+              <p>{selectedHiraganaItem.character}</p>
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>
-              {isHiraganaVocabularySelected(selectedHiraganaItem)
-                ? "This item is already added."
-                : "Do you want to add this item to your vocabulary?"}
-            </p>
+            <p>{selectedHiraganaItem.pronunciation}</p>
+            <p>{selectedHiraganaItem.translation}</p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={() => setModalShow(false)}>
@@ -187,7 +182,7 @@ const HiraganaAlphabet = () => {
             </Button>
             <Button variant="primary" onClick={handleModalButtonClick}>
               {isHiraganaVocabularySelected(selectedHiraganaItem)
-                ? "Added"
+                ? "Remove"
                 : "Add to Vocabulary"}
             </Button>
           </Modal.Footer>

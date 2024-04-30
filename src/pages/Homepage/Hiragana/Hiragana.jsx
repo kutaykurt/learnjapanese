@@ -26,10 +26,9 @@ const Hiragana = () => {
         <h2>Hiragana</h2>
 
         <p>
-          <span>Welcome</span> to the Hiragana script! We already told you that
-          we recommend you to learn Hiragana first...
+          <span>Welcome</span> to Hiragana!
           <br />
-          But why should you learn it at first? You can read more about it <Link to="/abouthiragana" className='link more-info'>here</Link>
+          Why should you learn Hiragana at first? You can read more about it <Link to="/abouthiragana" className='link more-info'>here</Link>
         </p>
       </div>
       

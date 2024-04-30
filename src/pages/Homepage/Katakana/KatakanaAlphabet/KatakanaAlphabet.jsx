@@ -167,19 +167,14 @@ const KatakanaAlphabet = () => {
           size="lg"
           centered
         >
-          <Modal.Header closeButton>
+          <Modal.Header>
             <Modal.Title>
-              {isKatakanaVocabularySelected(selectedKatakanaItem)
-                ? "Added"
-                : "Add to Vocabulary"}
+              <p>{selectedKatakanaItem.character}</p>
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>
-              {isKatakanaVocabularySelected(selectedKatakanaItem)
-                ? "This item is already added."
-                : "Do you want to add this item to your vocabulary?"}
-            </p>
+            <p>{selectedKatakanaItem.pronunciation}</p>
+            <p>{selectedKatakanaItem.translation}</p>
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={() => setModalShow(false)}>
@@ -187,7 +182,7 @@ const KatakanaAlphabet = () => {
             </Button>
             <Button variant="primary" onClick={handleModalButtonClick}>
               {isKatakanaVocabularySelected(selectedKatakanaItem)
-                ? "Added"
+                ? "Remove"
                 : "Add to Vocabulary"}
             </Button>
           </Modal.Footer>

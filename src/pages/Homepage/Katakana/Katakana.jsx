@@ -6,12 +6,12 @@ import { Link, useLocation } from "react-router-dom";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 
-import KatakanaAlphabet from './KatakanaAlphabet/KatakanaAlphabet';
+import KatakanaAlphabet from "./KatakanaAlphabet/KatakanaAlphabet";
 import KatakanaGermanVocabulary from "./KatakanaGermanVocabulary/KatakanaGermanVocabulary";
 import KatakanaEnglishVocabulary from "./KatakanaEnglishVocabulary/KatakanaEnglishVocabulary";
 
 const Katakana = () => {
-  const [key, setKey] = useState("Alphabet");
+  const [key, setKey] = useState("KatakanaAlphabet");
   const [selectedVocabulary, setSelectedVocabulary] = useState(null);
 
   const location = useLocation();
@@ -26,18 +26,17 @@ const Katakana = () => {
         <h2>Katakana</h2>
 
         <p>
-          <span>Willkommen</span> beim Katakana-Skript! Wir empfehlen Ihnen,
-          zuerst Katakana zu lernen...
+          <span>Welcome</span> to Katakana!
           <br />
-          Aber warum sollten Sie es zuerst lernen? Sie können mehr darüber lesen{" "}
+          Read more about it{" "}
           <Link to="/aboutkatakana" className="link more-info">
-            hier
+            here
           </Link>
         </p>
       </div>
 
       <div>
-        <span>Klicken Sie hier für {">"} </span>
+        <span>Click here for {">"} </span>
         <Link to="/exercises" className="link jc-center">
           Exercises
         </Link>
@@ -58,7 +57,7 @@ const Katakana = () => {
           </Tab>
 
           <Tab
-            eventKey="KatakanaCocabularyGerman"
+            eventKey="KatakanaVocabularyGerman"
             title="Vokabeln (Deutsch)"
             className="tab-names"
           >

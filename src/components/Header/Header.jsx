@@ -39,11 +39,11 @@ const Header = () => {
                 Katakana
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/" className={`link jc-center ${getNavLinkClass('/kanji')}`}>
                 Kanji
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/myvocabularies" className={`link jc-center ${getNavLinkClass('/myvocabularies')}`}>
                 My Vocabulary

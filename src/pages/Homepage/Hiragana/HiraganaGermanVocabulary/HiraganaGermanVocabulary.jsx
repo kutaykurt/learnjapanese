@@ -160,30 +160,33 @@ const HiraganaGermanVocabulary = () => {
         </tbody>
       </table>
       {paginationButtonsVocabularyGerman}
+
       <Modal
         show={modalShow}
         onHide={() => setModalShow(false)}
-        backdrop="static"
-        keyboard={false}
+        size="lg"
+        centered
       >
         <Modal.Header closeButton>
           <Modal.Title>
-            {selectedItem && selectedItem.translation.german}
+            <p>{selectedItem && selectedItem.japaneseHiragana}</p>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>{selectedItem && selectedItem.japaneseHiragana}</p>
           <p>{selectedItem && selectedItem.pronunciation}</p>
+          {selectedItem && selectedItem.translation.german}
         </Modal.Body>
         <Modal.Footer>
+          <Button variant="secondary" onClick={() => setModalShow(false)}>
+            Close
+          </Button>
           <Button
-            variant="secondary"
+            variant="primary"
             onClick={() => handleModalButtonClick(selectedItem, "german")}
           >
-            Add to Vocabulary
-          </Button>
-          <Button variant="primary" onClick={() => setModalShow(false)}>
-            Close
+            {isHiraganaVocabularySelected(selectedItem, "german")
+              ? "Remove"
+              : "Add to Vocabulary"}
           </Button>
         </Modal.Footer>
       </Modal>

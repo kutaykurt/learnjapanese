@@ -170,17 +170,12 @@ const KatakanaEnglishVocabulary = () => {
         >
           <Modal.Header closeButton>
             <Modal.Title>
-              {isKatakanaVocabularySelected(selectedItem)
-                ? "Added"
-                : "Add to Vocabulary"}
+              <p>{selectedItem && selectedItem.japaneseKatakana}</p>
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <p>
-              {isKatakanaVocabularySelected(selectedItem)
-                ? "This item is already added."
-                : "Do you want to add this item to your vocabulary?"}
-            </p>
+            <p>{selectedItem && selectedItem.pronunciation}</p>
+            {selectedItem && selectedItem.translation.english}
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={() => setModalShow(false)}>
@@ -191,7 +186,7 @@ const KatakanaEnglishVocabulary = () => {
               onClick={() => handleModalButtonClick(selectedItem, "english")}
             >
               {isKatakanaVocabularySelected(selectedItem, "english")
-                ? "Added"
+                ? "Remove"
                 : "Add to Vocabulary"}
             </Button>
           </Modal.Footer>

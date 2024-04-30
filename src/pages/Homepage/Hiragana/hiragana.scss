@@ -57,7 +57,7 @@ th {
 td {
   border: 1px black solid !important;
   padding: 7px 15px;
-  width: 340px;
+  width: 390px;
 }
 .list-items-container:nth-child(odd) {
   background-color: $list-item-blue !important;
@@ -116,20 +116,24 @@ td {
     padding: 0px 15px;
   }
 
+  h2 {
+    padding-top: 15px;
+  }
+  
   .remove-button {
     margin-top: 5px;
   }
-
+  
   table {
     width: auto;
   }
-
+  
   th, td {
     padding: 1px 6px;
   }
   
   td {
-    max-width: 100px; /* Beispiel: Ändere die maximale Breite nach Bedarf */
+    max-width: 120px; /* Beispiel: Ändere die maximale Breite nach Bedarf */
     word-wrap: break-word; /* Erlaube den Text, umzubrechen */
   }
 
