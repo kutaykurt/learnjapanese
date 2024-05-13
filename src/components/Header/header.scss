@@ -1,69 +1,72 @@
 @import '../../App.scss';
 
 .Header {
+  background-color: #272727;
+  margin-bottom: 70px;
   
   .link {
     width: max-content;
     text-decoration: none;
     color: $main-grey;
     margin: 0px 15px;
+    color: $main-white;
 
     &.active {
-      font-weight: bold;
+      font-weight: 500;
       text-decoration: underline 2px;
-      color: $main-black;
+      color: $main-blue;
     }
   }
   
-  .header-top-line {
-    background-color: $main-grey;
-    height: 6px;
+  .header-design-line {
+    background-color: $main-blue;
+    height: 5px;
   }
 
   .header-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-weight: light;
+    align-items: center;
     color: $main-black;
     font-size: 18px;
-    padding: 20px 0px;
-    border-bottom: 1px $main-grey solid;
-
+    padding: 25px 0px;
+    
     .column-one,
     .column-two,
     .column-three {
       display: flex;
       min-width: max-content;
     }
-
+    
     .column-one {
       padding: 0px 0px 0px 30px;
       font-weight: bold;
       font-size: 32px;
       justify-content: left;
-
+      
       .learn-word {
-        color: $main-black;
+        color: $main-white;
       }
-
+      
       .japanese-word {
         color: $main-blue;
       }
     }
     
     .column-two {
-      text-align: center;
-      justify-content: center;
+      display: flex;
+      justify-content: center; 
+    }
+    
+    .navigation {
+      display: flex;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
       
-      .navigation {
-        display: flex;
-        list-style-type: none;
-        padding: 0;
-
-        li:hover {
-            text-decoration: underline $main-black;
-            font-weight: bold;
-        }
+      li:hover {
+        text-decoration: underline $main-blue;
       }
     }
     
@@ -77,11 +80,10 @@
   @media screen and (max-width: 480px) {
 
     .header-main {
-      background-color: $header-background;
+      background-color: $main-black;
       max-width: 100%;
       display: flex;
       flex-direction: column;
-      font-weight: bold;
       padding: 20px 0px 10px 0px;
       
       .column-one {

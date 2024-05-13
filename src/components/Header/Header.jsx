@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <div className="Header">
-      <div className="header-top-line" />
+      <div className="header-design-line" />
 
       <div className="header-main">
         <div className="column-one">
@@ -39,11 +39,6 @@ const Header = () => {
                 Katakana
               </Link>
             </li>
-            {/* <li>
-              <Link to="/" className={`link jc-center ${getNavLinkClass('/kanji')}`}>
-                Kanji
-              </Link>
-            </li> */}
             <li>
               <Link to="/myvocabularies" className={`link jc-center ${getNavLinkClass('/myvocabularies')}`}>
                 My Vocabularies
@@ -59,9 +54,6 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        {/* <div className="column-three">
-          <span>Language</span>
-        </div> */}
       </div>
     </div>
   );

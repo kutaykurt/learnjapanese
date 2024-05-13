@@ -4,12 +4,11 @@
   font-size: 18px;
   color: $main-black;
   padding: 0px 40px;
+  color: $main-black;
 
   h2 {
     font-size: 22px;
-    padding: 10px 0px;
     animation: language-description-title-effect 1.8s ease-in-out;
-    font-weight: bold;
   }
 
   .description-first {
@@ -20,7 +19,7 @@
 
   .note {
     margin: 10px 0px;
-    font-weight: bold;
+    color: $main-black;
   }
 }
 
@@ -35,13 +34,16 @@
   margin: 0;
 
   .title {
+    display: flex;
     font-weight: bold;
     color: $main-blue;
+    line-height: 22px;
   }
 
   button {
     width: 120px;
     padding: 3px 0px;
+    margin: 10px 0px 24px 0px;
     font-size: 18px;
     background-color: $main-white;
     border-radius: 5px;
@@ -50,7 +52,7 @@
     transition: 0.2s;
     border: none;
   }
-  .hiragana:hover {
+  .hiragana:hover, .katakana:hover {
     background-color: $main-blue;
     color: $main-white;
     font-weight: bold;
@@ -66,7 +68,6 @@
 
 .katakana-description {
   animation: katakana-effect 0.7s ease-in-out;
-  padding: 20px 0px;
 }
 
 .kanji-description {

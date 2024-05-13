@@ -58,13 +58,13 @@ const Katakana = () => {
 
           <Tab
             eventKey="KatakanaVocabularyGerman"
-            title="Vokabeln (Deutsch)"
+            title="Vokabulary (German)"
             className="tab-names"
           >
             <KatakanaGermanVocabulary />
           </Tab>
 
-          <Tab eventKey="KatakanaVocabularyEnglish" title="Vokabeln (Englisch)">
+          <Tab eventKey="KatakanaVocabularyEnglish" title="Vokabulary (English)">
             <KatakanaEnglishVocabulary />
           </Tab>
         </Tabs>

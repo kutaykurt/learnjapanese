@@ -11,6 +11,7 @@ import MyVocabulary from './pages/Homepage/MyVocabulary/MyVocabulary';
 import { VocabularyProvider } from './components/VocabularyProvider';
 import Katakana from './pages/Homepage/Katakana/Katakana.jsx'
 import Kanji from './pages/Homepage/Kanji/Kanji';
+import AboutKatakana from './pages/Homepage/Katakana/AboutKatakana.jsx';
 
 function App() {
   const [showText, setShowText] = useState(true);
@@ -49,6 +50,7 @@ function App() {
                 <Route path="/kanji" element={<Kanji />} />
                 <Route path="/exercises" element={<Uebungen />} />
                 <Route path="/abouthiragana" element={<AboutHiragana />} />
+                <Route path="/aboutkatakana" element={<AboutKatakana />} />
                 <Route path="/myvocabularies" element={<MyVocabulary />} />
               </Routes>
             </div>

@@ -76,7 +76,7 @@ const MyVocabulary = () => {
 
     return (
       <div className="Main">
-        <h2>German Vocabularies</h2>
+        <h2>Hiragana Vocabularies - German</h2>
         {filteredHiraganaList.length > 0 ? (
           <div>
             <table className="my-table">
@@ -124,7 +124,7 @@ const MyVocabulary = () => {
 
     return (
       <div className="Main">
-        <h2>English Vocabularies</h2>
+        <h2>Hiragana Vocabularies - English</h2>
         {filteredHiraganaList.length > 0 ? (
           <div>
             <table className="my-table">
@@ -286,6 +286,7 @@ const MyVocabulary = () => {
       </div>
     );
   };
+      
 
   return (
     <div>
