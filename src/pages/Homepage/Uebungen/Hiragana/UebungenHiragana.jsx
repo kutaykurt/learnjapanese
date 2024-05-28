@@ -12,7 +12,7 @@ const UebungenHiragana = () => {
   const [key, setKey] = useState("Alphabet");
 
   return (
-    <div className="vocabulary-container">
+    <div className="vocabulary-container uebungen-container">
       <Tabs
         id="uncontrolled-tab-example"
         activeKey={key}

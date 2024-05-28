@@ -74,14 +74,15 @@ const HiraganaGermanVocabularyUebungen = () => {
         isCorrect === true ? "green" : isCorrect === false ? "red" : "";
 
       return (
-        <tr key={index}>
-          <td>{item.japaneseHiragana}</td>
-          <td>
+        <tr key={index} className="tr-uebungen">
+          <td className="td-uebungen">{item.japaneseHiragana}</td>
+          <td className="td-uebungen">
             <input
               type="text"
               value={userAnswers[item.japaneseHiragana]}
               onChange={(e) => handleInputChange(e, item.japaneseHiragana)}
               style={{ color }}
+              className="uebungen-input"
             />
           </td>
           {isCorrect !== undefined && (
@@ -96,7 +97,7 @@ const HiraganaGermanVocabularyUebungen = () => {
 
   return (
     <div>
-      <table className="my-table">
+      <table className="my-table table-uebungen">
         <tbody>
           <tr>
             <th>Hiragana</th>

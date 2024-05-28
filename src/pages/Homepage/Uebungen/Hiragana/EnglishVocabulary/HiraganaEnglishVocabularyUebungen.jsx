@@ -74,7 +74,7 @@ const HiraganaEnglishVocabularyUebungen = () => {
         isCorrect === true ? "green" : isCorrect === false ? "red" : "";
 
       return (
-        <tr key={index}>
+        <tr key={index} className="tr-uebungen">
           <td>{item.japaneseHiragana}</td>
           <td>
             <input
@@ -82,6 +82,7 @@ const HiraganaEnglishVocabularyUebungen = () => {
               value={userAnswers[item.japaneseHiragana]}
               onChange={(e) => handleInputChange(e, item.japaneseHiragana)}
               style={{ color }}
+              className="uebungen-input"
               />
           </td>
               {isCorrect !== undefined && (
@@ -96,7 +97,7 @@ const HiraganaEnglishVocabularyUebungen = () => {
 
   return (
     <div>
-      <table className="my-table">
+      <table className="my-table table-uebungen">
         <tbody>
           <tr>
             <th>Hiragana</th>
