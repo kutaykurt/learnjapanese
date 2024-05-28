@@ -2,13 +2,14 @@ import React, { useLayoutEffect, useState } from 'react';
 import './hiragana.scss';
 import { Link, useLocation } from 'react-router-dom';
 
-// Bootstrap imports
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
 
 import Alphabet from './Alphabet/HiraganaAlphabet';
 import HiraganaGermanVocabulary from './HiraganaGermanVocabulary/HiraganaGermanVocabulary';
 import HiraganaEnglishVocabulary from './HiraganaEnglishVocabulary/HiraganaEnglishVocabulary';
+
+// Bootstrap imports
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 const Hiragana = () => {
   const [key, setKey] = useState('Alphabet');

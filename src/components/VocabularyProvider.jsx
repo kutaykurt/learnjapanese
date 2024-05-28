@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
 export const VocabularyContext = createContext();
 
@@ -10,6 +10,28 @@ export const VocabularyProvider = ({ children }) => {
   );
   const [selectedEnglishVocabularies, setSelectedEnglishVocabularies] =
     useState([]);
+
+  // Laden der Vokabellisten aus dem localStorage beim Initialisieren des Context
+  useEffect(() => {
+    const storedHiraganaVocabularies =
+      JSON.parse(localStorage.getItem("hiraganaVocabularies")) || [];
+    const storedKatakanaVocabularies =
+      JSON.parse(localStorage.getItem("katakanaVocabularies")) || [];
+    setHiraganaVocabularyList(storedHiraganaVocabularies);
+    setKatakanaVocabularyList(storedKatakanaVocabularies);
+  }, []);
+
+  // Speichern der Vokabellisten im localStorage bei Änderungen
+  useEffect(() => {
+    localStorage.setItem(
+      "hiraganaVocabularies",
+      JSON.stringify(hiraganaVocabularyList)
+    );
+    localStorage.setItem(
+      "katakanaVocabularies",
+      JSON.stringify(katakanaVocabularyList)
+    );
+  }, [hiraganaVocabularyList, katakanaVocabularyList]);
 
   const generateVocabularyId = (vocabulary, scriptType) => {
     if (scriptType !== "hiragana" && scriptType !== "katakana") {

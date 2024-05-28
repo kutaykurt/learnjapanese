@@ -1,12 +1,12 @@
-import React from 'react';
-import './header.scss';
-import { Link, useLocation } from 'react-router-dom';
+import React from "react";
+import "./header.scss";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const location = useLocation();
 
   const getNavLinkClass = (path) => {
-    return location.pathname === path ? 'active' : '';
+    return location.pathname === path ? "active" : "";
   };
 
   return (
@@ -26,7 +26,7 @@ const Header = () => {
             <li>
               <Link
                 to="/hiragana"
-                className={`link jc-center ${getNavLinkClass('/hiragana')}`}
+                className={`link jc-center ${getNavLinkClass("/hiragana")}`}
               >
                 Hiragana
               </Link>
@@ -34,20 +34,25 @@ const Header = () => {
             <li>
               <Link
                 to="/katakana"
-                className={`link jc-center ${getNavLinkClass('/katakana')}`}
+                className={`link jc-center ${getNavLinkClass("/katakana")}`}
               >
                 Katakana
               </Link>
             </li>
             <li>
-              <Link to="/myvocabularies" className={`link jc-center ${getNavLinkClass('/myvocabularies')}`}>
+              <Link
+                to="/myvocabularies"
+                className={`link jc-center ${getNavLinkClass(
+                  "/myvocabularies"
+                )}`}
+              >
                 My Vocabularies
               </Link>
             </li>
             <li>
               <Link
                 to="/exercises"
-                className={`link jc-center ${getNavLinkClass('/exercises')}`}
+                className={`link jc-center ${getNavLinkClass("/exercises")}`}
               >
                 Exercises
               </Link>

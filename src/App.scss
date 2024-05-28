@@ -7,6 +7,7 @@ $main-blue: #2d92bd;
 $main-red: #ff6f78;
 $main-orange: rgb(255, 133, 62);
 $main-grey: #6f6f6f;
+$main-yellow: #ffd51c;
 $lines: #535353;
 $list-item-blue: #eefaff;
 $header-background: #def5ff;
@@ -18,6 +19,7 @@ $header-background: #def5ff;
   font-family: "Open Sans", sans-serif;
   color: $main-black;
   line-height: 30px;
+  list-style-type: none;
 }
 
 .app-main {

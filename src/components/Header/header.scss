@@ -10,13 +10,13 @@
     color: $main-grey;
     margin: 0px 15px;
     color: $main-white;
-
+  
     &.active {
       font-weight: 500;
-      text-decoration: underline 2px;
-      color: $main-blue;
+      text-decoration: underline 2px $main-blue;
+      color: $main-yellow;
     }
-  }
+}
   
   .header-design-line {
     background-color: $main-blue;

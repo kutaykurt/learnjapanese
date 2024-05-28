@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./uebungen.scss";
-import { fetchJapaneseData } from "../../../fetch";
+import { fetchJapaneseData } from "../../../../../fetch";
 
-const Uebungen = () => {
+const HiraganaUebungenAlphabet = () => {
   const [japaneseAlphabet, setJapaneseAlphabet] = useState({
     hiraganaAlphabet: [],
   });
@@ -104,4 +103,4 @@ const Uebungen = () => {
   );
 };
 
-export default Uebungen;
+export default HiraganaUebungenAlphabet;
