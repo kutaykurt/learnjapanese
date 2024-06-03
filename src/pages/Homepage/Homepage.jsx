@@ -11,7 +11,7 @@ const Homepage = () => {
         in the Japanese language, and embark on your journey into the world of
         Japanese writing!
       </p>
-      <h2>There are 3 different types of the Japanese script:</h2>
+      <h2>You can learn these 2 types of Japanese scripts:</h2>
       <div className="line" />
       <div className="note">
         <span>Please select the language you want to learn.</span>
@@ -41,7 +41,7 @@ const Homepage = () => {
             </button>
           </Link>
         </li>
-        <li className="kanji-description">
+        {/* <li className="kanji-description">
           <span className="title">Kanji</span> Kanji are Chinese characters
           adopted into the Japanese language. They represent words or ideas and
           encompass several thousand characters.
@@ -51,7 +51,7 @@ const Homepage = () => {
             Learn
             </button>
           </Link>
-        </li>
+        </li> */}
       </ul>
       <div className="line" />
     </div>

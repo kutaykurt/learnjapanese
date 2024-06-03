@@ -196,7 +196,7 @@
 
 @media screen and (max-width: 480px) {
   .Homepage {
-    font-size: 14px;
+    font-size: 15px;
     padding: 0px 10px;
 
     h2 {
@@ -210,17 +210,18 @@
   }
 
   .description-first {
-    font-size: 14px !important;
+    display: none;
   }
 
   .language-descriptions {
     li {
-      padding: 10px 0px 10px 0px;
+      margin: 0px 0px 20px 0px;
     }
 
     button {
       font-size: 14px;
       width: 100px;
+      padding: 0px;
     }
   }
 }

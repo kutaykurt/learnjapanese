@@ -30,6 +30,7 @@ $header-background: #def5ff;
   max-width: 1400px;
   margin: 0 auto;
   padding-bottom: 100px;
+  min-height: 800px;
 }
 
 .prologue {
@@ -38,12 +39,12 @@ $header-background: #def5ff;
   align-items: center;
   height: 100vh;
   font-size: 50px;
-
+  
   .learn-word {
     animation: learn-pulse 2.2s ease-in-out;
     color: #222222;
   }
-
+  
   .japanese-word {
     animation: japanese-pulse 2.2s ease-in-out;
     color: #2d92bd;
@@ -53,15 +54,30 @@ $header-background: #def5ff;
 
 .search-input-field {
   min-width: 500px;
+  border: $main-grey 1px solid;
+  border-radius: 4px;
 }
 
 .search-container {
   text-align: center;
-  margin: 32px 0px;
+  margin: 32px 0px 64px 0px;
 }
 
 .mb-3 {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  margin: 20px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+
+  button {
+    width: 80px;
+    margin: 0px 15px;
+  }
 }
 
 @keyframes learn-pulse {

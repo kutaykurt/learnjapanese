@@ -29,7 +29,7 @@ const SearchFunction = ({ data, onSearchResults, query, setQuery }) => {
     <div>
       <input
         type="text"
-        placeholder="Search.."
+        placeholder="Search vocabularies..."
         value={query}
         onChange={handleSearch}
         className="search-input-field"

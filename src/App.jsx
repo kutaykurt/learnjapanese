@@ -14,6 +14,7 @@ import Kanji from "./pages/Homepage/Kanji/Kanji.jsx";
 import AboutKatakana from "./pages/Homepage/Katakana/AboutKatakana.jsx";
 import SearchFunction from "./components/SearchFunction/SearchFunction.jsx";
 import { fetchJapaneseData } from "./fetch";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   const [showText, setShowText] = useState(true);
@@ -151,6 +152,7 @@ function App() {
           </div>
         )}
       </VocabularyProvider>
+      <Footer />
     </div>
   );
 }
