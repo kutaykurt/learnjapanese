@@ -1,4 +1,4 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 .Homepage {
   font-size: 18px;
@@ -52,7 +52,8 @@
     transition: 0.2s;
     border: none;
   }
-  .hiragana:hover, .katakana:hover {
+  .hiragana:hover,
+  .katakana:hover {
     background-color: $main-blue;
     color: $main-white;
     font-weight: bold;
@@ -195,7 +196,8 @@
 
 @media screen and (max-width: 480px) {
   .Homepage {
-    font-size: 18px;
+    font-size: 14px;
+    padding: 0px 10px;
 
     h2 {
       font-size: 20px;
@@ -206,14 +208,19 @@
       margin: 20px 0px;
     }
   }
-  
+
   .description-first {
-    font-size: 18px;
+    font-size: 14px !important;
   }
 
   .language-descriptions {
     li {
       padding: 10px 0px 10px 0px;
+    }
+
+    button {
+      font-size: 14px;
+      width: 100px;
     }
   }
 }

@@ -51,6 +51,19 @@ $header-background: #def5ff;
   }
 }
 
+.search-input-field {
+  min-width: 500px;
+}
+
+.search-container {
+  text-align: center;
+  margin: 32px 0px;
+}
+
+.mb-3 {
+  margin-top: 20px;
+}
+
 @keyframes learn-pulse {
   0% {
     opacity: 0;
@@ -102,5 +115,55 @@ $header-background: #def5ff;
 
   100% {
     opacity: 1;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .body {
+    padding: 0px 15px;
+    font-size: 12px;
+  }
+
+  .search-results-table {
+    font-size: 13px;
+  }
+
+  .search-input-field {
+    min-width: 80%;
+  }
+
+  .search-container {
+    margin: 20px 0px;
+  }
+
+  #uncontrolled-tab-example-tab-KatakanaAlphabet,
+  #uncontrolled-tab-example-tab-KatakanaVocabularyGerman,
+  #uncontrolled-tab-example-tab-KatakanaVocabularyEnglish,
+  #uncontrolled-tab-example-tab-Alphabet,
+  #uncontrolled-tab-example-tab-VocabularyGerman,
+  #uncontrolled-tab-example-tab-VocabularyEnglish {
+    padding: 5px 8px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .body {
+    padding: 0px 20px;
+  }
+
+  .add-button {
+    line-height: 20px;
+  }
+
+  .search-input-field {
+    height: 30px;
+  }
+
+  .mb-3 {
+    display: flex;
+    justify-content: center;
   }
 }

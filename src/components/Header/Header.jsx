@@ -18,6 +18,7 @@ const Header = () => {
           <Link to="/" className="link">
             <span className="learn-word">Learn</span>
             <span className="japanese-word">Japanese</span>
+            <div className="title-underline" />
           </Link>
         </div>
 

@@ -54,7 +54,6 @@ const Hiragana = () => {
           <Tab
             eventKey="VocabularyGerman"
             title="Vocabulary (German)"
-            className="tab-names"
           >
             <HiraganaGermanVocabulary />
           </Tab>

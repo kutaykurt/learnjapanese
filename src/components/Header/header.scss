@@ -1,28 +1,27 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 .Header {
   background-color: #272727;
-  margin-bottom: 70px;
-  
   .link {
     width: max-content;
     text-decoration: none;
     color: $main-grey;
-    margin: 0px 15px;
+    padding: 5px 15px;
+    margin: 0px 10px;
     color: $main-white;
-  
+    
     &.active {
       font-weight: 500;
       text-decoration: underline 2px $main-blue;
       color: $main-yellow;
     }
-}
+  }
   
   .header-design-line {
     background-color: $main-blue;
     height: 5px;
   }
-
+  
   .header-main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -31,61 +30,74 @@
     color: $main-black;
     font-size: 18px;
     padding: 25px 0px;
-    
+
     .column-one,
     .column-two,
     .column-three {
       display: flex;
       min-width: max-content;
     }
-    
+
     .column-one {
       padding: 0px 0px 0px 30px;
       font-weight: bold;
       font-size: 32px;
-      justify-content: left;
-      
+
       .learn-word {
         color: $main-white;
       }
-      
+
       .japanese-word {
         color: $main-blue;
       }
     }
-    
+
     .column-two {
       display: flex;
-      justify-content: center; 
-    }
-    
-    .navigation {
-      display: flex;
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
+      justify-content: center;
       
-      li:hover {
-        text-decoration: underline $main-blue;
+      .navigation {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+          width: max-content;
+        }
+        
+        li:hover {
+          text-decoration: underline $main-blue;
+        }
       }
     }
-    
+
+
     .column-three {
       justify-content: right;
       padding: 0px 30px 0px 0px;
     }
   }
 
-  // Media Queries für Responsive Design
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1024px) {
+    .header-main {
+      display: flex !important;
+      flex-direction: column;
+    }
 
+    .column-two {
+      margin: 10px 0px 0px 5px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
     .header-main {
       background-color: #2b2b2b;
       max-width: 100%;
       display: flex;
       flex-direction: column;
       padding: 20px 0px 10px 0px;
-      
+
       .column-one {
         font-size: 28px;
         width: 100%;
@@ -98,13 +110,14 @@
         justify-content: flex-start;
         flex-wrap: wrap;
         min-width: 100%;
+        margin: 0px;
       }
 
       .column-three {
         justify-content: left;
         padding: 0;
       }
-      
+
       .navigation {
         flex-wrap: wrap;
         justify-content: center;
