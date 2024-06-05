@@ -39,12 +39,12 @@ $header-background: #def5ff;
   align-items: center;
   height: 100vh;
   font-size: 50px;
-  
+
   .learn-word {
     animation: learn-pulse 2.2s ease-in-out;
     color: #222222;
   }
-  
+
   .japanese-word {
     animation: japanese-pulse 2.2s ease-in-out;
     color: #2d92bd;
@@ -77,6 +77,20 @@ $header-background: #def5ff;
   button {
     width: 80px;
     margin: 0px 15px;
+  }
+}
+
+#uncontrolled-tab-example-tab-KatakanaAlphabet,
+#uncontrolled-tab-example-tab-KatakanaVocabularyGerman,
+#uncontrolled-tab-example-tab-KatakanaVocabularyEnglish,
+#uncontrolled-tab-example-tab-Alphabet,
+#uncontrolled-tab-example-tab-VocabularyGerman,
+#uncontrolled-tab-example-tab-VocabularyEnglish {
+  color: $main-blue;
+
+  &.active {
+    color: $main-grey;
+    font-weight: 600;
   }
 }
 
@@ -133,8 +147,6 @@ $header-background: #def5ff;
     opacity: 1;
   }
 }
-
-
 
 @media screen and (max-width: 480px) {
   .body {
