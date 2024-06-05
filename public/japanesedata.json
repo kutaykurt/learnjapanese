@@ -4847,6 +4847,1220 @@
         "Personen",
         "Alltag"
       ]
+    },
+    {
+      "japaneseHiragana": "すいえい",
+      "japaneseKatakana": "スイエイ",
+      "pronunciation": "suiei",
+      "translation": {
+        "german": "Schwimmen",
+        "english": "Swimming"
+      },
+      "categories": [
+        "Sport",
+        "Aktivitäten"
+      ]
+    },
+    {
+      "japaneseHiragana": "やきゅう",
+      "japaneseKatakana": "ヤキュウ",
+      "pronunciation": "yakyuu",
+      "translation": {
+        "german": "Baseball",
+        "english": "Baseball"
+      },
+      "categories": [
+        "Sport",
+        "Sportarten"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふつかよい",
+      "japaneseKatakana": "フツカヨイ",
+      "pronunciation": "futsuka yoi",
+      "translation": {
+        "german": "Gute Besserung (wörtl.: Erhol dich in zwei Tagen)",
+        "english": "Get well soon (literally: Recover in two days)"
+      },
+      "categories": [
+        "Gesundheit",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "げんき",
+      "japaneseKatakana": "ゲンキ",
+      "pronunciation": "genki",
+      "translation": {
+        "german": "Gesundheit",
+        "english": "Health"
+      },
+      "categories": [
+        "Gesundheit",
+        "Zustand"
+      ]
+    },
+    {
+      "japaneseHiragana": "たいせつ",
+      "japaneseKatakana": "タイセツ",
+      "pronunciation": "taisetsu",
+      "translation": {
+        "german": "Wichtig",
+        "english": "Important"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おいしい",
+      "japaneseKatakana": "オイシイ",
+      "pronunciation": "oishii",
+      "translation": {
+        "german": "Lecker",
+        "english": "Delicious"
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "たべる",
+      "japaneseKatakana": "タベル",
+      "pronunciation": "taberu",
+      "translation": {
+        "german": "Essen",
+        "english": "To eat"
+      },
+      "categories": [
+        "Essen",
+        "Verben"
+      ]
+    },
+    {
+      "japaneseHiragana": "のむ",
+      "japaneseKatakana": "ノム",
+      "pronunciation": "nomu",
+      "translation": {
+        "german": "Trinken",
+        "english": "To drink"
+      },
+      "categories": [
+        "Essen",
+        "Verben"
+      ]
+    },
+    {
+      "japaneseHiragana": "いえ",
+      "japaneseKatakana": "イエ",
+      "pronunciation": "ie",
+      "translation": {
+        "german": "Haus",
+        "english": "House"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "アパート",
+      "japaneseKatakana": "アパート",
+      "pronunciation": "apaato",
+      "translation": {
+        "german": "Apartment",
+        "english": "Apartment"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "マンション",
+      "japaneseKatakana": "マンション",
+      "pronunciation": "manshon",
+      "translation": {
+        "german": "Eigentumswohnung",
+        "english": "Condominium"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "がっこう",
+      "japaneseKatakana": "ガッコウ",
+      "pronunciation": "gakkou",
+      "translation": {
+        "german": "Schule",
+        "english": "School"
+      },
+      "categories": [
+        "Bildung"
+      ]
+    },
+    {
+      "japaneseHiragana": "だいがく",
+      "japaneseKatakana": "ダイガク",
+      "pronunciation": "daigaku",
+      "translation": {
+        "german": "Universität",
+        "english": "University"
+      },
+      "categories": [
+        "Bildung"
+      ]
+    },
+    {
+      "japaneseHiragana": "しごと",
+      "japaneseKatakana": "シゴト",
+      "pronunciation": "shigoto",
+      "translation": {
+        "german": "Arbeit",
+        "english": "Work"
+      },
+      "categories": [
+        "Beruf"
+      ]
+    },
+    {
+      "japaneseHiragana": "かいしゃ",
+      "japaneseKatakana": "カイシャ",
+      "pronunciation": "kaisha",
+      "translation": {
+        "german": "Firma",
+        "english": "Company"
+      },
+      "categories": [
+        "Beruf"
+      ]
+    },
+    {
+      "japaneseHiragana": "しつもん",
+      "japaneseKatakana": "シツモン",
+      "pronunciation": "shitsumon",
+      "translation": {
+        "german": "Frage",
+        "english": "Question"
+      },
+      "categories": [
+        "Kommunikation"
+      ]
+    },
+    {
+      "japaneseHiragana": "こたえ",
+      "japaneseKatakana": "コタエ",
+      "pronunciation": "kotae",
+      "translation": {
+        "german": "Antwort",
+        "english": "Answer"
+      },
+      "categories": [
+        "Kommunikation"
+      ]
+    },
+    {
+      "japaneseHiragana": "ともだち",
+      "japaneseKatakana": "トモダチ",
+      "pronunciation": "tomodachi",
+      "translation": {
+        "german": "Freund",
+        "english": "Friend"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かぞく",
+      "japaneseKatakana": "カゾク",
+      "pronunciation": "kazoku",
+      "translation": {
+        "german": "Familie",
+        "english": "Family"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "れきし",
+      "japaneseKatakana": "レキシ",
+      "pronunciation": "rekishi",
+      "translation": {
+        "german": "Geschichte",
+        "english": "History"
+      },
+      "categories": [
+        "Bildung"
+      ]
+    },
+    {
+      "japaneseHiragana": "にほん",
+      "japaneseKatakana": "ニホン",
+      "pronunciation": "Nihon",
+      "translation": {
+        "german": "Japan",
+        "english": "Japan"
+      },
+      "categories": [
+        "Länder"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふらんす",
+      "japaneseKatakana": "フランス",
+      "pronunciation": "Furansu",
+      "translation": {
+        "german": "Frankreich",
+        "english": "France"
+      },
+      "categories": [
+        "Länder"
+      ]
+    },
+    {
+      "japaneseHiragana": "どいつ",
+      "japaneseKatakana": "ドイツ",
+      "pronunciation": "Doitsu",
+      "translation": {
+        "german": "Deutschland",
+        "english": "Germany"
+      },
+      "categories": [
+        "Länder"
+      ]
+    },
+    {
+      "japaneseHiragana": "あめりか",
+      "japaneseKatakana": "アメリカ",
+      "pronunciation": "Amerika",
+      "translation": {
+        "german": "Amerika",
+        "english": "America"
+      },
+      "categories": [
+        "Länder"
+      ]
+    },
+    {
+      "japaneseHiragana": "おはよう",
+      "japaneseKatakana": "オハヨウ",
+      "pronunciation": "ohayou",
+      "translation": {
+        "german": "Guten Morgen",
+        "english": "Good morning"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "こんにちは",
+      "japaneseKatakana": "コンニチハ",
+      "pronunciation": "konnichiwa",
+      "translation": {
+        "german": "Guten Tag",
+        "english": "Good afternoon"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "こんばんは",
+      "japaneseKatakana": "コンバンハ",
+      "pronunciation": "konbanwa",
+      "translation": {
+        "german": "Guten Abend",
+        "english": "Good evening"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "さようなら",
+      "japaneseKatakana": "サヨウナラ",
+      "pronunciation": "sayounara",
+      "translation": {
+        "german": "Auf Wiedersehen",
+        "english": "Goodbye"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "すいえい",
+      "japaneseKatakana": "スイエイ",
+      "pronunciation": "suiei",
+      "translation": {
+        "german": "Schwimmen",
+        "english": "Swimming"
+      },
+      "categories": [
+        "Sport",
+        "Aktivitäten"
+      ]
+    },
+    {
+      "japaneseHiragana": "やきゅう",
+      "japaneseKatakana": "ヤキュウ",
+      "pronunciation": "yakyuu",
+      "translation": {
+        "german": "Baseball",
+        "english": "Baseball"
+      },
+      "categories": [
+        "Sport",
+        "Sportarten"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふつかよい",
+      "japaneseKatakana": "フツカヨイ",
+      "pronunciation": "futsuka yoi",
+      "translation": {
+        "german": "Gute Besserung (wörtl.: Erhol dich in zwei Tagen)",
+        "english": "Get well soon (literally: Recover in two days)"
+      },
+      "categories": [
+        "Gesundheit",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "げんき",
+      "japaneseKatakana": "ゲンキ",
+      "pronunciation": "genki",
+      "translation": {
+        "german": "Gesundheit",
+        "english": "Health"
+      },
+      "categories": [
+        "Gesundheit",
+        "Zustand"
+      ]
+    },
+    {
+      "japaneseHiragana": "たいせつ",
+      "japaneseKatakana": "タイセツ",
+      "pronunciation": "taisetsu",
+      "translation": {
+        "german": "Wichtig",
+        "english": "Important"
+      },
+      "categories": [
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "おいしい",
+      "japaneseKatakana": "オイシイ",
+      "pronunciation": "oishii",
+      "translation": {
+        "german": "Lecker",
+        "english": "Delicious"
+      },
+      "categories": [
+        "Essen",
+        "Alltag"
+      ]
+    },
+    {
+      "japaneseHiragana": "たべる",
+      "japaneseKatakana": "タベル",
+      "pronunciation": "taberu",
+      "translation": {
+        "german": "Essen",
+        "english": "To eat"
+      },
+      "categories": [
+        "Essen",
+        "Verben"
+      ]
+    },
+    {
+      "japaneseHiragana": "のむ",
+      "japaneseKatakana": "ノム",
+      "pronunciation": "nomu",
+      "translation": {
+        "german": "Trinken",
+        "english": "To drink"
+      },
+      "categories": [
+        "Essen",
+        "Verben"
+      ]
+    },
+    {
+      "japaneseHiragana": "いえ",
+      "japaneseKatakana": "イエ",
+      "pronunciation": "ie",
+      "translation": {
+        "german": "Haus",
+        "english": "House"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "アパート",
+      "japaneseKatakana": "アパート",
+      "pronunciation": "apaato",
+      "translation": {
+        "german": "Apartment",
+        "english": "Apartment"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "マンション",
+      "japaneseKatakana": "マンション",
+      "pronunciation": "manshon",
+      "translation": {
+        "german": "Eigentumswohnung",
+        "english": "Condominium"
+      },
+      "categories": [
+        "Wohnen"
+      ]
+    },
+    {
+      "japaneseHiragana": "がっこう",
+      "japaneseKatakana": "ガッコウ",
+      "pronunciation": "gakkou",
+      "translation": {
+        "german": "Schule",
+        "english": "School"
+      },
+      "categories": [
+        "Bildung"
+      ]
+    },
+    {
+      "japaneseHiragana": "だいがく",
+      "japaneseKatakana": "ダイガク",
+      "pronunciation": "daigaku",
+      "translation": {
+        "german": "Universität",
+        "english": "University"
+      },
+      "categories": [
+        "Bildung"
+      ]
+    },
+    {
+      "japaneseHiragana": "しごと",
+      "japaneseKatakana": "シゴト",
+      "pronunciation": "shigoto",
+      "translation": {
+        "german": "Arbeit",
+        "english": "Work"
+      },
+      "categories": [
+        "Beruf"
+      ]
+    },
+    {
+      "japaneseHiragana": "かいしゃ",
+      "japaneseKatakana": "カイシャ",
+      "pronunciation": "kaisha",
+      "translation": {
+        "german": "Firma",
+        "english": "Company"
+      },
+      "categories": [
+        "Beruf"
+      ]
+    },
+    {
+      "japaneseHiragana": "しつもん",
+      "japaneseKatakana": "シツモン",
+      "pronunciation": "shitsumon",
+      "translation": {
+        "german": "Frage",
+        "english": "Question"
+      },
+      "categories": [
+        "Kommunikation"
+      ]
+    },
+    {
+      "japaneseHiragana": "こたえ",
+      "japaneseKatakana": "コタエ",
+      "pronunciation": "kotae",
+      "translation": {
+        "german": "Antwort",
+        "english": "Answer"
+      },
+      "categories": [
+        "Kommunikation"
+      ]
+    },
+    {
+      "japaneseHiragana": "ともだち",
+      "japaneseKatakana": "トモダチ",
+      "pronunciation": "tomodachi",
+      "translation": {
+        "german": "Freund",
+        "english": "Friend"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "かぞく",
+      "japaneseKatakana": "カゾク",
+      "pronunciation": "kazoku",
+      "translation": {
+        "german": "Familie",
+        "english": "Family"
+      },
+      "categories": [
+        "Beziehungen"
+      ]
+    },
+    {
+      "japaneseHiragana": "れきし",
+      "japaneseKatakana": "レキシ",
+      "pronunciation": "rekishi",
+      "translation": {
+        "german": "Geschichte",
+        "english": "History"
+      },
+      "categories": [
+        "Bildung"
+      ]
+    },
+    {
+      "japaneseHiragana": "にほん",
+      "japaneseKatakana": "ニホン",
+      "pronunciation": "Nihon",
+      "translation": {
+        "german": "Japan",
+        "english": "Japan"
+      },
+      "categories": [
+        "Länder"
+      ]
+    },
+    {
+      "japaneseHiragana": "ふらんす",
+      "japaneseKatakana": "フランス",
+      "pronunciation": "Furansu",
+      "translation": {
+        "german": "Frankreich",
+        "english": "France"
+      },
+      "categories": [
+        "Länder"
+      ]
+    },
+    {
+      "japaneseHiragana": "どいつ",
+      "japaneseKatakana": "ドイツ",
+      "pronunciation": "Doitsu",
+      "translation": {
+        "german": "Deutschland",
+        "english": "Germany"
+      },
+      "categories": [
+        "Länder"
+      ]
+    },
+    {
+      "japaneseHiragana": "あめりか",
+      "japaneseKatakana": "アメリカ",
+      "pronunciation": "Amerika",
+      "translation": {
+        "german": "Amerika",
+        "english": "America"
+      },
+      "categories": [
+        "Länder"
+      ]
+    },
+    {
+      "japaneseHiragana": "おはよう",
+      "japaneseKatakana": "オハヨウ",
+      "pronunciation": "ohayou",
+      "translation": {
+        "german": "Guten Morgen",
+        "english": "Good morning"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "こんにちは",
+      "japaneseKatakana": "コンニチハ",
+      "pronunciation": "konnichiwa",
+      "translation": {
+        "german": "Guten Tag",
+        "english": "Good afternoon"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "やあ",
+      "japaneseKatakana": "ヤア",
+      "pronunciation": "yaa",
+      "translation": {
+        "german": "Hallo",
+        "english": "Hi"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "はじめまして",
+      "japaneseKatakana": "ハジメマシテ",
+      "pronunciation": "hajimemashite",
+      "translation": {
+        "german": "Freut mich, Sie kennenzulernen",
+        "english": "Nice to meet you"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "どうぞよろしく",
+      "japaneseKatakana": "ドウゾヨロシク",
+      "pronunciation": "douzo yoroshiku",
+      "translation": {
+        "german": "Ich freue mich auf eine gute Zusammenarbeit",
+        "english": "I look forward to working with you"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "げんきですか",
+      "japaneseKatakana": "ゲンキデスカ",
+      "pronunciation": "genki desu ka",
+      "translation": {
+        "german": "Wie geht es Ihnen?",
+        "english": "How are you?"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おひさしぶりです",
+      "japaneseKatakana": "オヒサシブリデス",
+      "pronunciation": "ohisashiburi desu",
+      "translation": {
+        "german": "Lange nicht gesehen",
+        "english": "Long time no see"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おげんきですか",
+      "japaneseKatakana": "オゲンキデスカ",
+      "pronunciation": "ogenki desu ka",
+      "translation": {
+        "german": "Geht es Ihnen gut?",
+        "english": "Are you well?"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "はじめまして、わたしは (Name) です",
+      "japaneseKatakana": "ハジメマシテ、ワタシハ (Name) デス",
+      "pronunciation": "hajimemashite, watashi wa (Name) desu",
+      "translation": {
+        "german": "Freut mich, Sie kennenzulernen. Ich bin (Name)",
+        "english": "Nice to meet you. I am (Name)"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "こちらは (Name) です",
+      "japaneseKatakana": "コチラハ (Name) デス",
+      "pronunciation": "kochira wa (Name) desu",
+      "translation": {
+        "german": "Das hier ist (Name)",
+        "english": "This is (Name)"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "どうもありがとうございます",
+      "japaneseKatakana": "ドウモアリガトウゴザイマス",
+      "pronunciation": "doumo arigatou gozaimasu",
+      "translation": {
+        "german": "Vielen Dank",
+        "english": "Thank you very much"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "すみません",
+      "japaneseKatakana": "スミマセン",
+      "pronunciation": "sumimasen",
+      "translation": {
+        "german": "Entschuldigung",
+        "english": "Excuse me"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "しつれいします",
+      "japaneseKatakana": "シツレイシマス",
+      "pronunciation": "shitsurei shimasu",
+      "translation": {
+        "german": "Entschuldigen Sie die Störung",
+        "english": "Excuse me for interrupting"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "またね",
+      "japaneseKatakana": "マタネ",
+      "pronunciation": "matane",
+      "translation": {
+        "german": "Bis später",
+        "english": "See you later"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "じゃあね",
+      "japaneseKatakana": "ジャアネ",
+      "pronunciation": "jaa ne",
+      "translation": {
+        "german": "Bis dann",
+        "english": "See you then"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "じゃあ、また",
+      "japaneseKatakana": "ジャア、マタ",
+      "pronunciation": "jaa, mata",
+      "translation": {
+        "german": "Tschüss, bis später",
+        "english": "Bye, see you later"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "よいちにちを",
+      "japaneseKatakana": "ヨイチニチヲ",
+      "pronunciation": "yoi ichinichi o",
+      "translation": {
+        "german": "Einen schönen Tag noch",
+        "english": "Have a nice day"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "ごめんなさい",
+      "japaneseKatakana": "ゴメンナサイ",
+      "pronunciation": "gomennasai",
+      "translation": {
+        "german": "Entschuldigung",
+        "english": "Sorry"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おひさしぶり",
+      "japaneseKatakana": "オヒサシブリ",
+      "pronunciation": "ohisashiburi",
+      "translation": {
+        "german": "Lange nicht gesehen",
+        "english": "Long time no see"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "いらっしゃいませ",
+      "japaneseKatakana": "イラッシャイマセ",
+      "pronunciation": "irasshaimase",
+      "translation": {
+        "german": "Willkommen",
+        "english": "Welcome"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おかえりなさい",
+      "japaneseKatakana": "オカエリナサイ",
+      "pronunciation": "okaerinasai",
+      "translation": {
+        "german": "Willkommen zurück",
+        "english": "Welcome back"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "ただいま",
+      "japaneseKatakana": "タダイマ",
+      "pronunciation": "tadaima",
+      "translation": {
+        "german": "Ich bin zurück",
+        "english": "I'm back"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おやすみなさい",
+      "japaneseKatakana": "オヤスミナサイ",
+      "pronunciation": "oyasuminasai",
+      "translation": {
+        "german": "Gute Nacht",
+        "english": "Good night"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おつかれさまでした",
+      "japaneseKatakana": "オツカレサマデシタ",
+      "pronunciation": "otsukaresama deshita",
+      "translation": {
+        "german": "Gute Arbeit",
+        "english": "Thank you for your hard work"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "いってきます",
+      "japaneseKatakana": "イッテキマス",
+      "pronunciation": "ittekimasu",
+      "translation": {
+        "german": "Ich gehe und komme wieder",
+        "english": "I'm leaving"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "いってらっしゃい",
+      "japaneseKatakana": "イッテラッシャイ",
+      "pronunciation": "itterasshai",
+      "translation": {
+        "german": "Komm gut zurück",
+        "english": "Take care"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "ようこそ",
+      "japaneseKatakana": "ヨウコソ",
+      "pronunciation": "youkoso",
+      "translation": {
+        "german": "Herzlich willkommen",
+        "english": "Welcome"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "はい、どうぞ",
+      "japaneseKatakana": "ハイ、ドウゾ",
+      "pronunciation": "hai, douzo",
+      "translation": {
+        "german": "Ja, bitte",
+        "english": "Yes, please"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "いいえ、けっこうです",
+      "japaneseKatakana": "イイエ、ケッコウデス",
+      "pronunciation": "iie, kekkou desu",
+      "translation": {
+        "german": "Nein, danke",
+        "english": "No, thank you"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おはようございます",
+      "japaneseKatakana": "オハヨウゴザイマス",
+      "pronunciation": "ohayou gozaimasu",
+      "translation": {
+        "german": "Guten Morgen",
+        "english": "Good morning"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "こんばんは",
+      "japaneseKatakana": "コンバンワ",
+      "pronunciation": "konbanwa",
+      "translation": {
+        "german": "Guten Abend",
+        "english": "Good evening"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "さようなら",
+      "japaneseKatakana": "サヨウナラ",
+      "pronunciation": "sayounara",
+      "translation": {
+        "german": "Auf Wiedersehen",
+        "english": "Goodbye"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "じゃあね",
+      "japaneseKatakana": "ジャアネ",
+      "pronunciation": "jaa ne",
+      "translation": {
+        "german": "Bis dann",
+        "english": "See you then"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "またね",
+      "japaneseKatakana": "マタネ",
+      "pronunciation": "matane",
+      "translation": {
+        "german": "Bis später",
+        "english": "See you later"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "ありがとう",
+      "japaneseKatakana": "アリガトウ",
+      "pronunciation": "arigatou",
+      "translation": {
+        "german": "Danke",
+        "english": "Thank you"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "ごめんなさい",
+      "japaneseKatakana": "ゴメンナサイ",
+      "pronunciation": "gomennasai",
+      "translation": {
+        "german": "Entschuldigung",
+        "english": "Sorry"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "ようこそ",
+      "japaneseKatakana": "ヨウコソ",
+      "pronunciation": "youkoso",
+      "translation": {
+        "german": "Willkommen",
+        "english": "Welcome"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "やあ",
+      "japaneseKatakana": "ヤア",
+      "pronunciation": "yaa",
+      "translation": {
+        "german": "Hallo",
+        "english": "Hi"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "はじめまして",
+      "japaneseKatakana": "ハジメマシテ",
+      "pronunciation": "hajimemashite",
+      "translation": {
+        "german": "Freut mich, Sie kennenzulernen",
+        "english": "Nice to meet you"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "どうぞよろしく",
+      "japaneseKatakana": "ドウゾヨロシク",
+      "pronunciation": "douzo yoroshiku",
+      "translation": {
+        "german": "Ich freue mich auf eine gute Zusammenarbeit",
+        "english": "I look forward to working with you"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "げんきですか",
+      "japaneseKatakana": "ゲンキデスカ",
+      "pronunciation": "genki desu ka",
+      "translation": {
+        "german": "Wie geht es Ihnen?",
+        "english": "How are you?"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おひさしぶりです",
+      "japaneseKatakana": "オヒサシブリデス",
+      "pronunciation": "ohisashiburi desu",
+      "translation": {
+        "german": "Lange nicht gesehen",
+        "english": "Long time no see"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "おげんきですか",
+      "japaneseKatakana": "オゲンキデスカ",
+      "pronunciation": "ogenki desu ka",
+      "translation": {
+        "german": "Geht es Ihnen gut?",
+        "english": "Are you well?"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "はじめまして、わたしは (Name) です",
+      "japaneseKatakana": "ハジメマシテ、ワタシハ (Name) デス",
+      "pronunciation": "hajimemashite, watashi wa (Name) desu",
+      "translation": {
+        "german": "Freut mich, Sie kennenzulernen. Ich bin (Name)",
+        "english": "Nice to meet you. I am (Name)"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "こちらは (Name) です",
+      "japaneseKatakana": "コチラハ (Name) デス",
+      "pronunciation": "kochira wa (Name) desu",
+      "translation": {
+        "german": "Das hier ist (Name)",
+        "english": "This is (Name)"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "どうもありがとうございます",
+      "japaneseKatakana": "ドウモアリガトウゴザイマス",
+      "pronunciation": "doumo arigatou gozaimasu",
+      "translation": {
+        "german": "Vielen Dank",
+        "english": "Thank you very much"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "すみません",
+      "japaneseKatakana": "スミマセン",
+      "pronunciation": "sumimasen",
+      "translation": {
+        "german": "Entschuldigung",
+        "english": "Excuse me"
+      },
+      "categories": [
+        "Grüße"
+      ]
+    },
+    {
+      "japaneseHiragana": "しつれいします",
+      "japaneseKatakana": "シツレイシマス",
+      "pronunciation": "shitsurei shimasu",
+      "translation": {
+        "german": "Entschuldigen Sie die Störung",
+        "english": "Excuse me for interrupting"
+      },
+      "categories": [
+        "Grüße"
+      ]
     }
   ]
 }

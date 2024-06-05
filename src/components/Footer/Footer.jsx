@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-section links">
-          <h2>Navigation</h2>
+          <h2>Links</h2>
           <ul>
             <li>
               <Link to="hiragana">Hiragana</Link>

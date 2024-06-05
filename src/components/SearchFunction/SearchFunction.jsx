@@ -2,12 +2,12 @@ import React from "react";
 import Fuse from "fuse.js";
 
 const SearchFunction = ({ data, onSearchResults, query, setQuery }) => {
-  // Props angepasst
-  const handleSearch = (e) => {
-    const { value } = e.target;
-    setQuery(value);
+  const handleInputChange = (e) => {
+    setQuery(e.target.value);
+  };
 
-    if (value.trim() !== "") {
+  const handleSearch = () => {
+    if (query.trim() !== "") {
       const fuse = new Fuse(data, {
         keys: [
           "japaneseHiragana",
@@ -18,10 +18,16 @@ const SearchFunction = ({ data, onSearchResults, query, setQuery }) => {
         ],
         threshold: 0.3,
       });
-      const results = fuse.search(value).map((result) => result.item);
+      const results = fuse.search(query).map((result) => result.item);
       onSearchResults(results);
     } else {
       onSearchResults([]);
+    }
+  };
+
+  const handleEnterSubmit = (e) => {
+    if (e.key === "Enter") {
+      handleSearch();
     }
   };
 
@@ -31,9 +37,13 @@ const SearchFunction = ({ data, onSearchResults, query, setQuery }) => {
         type="text"
         placeholder="Search vocabularies..."
         value={query}
-        onChange={handleSearch}
+        onChange={handleInputChange}
+        onKeyDown={handleEnterSubmit}
         className="search-input-field"
       />
+      <button onClick={handleSearch} className="search-button">
+        Search
+      </button>
     </div>
   );
 };

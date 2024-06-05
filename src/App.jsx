@@ -22,7 +22,8 @@ function App() {
   const [searchResults, setSearchResults] = useState([]);
   const [hiraganaSearchResults, setHiraganaSearchResults] = useState([]);
   const [katakanaSearchResults, setKatakanaSearchResults] = useState([]);
-  const [query, setQuery] = useState(""); // Neu hinzugefügt
+  const [query, setQuery] = useState("");
+  const [searchPerformed, setSearchPerformed] = useState(false); // Neu hinzugefügt
 
   const location = useLocation();
 
@@ -42,14 +43,13 @@ function App() {
     const loadData = async () => {
       const data = await fetchJapaneseData();
       setJapaneseData(data);
-      setSearchResults(data.vocabulary); // Initial alle Daten anzeigen
+      setSearchResults(data.vocabulary);
     };
 
     loadData();
   }, []);
 
   useEffect(() => {
-    // Filtern der Suchergebnisse für Hiragana und Katakana
     const hiraganaResults = searchResults.filter(
       (item) => item.japaneseHiragana !== ""
     );
@@ -61,8 +61,17 @@ function App() {
     setKatakanaSearchResults(katakanaResults);
   }, [searchResults]);
 
+  useEffect(() => {
+    setQuery("");
+    setSearchResults([]);
+    setHiraganaSearchResults([]);
+    setKatakanaSearchResults([]);
+    setSearchPerformed(false); // Neu hinzugefügt
+  }, [location]);
+
   const handleSearchResults = (results) => {
     setSearchResults(results);
+    setSearchPerformed(true); // Neu hinzugefügt
   };
 
   return (
@@ -81,12 +90,12 @@ function App() {
               <SearchFunction
                 data={japaneseData.vocabulary}
                 onSearchResults={handleSearchResults}
-                query={query} // Neu hinzugefügt
-                setQuery={setQuery} // Neu hinzugefügt
+                query={query}
+                setQuery={setQuery}
               />
             </div>
             <div className="body">
-              {query === "" ? (
+              {!searchPerformed ? (
                 <Routes>
                   <Route path="/" element={<Homepage />} />
                   <Route path="/hiragana" element={<Hiragana />} />
