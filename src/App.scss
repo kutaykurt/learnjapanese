@@ -51,6 +51,10 @@ $header-background: #def5ff;
     font-size: 56px;
   }
 }
+.search-field-container {
+  display: flex;
+  justify-content: center;
+}
 
 .search-input-field {
   min-width: 500px;

@@ -32,7 +32,7 @@ const SearchFunction = ({ data, onSearchResults, query, setQuery }) => {
   };
 
   return (
-    <div>
+    <div className="search-field-container">
       <input
         type="text"
         placeholder="Search vocabularies..."
