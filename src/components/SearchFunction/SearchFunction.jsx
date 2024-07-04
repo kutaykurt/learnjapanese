@@ -1,7 +1,13 @@
 import React from "react";
 import Fuse from "fuse.js";
 
-const SearchFunction = ({ data, onSearchResults, query, setQuery }) => {
+const SearchFunction = ({
+  data,
+  onSearchResults,
+  query,
+  setQuery,
+  navigate,
+}) => {
   const handleInputChange = (e) => {
     setQuery(e.target.value);
   };
@@ -20,8 +26,10 @@ const SearchFunction = ({ data, onSearchResults, query, setQuery }) => {
       });
       const results = fuse.search(query).map((result) => result.item);
       onSearchResults(results);
+      navigate(`/search?query=${query}`);
     } else {
       onSearchResults([]);
+      navigate("/");
     }
   };
 

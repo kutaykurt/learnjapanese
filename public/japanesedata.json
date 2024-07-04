@@ -472,9 +472,7 @@
         "german": "Danke",
         "english": "Thank you"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "おはよう",
@@ -484,9 +482,7 @@
         "german": "Guten Morgen",
         "english": "Good morning"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "こんにちは",
@@ -496,9 +492,7 @@
         "german": "Guten Tag",
         "english": "Good afternoon"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "こんばんは",
@@ -508,9 +502,7 @@
         "german": "Guten Abend",
         "english": "Good evening"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "はい",
@@ -520,9 +512,7 @@
         "german": "Ja",
         "english": "Yes"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "いいえ",
@@ -532,9 +522,7 @@
         "german": "Nein",
         "english": "No"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "すみません",
@@ -544,9 +532,7 @@
         "german": "Entschuldigung",
         "english": "Excuse me"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "おはようございます",
@@ -556,9 +542,7 @@
         "german": "Guten Morgen (höflich)",
         "english": "Good morning (polite)"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "こんばんは",
@@ -568,9 +552,7 @@
         "german": "Guten Abend",
         "english": "Good evening"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "おやすみなさい",
@@ -580,9 +562,7 @@
         "german": "Gute Nacht",
         "english": "Good night"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "さようなら",
@@ -592,9 +572,7 @@
         "german": "Auf Wiedersehen",
         "english": "Goodbye"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "はい",
@@ -604,9 +582,7 @@
         "german": "Ja",
         "english": "Yes"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "いいえ",
@@ -616,9 +592,7 @@
         "german": "Nein",
         "english": "No"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "すみません",
@@ -628,9 +602,7 @@
         "german": "Entschuldigung",
         "english": "Excuse me"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "わたし",
@@ -640,9 +612,7 @@
         "german": "Ich",
         "english": "I"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "あなた",
@@ -652,9 +622,7 @@
         "german": "Du",
         "english": "You"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "かわいい",
@@ -664,9 +632,7 @@
         "german": "Niedlich",
         "english": "Cute"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "うれしい",
@@ -676,9 +642,7 @@
         "german": "Glücklich",
         "english": "Happy"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "かなしい",
@@ -688,9 +652,7 @@
         "german": "Traurig",
         "english": "Sad"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "おねがいします",
@@ -700,9 +662,7 @@
         "german": "Bitte (höflich)",
         "english": "Please (polite)"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "どうぞ",
@@ -712,9 +672,7 @@
         "german": "Bitte (Angebot)",
         "english": "Here you go"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "ありがとう",
@@ -724,9 +682,7 @@
         "german": "Danke",
         "english": "Thank you"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "ごめんなさい",
@@ -736,9 +692,7 @@
         "german": "Entschuldigung (formell)",
         "english": "I'm sorry (formal)"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "はじめまして",
@@ -748,9 +702,7 @@
         "german": "Freut mich, Sie kennenzulernen",
         "english": "Nice to meet you"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "さようなら",
@@ -760,9 +712,7 @@
         "german": "Auf Wiedersehen",
         "english": "Goodbye"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "いってきます",
@@ -772,9 +722,7 @@
         "german": "Bis später (wörtl.: Ich gehe und komme zurück)",
         "english": "I'll go and come back"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "いってらっしゃい",
@@ -784,9 +732,7 @@
         "german": "Bis später (wörtl.: Geh und komm zurück)",
         "english": "Go and come back"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "ただいま",
@@ -796,9 +742,7 @@
         "german": "Ich bin zurück (wörtl.: Gerade jetzt)",
         "english": "I'm back (literally: Just now)"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "おかえりなさい",
@@ -808,9 +752,7 @@
         "german": "Willkommen zurück (höflich)",
         "english": "Welcome back (polite)"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "いただきます",
@@ -820,10 +762,7 @@
         "german": "Guten Appetit (wörtl.: Ich nehme demütig an)",
         "english": "Bon appétit (literally: I humbly receive)"
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "ごちそうさまでした",
@@ -833,10 +772,7 @@
         "german": "Danke für das Essen (wörtl.: Es war ein Festmahl)",
         "english": "Thank you for the meal (literally: It was a feast)"
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "おいしい",
@@ -846,10 +782,7 @@
         "german": "Lecker",
         "english": "Delicious"
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "たべる",
@@ -859,10 +792,7 @@
         "german": "Essen",
         "english": "To eat"
       },
-      "categories": [
-        "Essen",
-        "Verben"
-      ]
+      "categories": ["Essen", "Verben"]
     },
     {
       "japaneseHiragana": "のむ",
@@ -872,10 +802,7 @@
         "german": "Trinken",
         "english": "To drink"
       },
-      "categories": [
-        "Essen",
-        "Verben"
-      ]
+      "categories": ["Essen", "Verben"]
     },
     {
       "japaneseHiragana": "くるま",
@@ -885,10 +812,7 @@
         "german": "Auto",
         "english": "Car"
       },
-      "categories": [
-        "Gegenstände",
-        "Verkehr"
-      ]
+      "categories": ["Gegenstände", "Verkehr"]
     },
     {
       "japaneseHiragana": "ほん",
@@ -898,10 +822,7 @@
         "german": "Buch",
         "english": "Book"
       },
-      "categories": [
-        "Gegenstände",
-        "Bildung"
-      ]
+      "categories": ["Gegenstände", "Bildung"]
     },
     {
       "japaneseHiragana": "けいたいでんわ",
@@ -911,10 +832,7 @@
         "german": "Handy",
         "english": "Mobile phone"
       },
-      "categories": [
-        "Gegenstände",
-        "Technologie"
-      ]
+      "categories": ["Gegenstände", "Technologie"]
     },
     {
       "japaneseHiragana": "けいさつ",
@@ -924,10 +842,7 @@
         "german": "Polizei",
         "english": "Police"
       },
-      "categories": [
-        "Gegenstände",
-        "Institutionen"
-      ]
+      "categories": ["Gegenstände", "Institutionen"]
     },
     {
       "japaneseHiragana": "とけい",
@@ -937,10 +852,7 @@
         "german": "Uhr",
         "english": "Clock"
       },
-      "categories": [
-        "Gegenstände",
-        "Zeit"
-      ]
+      "categories": ["Gegenstände", "Zeit"]
     },
     {
       "japaneseHiragana": "つくえ",
@@ -950,10 +862,7 @@
         "german": "Schreibtisch",
         "english": "Desk"
       },
-      "categories": [
-        "Gegenstände",
-        "Möbel"
-      ]
+      "categories": ["Gegenstände", "Möbel"]
     },
     {
       "japaneseHiragana": "いす",
@@ -963,10 +872,7 @@
         "german": "Stuhl",
         "english": "Chair"
       },
-      "categories": [
-        "Gegenstände",
-        "Möbel"
-      ]
+      "categories": ["Gegenstände", "Möbel"]
     },
     {
       "japaneseHiragana": "でんわ",
@@ -976,10 +882,7 @@
         "german": "Telefon",
         "english": "Telephone"
       },
-      "categories": [
-        "Gegenstände",
-        "Technologie"
-      ]
+      "categories": ["Gegenstände", "Technologie"]
     },
     {
       "japaneseHiragana": "かばん",
@@ -989,10 +892,7 @@
         "german": "Tasche",
         "english": "Bag"
       },
-      "categories": [
-        "Gegenstände",
-        "Mode"
-      ]
+      "categories": ["Gegenstände", "Mode"]
     },
     {
       "japaneseHiragana": "ぼうし",
@@ -1002,10 +902,7 @@
         "german": "Hut",
         "english": "Hat"
       },
-      "categories": [
-        "Gegenstände",
-        "Mode"
-      ]
+      "categories": ["Gegenstände", "Mode"]
     },
     {
       "japaneseHiragana": "くつ",
@@ -1015,10 +912,7 @@
         "german": "Schuhe",
         "english": "Shoes"
       },
-      "categories": [
-        "Gegenstände",
-        "Mode"
-      ]
+      "categories": ["Gegenstände", "Mode"]
     },
     {
       "japaneseHiragana": "えいご",
@@ -1028,10 +922,7 @@
         "german": "Englisch",
         "english": "English language"
       },
-      "categories": [
-        "Lernen",
-        "Sprachen"
-      ]
+      "categories": ["Lernen", "Sprachen"]
     },
     {
       "japaneseHiragana": "にほんご",
@@ -1041,10 +932,7 @@
         "german": "Japanisch",
         "english": "Japanese language"
       },
-      "categories": [
-        "Lernen",
-        "Sprachen"
-      ]
+      "categories": ["Lernen", "Sprachen"]
     },
     {
       "japaneseHiragana": "せんこう",
@@ -1054,10 +942,7 @@
         "german": "Studienfach",
         "english": "Major (field of study)"
       },
-      "categories": [
-        "Lernen",
-        "Bildung"
-      ]
+      "categories": ["Lernen", "Bildung"]
     },
     {
       "japaneseHiragana": "いしゃ",
@@ -1067,10 +952,7 @@
         "german": "Arzt",
         "english": "Doctor"
       },
-      "categories": [
-        "Berufe",
-        "Gesundheit"
-      ]
+      "categories": ["Berufe", "Gesundheit"]
     },
     {
       "japaneseHiragana": "かいしゃいん",
@@ -1080,10 +962,7 @@
         "german": "Büroangestellter",
         "english": "Office worker"
       },
-      "categories": [
-        "Berufe",
-        "Arbeit"
-      ]
+      "categories": ["Berufe", "Arbeit"]
     },
     {
       "japaneseHiragana": "ぎんこういん",
@@ -1093,10 +972,7 @@
         "german": "Bankangestellter",
         "english": "Bank clerk"
       },
-      "categories": [
-        "Berufe",
-        "Finanzen"
-      ]
+      "categories": ["Berufe", "Finanzen"]
     },
     {
       "japaneseHiragana": "けんきゅうしゃ",
@@ -1106,10 +982,7 @@
         "german": "Forscher",
         "english": "Researcher"
       },
-      "categories": [
-        "Berufe",
-        "Wissenschaft"
-      ]
+      "categories": ["Berufe", "Wissenschaft"]
     },
     {
       "japaneseHiragana": "えいが",
@@ -1119,10 +992,7 @@
         "german": "Film",
         "english": "Movie"
       },
-      "categories": [
-        "Unterhaltung",
-        "Film"
-      ]
+      "categories": ["Unterhaltung", "Film"]
     },
     {
       "japaneseHiragana": "おんがく",
@@ -1132,10 +1002,7 @@
         "german": "Musik",
         "english": "Music"
       },
-      "categories": [
-        "Unterhaltung",
-        "Musik"
-      ]
+      "categories": ["Unterhaltung", "Musik"]
     },
     {
       "japaneseHiragana": "すいえい",
@@ -1145,10 +1012,7 @@
         "german": "Schwimmen",
         "english": "Swimming"
       },
-      "categories": [
-        "Sport",
-        "Aktivitäten"
-      ]
+      "categories": ["Sport", "Aktivitäten"]
     },
     {
       "japaneseHiragana": "やきゅう",
@@ -1158,10 +1022,7 @@
         "german": "Baseball",
         "english": "Baseball"
       },
-      "categories": [
-        "Sport",
-        "Sportarten"
-      ]
+      "categories": ["Sport", "Sportarten"]
     },
     {
       "japaneseHiragana": "ふつかよい",
@@ -1171,10 +1032,7 @@
         "german": "Gute Besserung (wörtl.: Erhol dich in zwei Tagen)",
         "english": "Get well soon (literally: Recover in two days)"
       },
-      "categories": [
-        "Gesundheit",
-        "Alltag"
-      ]
+      "categories": ["Gesundheit", "Alltag"]
     },
     {
       "japaneseHiragana": "げんき",
@@ -1184,10 +1042,7 @@
         "german": "Gesundheit",
         "english": "Health"
       },
-      "categories": [
-        "Gesundheit",
-        "Zustand"
-      ]
+      "categories": ["Gesundheit", "Zustand"]
     },
     {
       "japaneseHiragana": "たいせつ",
@@ -1197,9 +1052,7 @@
         "german": "Wichtig",
         "english": "Important"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "おいしい",
@@ -1209,10 +1062,7 @@
         "german": "Lecker",
         "english": "Delicious"
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "たべる",
@@ -1222,10 +1072,7 @@
         "german": "Essen",
         "english": "To eat"
       },
-      "categories": [
-        "Essen",
-        "Verben"
-      ]
+      "categories": ["Essen", "Verben"]
     },
     {
       "japaneseHiragana": "のむ",
@@ -1235,10 +1082,7 @@
         "german": "Trinken",
         "english": "To drink"
       },
-      "categories": [
-        "Essen",
-        "Verben"
-      ]
+      "categories": ["Essen", "Verben"]
     },
     {
       "japaneseHiragana": "いえ",
@@ -1248,9 +1092,7 @@
         "german": "Haus",
         "english": "House"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "アパート",
@@ -1260,9 +1102,7 @@
         "german": "Apartment",
         "english": "Apartment"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "マンション",
@@ -1272,9 +1112,7 @@
         "german": "Eigentumswohnung",
         "english": "Condominium"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "こうじょう",
@@ -1284,9 +1122,7 @@
         "german": "Fabrik",
         "english": "Factory"
       },
-      "categories": [
-        "Arbeit"
-      ]
+      "categories": ["Arbeit"]
     },
     {
       "japaneseHiragana": "かいしゃ",
@@ -1296,9 +1132,7 @@
         "german": "Firma",
         "english": "Company"
       },
-      "categories": [
-        "Arbeit"
-      ]
+      "categories": ["Arbeit"]
     },
     {
       "japaneseHiragana": "かいぎしつ",
@@ -1308,10 +1142,7 @@
         "german": "Konferenzraum",
         "english": "Conference room"
       },
-      "categories": [
-        "Arbeit",
-        "Räume"
-      ]
+      "categories": ["Arbeit", "Räume"]
     },
     {
       "japaneseHiragana": "きっさてん",
@@ -1321,10 +1152,7 @@
         "german": "Café",
         "english": "Café"
       },
-      "categories": [
-        "Essen",
-        "Orte"
-      ]
+      "categories": ["Essen", "Orte"]
     },
     {
       "japaneseHiragana": "さくら",
@@ -1334,9 +1162,7 @@
         "german": "Kirschblüte",
         "english": "Cherry blossom"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "やま",
@@ -1346,9 +1172,7 @@
         "german": "Berg",
         "english": "Mountain"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "たいよう",
@@ -1358,9 +1182,7 @@
         "german": "Sonne",
         "english": "Sun"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "かぜ",
@@ -1370,9 +1192,7 @@
         "german": "Wind",
         "english": "Wind"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "みず",
@@ -1382,9 +1202,7 @@
         "german": "Wasser",
         "english": "Water"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "かぜる",
@@ -1394,10 +1212,7 @@
         "german": "Regnen",
         "english": "To rain"
       },
-      "categories": [
-        "Natur",
-        "Verben"
-      ]
+      "categories": ["Natur", "Verben"]
     },
     {
       "japaneseHiragana": "くも",
@@ -1407,9 +1222,7 @@
         "german": "Wolke",
         "english": "Cloud"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "かんしゃ",
@@ -1419,9 +1232,7 @@
         "german": "Dankbarkeit",
         "english": "Gratitude"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "わかい",
@@ -1431,9 +1242,7 @@
         "german": "Jung",
         "english": "Young"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "おとな",
@@ -1443,9 +1252,7 @@
         "german": "Erwachsener",
         "english": "Adult"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "たかい",
@@ -1455,9 +1262,7 @@
         "german": "Hoch",
         "english": "Tall"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ひくい",
@@ -1467,9 +1272,7 @@
         "german": "Niedrig",
         "english": "Low"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "はやい",
@@ -1479,9 +1282,7 @@
         "german": "Schnell",
         "english": "Fast"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "おそい",
@@ -1491,9 +1292,7 @@
         "german": "Langsam",
         "english": "Slow"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "つめたい",
@@ -1503,9 +1302,7 @@
         "german": "Kalt",
         "english": "Cold"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "あつい",
@@ -1515,9 +1312,7 @@
         "german": "Heiß",
         "english": "Hot"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "あかるい",
@@ -1527,9 +1322,7 @@
         "german": "Hell",
         "english": "Bright"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "くらい",
@@ -1539,9 +1332,7 @@
         "german": "Dunkel",
         "english": "Dark"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "おおきい",
@@ -1551,9 +1342,7 @@
         "german": "Groß",
         "english": "Big"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ちいさい",
@@ -1563,9 +1352,7 @@
         "german": "Klein",
         "english": "Small"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ふるい",
@@ -1575,9 +1362,7 @@
         "german": "Alt",
         "english": "Old"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "あたらしい",
@@ -1587,9 +1372,7 @@
         "german": "Neu",
         "english": "New"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "しずか",
@@ -1599,9 +1382,7 @@
         "german": "Ruhig",
         "english": "Quiet"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "にぎやか",
@@ -1611,9 +1392,7 @@
         "german": "Lebhaft",
         "english": "Lively"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ゆうめい",
@@ -1623,9 +1402,7 @@
         "german": "Berühmt",
         "english": "Famous"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ひま",
@@ -1635,9 +1412,7 @@
         "german": "Freizeit",
         "english": "Free time"
       },
-      "categories": [
-        "Zeit"
-      ]
+      "categories": ["Zeit"]
     },
     {
       "japaneseHiragana": "じかん",
@@ -1647,9 +1422,7 @@
         "german": "Zeit",
         "english": "Time"
       },
-      "categories": [
-        "Zeit"
-      ]
+      "categories": ["Zeit"]
     },
     {
       "japaneseHiragana": "きげん",
@@ -1659,9 +1432,7 @@
         "german": "Laune",
         "english": "Mood"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "ゆめ",
@@ -1671,9 +1442,7 @@
         "german": "Traum",
         "english": "Dream"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "しあわせ",
@@ -1683,9 +1452,7 @@
         "german": "Glück",
         "english": "Happiness"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "かなしい",
@@ -1695,9 +1462,7 @@
         "german": "Traurig",
         "english": "Sad"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "おそろしい",
@@ -1707,9 +1472,7 @@
         "german": "Furchterregend",
         "english": "Scary"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "うれしい",
@@ -1719,9 +1482,7 @@
         "german": "Glücklich",
         "english": "Happy"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "おなか",
@@ -1731,9 +1492,7 @@
         "german": "Bauch",
         "english": "Stomach"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ひげ",
@@ -1743,9 +1502,7 @@
         "german": "Bart",
         "english": "Beard"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "あたま",
@@ -1755,9 +1512,7 @@
         "german": "Kopf",
         "english": "Head"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "は",
@@ -1767,9 +1522,7 @@
         "german": "Zahn",
         "english": "Tooth"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "め",
@@ -1779,9 +1532,7 @@
         "german": "Auge",
         "english": "Eye"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "て",
@@ -1791,9 +1542,7 @@
         "german": "Hand",
         "english": "Hand"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "あし",
@@ -1803,9 +1552,7 @@
         "german": "Fuß",
         "english": "Foot"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "はな",
@@ -1815,9 +1562,7 @@
         "german": "Nase",
         "english": "Nose"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ひじ",
@@ -1827,9 +1572,7 @@
         "german": "Ellenbogen",
         "english": "Elbow"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ひざ",
@@ -1839,9 +1582,7 @@
         "german": "Knie",
         "english": "Knee"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "くび",
@@ -1851,9 +1592,7 @@
         "german": "Hals",
         "english": "Neck"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ゆめ",
@@ -1863,9 +1602,7 @@
         "german": "Traum",
         "english": "Dream"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "さくら",
@@ -1875,9 +1612,7 @@
         "german": "Kirschblüte",
         "english": "Cherry blossom"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "やま",
@@ -1887,9 +1622,7 @@
         "german": "Berg",
         "english": "Mountain"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "たいよう",
@@ -1899,9 +1632,7 @@
         "german": "Sonne",
         "english": "Sun"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "かぜ",
@@ -1911,9 +1642,7 @@
         "german": "Wind",
         "english": "Wind"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "みず",
@@ -1923,9 +1652,7 @@
         "german": "Wasser",
         "english": "Water"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "かぜる",
@@ -1935,10 +1662,7 @@
         "german": "Regnen",
         "english": "To rain"
       },
-      "categories": [
-        "Natur",
-        "Verben"
-      ]
+      "categories": ["Natur", "Verben"]
     },
     {
       "japaneseHiragana": "くも",
@@ -1948,9 +1672,7 @@
         "german": "Wolke",
         "english": "Cloud"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "かんしゃ",
@@ -1960,9 +1682,7 @@
         "german": "Dankbarkeit",
         "english": "Gratitude"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "わかい",
@@ -1972,9 +1692,7 @@
         "german": "Jung",
         "english": "Young"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "おとな",
@@ -1984,9 +1702,7 @@
         "german": "Erwachsener",
         "english": "Adult"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "たかい",
@@ -1996,9 +1712,7 @@
         "german": "Hoch",
         "english": "Tall"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ひくい",
@@ -2008,9 +1722,7 @@
         "german": "Niedrig",
         "english": "Low"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "はやい",
@@ -2020,9 +1732,7 @@
         "german": "Schnell",
         "english": "Fast"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "おそい",
@@ -2032,9 +1742,7 @@
         "german": "Langsam",
         "english": "Slow"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "つめたい",
@@ -2044,9 +1752,7 @@
         "german": "Kalt",
         "english": "Cold"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "あつい",
@@ -2056,9 +1762,7 @@
         "german": "Heiß",
         "english": "Hot"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "あかるい",
@@ -2068,9 +1772,7 @@
         "german": "Hell",
         "english": "Bright"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "くらい",
@@ -2080,9 +1782,7 @@
         "german": "Dunkel",
         "english": "Dark"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "おおきい",
@@ -2092,9 +1792,7 @@
         "german": "Groß",
         "english": "Big"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ちいさい",
@@ -2104,9 +1802,7 @@
         "german": "Klein",
         "english": "Small"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ふるい",
@@ -2116,9 +1812,7 @@
         "german": "Alt",
         "english": "Old"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "あたらしい",
@@ -2128,9 +1822,7 @@
         "german": "Neu",
         "english": "New"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "しずか",
@@ -2140,9 +1832,7 @@
         "german": "Ruhig",
         "english": "Quiet"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "にぎやか",
@@ -2152,9 +1842,7 @@
         "german": "Lebhaft",
         "english": "Lively"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ゆうめい",
@@ -2164,9 +1852,7 @@
         "german": "Berühmt",
         "english": "Famous"
       },
-      "categories": [
-        "Beschreibung"
-      ]
+      "categories": ["Beschreibung"]
     },
     {
       "japaneseHiragana": "ひま",
@@ -2176,9 +1862,7 @@
         "german": "Freizeit",
         "english": "Free time"
       },
-      "categories": [
-        "Zeit"
-      ]
+      "categories": ["Zeit"]
     },
     {
       "japaneseHiragana": "じかん",
@@ -2188,9 +1872,7 @@
         "german": "Zeit",
         "english": "Time"
       },
-      "categories": [
-        "Zeit"
-      ]
+      "categories": ["Zeit"]
     },
     {
       "japaneseHiragana": "きげん",
@@ -2200,9 +1882,7 @@
         "german": "Laune",
         "english": "Mood"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "ゆめ",
@@ -2212,9 +1892,7 @@
         "german": "Traum",
         "english": "Dream"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "しあわせ",
@@ -2224,9 +1902,7 @@
         "german": "Glück",
         "english": "Happiness"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "かなしい",
@@ -2236,9 +1912,7 @@
         "german": "Traurig",
         "english": "Sad"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "おそろしい",
@@ -2248,9 +1922,7 @@
         "german": "Furchterregend",
         "english": "Scary"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "うれしい",
@@ -2260,9 +1932,7 @@
         "german": "Glücklich",
         "english": "Happy"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "おなか",
@@ -2272,9 +1942,7 @@
         "german": "Bauch",
         "english": "Stomach"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ひげ",
@@ -2284,9 +1952,7 @@
         "german": "Bart",
         "english": "Beard"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "あたま",
@@ -2296,9 +1962,7 @@
         "german": "Kopf",
         "english": "Head"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "は",
@@ -2308,9 +1972,7 @@
         "german": "Zahn",
         "english": "Tooth"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "め",
@@ -2320,9 +1982,7 @@
         "german": "Auge",
         "english": "Eye"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "て",
@@ -2332,9 +1992,7 @@
         "german": "Hand",
         "english": "Hand"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "あし",
@@ -2344,9 +2002,7 @@
         "german": "Fuß",
         "english": "Foot"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "はな",
@@ -2356,9 +2012,7 @@
         "german": "Nase",
         "english": "Nose"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ひじ",
@@ -2368,9 +2022,7 @@
         "german": "Ellenbogen",
         "english": "Elbow"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ひざ",
@@ -2380,9 +2032,7 @@
         "german": "Knie",
         "english": "Knee"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "くび",
@@ -2392,9 +2042,7 @@
         "german": "Hals",
         "english": "Neck"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ゆめ",
@@ -2404,9 +2052,7 @@
         "german": "Traum",
         "english": "Dream"
       },
-      "categories": [
-        "Emotionen"
-      ]
+      "categories": ["Emotionen"]
     },
     {
       "japaneseHiragana": "かんじ",
@@ -2416,9 +2062,7 @@
         "german": "Schriftzeichen",
         "english": "kanji character"
       },
-      "categories": [
-        "Sprache"
-      ]
+      "categories": ["Sprache"]
     },
     {
       "japaneseHiragana": "ひらがな",
@@ -2428,9 +2072,7 @@
         "german": "Hiragana",
         "english": "hiragana"
       },
-      "categories": [
-        "Sprache"
-      ]
+      "categories": ["Sprache"]
     },
     {
       "japaneseHiragana": "カタカナ",
@@ -2440,9 +2082,7 @@
         "german": "Katakana",
         "english": "katakana"
       },
-      "categories": [
-        "Sprache"
-      ]
+      "categories": ["Sprache"]
     },
     {
       "japaneseHiragana": "こえ",
@@ -2452,10 +2092,7 @@
         "german": "Stimme",
         "english": "voice"
       },
-      "categories": [
-        "Sprache",
-        "Körper"
-      ]
+      "categories": ["Sprache", "Körper"]
     },
     {
       "japaneseHiragana": "なまえ",
@@ -2465,9 +2102,7 @@
         "german": "Name",
         "english": "name"
       },
-      "categories": [
-        "Sprache"
-      ]
+      "categories": ["Sprache"]
     },
     {
       "japaneseHiragana": "くち",
@@ -2477,9 +2112,7 @@
         "german": "Mund",
         "english": "mouth"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "め",
@@ -2489,9 +2122,7 @@
         "german": "Auge",
         "english": "eye"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "みみ",
@@ -2501,9 +2132,7 @@
         "german": "Ohr",
         "english": "ear"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "て",
@@ -2513,9 +2142,7 @@
         "german": "Hand",
         "english": "hand"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "くるま",
@@ -2525,9 +2152,7 @@
         "german": "Auto",
         "english": "car"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "でんき",
@@ -2537,9 +2162,7 @@
         "german": "Elektrizität",
         "english": "electricity"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "でんしゃ",
@@ -2549,9 +2172,7 @@
         "german": "Zug",
         "english": "train"
       },
-      "categories": [
-        "Transportmittel"
-      ]
+      "categories": ["Transportmittel"]
     },
     {
       "japaneseHiragana": "ちかてつ",
@@ -2561,9 +2182,7 @@
         "german": "U-Bahn",
         "english": "subway"
       },
-      "categories": [
-        "Transportmittel"
-      ]
+      "categories": ["Transportmittel"]
     },
     {
       "japaneseHiragana": "ばす",
@@ -2573,9 +2192,7 @@
         "german": "Bus",
         "english": "bus"
       },
-      "categories": [
-        "Transportmittel"
-      ]
+      "categories": ["Transportmittel"]
     },
     {
       "japaneseHiragana": "ひこうき",
@@ -2585,9 +2202,7 @@
         "german": "Flugzeug",
         "english": "airplane"
       },
-      "categories": [
-        "Transportmittel"
-      ]
+      "categories": ["Transportmittel"]
     },
     {
       "japaneseHiragana": "てがみ",
@@ -2597,9 +2212,7 @@
         "german": "Brief",
         "english": "letter"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "しんぶん",
@@ -2609,9 +2222,7 @@
         "german": "Zeitung",
         "english": "newspaper"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "てちょう",
@@ -2621,9 +2232,7 @@
         "german": "Kalender",
         "english": "calendar"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "えんぴつ",
@@ -2633,9 +2242,7 @@
         "german": "Bleistift",
         "english": "pencil"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "けしゴム",
@@ -2645,9 +2252,7 @@
         "german": "Radiergummi",
         "english": "eraser"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "くつ",
@@ -2657,9 +2262,7 @@
         "german": "Schuhe",
         "english": "shoes"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ズボン",
@@ -2669,9 +2272,7 @@
         "german": "Hose",
         "english": "pants"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "シャツ",
@@ -2681,9 +2282,7 @@
         "german": "Hemd",
         "english": "shirt"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ワンピース",
@@ -2693,9 +2292,7 @@
         "german": "Kleid",
         "english": "dress"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "くつした",
@@ -2705,9 +2302,7 @@
         "german": "Socken",
         "english": "socks"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "セーター",
@@ -2717,9 +2312,7 @@
         "german": "Pullover",
         "english": "sweater"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "コート",
@@ -2729,9 +2322,7 @@
         "german": "Mantel",
         "english": "coat"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ぼうし",
@@ -2741,9 +2332,7 @@
         "german": "Hut",
         "english": "hat"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "てぶくろ",
@@ -2753,9 +2342,7 @@
         "german": "Handschuhe",
         "english": "gloves"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ふく",
@@ -2765,9 +2352,7 @@
         "german": "Kleidung",
         "english": "clothing"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ぼうし",
@@ -2777,9 +2362,7 @@
         "german": "Mütze",
         "english": "cap"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "すいぎゅう",
@@ -2789,9 +2372,7 @@
         "german": "Milch",
         "english": "milk"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ごはん",
@@ -2801,9 +2382,7 @@
         "german": "Reis",
         "english": "rice"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "くだもの",
@@ -2813,9 +2392,7 @@
         "german": "Frucht",
         "english": "fruit"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "にく",
@@ -2825,9 +2402,7 @@
         "german": "Fleisch",
         "english": "meat"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "さかな",
@@ -2837,9 +2412,7 @@
         "german": "Fisch",
         "english": "fish"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "とりにく",
@@ -2849,9 +2422,7 @@
         "german": "Hähnchen",
         "english": "chicken"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "りんご",
@@ -2861,9 +2432,7 @@
         "german": "Apfel",
         "english": "apple"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "いも",
@@ -2873,9 +2442,7 @@
         "german": "Kartoffel",
         "english": "potato"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ハンバーガー",
@@ -2885,9 +2452,7 @@
         "german": "Hamburger",
         "english": "hamburger"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "パン",
@@ -2897,9 +2462,7 @@
         "german": "Brot",
         "english": "bread"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ピザ",
@@ -2909,9 +2472,7 @@
         "german": "Pizza",
         "english": "pizza"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "たまご",
@@ -2921,9 +2482,7 @@
         "german": "Ei",
         "english": "egg"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "おかし",
@@ -2933,9 +2492,7 @@
         "german": "Süßigkeiten",
         "english": "sweets"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "アイスクリーム",
@@ -2945,9 +2502,7 @@
         "german": "Eis",
         "english": "ice cream"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "みず",
@@ -2957,9 +2512,7 @@
         "german": "Wasser",
         "english": "water"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "おちゃ",
@@ -2969,9 +2522,7 @@
         "german": "Tee",
         "english": "tea"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "こうちゃ",
@@ -2981,9 +2532,7 @@
         "german": "Kaffee",
         "english": "coffee"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "コーラ",
@@ -2993,9 +2542,7 @@
         "german": "Cola",
         "english": "cola"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ジュース",
@@ -3005,9 +2552,7 @@
         "german": "Saft",
         "english": "juice"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "おさけ",
@@ -3017,9 +2562,7 @@
         "german": "Alkohol",
         "english": "alcohol"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "かんじ",
@@ -3029,9 +2572,7 @@
         "german": "Schriftzeichen",
         "english": "kanji character"
       },
-      "categories": [
-        "Sprache"
-      ]
+      "categories": ["Sprache"]
     },
     {
       "japaneseHiragana": "ひらがな",
@@ -3041,9 +2582,7 @@
         "german": "Hiragana",
         "english": "hiragana"
       },
-      "categories": [
-        "Sprache"
-      ]
+      "categories": ["Sprache"]
     },
     {
       "japaneseHiragana": "カタカナ",
@@ -3053,9 +2592,7 @@
         "german": "Katakana",
         "english": "katakana"
       },
-      "categories": [
-        "Sprache"
-      ]
+      "categories": ["Sprache"]
     },
     {
       "japaneseHiragana": "こえ",
@@ -3065,10 +2602,7 @@
         "german": "Stimme",
         "english": "voice"
       },
-      "categories": [
-        "Sprache",
-        "Körper"
-      ]
+      "categories": ["Sprache", "Körper"]
     },
     {
       "japaneseHiragana": "なまえ",
@@ -3078,9 +2612,7 @@
         "german": "Name",
         "english": "name"
       },
-      "categories": [
-        "Sprache"
-      ]
+      "categories": ["Sprache"]
     },
     {
       "japaneseHiragana": "くち",
@@ -3090,9 +2622,7 @@
         "german": "Mund",
         "english": "mouth"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "め",
@@ -3102,9 +2632,7 @@
         "german": "Auge",
         "english": "eye"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "みみ",
@@ -3114,9 +2642,7 @@
         "german": "Ohr",
         "english": "ear"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "て",
@@ -3126,9 +2652,7 @@
         "german": "Hand",
         "english": "hand"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "くるま",
@@ -3138,9 +2662,7 @@
         "german": "Auto",
         "english": "car"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "でんき",
@@ -3150,9 +2672,7 @@
         "german": "Elektrizität",
         "english": "electricity"
       },
-      "categories": [
-        "Natur"
-      ]
+      "categories": ["Natur"]
     },
     {
       "japaneseHiragana": "でんしゃ",
@@ -3162,9 +2682,7 @@
         "german": "Zug",
         "english": "train"
       },
-      "categories": [
-        "Transportmittel"
-      ]
+      "categories": ["Transportmittel"]
     },
     {
       "japaneseHiragana": "ちかてつ",
@@ -3174,9 +2692,7 @@
         "german": "U-Bahn",
         "english": "subway"
       },
-      "categories": [
-        "Transportmittel"
-      ]
+      "categories": ["Transportmittel"]
     },
     {
       "japaneseHiragana": "ばす",
@@ -3186,9 +2702,7 @@
         "german": "Bus",
         "english": "bus"
       },
-      "categories": [
-        "Transportmittel"
-      ]
+      "categories": ["Transportmittel"]
     },
     {
       "japaneseHiragana": "ひこうき",
@@ -3198,9 +2712,7 @@
         "german": "Flugzeug",
         "english": "airplane"
       },
-      "categories": [
-        "Transportmittel"
-      ]
+      "categories": ["Transportmittel"]
     },
     {
       "japaneseHiragana": "てがみ",
@@ -3210,9 +2722,7 @@
         "german": "Brief",
         "english": "letter"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "しんぶん",
@@ -3222,9 +2732,7 @@
         "german": "Zeitung",
         "english": "newspaper"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "てちょう",
@@ -3234,9 +2742,7 @@
         "german": "Kalender",
         "english": "calendar"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "えんぴつ",
@@ -3246,9 +2752,7 @@
         "german": "Bleistift",
         "english": "pencil"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "けしゴム",
@@ -3258,9 +2762,7 @@
         "german": "Radiergummi",
         "english": "eraser"
       },
-      "categories": [
-        "Gegenstände"
-      ]
+      "categories": ["Gegenstände"]
     },
     {
       "japaneseHiragana": "くつ",
@@ -3270,9 +2772,7 @@
         "german": "Schuhe",
         "english": "shoes"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ズボン",
@@ -3282,9 +2782,7 @@
         "german": "Hose",
         "english": "pants"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "シャツ",
@@ -3294,9 +2792,7 @@
         "german": "Hemd",
         "english": "shirt"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ワンピース",
@@ -3306,9 +2802,7 @@
         "german": "Kleid",
         "english": "dress"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "くつした",
@@ -3318,9 +2812,7 @@
         "german": "Socken",
         "english": "socks"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "セーター",
@@ -3330,9 +2822,7 @@
         "german": "Pullover",
         "english": "sweater"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "コート",
@@ -3342,9 +2832,7 @@
         "german": "Mantel",
         "english": "coat"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ぼうし",
@@ -3354,9 +2842,7 @@
         "german": "Hut",
         "english": "hat"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "てぶくろ",
@@ -3366,9 +2852,7 @@
         "german": "Handschuhe",
         "english": "gloves"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ふく",
@@ -3378,9 +2862,7 @@
         "german": "Kleidung",
         "english": "clothing"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "ぼうし",
@@ -3390,9 +2872,7 @@
         "german": "Mütze",
         "english": "cap"
       },
-      "categories": [
-        "Kleidung"
-      ]
+      "categories": ["Kleidung"]
     },
     {
       "japaneseHiragana": "すいぎゅう",
@@ -3402,9 +2882,7 @@
         "german": "Milch",
         "english": "milk"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ごはん",
@@ -3414,9 +2892,7 @@
         "german": "Reis",
         "english": "rice"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "くだもの",
@@ -3426,9 +2902,7 @@
         "german": "Frucht",
         "english": "fruit"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "にく",
@@ -3438,9 +2912,7 @@
         "german": "Fleisch",
         "english": "meat"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "さかな",
@@ -3450,9 +2922,7 @@
         "german": "Fisch",
         "english": "fish"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "とりにく",
@@ -3462,9 +2932,7 @@
         "german": "Hähnchen",
         "english": "chicken"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "りんご",
@@ -3474,9 +2942,7 @@
         "german": "Apfel",
         "english": "apple"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "いも",
@@ -3486,9 +2952,7 @@
         "german": "Kartoffel",
         "english": "potato"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ハンバーガー",
@@ -3498,9 +2962,7 @@
         "german": "Hamburger",
         "english": "hamburger"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "パン",
@@ -3510,9 +2972,7 @@
         "german": "Brot",
         "english": "bread"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ピザ",
@@ -3522,9 +2982,7 @@
         "german": "Pizza",
         "english": "pizza"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "たまご",
@@ -3534,9 +2992,7 @@
         "german": "Ei",
         "english": "egg"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "おかし",
@@ -3546,9 +3002,7 @@
         "german": "Süßigkeiten",
         "english": "sweets"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "アイスクリーム",
@@ -3558,9 +3012,7 @@
         "german": "Eis",
         "english": "ice cream"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "みず",
@@ -3570,9 +3022,7 @@
         "german": "Wasser",
         "english": "water"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "おちゃ",
@@ -3582,9 +3032,7 @@
         "german": "Tee",
         "english": "tea"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "こうちゃ",
@@ -3594,9 +3042,7 @@
         "german": "Kaffee",
         "english": "coffee"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "コーラ",
@@ -3606,9 +3052,7 @@
         "german": "Cola",
         "english": "cola"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ジュース",
@@ -3618,9 +3062,7 @@
         "german": "Saft",
         "english": "juice"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "おさけ",
@@ -3630,9 +3072,7 @@
         "german": "Alkohol",
         "english": "alcohol"
       },
-      "categories": [
-        "Essen"
-      ]
+      "categories": ["Essen"]
     },
     {
       "japaneseHiragana": "ともだち",
@@ -3642,9 +3082,7 @@
         "german": "Freund",
         "english": "friend"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "かぞく",
@@ -3654,9 +3092,7 @@
         "german": "Familie",
         "english": "family"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "かれし",
@@ -3666,9 +3102,7 @@
         "german": "Freund (männlich)",
         "english": "boyfriend"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "かのじょ",
@@ -3678,9 +3112,7 @@
         "german": "Freundin (weiblich)",
         "english": "girlfriend"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "りょうしん",
@@ -3690,9 +3122,7 @@
         "german": "Eltern",
         "english": "parents"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "あに",
@@ -3702,9 +3132,7 @@
         "german": "Bruder (älter)",
         "english": "older brother"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おとうと",
@@ -3714,9 +3142,7 @@
         "german": "Bruder (jünger)",
         "english": "younger brother"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "あね",
@@ -3726,9 +3152,7 @@
         "german": "Schwester (älter)",
         "english": "older sister"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "いもうと",
@@ -3738,9 +3162,7 @@
         "german": "Schwester (jünger)",
         "english": "younger sister"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おじ",
@@ -3750,9 +3172,7 @@
         "german": "Onkel",
         "english": "uncle"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おば",
@@ -3762,9 +3182,7 @@
         "german": "Tante",
         "english": "aunt"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "いとこ",
@@ -3774,9 +3192,7 @@
         "german": "Cousin/Cousine",
         "english": "cousin/cousin"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おじいさん",
@@ -3786,9 +3202,7 @@
         "german": "Großvater (mütterlicherseits)",
         "english": "grandfather (maternal)"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おばあさん",
@@ -3798,9 +3212,7 @@
         "german": "Großmutter (mütterlicherseits)",
         "english": "grandmother (maternal)"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おじいさん",
@@ -3810,9 +3222,7 @@
         "german": "Großvater (väterlicherseits)",
         "english": "grandfather (paternal)"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おばあさん",
@@ -3822,9 +3232,7 @@
         "german": "Großmutter (väterlicherseits)",
         "english": "grandmother (paternal)"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "むすめ",
@@ -3834,9 +3242,7 @@
         "german": "Tochter",
         "english": "daughter"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "むすこ",
@@ -3846,9 +3252,7 @@
         "german": "Sohn",
         "english": "son"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おとこ",
@@ -3858,9 +3262,7 @@
         "german": "Mann",
         "english": "man"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "おんな",
@@ -3870,9 +3272,7 @@
         "german": "Frau",
         "english": "woman"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "こども",
@@ -3882,9 +3282,7 @@
         "german": "Kind",
         "english": "child"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "あたま",
@@ -3894,9 +3292,7 @@
         "german": "Kopf",
         "english": "head"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "はな",
@@ -3906,9 +3302,7 @@
         "german": "Nase",
         "english": "nose"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "くちびる",
@@ -3918,9 +3312,7 @@
         "german": "Lippen",
         "english": "lips"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "は",
@@ -3930,9 +3322,7 @@
         "german": "Zahn",
         "english": "tooth"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "かお",
@@ -3942,9 +3332,7 @@
         "german": "Gesicht",
         "english": "face"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "あたま",
@@ -3954,9 +3342,7 @@
         "german": "Gehirn",
         "english": "brain"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "かみ",
@@ -3966,9 +3352,7 @@
         "german": "Haar",
         "english": "hair"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "みみ",
@@ -3978,9 +3362,7 @@
         "german": "Ohr",
         "english": "ear"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "くび",
@@ -3990,9 +3372,7 @@
         "german": "Hals",
         "english": "neck"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "かた",
@@ -4002,9 +3382,7 @@
         "german": "Schulter",
         "english": "shoulder"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "うで",
@@ -4014,9 +3392,7 @@
         "german": "Arm",
         "english": "arm"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "て",
@@ -4026,9 +3402,7 @@
         "german": "Hand",
         "english": "hand"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ゆび",
@@ -4038,9 +3412,7 @@
         "german": "Finger",
         "english": "finger"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "て",
@@ -4050,9 +3422,7 @@
         "german": "Handfläche",
         "english": "palm"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "あし",
@@ -4062,9 +3432,7 @@
         "german": "Bein",
         "english": "leg"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "ひざ",
@@ -4074,9 +3442,7 @@
         "german": "Knie",
         "english": "knee"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "あし",
@@ -4086,9 +3452,7 @@
         "german": "Fuß",
         "english": "foot"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "つまさき",
@@ -4098,9 +3462,7 @@
         "german": "Zehenspitze",
         "english": "toe"
       },
-      "categories": [
-        "Körper"
-      ]
+      "categories": ["Körper"]
     },
     {
       "japaneseHiragana": "みぎ",
@@ -4110,9 +3472,7 @@
         "german": "rechts",
         "english": "right"
       },
-      "categories": [
-        "Richtungen"
-      ]
+      "categories": ["Richtungen"]
     },
     {
       "japaneseHiragana": "ひだり",
@@ -4122,9 +3482,7 @@
         "german": "links",
         "english": "left"
       },
-      "categories": [
-        "Richtungen"
-      ]
+      "categories": ["Richtungen"]
     },
     {
       "japaneseHiragana": "まえ",
@@ -4134,9 +3492,7 @@
         "german": "vorne",
         "english": "front"
       },
-      "categories": [
-        "Richtungen"
-      ]
+      "categories": ["Richtungen"]
     },
     {
       "japaneseHiragana": "うしろ",
@@ -4146,9 +3502,7 @@
         "german": "hinten",
         "english": "back"
       },
-      "categories": [
-        "Richtungen"
-      ]
+      "categories": ["Richtungen"]
     },
     {
       "japaneseHiragana": "した",
@@ -4158,9 +3512,7 @@
         "german": "unten",
         "english": "bottom"
       },
-      "categories": [
-        "Richtungen"
-      ]
+      "categories": ["Richtungen"]
     },
     {
       "japaneseHiragana": "うえ",
@@ -4170,9 +3522,7 @@
         "german": "oben",
         "english": "top"
       },
-      "categories": [
-        "Richtungen"
-      ]
+      "categories": ["Richtungen"]
     },
     {
       "japaneseHiragana": "なか",
@@ -4182,9 +3532,7 @@
         "german": "Mitte",
         "english": "middle"
       },
-      "categories": [
-        "Richtungen"
-      ]
+      "categories": ["Richtungen"]
     },
     {
       "japaneseHiragana": "まる",
@@ -4194,9 +3542,7 @@
         "german": "rund",
         "english": "round"
       },
-      "categories": [
-        "Formen"
-      ]
+      "categories": ["Formen"]
     },
     {
       "japaneseHiragana": "しかく",
@@ -4206,9 +3552,7 @@
         "german": "quadratisch",
         "english": "square"
       },
-      "categories": [
-        "Formen"
-      ]
+      "categories": ["Formen"]
     },
     {
       "japaneseHiragana": "しかくけい",
@@ -4218,9 +3562,7 @@
         "german": "Rechteck",
         "english": "rectangle"
       },
-      "categories": [
-        "Formen"
-      ]
+      "categories": ["Formen"]
     },
     {
       "japaneseHiragana": "さんかく",
@@ -4230,9 +3572,7 @@
         "german": "dreieckig",
         "english": "triangular"
       },
-      "categories": [
-        "Formen"
-      ]
+      "categories": ["Formen"]
     },
     {
       "japaneseHiragana": "ひしょう",
@@ -4242,9 +3582,7 @@
         "german": "Diamant",
         "english": "diamond"
       },
-      "categories": [
-        "Formen"
-      ]
+      "categories": ["Formen"]
     },
     {
       "japaneseHiragana": "ほうせき",
@@ -4254,9 +3592,7 @@
         "german": "Edelstein",
         "english": "gemstone"
       },
-      "categories": [
-        "Formen"
-      ]
+      "categories": ["Formen"]
     },
     {
       "japaneseHiragana": "まんが",
@@ -4266,9 +3602,7 @@
         "german": "Manga",
         "english": "manga"
       },
-      "categories": [
-        "Unterhaltung"
-      ]
+      "categories": ["Unterhaltung"]
     },
     {
       "japaneseHiragana": "アニメ",
@@ -4278,9 +3612,7 @@
         "german": "Anime",
         "english": "anime"
       },
-      "categories": [
-        "Unterhaltung"
-      ]
+      "categories": ["Unterhaltung"]
     },
     {
       "japaneseHiragana": "えいが",
@@ -4290,9 +3622,7 @@
         "german": "Film",
         "english": "movie"
       },
-      "categories": [
-        "Unterhaltung"
-      ]
+      "categories": ["Unterhaltung"]
     },
     {
       "japaneseHiragana": "おんがく",
@@ -4302,9 +3632,7 @@
         "german": "Musik",
         "english": "music"
       },
-      "categories": [
-        "Unterhaltung"
-      ]
+      "categories": ["Unterhaltung"]
     },
     {
       "japaneseHiragana": "たいが",
@@ -4314,9 +3642,7 @@
         "german": "TV-Drama",
         "english": "TV drama"
       },
-      "categories": [
-        "Unterhaltung"
-      ]
+      "categories": ["Unterhaltung"]
     },
     {
       "japaneseHiragana": "げーむ",
@@ -4326,9 +3652,7 @@
         "german": "Spiel",
         "english": "game"
       },
-      "categories": [
-        "Unterhaltung"
-      ]
+      "categories": ["Unterhaltung"]
     },
     {
       "japaneseHiragana": "あしたはにほんごのクラスがあります。",
@@ -4338,10 +3662,7 @@
         "german": "Morgen habe ich Japanischunterricht.",
         "english": "Tomorrow I have Japanese class."
       },
-      "categories": [
-        "Schule",
-        "Alltag"
-      ]
+      "categories": ["Schule", "Alltag"]
     },
     {
       "japaneseHiragana": "わたしのけっこんびはじゅうにがつじゅういちにちです。",
@@ -4351,10 +3672,7 @@
         "german": "Mein Hochzeitstag ist der elfte November.",
         "english": "My wedding anniversary is on November eleventh."
       },
-      "categories": [
-        "Familie",
-        "Feiertage"
-      ]
+      "categories": ["Familie", "Feiertage"]
     },
     {
       "japaneseHiragana": "おべんとうをつくりました。",
@@ -4364,10 +3682,7 @@
         "german": "Ich habe ein Bento gemacht.",
         "english": "I made a bento."
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "いちにちじゅうべんきょうしました。",
@@ -4377,10 +3692,7 @@
         "german": "Ich habe den ganzen Tag gelernt.",
         "english": "I studied all day."
       },
-      "categories": [
-        "Schule",
-        "Alltag"
-      ]
+      "categories": ["Schule", "Alltag"]
     },
     {
       "japaneseHiragana": "おかえりなさい！",
@@ -4390,10 +3702,7 @@
         "german": "Willkommen zurück!",
         "english": "Welcome back!"
       },
-      "categories": [
-        "Alltag",
-        "Begrüßungen"
-      ]
+      "categories": ["Alltag", "Begrüßungen"]
     },
     {
       "japaneseHiragana": "いってきます。",
@@ -4403,9 +3712,7 @@
         "german": "Ich gehe jetzt.",
         "english": "I'm leaving now."
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "がっこうからかえります。",
@@ -4415,10 +3722,7 @@
         "german": "Ich komme von der Schule zurück.",
         "english": "I'm coming back from school."
       },
-      "categories": [
-        "Schule",
-        "Alltag"
-      ]
+      "categories": ["Schule", "Alltag"]
     },
     {
       "japaneseHiragana": "あなたのくつはあかいです。",
@@ -4428,10 +3732,7 @@
         "german": "Deine Schuhe sind rot.",
         "english": "Your shoes are red."
       },
-      "categories": [
-        "Kleidung",
-        "Alltag"
-      ]
+      "categories": ["Kleidung", "Alltag"]
     },
     {
       "japaneseHiragana": "かれのかぞくはいつもこうえんであそびます。",
@@ -4441,10 +3742,7 @@
         "german": "Seine Familie spielt immer im Park.",
         "english": "His family always plays in the park."
       },
-      "categories": [
-        "Familie",
-        "Freizeit"
-      ]
+      "categories": ["Familie", "Freizeit"]
     },
     {
       "japaneseHiragana": "くうこうでしんぶんをかいました。",
@@ -4454,10 +3752,7 @@
         "german": "Ich habe am Flughafen eine Zeitung gekauft.",
         "english": "I bought a newspaper at the airport."
       },
-      "categories": [
-        "Reisen",
-        "Alltag"
-      ]
+      "categories": ["Reisen", "Alltag"]
     },
     {
       "japaneseHiragana": "たぶんあしたあめがふるでしょう。",
@@ -4467,10 +3762,7 @@
         "german": "Morgen wird es wahrscheinlich regnen.",
         "english": "It will probably rain tomorrow."
       },
-      "categories": [
-        "Wetter",
-        "Alltag"
-      ]
+      "categories": ["Wetter", "Alltag"]
     },
     {
       "japaneseHiragana": "まいあさあさごはんをたべます。",
@@ -4480,10 +3772,7 @@
         "german": "Ich frühstücke jeden Morgen.",
         "english": "I eat breakfast every morning."
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "たいふうのとき、いえがこわれました。",
@@ -4493,10 +3782,7 @@
         "german": "Während des Taifuns wurde mein Haus zerstört.",
         "english": "During the typhoon, my house got destroyed."
       },
-      "categories": [
-        "Natur",
-        "Katastrophen"
-      ]
+      "categories": ["Natur", "Katastrophen"]
     },
     {
       "japaneseHiragana": "りょうりをつくるのがすきです。",
@@ -4506,10 +3792,7 @@
         "german": "Ich koche gerne.",
         "english": "I like cooking."
       },
-      "categories": [
-        "Essen",
-        "Hobbys"
-      ]
+      "categories": ["Essen", "Hobbys"]
     },
     {
       "japaneseHiragana": "くるまがほしいです。",
@@ -4519,10 +3802,7 @@
         "german": "Ich möchte ein Auto haben.",
         "english": "I want to have a car."
       },
-      "categories": [
-        "Wünsche",
-        "Alltag"
-      ]
+      "categories": ["Wünsche", "Alltag"]
     },
     {
       "japaneseHiragana": "すしはおいしいです。",
@@ -4532,10 +3812,7 @@
         "german": "Sushi ist lecker.",
         "english": "Sushi is delicious."
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "さくらがさきました。",
@@ -4545,10 +3822,7 @@
         "german": "Die Kirschblüten sind jetzt erblüht.",
         "english": "The cherry blossoms have bloomed now."
       },
-      "categories": [
-        "Natur",
-        "Jahreszeiten"
-      ]
+      "categories": ["Natur", "Jahreszeiten"]
     },
     {
       "japaneseHiragana": "けんしんはつらいです。",
@@ -4558,10 +3832,7 @@
         "german": "Liebeskummer ist schmerzhaft.",
         "english": "Heartbreak is painful."
       },
-      "categories": [
-        "Gefühle",
-        "Alltag"
-      ]
+      "categories": ["Gefühle", "Alltag"]
     },
     {
       "japaneseHiragana": "いもうとががっこうにいきます。",
@@ -4571,10 +3842,7 @@
         "german": "Meine jüngere Schwester geht zur Schule.",
         "english": "My younger sister goes to school."
       },
-      "categories": [
-        "Familie",
-        "Schule"
-      ]
+      "categories": ["Familie", "Schule"]
     },
     {
       "japaneseHiragana": "おとこのひとがとてもつよいです。",
@@ -4584,10 +3852,7 @@
         "german": "Der Mann ist sehr stark.",
         "english": "The man is very strong."
       },
-      "categories": [
-        "Personen",
-        "Alltag"
-      ]
+      "categories": ["Personen", "Alltag"]
     },
     {
       "japaneseHiragana": "あしたはにほんごのクラスがあります。",
@@ -4597,10 +3862,7 @@
         "german": "Morgen habe ich Japanischunterricht.",
         "english": "Tomorrow I have Japanese class."
       },
-      "categories": [
-        "Schule",
-        "Alltag"
-      ]
+      "categories": ["Schule", "Alltag"]
     },
     {
       "japaneseHiragana": "わたしのけっこんびはじゅうにがつじゅういちにちです。",
@@ -4610,10 +3872,7 @@
         "german": "Mein Hochzeitstag ist der elfte November.",
         "english": "My wedding anniversary is on November eleventh."
       },
-      "categories": [
-        "Familie",
-        "Feiertage"
-      ]
+      "categories": ["Familie", "Feiertage"]
     },
     {
       "japaneseHiragana": "おべんとうをつくりました。",
@@ -4623,10 +3882,7 @@
         "german": "Ich habe ein Bento gemacht.",
         "english": "I made a bento."
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "いちにちじゅうべんきょうしました。",
@@ -4636,10 +3892,7 @@
         "german": "Ich habe den ganzen Tag gelernt.",
         "english": "I studied all day."
       },
-      "categories": [
-        "Schule",
-        "Alltag"
-      ]
+      "categories": ["Schule", "Alltag"]
     },
     {
       "japaneseHiragana": "おかえりなさい！",
@@ -4649,10 +3902,7 @@
         "german": "Willkommen zurück!",
         "english": "Welcome back!"
       },
-      "categories": [
-        "Alltag",
-        "Begrüßungen"
-      ]
+      "categories": ["Alltag", "Begrüßungen"]
     },
     {
       "japaneseHiragana": "いってきます。",
@@ -4662,9 +3912,7 @@
         "german": "Ich gehe jetzt.",
         "english": "I'm leaving now."
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "がっこうからかえります。",
@@ -4674,10 +3922,7 @@
         "german": "Ich komme von der Schule zurück.",
         "english": "I'm coming back from school."
       },
-      "categories": [
-        "Schule",
-        "Alltag"
-      ]
+      "categories": ["Schule", "Alltag"]
     },
     {
       "japaneseHiragana": "あなたのくつはあかいです。",
@@ -4687,10 +3932,7 @@
         "german": "Deine Schuhe sind rot.",
         "english": "Your shoes are red."
       },
-      "categories": [
-        "Kleidung",
-        "Alltag"
-      ]
+      "categories": ["Kleidung", "Alltag"]
     },
     {
       "japaneseHiragana": "かれのかぞくはいつもこうえんであそびます。",
@@ -4700,10 +3942,7 @@
         "german": "Seine Familie spielt immer im Park.",
         "english": "His family always plays in the park."
       },
-      "categories": [
-        "Familie",
-        "Freizeit"
-      ]
+      "categories": ["Familie", "Freizeit"]
     },
     {
       "japaneseHiragana": "くうこうでしんぶんをかいました。",
@@ -4713,10 +3952,7 @@
         "german": "Ich habe am Flughafen eine Zeitung gekauft.",
         "english": "I bought a newspaper at the airport."
       },
-      "categories": [
-        "Reisen",
-        "Alltag"
-      ]
+      "categories": ["Reisen", "Alltag"]
     },
     {
       "japaneseHiragana": "たぶんあしたあめがふるでしょう。",
@@ -4726,10 +3962,7 @@
         "german": "Morgen wird es wahrscheinlich regnen.",
         "english": "It will probably rain tomorrow."
       },
-      "categories": [
-        "Wetter",
-        "Alltag"
-      ]
+      "categories": ["Wetter", "Alltag"]
     },
     {
       "japaneseHiragana": "まいあさあさごはんをたべます。",
@@ -4739,10 +3972,7 @@
         "german": "Ich frühstücke jeden Morgen.",
         "english": "I eat breakfast every morning."
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "たいふうのとき、いえがこわれました。",
@@ -4752,10 +3982,7 @@
         "german": "Während des Taifuns wurde mein Haus zerstört.",
         "english": "During the typhoon, my house got destroyed."
       },
-      "categories": [
-        "Natur",
-        "Katastrophen"
-      ]
+      "categories": ["Natur", "Katastrophen"]
     },
     {
       "japaneseHiragana": "りょうりをつくるのがすきです。",
@@ -4765,10 +3992,7 @@
         "german": "Ich koche gerne.",
         "english": "I like cooking."
       },
-      "categories": [
-        "Essen",
-        "Hobbys"
-      ]
+      "categories": ["Essen", "Hobbys"]
     },
     {
       "japaneseHiragana": "くるまがほしいです。",
@@ -4778,10 +4002,7 @@
         "german": "Ich möchte ein Auto haben.",
         "english": "I want to have a car."
       },
-      "categories": [
-        "Wünsche",
-        "Alltag"
-      ]
+      "categories": ["Wünsche", "Alltag"]
     },
     {
       "japaneseHiragana": "すしはおいしいです。",
@@ -4791,10 +4012,7 @@
         "german": "Sushi ist lecker.",
         "english": "Sushi is delicious."
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "さくらがさきました。",
@@ -4804,10 +4022,7 @@
         "german": "Die Kirschblüten sind jetzt erblüht.",
         "english": "The cherry blossoms have bloomed now."
       },
-      "categories": [
-        "Natur",
-        "Jahreszeiten"
-      ]
+      "categories": ["Natur", "Jahreszeiten"]
     },
     {
       "japaneseHiragana": "けんしんはつらいです。",
@@ -4817,10 +4032,7 @@
         "german": "Liebeskummer ist schmerzhaft.",
         "english": "Heartbreak is painful."
       },
-      "categories": [
-        "Gefühle",
-        "Alltag"
-      ]
+      "categories": ["Gefühle", "Alltag"]
     },
     {
       "japaneseHiragana": "いもうとががっこうにいきます。",
@@ -4830,10 +4042,7 @@
         "german": "Meine jüngere Schwester geht zur Schule.",
         "english": "My younger sister goes to school."
       },
-      "categories": [
-        "Familie",
-        "Schule"
-      ]
+      "categories": ["Familie", "Schule"]
     },
     {
       "japaneseHiragana": "おとこのひとがとてもつよいです。",
@@ -4843,10 +4052,7 @@
         "german": "Der Mann ist sehr stark.",
         "english": "The man is very strong."
       },
-      "categories": [
-        "Personen",
-        "Alltag"
-      ]
+      "categories": ["Personen", "Alltag"]
     },
     {
       "japaneseHiragana": "すいえい",
@@ -4856,10 +4062,7 @@
         "german": "Schwimmen",
         "english": "Swimming"
       },
-      "categories": [
-        "Sport",
-        "Aktivitäten"
-      ]
+      "categories": ["Sport", "Aktivitäten"]
     },
     {
       "japaneseHiragana": "やきゅう",
@@ -4869,10 +4072,7 @@
         "german": "Baseball",
         "english": "Baseball"
       },
-      "categories": [
-        "Sport",
-        "Sportarten"
-      ]
+      "categories": ["Sport", "Sportarten"]
     },
     {
       "japaneseHiragana": "ふつかよい",
@@ -4882,10 +4082,7 @@
         "german": "Gute Besserung (wörtl.: Erhol dich in zwei Tagen)",
         "english": "Get well soon (literally: Recover in two days)"
       },
-      "categories": [
-        "Gesundheit",
-        "Alltag"
-      ]
+      "categories": ["Gesundheit", "Alltag"]
     },
     {
       "japaneseHiragana": "げんき",
@@ -4895,10 +4092,7 @@
         "german": "Gesundheit",
         "english": "Health"
       },
-      "categories": [
-        "Gesundheit",
-        "Zustand"
-      ]
+      "categories": ["Gesundheit", "Zustand"]
     },
     {
       "japaneseHiragana": "たいせつ",
@@ -4908,9 +4102,7 @@
         "german": "Wichtig",
         "english": "Important"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "おいしい",
@@ -4920,10 +4112,7 @@
         "german": "Lecker",
         "english": "Delicious"
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "たべる",
@@ -4933,10 +4122,7 @@
         "german": "Essen",
         "english": "To eat"
       },
-      "categories": [
-        "Essen",
-        "Verben"
-      ]
+      "categories": ["Essen", "Verben"]
     },
     {
       "japaneseHiragana": "のむ",
@@ -4946,10 +4132,7 @@
         "german": "Trinken",
         "english": "To drink"
       },
-      "categories": [
-        "Essen",
-        "Verben"
-      ]
+      "categories": ["Essen", "Verben"]
     },
     {
       "japaneseHiragana": "いえ",
@@ -4959,9 +4142,7 @@
         "german": "Haus",
         "english": "House"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "アパート",
@@ -4971,9 +4152,7 @@
         "german": "Apartment",
         "english": "Apartment"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "マンション",
@@ -4983,9 +4162,7 @@
         "german": "Eigentumswohnung",
         "english": "Condominium"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "がっこう",
@@ -4995,9 +4172,7 @@
         "german": "Schule",
         "english": "School"
       },
-      "categories": [
-        "Bildung"
-      ]
+      "categories": ["Bildung"]
     },
     {
       "japaneseHiragana": "だいがく",
@@ -5007,9 +4182,7 @@
         "german": "Universität",
         "english": "University"
       },
-      "categories": [
-        "Bildung"
-      ]
+      "categories": ["Bildung"]
     },
     {
       "japaneseHiragana": "しごと",
@@ -5019,9 +4192,7 @@
         "german": "Arbeit",
         "english": "Work"
       },
-      "categories": [
-        "Beruf"
-      ]
+      "categories": ["Beruf"]
     },
     {
       "japaneseHiragana": "かいしゃ",
@@ -5031,9 +4202,7 @@
         "german": "Firma",
         "english": "Company"
       },
-      "categories": [
-        "Beruf"
-      ]
+      "categories": ["Beruf"]
     },
     {
       "japaneseHiragana": "しつもん",
@@ -5043,9 +4212,7 @@
         "german": "Frage",
         "english": "Question"
       },
-      "categories": [
-        "Kommunikation"
-      ]
+      "categories": ["Kommunikation"]
     },
     {
       "japaneseHiragana": "こたえ",
@@ -5055,9 +4222,7 @@
         "german": "Antwort",
         "english": "Answer"
       },
-      "categories": [
-        "Kommunikation"
-      ]
+      "categories": ["Kommunikation"]
     },
     {
       "japaneseHiragana": "ともだち",
@@ -5067,9 +4232,7 @@
         "german": "Freund",
         "english": "Friend"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "かぞく",
@@ -5079,9 +4242,7 @@
         "german": "Familie",
         "english": "Family"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "れきし",
@@ -5091,9 +4252,7 @@
         "german": "Geschichte",
         "english": "History"
       },
-      "categories": [
-        "Bildung"
-      ]
+      "categories": ["Bildung"]
     },
     {
       "japaneseHiragana": "にほん",
@@ -5103,9 +4262,7 @@
         "german": "Japan",
         "english": "Japan"
       },
-      "categories": [
-        "Länder"
-      ]
+      "categories": ["Länder"]
     },
     {
       "japaneseHiragana": "ふらんす",
@@ -5115,9 +4272,7 @@
         "german": "Frankreich",
         "english": "France"
       },
-      "categories": [
-        "Länder"
-      ]
+      "categories": ["Länder"]
     },
     {
       "japaneseHiragana": "どいつ",
@@ -5127,9 +4282,7 @@
         "german": "Deutschland",
         "english": "Germany"
       },
-      "categories": [
-        "Länder"
-      ]
+      "categories": ["Länder"]
     },
     {
       "japaneseHiragana": "あめりか",
@@ -5139,9 +4292,7 @@
         "german": "Amerika",
         "english": "America"
       },
-      "categories": [
-        "Länder"
-      ]
+      "categories": ["Länder"]
     },
     {
       "japaneseHiragana": "おはよう",
@@ -5151,9 +4302,7 @@
         "german": "Guten Morgen",
         "english": "Good morning"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "こんにちは",
@@ -5163,9 +4312,7 @@
         "german": "Guten Tag",
         "english": "Good afternoon"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "こんばんは",
@@ -5175,9 +4322,7 @@
         "german": "Guten Abend",
         "english": "Good evening"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "さようなら",
@@ -5187,9 +4332,7 @@
         "german": "Auf Wiedersehen",
         "english": "Goodbye"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "すいえい",
@@ -5199,10 +4342,7 @@
         "german": "Schwimmen",
         "english": "Swimming"
       },
-      "categories": [
-        "Sport",
-        "Aktivitäten"
-      ]
+      "categories": ["Sport", "Aktivitäten"]
     },
     {
       "japaneseHiragana": "やきゅう",
@@ -5212,10 +4352,7 @@
         "german": "Baseball",
         "english": "Baseball"
       },
-      "categories": [
-        "Sport",
-        "Sportarten"
-      ]
+      "categories": ["Sport", "Sportarten"]
     },
     {
       "japaneseHiragana": "ふつかよい",
@@ -5225,10 +4362,7 @@
         "german": "Gute Besserung (wörtl.: Erhol dich in zwei Tagen)",
         "english": "Get well soon (literally: Recover in two days)"
       },
-      "categories": [
-        "Gesundheit",
-        "Alltag"
-      ]
+      "categories": ["Gesundheit", "Alltag"]
     },
     {
       "japaneseHiragana": "げんき",
@@ -5238,10 +4372,7 @@
         "german": "Gesundheit",
         "english": "Health"
       },
-      "categories": [
-        "Gesundheit",
-        "Zustand"
-      ]
+      "categories": ["Gesundheit", "Zustand"]
     },
     {
       "japaneseHiragana": "たいせつ",
@@ -5251,9 +4382,7 @@
         "german": "Wichtig",
         "english": "Important"
       },
-      "categories": [
-        "Alltag"
-      ]
+      "categories": ["Alltag"]
     },
     {
       "japaneseHiragana": "おいしい",
@@ -5263,10 +4392,7 @@
         "german": "Lecker",
         "english": "Delicious"
       },
-      "categories": [
-        "Essen",
-        "Alltag"
-      ]
+      "categories": ["Essen", "Alltag"]
     },
     {
       "japaneseHiragana": "たべる",
@@ -5276,10 +4402,7 @@
         "german": "Essen",
         "english": "To eat"
       },
-      "categories": [
-        "Essen",
-        "Verben"
-      ]
+      "categories": ["Essen", "Verben"]
     },
     {
       "japaneseHiragana": "のむ",
@@ -5289,10 +4412,7 @@
         "german": "Trinken",
         "english": "To drink"
       },
-      "categories": [
-        "Essen",
-        "Verben"
-      ]
+      "categories": ["Essen", "Verben"]
     },
     {
       "japaneseHiragana": "いえ",
@@ -5302,9 +4422,7 @@
         "german": "Haus",
         "english": "House"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "アパート",
@@ -5314,9 +4432,7 @@
         "german": "Apartment",
         "english": "Apartment"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "マンション",
@@ -5326,9 +4442,7 @@
         "german": "Eigentumswohnung",
         "english": "Condominium"
       },
-      "categories": [
-        "Wohnen"
-      ]
+      "categories": ["Wohnen"]
     },
     {
       "japaneseHiragana": "がっこう",
@@ -5338,9 +4452,7 @@
         "german": "Schule",
         "english": "School"
       },
-      "categories": [
-        "Bildung"
-      ]
+      "categories": ["Bildung"]
     },
     {
       "japaneseHiragana": "だいがく",
@@ -5350,9 +4462,7 @@
         "german": "Universität",
         "english": "University"
       },
-      "categories": [
-        "Bildung"
-      ]
+      "categories": ["Bildung"]
     },
     {
       "japaneseHiragana": "しごと",
@@ -5362,9 +4472,7 @@
         "german": "Arbeit",
         "english": "Work"
       },
-      "categories": [
-        "Beruf"
-      ]
+      "categories": ["Beruf"]
     },
     {
       "japaneseHiragana": "かいしゃ",
@@ -5374,9 +4482,7 @@
         "german": "Firma",
         "english": "Company"
       },
-      "categories": [
-        "Beruf"
-      ]
+      "categories": ["Beruf"]
     },
     {
       "japaneseHiragana": "しつもん",
@@ -5386,9 +4492,7 @@
         "german": "Frage",
         "english": "Question"
       },
-      "categories": [
-        "Kommunikation"
-      ]
+      "categories": ["Kommunikation"]
     },
     {
       "japaneseHiragana": "こたえ",
@@ -5398,9 +4502,7 @@
         "german": "Antwort",
         "english": "Answer"
       },
-      "categories": [
-        "Kommunikation"
-      ]
+      "categories": ["Kommunikation"]
     },
     {
       "japaneseHiragana": "ともだち",
@@ -5410,9 +4512,7 @@
         "german": "Freund",
         "english": "Friend"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "かぞく",
@@ -5422,9 +4522,7 @@
         "german": "Familie",
         "english": "Family"
       },
-      "categories": [
-        "Beziehungen"
-      ]
+      "categories": ["Beziehungen"]
     },
     {
       "japaneseHiragana": "れきし",
@@ -5434,9 +4532,7 @@
         "german": "Geschichte",
         "english": "History"
       },
-      "categories": [
-        "Bildung"
-      ]
+      "categories": ["Bildung"]
     },
     {
       "japaneseHiragana": "にほん",
@@ -5446,9 +4542,7 @@
         "german": "Japan",
         "english": "Japan"
       },
-      "categories": [
-        "Länder"
-      ]
+      "categories": ["Länder"]
     },
     {
       "japaneseHiragana": "ふらんす",
@@ -5458,9 +4552,7 @@
         "german": "Frankreich",
         "english": "France"
       },
-      "categories": [
-        "Länder"
-      ]
+      "categories": ["Länder"]
     },
     {
       "japaneseHiragana": "どいつ",
@@ -5470,9 +4562,7 @@
         "german": "Deutschland",
         "english": "Germany"
       },
-      "categories": [
-        "Länder"
-      ]
+      "categories": ["Länder"]
     },
     {
       "japaneseHiragana": "あめりか",
@@ -5482,9 +4572,7 @@
         "german": "Amerika",
         "english": "America"
       },
-      "categories": [
-        "Länder"
-      ]
+      "categories": ["Länder"]
     },
     {
       "japaneseHiragana": "おはよう",
@@ -5494,9 +4582,7 @@
         "german": "Guten Morgen",
         "english": "Good morning"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "こんにちは",
@@ -5506,9 +4592,7 @@
         "german": "Guten Tag",
         "english": "Good afternoon"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "やあ",
@@ -5518,9 +4602,7 @@
         "german": "Hallo",
         "english": "Hi"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "はじめまして",
@@ -5530,9 +4612,7 @@
         "german": "Freut mich, Sie kennenzulernen",
         "english": "Nice to meet you"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "どうぞよろしく",
@@ -5542,9 +4622,7 @@
         "german": "Ich freue mich auf eine gute Zusammenarbeit",
         "english": "I look forward to working with you"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "げんきですか",
@@ -5554,9 +4632,7 @@
         "german": "Wie geht es Ihnen?",
         "english": "How are you?"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おひさしぶりです",
@@ -5566,9 +4642,7 @@
         "german": "Lange nicht gesehen",
         "english": "Long time no see"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おげんきですか",
@@ -5578,9 +4652,7 @@
         "german": "Geht es Ihnen gut?",
         "english": "Are you well?"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "はじめまして、わたしは (Name) です",
@@ -5590,9 +4662,7 @@
         "german": "Freut mich, Sie kennenzulernen. Ich bin (Name)",
         "english": "Nice to meet you. I am (Name)"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "こちらは (Name) です",
@@ -5602,9 +4672,7 @@
         "german": "Das hier ist (Name)",
         "english": "This is (Name)"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "どうもありがとうございます",
@@ -5614,9 +4682,7 @@
         "german": "Vielen Dank",
         "english": "Thank you very much"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "すみません",
@@ -5626,9 +4692,7 @@
         "german": "Entschuldigung",
         "english": "Excuse me"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "しつれいします",
@@ -5638,9 +4702,7 @@
         "german": "Entschuldigen Sie die Störung",
         "english": "Excuse me for interrupting"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "またね",
@@ -5650,9 +4712,7 @@
         "german": "Bis später",
         "english": "See you later"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "じゃあね",
@@ -5662,9 +4722,7 @@
         "german": "Bis dann",
         "english": "See you then"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "じゃあ、また",
@@ -5674,9 +4732,7 @@
         "german": "Tschüss, bis später",
         "english": "Bye, see you later"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "よいちにちを",
@@ -5686,9 +4742,7 @@
         "german": "Einen schönen Tag noch",
         "english": "Have a nice day"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "ごめんなさい",
@@ -5698,9 +4752,7 @@
         "german": "Entschuldigung",
         "english": "Sorry"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おひさしぶり",
@@ -5710,9 +4762,7 @@
         "german": "Lange nicht gesehen",
         "english": "Long time no see"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "いらっしゃいませ",
@@ -5722,9 +4772,7 @@
         "german": "Willkommen",
         "english": "Welcome"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おかえりなさい",
@@ -5734,9 +4782,7 @@
         "german": "Willkommen zurück",
         "english": "Welcome back"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "ただいま",
@@ -5746,9 +4792,7 @@
         "german": "Ich bin zurück",
         "english": "I'm back"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おやすみなさい",
@@ -5758,9 +4802,7 @@
         "german": "Gute Nacht",
         "english": "Good night"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おつかれさまでした",
@@ -5770,9 +4812,7 @@
         "german": "Gute Arbeit",
         "english": "Thank you for your hard work"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "いってきます",
@@ -5782,9 +4822,7 @@
         "german": "Ich gehe und komme wieder",
         "english": "I'm leaving"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "いってらっしゃい",
@@ -5794,9 +4832,7 @@
         "german": "Komm gut zurück",
         "english": "Take care"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "ようこそ",
@@ -5806,9 +4842,7 @@
         "german": "Herzlich willkommen",
         "english": "Welcome"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "はい、どうぞ",
@@ -5818,9 +4852,7 @@
         "german": "Ja, bitte",
         "english": "Yes, please"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "いいえ、けっこうです",
@@ -5830,9 +4862,7 @@
         "german": "Nein, danke",
         "english": "No, thank you"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おはようございます",
@@ -5842,9 +4872,7 @@
         "german": "Guten Morgen",
         "english": "Good morning"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "こんばんは",
@@ -5854,9 +4882,7 @@
         "german": "Guten Abend",
         "english": "Good evening"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "さようなら",
@@ -5866,9 +4892,7 @@
         "german": "Auf Wiedersehen",
         "english": "Goodbye"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "じゃあね",
@@ -5878,9 +4902,7 @@
         "german": "Bis dann",
         "english": "See you then"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "またね",
@@ -5890,9 +4912,7 @@
         "german": "Bis später",
         "english": "See you later"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "ありがとう",
@@ -5902,9 +4922,7 @@
         "german": "Danke",
         "english": "Thank you"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "ごめんなさい",
@@ -5914,9 +4932,7 @@
         "german": "Entschuldigung",
         "english": "Sorry"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "ようこそ",
@@ -5926,9 +4942,7 @@
         "german": "Willkommen",
         "english": "Welcome"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "やあ",
@@ -5938,9 +4952,7 @@
         "german": "Hallo",
         "english": "Hi"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "はじめまして",
@@ -5950,9 +4962,7 @@
         "german": "Freut mich, Sie kennenzulernen",
         "english": "Nice to meet you"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "どうぞよろしく",
@@ -5962,9 +4972,7 @@
         "german": "Ich freue mich auf eine gute Zusammenarbeit",
         "english": "I look forward to working with you"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "げんきですか",
@@ -5974,9 +4982,7 @@
         "german": "Wie geht es Ihnen?",
         "english": "How are you?"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おひさしぶりです",
@@ -5986,9 +4992,7 @@
         "german": "Lange nicht gesehen",
         "english": "Long time no see"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "おげんきですか",
@@ -5998,9 +5002,7 @@
         "german": "Geht es Ihnen gut?",
         "english": "Are you well?"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "はじめまして、わたしは (Name) です",
@@ -6010,9 +5012,7 @@
         "german": "Freut mich, Sie kennenzulernen. Ich bin (Name)",
         "english": "Nice to meet you. I am (Name)"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "こちらは (Name) です",
@@ -6022,9 +5022,7 @@
         "german": "Das hier ist (Name)",
         "english": "This is (Name)"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "どうもありがとうございます",
@@ -6034,9 +5032,7 @@
         "german": "Vielen Dank",
         "english": "Thank you very much"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "すみません",
@@ -6046,9 +5042,7 @@
         "german": "Entschuldigung",
         "english": "Excuse me"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     },
     {
       "japaneseHiragana": "しつれいします",
@@ -6058,9 +5052,389 @@
         "german": "Entschuldigen Sie die Störung",
         "english": "Excuse me for interrupting"
       },
-      "categories": [
-        "Grüße"
-      ]
+      "categories": ["Grüße"]
     }
-  ]
+  ],
+  "dailyLearning": {
+    "hiragana": {
+      "A1": {
+        "days": {
+          "1": {
+            "words": [
+              { "word": "ありがとう", "translation": "thank you" },
+              { "word": "こんにちは", "translation": "hello" },
+              { "word": "さようなら", "translation": "goodbye" },
+              { "word": "おはよう", "translation": "good morning" },
+              { "word": "おやすみ", "translation": "good night" }
+            ],
+            "sentences": [
+              {
+                "jp": "プレゼントをありがとう",
+                "en": "_____ for the gift",
+                "de": "_____ für das Geschenk"
+              },
+              {
+                "jp": "みんな、こんにちは！",
+                "en": "_____, everyone!",
+                "de": "_____, alle zusammen!"
+              },
+              {
+                "jp": "かれにさようならをいいました",
+                "en": "I said _____ to him",
+                "de": "Ich habe _____ zu ihm gesagt"
+              },
+              {
+                "jp": "おはようございます、げんきですか？",
+                "en": "_____, how are you?",
+                "de": "_____, wie geht es dir?"
+              },
+              {
+                "jp": "おやすみなさい、よくねむってください",
+                "en": "_____, sleep well",
+                "de": "_____, schlaf gut"
+              }
+            ]
+          },
+          "2": {
+            "words": [
+              { "word": "はい", "translation": "yes" },
+              { "word": "いいえ", "translation": "no" },
+              { "word": "すみません", "translation": "excuse me" },
+              { "word": "おねがいします", "translation": "please" },
+              { "word": "ごめんなさい", "translation": "sorry" }
+            ],
+            "sentences": [
+              {
+                "jp": "しつもんにはいとこたえました",
+                "en": "I answered _____ to the question",
+                "de": "Ich antwortete _____ auf die Frage"
+              },
+              {
+                "jp": "いいえ、けっこうです",
+                "en": "_____, it's fine",
+                "de": "_____, es ist in Ordnung"
+              },
+              {
+                "jp": "すみません、みちをおしえてください",
+                "en": "_____, can you tell me the way?",
+                "de": "_____, können Sie mir den Weg sagen?"
+              },
+              {
+                "jp": "おねがいします、おしえてください",
+                "en": "_____, please teach me",
+                "de": "_____, bitte lehren Sie mich"
+              },
+              {
+                "jp": "ごめんなさい、おそくなりました",
+                "en": "_____, I am late",
+                "de": "_____, ich bin zu spät"
+              }
+            ]
+          },
+          "3": {
+            "words": [
+              { "word": "みず", "translation": "water" },
+              { "word": "たべもの", "translation": "food" },
+              { "word": "のみもの", "translation": "drink" },
+              { "word": "おちゃ", "translation": "tea" },
+              { "word": "コーヒー", "translation": "coffee" }
+            ],
+            "sentences": [
+              {
+                "jp": "わたしはみずをのみます",
+                "en": "I drink _____",
+                "de": "Ich trinke _____"
+              },
+              {
+                "jp": "かのじょはたべものをたべます",
+                "en": "She eats _____",
+                "de": "Sie isst _____"
+              },
+              {
+                "jp": "わたしたちはのみものをかいます",
+                "en": "We buy _____",
+                "de": "Wir kaufen _____"
+              },
+              {
+                "jp": "かれはおちゃがすきです",
+                "en": "He likes _____",
+                "de": "Er mag _____"
+              },
+              {
+                "jp": "わたしはコーヒーをのみます",
+                "en": "I drink _____",
+                "de": "Ich trinke _____"
+              }
+            ]
+          },
+          "4": {
+            "words": [
+              { "word": "いえ", "translation": "house" },
+              { "word": "がっこう", "translation": "school" },
+              { "word": "かいしゃ", "translation": "company" },
+              { "word": "みせ", "translation": "shop" },
+              { "word": "こうえん", "translation": "park" }
+            ],
+            "sentences": [
+              {
+                "jp": "わたしはいえにいきます",
+                "en": "I go to the _____",
+                "de": "Ich gehe zum _____"
+              },
+              {
+                "jp": "かのじょはがっこうではたらいています",
+                "en": "She works at the _____",
+                "de": "Sie arbeitet in der _____"
+              },
+              {
+                "jp": "わたしたちはかいしゃにいきます",
+                "en": "We go to the _____",
+                "de": "Wir gehen zur _____"
+              },
+              {
+                "jp": "かれはみせにいきます",
+                "en": "He goes to the _____",
+                "de": "Er geht zum _____"
+              },
+              {
+                "jp": "わたしはこうえんであそびます",
+                "en": "I play in the _____",
+                "de": "Ich spiele im _____"
+              }
+            ]
+          },
+          "5": {
+            "words": [
+              { "word": "ほん", "translation": "book" },
+              { "word": "しんぶん", "translation": "newspaper" },
+              { "word": "ざっし", "translation": "magazine" },
+              { "word": "てがみ", "translation": "letter" },
+              { "word": "ノート", "translation": "notebook" }
+            ],
+            "sentences": [
+              {
+                "jp": "わたしはほんをよみます",
+                "en": "I read a _____",
+                "de": "Ich lese ein _____"
+              },
+              {
+                "jp": "かれはしんぶんをかいます",
+                "en": "He buys a _____",
+                "de": "Er kauft eine _____"
+              },
+              {
+                "jp": "かのじょはざっしをよみます",
+                "en": "She reads a _____",
+                "de": "Sie liest eine _____"
+              },
+              {
+                "jp": "わたしはてがみをかきます",
+                "en": "I write a _____",
+                "de": "Ich schreibe einen _____"
+              },
+              {
+                "jp": "わたしはノートをかきます",
+                "en": "I write in a _____",
+                "de": "Ich schreibe in einem _____"
+              }
+            ]
+          }
+        }
+      },
+      "A2": {
+        "days": {
+          "1": {
+            "words": [
+              { "word": "あさ", "translation": "morning" },
+              { "word": "ひる", "translation": "afternoon" },
+              { "word": "ばん", "translation": "evening" },
+              { "word": "よる", "translation": "night" },
+              { "word": "とき", "translation": "time" }
+            ],
+            "sentences": [
+              {
+                "jp": "あさごはんをたべます",
+                "en": "I eat breakfast in the _____",
+                "de": "Ich esse Frühstück am _____"
+              },
+              {
+                "jp": "ひるにがっこうにいきます",
+                "en": "I go to school in the _____",
+                "de": "Ich gehe zur Schule am _____"
+              },
+              {
+                "jp": "ばんにべんきょうします",
+                "en": "I study in the _____",
+                "de": "Ich lerne am _____"
+              },
+              {
+                "jp": "よるにほんをよみます",
+                "en": "I read a book at _____",
+                "de": "Ich lese ein Buch in der _____"
+              },
+              {
+                "jp": "ときどきえいがをみます",
+                "en": "I sometimes watch movies at _____",
+                "de": "Manchmal schaue ich Filme zu _____"
+              }
+            ]
+          },
+          "2": {
+            "words": [
+              { "word": "ともだち", "translation": "friend" },
+              { "word": "かぞく", "translation": "family" },
+              { "word": "せんせい", "translation": "teacher" },
+              { "word": "がくせい", "translation": "student" },
+              { "word": "いぬ", "translation": "dog" }
+            ],
+            "sentences": [
+              {
+                "jp": "ともだちとあそびます",
+                "en": "I play with my _____",
+                "de": "Ich spiele mit meinem _____"
+              },
+              {
+                "jp": "かぞくとりょこうします",
+                "en": "I travel with my _____",
+                "de": "Ich reise mit meiner _____"
+              },
+              {
+                "jp": "せんせいにしつもんします",
+                "en": "I ask my _____ a question",
+                "de": "Ich frage meinen _____ etwas"
+              },
+              {
+                "jp": "がくせいとべんきょうします",
+                "en": "I study with a _____",
+                "de": "Ich lerne mit einem _____"
+              },
+              {
+                "jp": "いぬとさんぽします",
+                "en": "I walk with my _____",
+                "de": "Ich gehe mit meinem _____ spazieren"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "katakana": {
+      "A1": {
+        "days": {
+          "1": {
+            "words": [
+              { "word": "アイスクリーム", "translation": "ice cream" },
+              { "word": "コーヒー", "translation": "coffee" },
+              { "word": "パン", "translation": "bread" },
+              { "word": "サンドイッチ", "translation": "sandwich" },
+              { "word": "チョコレート", "translation": "chocolate" }
+            ],
+            "sentences": [
+              {
+                "jp": "アイスクリームがすきです",
+                "en": "I like _____",
+                "de": "Ich mag _____"
+              },
+              {
+                "jp": "コーヒーをのみます",
+                "en": "I drink _____",
+                "de": "Ich trinke _____"
+              },
+              {
+                "jp": "パンをかいます",
+                "en": "I buy _____",
+                "de": "Ich kaufe _____"
+              },
+              {
+                "jp": "サンドイッチをたべます",
+                "en": "I eat a _____",
+                "de": "Ich esse ein _____"
+              },
+              {
+                "jp": "チョコレートをたべます",
+                "en": "I eat _____",
+                "de": "Ich esse _____"
+              }
+            ]
+          },
+          "2": {
+            "words": [
+              { "word": "テレビ", "translation": "television" },
+              { "word": "ラジオ", "translation": "radio" },
+              { "word": "コンピューター", "translation": "computer" },
+              { "word": "スマホ", "translation": "smartphone" },
+              { "word": "ゲーム", "translation": "game" }
+            ],
+            "sentences": [
+              {
+                "jp": "テレビをみます",
+                "en": "I watch _____",
+                "de": "Ich schaue _____"
+              },
+              {
+                "jp": "ラジオをききます",
+                "en": "I listen to the _____",
+                "de": "Ich höre _____"
+              },
+              {
+                "jp": "コンピューターをつかいます",
+                "en": "I use the _____",
+                "de": "Ich benutze den _____"
+              },
+              {
+                "jp": "スマホをつかいます",
+                "en": "I use my _____",
+                "de": "Ich benutze mein _____"
+              },
+              {
+                "jp": "ゲームであそびます",
+                "en": "I play a _____",
+                "de": "Ich spiele ein _____"
+              }
+            ]
+          }
+        }
+      },
+      "A2": {
+        "days": {
+          "1": {
+            "words": [
+              { "word": "レストラン", "translation": "restaurant" },
+              { "word": "ホテル", "translation": "hotel" },
+              { "word": "スーパー", "translation": "supermarket" },
+              { "word": "デパート", "translation": "department store" },
+              { "word": "コンビニ", "translation": "convenience store" }
+            ],
+            "sentences": [
+              {
+                "jp": "レストランでたべます",
+                "en": "I eat at the _____",
+                "de": "Ich esse im _____"
+              },
+              {
+                "jp": "ホテルにとまります",
+                "en": "I stay at a _____",
+                "de": "Ich übernachte in einem _____"
+              },
+              {
+                "jp": "スーパーでかいものをします",
+                "en": "I shop at the _____",
+                "de": "Ich kaufe im _____ ein"
+              },
+              {
+                "jp": "デパートにいきます",
+                "en": "I go to the _____",
+                "de": "Ich gehe ins _____"
+              },
+              {
+                "jp": "コンビニでかいます",
+                "en": "I buy at the _____",
+                "de": "Ich kaufe im _____ ein"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
 }
