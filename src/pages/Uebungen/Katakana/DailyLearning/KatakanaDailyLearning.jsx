@@ -37,9 +37,14 @@ const KatakanaDailyLearning = () => {
         (word) =>
           sentence[language].includes("_____") &&
           sentence[language]
-            .replace("_____", word.translation.toLowerCase())
+            .replace(
+              "_____",
+              word[
+                `translation${language === "en" ? "English" : "German"}`
+              ].toLowerCase()
+            )
             .includes(userAnswer.toLowerCase())
-      )?.translation;
+      )?.[`translation${language === "en" ? "English" : "German"}`];
 
       const isCorrect = userAnswer.toLowerCase() === correctWord?.toLowerCase();
 
@@ -64,7 +69,13 @@ const KatakanaDailyLearning = () => {
 
   useEffect(() => {
     resetUserAnswersAndResults();
-  }, [level, day]);
+  }, [level, day, language]);
+
+  const playPronunciation = (text, lang) => {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = lang; // Set language for the utterance
+    speechSynthesis.speak(utterance);
+  };
 
   return (
     <div className="daily-learning-container">
@@ -72,7 +83,10 @@ const KatakanaDailyLearning = () => {
       <Tabs
         id="level-tabs"
         activeKey={level}
-        onSelect={(k) => setLevel(k)}
+        onSelect={(k) => {
+          setLevel(k);
+          resetUserAnswersAndResults();
+        }}
         className="mb-3"
       >
         {["A1", "A2", "B1", "B2", "C1", "C2"].map((levelKey) => (
@@ -80,7 +94,10 @@ const KatakanaDailyLearning = () => {
             <Tabs
               id="day-tabs"
               activeKey={day}
-              onSelect={(k) => setDay(k)}
+              onSelect={(k) => {
+                setDay(k);
+                resetUserAnswersAndResults();
+              }}
               className="mb-3"
             >
               {["1", "2", "3", "4", "5"].map((dayKey) => (
@@ -106,8 +123,35 @@ const KatakanaDailyLearning = () => {
                           {learningData[level].days[day].words.map(
                             (word, index) => (
                               <tr key={index}>
-                                <td>{word.word}</td>
-                                <td>{word.translation}</td>
+                                <td className="daily-learning-td">
+                                  {word.word}
+                                  <button
+                                    className="play-pronunciation-button"
+                                    onClick={() =>
+                                      playPronunciation(word.word, "ja-JP")
+                                    }
+                                  >
+                                    🔊
+                                  </button>
+                                </td>
+                                <td>
+                                  {language === "en"
+                                    ? word.translationEnglish
+                                    : word.translationGerman}
+                                  <button
+                                    className="play-pronunciation-button"
+                                    onClick={() =>
+                                      playPronunciation(
+                                        language === "en"
+                                          ? word.translationEnglish
+                                          : word.translationGerman,
+                                        language === "en" ? "en-US" : "de-DE"
+                                      )
+                                    }
+                                  >
+                                    🔊
+                                  </button>
+                                </td>
                               </tr>
                             )
                           )}

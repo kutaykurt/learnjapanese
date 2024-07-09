@@ -164,7 +164,6 @@ $header-background: #def5ff;
 
 @media screen and (max-width: 480px) {
   .body {
-    padding: 0px 15px;
     font-size: 12px;
   }
 
@@ -194,6 +193,8 @@ $header-background: #def5ff;
 @media screen and (max-width: 1024px) {
   .body {
     padding: 0px 20px;
+    overflow-x: hidden; // Ensure no horizontal scrolling
+
   }
 
   .add-button {

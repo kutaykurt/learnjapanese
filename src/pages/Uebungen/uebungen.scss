@@ -1,4 +1,4 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 .uebungen-container {
   display: flex;
@@ -44,8 +44,24 @@
       font-size: 12px;
     }
   }
-  
+
   .tr-uebungen * {
     font-size: 13px;
+  }
+}
+
+.play-pronunciation-button {
+  background-color: $main-white;
+  margin: 0px 8px;
+  width: 50px;
+}
+
+.learning-table {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+  .daily-learning-td {
   }
 }

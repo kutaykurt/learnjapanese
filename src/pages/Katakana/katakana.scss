@@ -52,6 +52,7 @@ th {
   background-color: $main-blue;
   color: $main-white;
   position: relative;
+  width: 390px;
 }
 
 td {
@@ -128,7 +129,6 @@ td {
   }
   
   td {
-    max-width: 120px; /* Beispiel: Ändere die maximale Breite nach Bedarf */
     word-wrap: break-word; /* Erlaube den Text, umzubrechen */
   }
 

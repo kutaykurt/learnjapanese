@@ -5061,11 +5061,31 @@
         "days": {
           "1": {
             "words": [
-              { "word": "ありがとう", "translation": "thank you" },
-              { "word": "こんにちは", "translation": "hello" },
-              { "word": "さようなら", "translation": "goodbye" },
-              { "word": "おはよう", "translation": "good morning" },
-              { "word": "おやすみ", "translation": "good night" }
+              {
+                "word": "ありがとう",
+                "translationEnglish": "thank you",
+                "translationGerman": "danke"
+              },
+              {
+                "word": "こんにちは",
+                "translationEnglish": "hello",
+                "translationGerman": "hallo"
+              },
+              {
+                "word": "さようなら",
+                "translationEnglish": "goodbye",
+                "translationGerman": "auf Wiedersehen"
+              },
+              {
+                "word": "おはよう",
+                "translationEnglish": "good morning",
+                "translationGerman": "guten Morgen"
+              },
+              {
+                "word": "おやすみ",
+                "translationEnglish": "good night",
+                "translationGerman": "gute Nacht"
+              }
             ],
             "sentences": [
               {
@@ -5097,11 +5117,31 @@
           },
           "2": {
             "words": [
-              { "word": "はい", "translation": "yes" },
-              { "word": "いいえ", "translation": "no" },
-              { "word": "すみません", "translation": "excuse me" },
-              { "word": "おねがいします", "translation": "please" },
-              { "word": "ごめんなさい", "translation": "sorry" }
+              {
+                "word": "はい",
+                "translationEnglish": "yes",
+                "translationGerman": "ja"
+              },
+              {
+                "word": "いいえ",
+                "translationEnglish": "no",
+                "translationGerman": "nein"
+              },
+              {
+                "word": "すみません",
+                "translationEnglish": "excuse me",
+                "translationGerman": "entschuldigung"
+              },
+              {
+                "word": "おねがいします",
+                "translationEnglish": "please",
+                "translationGerman": "bitte"
+              },
+              {
+                "word": "ごめんなさい",
+                "translationEnglish": "sorry",
+                "translationGerman": "entschuldigung"
+              }
             ],
             "sentences": [
               {
@@ -5133,11 +5173,31 @@
           },
           "3": {
             "words": [
-              { "word": "みず", "translation": "water" },
-              { "word": "たべもの", "translation": "food" },
-              { "word": "のみもの", "translation": "drink" },
-              { "word": "おちゃ", "translation": "tea" },
-              { "word": "コーヒー", "translation": "coffee" }
+              {
+                "word": "みず",
+                "translationEnglish": "water",
+                "translationGerman": "wasser"
+              },
+              {
+                "word": "たべもの",
+                "translationEnglish": "food",
+                "translationGerman": "essen"
+              },
+              {
+                "word": "のみもの",
+                "translationEnglish": "drink",
+                "translationGerman": "getränk"
+              },
+              {
+                "word": "おちゃ",
+                "translationEnglish": "tea",
+                "translationGerman": "tee"
+              },
+              {
+                "word": "コーヒー",
+                "translationEnglish": "coffee",
+                "translationGerman": "kaffee"
+              }
             ],
             "sentences": [
               {
@@ -5169,11 +5229,31 @@
           },
           "4": {
             "words": [
-              { "word": "いえ", "translation": "house" },
-              { "word": "がっこう", "translation": "school" },
-              { "word": "かいしゃ", "translation": "company" },
-              { "word": "みせ", "translation": "shop" },
-              { "word": "こうえん", "translation": "park" }
+              {
+                "word": "いえ",
+                "translationEnglish": "house",
+                "translationGerman": "haus"
+              },
+              {
+                "word": "がっこう",
+                "translationEnglish": "school",
+                "translationGerman": "schule"
+              },
+              {
+                "word": "かいしゃ",
+                "translationEnglish": "company",
+                "translationGerman": "firma"
+              },
+              {
+                "word": "みせ",
+                "translationEnglish": "shop",
+                "translationGerman": "geschäft"
+              },
+              {
+                "word": "こうえん",
+                "translationEnglish": "park",
+                "translationGerman": "park"
+              }
             ],
             "sentences": [
               {
@@ -5205,11 +5285,31 @@
           },
           "5": {
             "words": [
-              { "word": "ほん", "translation": "book" },
-              { "word": "しんぶん", "translation": "newspaper" },
-              { "word": "ざっし", "translation": "magazine" },
-              { "word": "てがみ", "translation": "letter" },
-              { "word": "ノート", "translation": "notebook" }
+              {
+                "word": "ほん",
+                "translationEnglish": "book",
+                "translationGerman": "buch"
+              },
+              {
+                "word": "しんぶん",
+                "translationEnglish": "newspaper",
+                "translationGerman": "zeitung"
+              },
+              {
+                "word": "ざっし",
+                "translationEnglish": "magazine",
+                "translationGerman": "zeitschrift"
+              },
+              {
+                "word": "てがみ",
+                "translationEnglish": "letter",
+                "translationGerman": "brief"
+              },
+              {
+                "word": "ノート",
+                "translationEnglish": "notebook",
+                "translationGerman": "notizbuch"
+              }
             ],
             "sentences": [
               {
@@ -5245,11 +5345,31 @@
         "days": {
           "1": {
             "words": [
-              { "word": "あさ", "translation": "morning" },
-              { "word": "ひる", "translation": "afternoon" },
-              { "word": "ばん", "translation": "evening" },
-              { "word": "よる", "translation": "night" },
-              { "word": "とき", "translation": "time" }
+              {
+                "word": "あさ",
+                "translationEnglish": "morning",
+                "translationGerman": "morgen"
+              },
+              {
+                "word": "ひる",
+                "translationEnglish": "afternoon",
+                "translationGerman": "nachmittag"
+              },
+              {
+                "word": "ばん",
+                "translationEnglish": "evening",
+                "translationGerman": "abend"
+              },
+              {
+                "word": "よる",
+                "translationEnglish": "night",
+                "translationGerman": "nacht"
+              },
+              {
+                "word": "とき",
+                "translationEnglish": "time",
+                "translationGerman": "zeit"
+              }
             ],
             "sentences": [
               {
@@ -5281,11 +5401,31 @@
           },
           "2": {
             "words": [
-              { "word": "ともだち", "translation": "friend" },
-              { "word": "かぞく", "translation": "family" },
-              { "word": "せんせい", "translation": "teacher" },
-              { "word": "がくせい", "translation": "student" },
-              { "word": "いぬ", "translation": "dog" }
+              {
+                "word": "ともだち",
+                "translationEnglish": "friend",
+                "translationGerman": "freund"
+              },
+              {
+                "word": "かぞく",
+                "translationEnglish": "family",
+                "translationGerman": "familie"
+              },
+              {
+                "word": "せんせい",
+                "translationEnglish": "teacher",
+                "translationGerman": "lehrer"
+              },
+              {
+                "word": "がくせい",
+                "translationEnglish": "student",
+                "translationGerman": "schüler"
+              },
+              {
+                "word": "いぬ",
+                "translationEnglish": "dog",
+                "translationGerman": "hund"
+              }
             ],
             "sentences": [
               {
@@ -5323,11 +5463,31 @@
         "days": {
           "1": {
             "words": [
-              { "word": "アイスクリーム", "translation": "ice cream" },
-              { "word": "コーヒー", "translation": "coffee" },
-              { "word": "パン", "translation": "bread" },
-              { "word": "サンドイッチ", "translation": "sandwich" },
-              { "word": "チョコレート", "translation": "chocolate" }
+              {
+                "word": "アイスクリーム",
+                "translationEnglish": "ice cream",
+                "translationGerman": "eis"
+              },
+              {
+                "word": "コーヒー",
+                "translationEnglish": "coffee",
+                "translationGerman": "kaffee"
+              },
+              {
+                "word": "パン",
+                "translationEnglish": "bread",
+                "translationGerman": "brot"
+              },
+              {
+                "word": "サンドイッチ",
+                "translationEnglish": "sandwich",
+                "translationGerman": "sandwich"
+              },
+              {
+                "word": "チョコレート",
+                "translationEnglish": "chocolate",
+                "translationGerman": "schokolade"
+              }
             ],
             "sentences": [
               {
@@ -5359,11 +5519,31 @@
           },
           "2": {
             "words": [
-              { "word": "テレビ", "translation": "television" },
-              { "word": "ラジオ", "translation": "radio" },
-              { "word": "コンピューター", "translation": "computer" },
-              { "word": "スマホ", "translation": "smartphone" },
-              { "word": "ゲーム", "translation": "game" }
+              {
+                "word": "テレビ",
+                "translationEnglish": "television",
+                "translationGerman": "fernseher"
+              },
+              {
+                "word": "ラジオ",
+                "translationEnglish": "radio",
+                "translationGerman": "radio"
+              },
+              {
+                "word": "コンピューター",
+                "translationEnglish": "computer",
+                "translationGerman": "computer"
+              },
+              {
+                "word": "スマホ",
+                "translationEnglish": "smartphone",
+                "translationGerman": "smartphone"
+              },
+              {
+                "word": "ゲーム",
+                "translationEnglish": "game",
+                "translationGerman": "spiel"
+              }
             ],
             "sentences": [
               {
@@ -5399,11 +5579,31 @@
         "days": {
           "1": {
             "words": [
-              { "word": "レストラン", "translation": "restaurant" },
-              { "word": "ホテル", "translation": "hotel" },
-              { "word": "スーパー", "translation": "supermarket" },
-              { "word": "デパート", "translation": "department store" },
-              { "word": "コンビニ", "translation": "convenience store" }
+              {
+                "word": "レストラン",
+                "translationEnglish": "restaurant",
+                "translationGerman": "restaurant"
+              },
+              {
+                "word": "ホテル",
+                "translationEnglish": "hotel",
+                "translationGerman": "hotel"
+              },
+              {
+                "word": "スーパー",
+                "translationEnglish": "supermarket",
+                "translationGerman": "supermarkt"
+              },
+              {
+                "word": "デパート",
+                "translationEnglish": "department store",
+                "translationGerman": "kaufhaus"
+              },
+              {
+                "word": "コンビニ",
+                "translationEnglish": "convenience store",
+                "translationGerman": "kiosk"
+              }
             ],
             "sentences": [
               {
